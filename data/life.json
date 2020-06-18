@@ -1,7 +1,7 @@
 {
 	"lifeClass": [
 		{
-			"name": "野蠻人",
+			"name": "野蛮人",
 			"source": "PHB",
 			"reasons": [
 				"My devotion to my people lifted me in battle, making me powerful and dangerous.",
@@ -41,7 +41,7 @@
 			}
 		},
 		{
-			"name": "吟遊詩人",
+			"name": "吟游诗人",
 			"source": "PHB",
 			"reasons": [
 				"I awakened my latent bardic abilities through trial and error.",
@@ -80,7 +80,7 @@
 			}
 		},
 		{
-			"name": "牧師",
+			"name": "牧师",
 			"source": "PHB",
 			"reasons": [
 				"A supernatural being in service to the gods called me to become a divine agent in the world.",
@@ -117,7 +117,7 @@
 			}
 		},
 		{
-			"name": "德魯伊",
+			"name": "德鲁伊",
 			"source": "PHB",
 			"reasons": [
 				"I saw too much devastation in the wild places, too much of nature's splendor ruined by the despoilers. I joined a circle of druids to fight back against the enemies of nature.",
@@ -158,7 +158,7 @@
 			}
 		},
 		{
-			"name": "戰士",
+			"name": "战士",
 			"source": "PHB",
 			"reasons": [
 				"I wanted to hone my combat skills, and so I joined a war college.",
@@ -238,7 +238,7 @@
 			}
 		},
 		{
-			"name": "聖騎士",
+			"name": "圣骑士",
 			"source": "PHB",
 			"reasons": [
 				"A fantastical being appeared before me and called on me to undertake a holy quest.",
@@ -286,7 +286,7 @@
 			}
 		},
 		{
-			"name": "遊俠",
+			"name": "游侠",
 			"source": "PHB",
 			"reasons": [
 				"I found purpose while I honed my hunting skills by bringing down dangerous animals at the edge of civilization.",
@@ -325,7 +325,7 @@
 			}
 		},
 		{
-			"name": "盜賊",
+			"name": "盗贼",
 			"source": "PHB",
 			"reasons": [
 				"I've always been nimble and quick of wit, so I decided to use those talents to help me make my way in the world.",
@@ -366,7 +366,7 @@
 			}
 		},
 		{
-			"name": "術士",
+			"name": "术士",
 			"source": "PHB",
 			"reasons": [
 				"When I was born, all the water in the house froze solid, the milk spoiled, or all the iron turned to copper. My family is convinced that this event was a harbinger of stranger things to come for me.",
@@ -412,7 +412,7 @@
 			}
 		},
 		{
-			"name": "契術師",
+			"name": "契术师",
 			"source": "PHB",
 			"reasons": [
 				"While wandering around in a forbidden place, I encountered an otherworldly being that offered to enter into a pact with me.",
@@ -450,7 +450,7 @@
 			}
 		},
 		{
-			"name": "法師",
+			"name": "法师",
 			"source": "PHB",
 			"reasons": [
 				"An old wizard chose me from among several candidates to serve an apprenticeship.",
@@ -494,7 +494,7 @@
 			"name": "侍僧",
 			"source": "PHB",
 			"reasons": [
-				"我在小時候就離家出走，並受到了一座寺院的收容。",
+				"我在小时候就离家出走，并受到了一座寺院的收容。",
 				"我的家族My family gave me to a temple, since they were unable or unwilling to care for me.",
 				"I grew up in a household with strong religious convictions. Entering the service of one or more gods seemed natural.",
 				"An impassioned sermon struck a chord deep in my soul and moved me to serve the faith.",
@@ -503,7 +503,7 @@
 			]
 		},
 		{
-			"name": "詐欺師",
+			"name": "诈欺师",
 			"source": "PHB",
 			"reasons": [
 				"I was left to my own devices, and my knack for manipulating others helped me survive.",
@@ -527,7 +527,7 @@
 			]
 		},
 		{
-			"name": "藝人",
+			"name": "艺人",
 			"source": "PHB",
 			"reasons": [
 				"Members of my family made ends meet by performing, so it was fitting for me to follow their example.",
@@ -551,7 +551,7 @@
 			]
 		},
 		{
-			"name": "公會工匠 (公會商人)",
+			"name": "公会工匠 (公会商人)",
 			"source": "PHB",
 			"reasons": [
 				"I was apprenticed to a master who taught me the guild's business.",
@@ -563,7 +563,7 @@
 			]
 		},
 		{
-			"name": "隱士",
+			"name": "隐士",
 			"source": "PHB",
 			"reasons": [
 				"My enemies ruined my reputation, and I fled to the wilds to avoid further disparagement.",
@@ -575,7 +575,7 @@
 			]
 		},
 		{
-			"name": "貴族",
+			"name": "贵族",
 			"source": "PHB",
 			"reasons": [
 				"I come from an old and storied family, and it fell to me to preserve the family name.",
@@ -599,7 +599,7 @@
 			]
 		},
 		{
-			"name": "學者",
+			"name": "学者",
 			"source": "PHB",
 			"reasons": [
 				"I was naturally curious, so I packed up and went to a university to learn more about the world.",
@@ -635,7 +635,7 @@
 			]
 		},
 		{
-			"name": "孤兒",
+			"name": "孤儿",
 			"source": "PHB",
 			"reasons": [
 				"Wanderlust caused me to leave my family to see the world. I look after myself.",

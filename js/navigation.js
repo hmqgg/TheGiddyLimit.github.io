@@ -16,43 +16,43 @@ class NavBar {
 	static initElements () {
 		const navBar = document.getElementById("navbar");
 
-		addLi(navBar, "5etools.html", "首頁");
+		addLi(navBar, "5etools.html", "首页");
 
-		const ulRules = addDropdown(navBar, "規則");
-		addLi(ulRules, "quickreference.html", "快速參照");
-		addLi(ulRules, "variantrules.html", "變體&選用規則/雜項");
+		const ulRules = addDropdown(navBar, "规则");
+		addLi(ulRules, "quickreference.html", "快速参照");
+		addLi(ulRules, "variantrules.html", "变体&选用规则/杂项");
 		addLi(ulRules, "tables.html", "表格");
 		addDivider(ulRules);
 		addLi(ulRules, "book.html", "地下城主指南", false, "DMG");
-		addLi(ulRules, "book.html", "怪物圖鑑", false, "MM");
-		addLi(ulRules, "book.html", "玩家手冊", false, "PHB");
+		addLi(ulRules, "book.html", "怪物图鉴", false, "MM");
+		addLi(ulRules, "book.html", "玩家手册", false, "PHB");
 		addDivider(ulRules);
-		addLi(ulRules, "book.html", "拉尼卡的公會長指南", false, "GGR");
-		addLi(ulRules, "book.html", "魔鄧肯的眾敵卷冊", false, "MTF");
-		addLi(ulRules, "book.html", "劍灣冒險指南", false, "SCAG");
-		addLi(ulRules, "book.html", "瓦羅的怪物指南", false, "VGM");
-		addLi(ulRules, "book.html", "姍納薩的萬事指南", false, "XGE");
+		addLi(ulRules, "book.html", "拉尼卡的公会长指南", false, "GGR");
+		addLi(ulRules, "book.html", "魔邓肯的众敌卷册", false, "MTF");
+		addLi(ulRules, "book.html", "剑湾冒险指南", false, "SCAG");
+		addLi(ulRules, "book.html", "瓦罗的怪物指南", false, "VGM");
+		addLi(ulRules, "book.html", "姗纳萨的万事指南", false, "XGE");
 		addDivider(ulRules);
-		addLi(ulRules, "book.html", "冒險者聯盟", false, "AL");
+		addLi(ulRules, "book.html", "冒险者联盟", false, "AL");
 		addDivider(ulRules);
-		addLi(ulRules, "books.html", "查看所有/自製內容");
+		addLi(ulRules, "books.html", "查看所有/自制内容");
 
-		const ulPlayers = addDropdown(navBar, "玩家選項");
-		addLi(ulPlayers, "races.html", "種族");
-		addLi(ulPlayers, "classes.html", "職業");
-		addLi(ulPlayers, "optionalfeatures.html", "職業能力選項");
+		const ulPlayers = addDropdown(navBar, "玩家选项");
+		addLi(ulPlayers, "races.html", "种族");
+		addLi(ulPlayers, "classes.html", "职业");
+		addLi(ulPlayers, "optionalfeatures.html", "职业能力选项");
 		addLi(ulPlayers, "backgrounds.html", "背景");
-		addLi(ulPlayers, "feats.html", "專長");
+		addLi(ulPlayers, "feats.html", "专长");
 		addDivider(ulPlayers);
-		addLi(ulPlayers, "statgen.html", "屬性生成器");
+		addLi(ulPlayers, "statgen.html", "属性生成器");
 		addDivider(ulPlayers);
-		addLi(ulPlayers, "lifegen.html", "這是你的人生");
-		addLi(ulPlayers, "names.html", "名稱");
+		addLi(ulPlayers, "lifegen.html", "这是你的人生");
+		addLi(ulPlayers, "names.html", "名称");
 
 		const ulDms = addDropdown(navBar, "DM工具");
 		addLi(ulDms, "dmscreen.html", "DM屏幕");
 		addDivider(ulDms);
-		const ulAdventures = addDropdown(ulDms, "冒險模組", true);
+		const ulAdventures = addDropdown(ulDms, "冒险模组", true);
 		addLi(ulAdventures, "adventure.html", "Lost Mines of Phandelver", true, "LMoP");
 		addLi(ulAdventures, "adventure.html", "Hoard of the Dragon Queen", true, "HotDQ");
 		addLi(ulAdventures, "adventure.html", "Rise of Tiamat", true, "RoT");
@@ -74,44 +74,44 @@ class NavBar {
 		addLi(ulAdventures, "adventure.html", "Waterdeep: Dungeon of the Mad Mage", true, "WDMM");
 		addLi(ulAdventures, "adventure.html", "Krenko's Way", true, "KKW");
 		addDivider(ulAdventures);
-		addLi(ulAdventures, "adventures.html", "查看所有/自製內容");
-		addLi(ulDms, "cultsboons.html", "異教&惡魔恩惠");
+		addLi(ulAdventures, "adventures.html", "查看所有/自制内容");
+		addLi(ulDms, "cultsboons.html", "异教&恶魔恩惠");
 		addLi(ulDms, "objects.html", "物件");
-		addLi(ulDms, "ships.html", "船隻");
-		addLi(ulDms, "trapshazards.html", "陷阱&危險");
+		addLi(ulDms, "ships.html", "船只");
+		addLi(ulDms, "trapshazards.html", "陷阱&危险");
 		addDivider(ulDms);
-		addLi(ulDms, "crcalculator.html", "CR計算機");
+		addLi(ulDms, "crcalculator.html", "CR计算机");
 		addLi(ulDms, "encountergen.html", "遭遇生成器");
-		addLi(ulDms, "lootgen.html", "戰利品生成器");
+		addLi(ulDms, "lootgen.html", "战利品生成器");
 
-		const ulReferences = addDropdown(navBar, "參照資料");
-		addLi(ulReferences, "bestiary.html", "怪物圖鑑");
-		addLi(ulReferences, "conditionsdiseases.html", "狀態 & 疾病");
+		const ulReferences = addDropdown(navBar, "参照资料");
+		addLi(ulReferences, "bestiary.html", "怪物图鉴");
+		addLi(ulReferences, "conditionsdiseases.html", "状态 & 疾病");
 		addLi(ulReferences, "deities.html", "神祇");
 		addLi(ulReferences, "items.html", "物品");
-		addLi(ulReferences, "rewards.html", "其他獎勵");
-		addLi(ulReferences, "psionics.html", "靈能");
-		addLi(ulReferences, "spells.html", "法術");
+		addLi(ulReferences, "rewards.html", "其他奖励");
+		addLi(ulReferences, "psionics.html", "灵能");
+		addLi(ulReferences, "spells.html", "法术");
 
 		const ulUtils = addDropdown(navBar, "其他功能");
-		addLi(ulUtils, "blacklist.html", "內容黑名單");
-		addLi(ulUtils, "inittrackerplayerview.html", "先攻追蹤器:玩家檢視");
-		addLi(ulUtils, "managebrew.html", "管理所有自製內容");
+		addLi(ulUtils, "blacklist.html", "内容黑名单");
+		addLi(ulUtils, "inittrackerplayerview.html", "先攻追踪器:玩家检视");
+		addLi(ulUtils, "managebrew.html", "管理所有自制内容");
 		addDivider(ulUtils);
-		addLi(ulUtils, "makebrew.html", "自製內容生成器");
+		addLi(ulUtils, "makebrew.html", "自制内容生成器");
 		addLi(ulUtils, "demo.html", "渲染器 Demo");
-		addLi(ulUtils, "converter.html", "文字轉換器");
+		addLi(ulUtils, "converter.html", "文字转换器");
 		addDivider(ulUtils);
-		addLi(ulUtils, "roll20.html", "Roll20腳本小幫手");
+		addLi(ulUtils, "roll20.html", "Roll20脚本小帮手");
 		addLi(ulUtils, "makeshaped.html", "Roll20 Shaped Sheet JS Builder");
 
-		// addLi(navBar, "donate.html", "捐獻");
+		// addLi(navBar, "donate.html", "捐献");
 
-		const ulSettings = addDropdown(navBar, "設置");
+		const ulSettings = addDropdown(navBar, "设置");
 		addButton(
 			ulSettings,
 			{
-				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "夜晚模式" : "白晝模式",
+				html: styleSwitcher.getActiveStyleSheet() === StyleSwitcher.STYLE_DAY ? "夜晚模式" : "白昼模式",
 				click: (evt) => {
 					evt.preventDefault();
 					styleSwitcher.toggleActiveStyleSheet();
@@ -122,7 +122,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "儲存狀態至檔案",
+				html: "储存状态至档案",
 				click: async (evt) => {
 					evt.preventDefault();
 					const sync = StorageUtil.syncGetDump();
@@ -136,7 +136,7 @@ class NavBar {
 		addButton(
 			ulSettings,
 			{
-				html: "從檔案讀取狀態",
+				html: "从档案读取状态",
 				click: async (evt) => {
 					evt.preventDefault();
 					const dump = await DataUtil.pUserUpload();

@@ -80,7 +80,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -433,7 +433,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -685,7 +685,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -872,7 +872,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -992,7 +992,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1159,7 +1159,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1450,7 +1450,7 @@
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell 活化死屍}",
+						"{@spell 活化死尸}",
 						"{@spell charm person}",
 						"{@spell detect magic}",
 						"{@spell inflict wounds} (as an 8th-level spell)",
@@ -1513,7 +1513,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1640,7 +1640,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1793,14 +1793,14 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",
 							"{@spell dominate beast}",
 							"{@spell hunter's mark}",
 							"{@spell maze}",
-							"{@spell 石牆術}"
+							"{@spell 石墙术}"
 						]
 					},
 					"ability": "cha"
@@ -1846,7 +1846,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1965,7 +1965,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2111,7 +2111,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2231,7 +2231,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell darkness}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -2239,7 +2239,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell lightning bolt}"
 							]
 						},
@@ -2267,7 +2267,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						}
 					},
@@ -2317,7 +2317,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2550,7 +2550,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2638,7 +2638,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2755,7 +2755,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2893,7 +2893,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3214,7 +3214,7 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell blink}, {@spell 妖火術}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell sleep}",
+								"Archfey patron: {@spell blink}, {@spell 妖火术}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell sleep}",
 								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fireball}, {@spell hellish rebuke}, {@spell scorching ray}",
 								"Great Old One patron: {@spell armor of Agathys}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell hunger of Hadar}, {@spell Tasha's hideous laughter}, {@spell phantasmal force}"
 							]
@@ -3341,16 +3341,16 @@
 								"{@spell chill touch}",
 								"{@spell mage hand}",
 								"{@spell minor illusion}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
 								"{@spell arms of Hadar}",
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell counterspell}",
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell darkness}",
 								"{@spell dimension door}",
 								"{@spell 解除魔法}",
@@ -3380,8 +3380,8 @@
 							"type": "list",
 							"style": "list-hang-notitle",
 							"items": [
-								"Archfey patron: {@spell blink}, {@spell dominate beast}, {@spell dominate person}, {@spell 妖火術}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
-								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fire shield}, {@spell fireball}, {@spell flame strike}, {@spell hellish rebuke}, {@spell scorching ray}, {@spell 臭雲術}, {@spell wall of fire}",
+								"Archfey patron: {@spell blink}, {@spell dominate beast}, {@spell dominate person}, {@spell 妖火术}, {@spell greater invisibility}, {@spell hunger of Hadar}, {@spell hypnotic pattern}, {@spell phantasmal force}, {@spell seeming}, {@spell sleep}",
+								"Fiend patron: {@spell blindness/deafness}, {@spell burning hands}, {@spell command}, {@spell fire shield}, {@spell fireball}, {@spell flame strike}, {@spell hellish rebuke}, {@spell scorching ray}, {@spell 臭云术}, {@spell wall of fire}",
 								"Great Old One patron: {@spell clairvoyance}, {@spell detect thoughts}, {@spell dissonant whispers}, {@spell dominate person}, {@spell Evard's black tentacles}, {@spell hunger of Hadar}, {@spell phantasmal force}, {@spell sending}, {@spell Tasha's hideous laughter}, {@spell telekinesis}"
 							]
 						}
@@ -3501,7 +3501,7 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell hold person}",
 							"{@spell misty step}"
 						]
@@ -3544,7 +3544,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3681,7 +3681,7 @@
 					"daily": {
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell telekinesis}"
 						],
 						"1e": [
@@ -3954,7 +3954,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4047,7 +4047,7 @@
 					],
 					"will": [
 						"{@spell darkness}",
-						"{@spell 恐懼術}"
+						"{@spell 恐惧术}"
 					],
 					"daily": {
 						"3": [
@@ -4098,7 +4098,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4333,8 +4333,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4350,17 +4350,17 @@
 								"{@spell chill touch}",
 								"{@spell eldritch blast}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"5": {
 							"slots": 3,
 							"spells": [
 								"{@spell conjure animals} (spiders only)",
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell dimension door}",
 								"{@spell 解除魔法}",
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell fly}",
 								"{@spell giant insect}",
 								"{@spell hold monster}",
@@ -4515,8 +4515,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4531,7 +4531,7 @@
 							"spells": [
 								"{@spell mage hand}",
 								"{@spell message}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell shocking grasp}",
 								"{@spell ray of frost}"
 							]
@@ -4720,8 +4720,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -4781,7 +4781,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -4873,8 +4873,8 @@
 							"{@spell darkness}",
 							"{@spell detect thoughts}",
 							"{@spell 解除魔法}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)",
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)",
 							"{@spell suggestion}"
 						]
 					},
@@ -4890,7 +4890,7 @@
 							"spells": [
 								"{@spell guidance}",
 								"{@spell message}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell resistance}",
 								"{@spell thaumaturgy}"
 							]
@@ -5135,8 +5135,8 @@
 							"{@spell darkness}",
 							"{@spell detect thoughts}",
 							"{@spell 解除魔法}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)",
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)",
 							"{@spell suggestion}"
 						]
 					},
@@ -5360,8 +5360,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5429,7 +5429,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -5525,7 +5525,7 @@
 						"1e": [
 							"{@spell counterspell}",
 							"{@spell misty step}",
-							"{@spell 臭雲術}"
+							"{@spell 臭云术}"
 						]
 					},
 					"ability": "int"
@@ -5573,7 +5573,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -5680,7 +5680,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -5908,7 +5908,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6574,7 +6574,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell phantasmal force}"
 						]
 					},
@@ -6675,7 +6675,7 @@
 					]
 				},
 				{
-					"name": "巨鎚", "tENG_name": "Maul",
+					"name": "巨锤", "tENG_name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
 					]
@@ -6930,7 +6930,7 @@
 							"{@spell confusion}",
 							"{@spell dimension door}",
 							"{@spell dominate person}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell hallucinatory terrain}",
 							"{@spell hold monster}",
 							"{@spell hypnotic pattern}",
@@ -7139,7 +7139,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7340,7 +7340,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7528,7 +7528,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7636,7 +7636,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7777,7 +7777,7 @@
 						"{@spell invisibility} (self only)",
 						"{@spell locate object}",
 						"{@spell suggestion}",
-						"{@spell 冰牆術}"
+						"{@spell 冰墙术}"
 					],
 					"daily": {
 						"1e": [
@@ -7849,7 +7849,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -8058,7 +8058,7 @@
 							"spells": [
 								"{@spell blur}",
 								"{@spell invisibility}",
-								"{@spell 浮空術}"
+								"{@spell 浮空术}"
 							]
 						},
 						"3": {
@@ -8320,7 +8320,7 @@
 					"daily": {
 						"3e": [
 							"{@spell jump}",
-							"{@spell 浮空術} (self only)",
+							"{@spell 浮空术} (self only)",
 							"{@spell misty step}",
 							"{@spell nondetection} (self only)"
 						],
@@ -8598,7 +8598,7 @@
 						"1e": [
 							"{@spell haste}",
 							"{@spell plane shift}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						]
 					},
 					"ability": "wis"
@@ -8743,11 +8743,11 @@
 							"slots": 3,
 							"spells": [
 								"{@spell armor of Agathys}",
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell darkness}",
 								"{@spell dream}",
 								"{@spell invisibility}",
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell hypnotic pattern}",
 								"{@spell major image}",
 								"{@spell contact other plane}",
@@ -8810,7 +8810,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -8902,7 +8902,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -9041,7 +9041,7 @@
 					],
 					"will": [
 						"{@spell charm person}",
-						"{@spell 瘋狂冠冕}",
+						"{@spell 疯狂冠冕}",
 						"{@spell detect magic}",
 						"{@spell 解除魔法}",
 						"{@spell dissonant whispers}"
@@ -9053,7 +9053,7 @@
 							"{@spell dominate person}",
 							"{@spell sanctuary}",
 							"{@spell telekinesis}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"1e": [
 							"{@spell dominate monster}",
@@ -9107,7 +9107,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -9212,7 +9212,7 @@
 						"3e": [
 							"{@spell charm person}",
 							"{@spell detect thoughts}",
-							"{@spell 恐懼術}"
+							"{@spell 恐惧术}"
 						],
 						"1e": [
 							"{@spell confusion}",
@@ -9265,7 +9265,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -9400,7 +9400,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -9512,7 +9512,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -9663,7 +9663,7 @@
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell 活化死屍}",
+						"{@spell 活化死尸}",
 						"{@spell detect magic}",
 						"{@spell hold monster}",
 						"{@spell invisibility} (self only)",
@@ -9785,7 +9785,7 @@
 			"page": 249,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The hydroloth can breathe air and water."
 					]
@@ -9863,8 +9863,8 @@
 					"daily": {
 						"3e": [
 							"{@spell control water}",
-							"{@spell 瘋狂冠冕}",
-							"{@spell 恐懼術}",
+							"{@spell 疯狂冠冕}",
+							"{@spell 恐惧术}",
 							"{@spell phantasmal killer}",
 							"{@spell suggestion}"
 						]
@@ -10005,7 +10005,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -10160,7 +10160,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 枯萎術}",
+							"{@spell 枯萎术}",
 							"{@spell contagion}",
 							"{@spell gaseous form}"
 						]
@@ -10206,7 +10206,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -10458,7 +10458,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -10545,7 +10545,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -10699,7 +10699,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -10919,7 +10919,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -11202,7 +11202,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -11348,14 +11348,14 @@
 					],
 					"will": [
 						"{@spell alter self} (can become Medium when changing his appearance)",
-						"{@spell 活化死屍}",
+						"{@spell 活化死尸}",
 						"{@spell burning hands} (as a 7th-level spell)",
 						"{@spell confusion}",
 						"{@spell detect magic}",
 						"{@spell fly}",
 						"{@spell geas}",
 						"{@spell major image}",
-						"{@spell 臭雲術}",
+						"{@spell 臭云术}",
 						"{@spell suggestion}",
 						"{@spell wall of fire}"
 					],
@@ -11415,7 +11415,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -11544,9 +11544,9 @@
 					],
 					"will": [
 						"{@spell 解除魔法}",
-						"{@spell 變形術}",
+						"{@spell 变形术}",
 						"{@spell telekinesis}",
-						"{@spell 傳送術}"
+						"{@spell 传送术}"
 					],
 					"daily": {
 						"1": [
@@ -11617,7 +11617,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -11761,7 +11761,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -12196,7 +12196,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -12289,7 +12289,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -12694,7 +12694,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -12766,7 +12766,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -12888,7 +12888,7 @@
 							"{@spell feeblemind}",
 							"{@spell globe of invulnerability}",
 							"{@spell wall of fire}",
-							"{@spell 冰牆術}"
+							"{@spell 冰墙术}"
 						]
 					},
 					"ability": "cha"
@@ -12942,7 +12942,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				},
 				{
@@ -13005,7 +13005,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死屍}, {@spell 枯萎術}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死尸}, {@spell 枯萎术}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
 						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -13030,7 +13030,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"When Orcus casts {@spell 活化死屍} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
+						"When Orcus casts {@spell 活化死尸} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
 					]
 				}
 			],
@@ -13473,7 +13473,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -13628,7 +13628,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -13770,7 +13770,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -13938,7 +13938,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -14174,7 +14174,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -14682,7 +14682,7 @@
 								"{@spell chill touch}",
 								"{@spell fire bolt}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell ray of frost}",
 								"{@spell shocking grasp}"
 							]
@@ -14698,14 +14698,14 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell scorching ray}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell haste}"
 							]
 						},
@@ -14872,7 +14872,7 @@
 					],
 					"will": [
 						"{@spell chill touch}",
-						"{@spell 毒氣噴灑}"
+						"{@spell 毒气喷洒}"
 					],
 					"daily": {
 						"1e": [
@@ -14928,7 +14928,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15056,7 +15056,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15262,7 +15262,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15361,7 +15361,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15619,7 +15619,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15746,7 +15746,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15896,7 +15896,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -15977,7 +15977,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16084,7 +16084,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16207,7 +16207,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"{@item 護胸甲|phb}",
+						"{@item 护胸甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -16417,7 +16417,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16513,7 +16513,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16607,7 +16607,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16709,7 +16709,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16809,7 +16809,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -16889,7 +16889,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17037,7 +17037,7 @@
 					],
 					"will": [
 						"{@spell alter self}",
-						"{@spell 活化死屍}",
+						"{@spell 活化死尸}",
 						"{@spell bestow curse}",
 						"{@spell confusion}",
 						"{@spell major image}",
@@ -17104,7 +17104,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17198,7 +17198,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17261,7 +17261,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell guidance}",
 								"{@spell produce flame}"
 							]
@@ -17438,7 +17438,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17558,7 +17558,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17606,7 +17606,7 @@
 			"page": 139,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The wastrilith can breathe air and water."
 					]
@@ -17805,7 +17805,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -17955,7 +17955,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18093,7 +18093,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18268,7 +18268,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18405,11 +18405,11 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell invisibility}"
 						]
 					},
@@ -18453,7 +18453,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18538,7 +18538,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18731,7 +18731,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -18938,7 +18938,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -19063,7 +19063,7 @@
 					"will": [
 						"{@spell detect magic}",
 						"{@spell locate animals or plants}",
-						"{@spell 致病射線}"
+						"{@spell 致病射线}"
 					],
 					"daily": {
 						"3e": [
@@ -19074,7 +19074,7 @@
 						],
 						"1e": [
 							"{@spell etherealness}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						]
 					},
 					"ability": "cha"

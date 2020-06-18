@@ -95,7 +95,7 @@ class RenderBestiary {
 
 			const pageTrInner = Renderer.utils._getPageTrText(srcCpy);
 			if (mon.environment && mon.environment.length) {
-				return [pageTrInner, `<i>環境： ${mon.environment.sort(SortUtil.ascSortLower).map(it => Parser.EnvironmentToDisplay(it)).join(", ")}</i>`];
+				return [pageTrInner, `<i>环境： ${mon.environment.sort(SortUtil.ascSortLower).map(it => Parser.EnvironmentToDisplay(it)).join(", ")}</i>`];
 			} else {
 				return [pageTrInner];
 			}
@@ -113,18 +113,18 @@ class RenderBestiary {
 		</td></tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		
-		<tr><td colspan="6"><strong>護甲等級：</strong> ${Parser.acToFull(mon.ac)}</td></tr>
+		<tr><td colspan="6"><strong>护甲等级：</strong> ${Parser.acToFull(mon.ac)}</td></tr>
 		<tr><td colspan="6"><div class="mon__wrp-hp"><strong>生命值：</strong> ${Renderer.monster.getRenderedHp(mon.hp)}</div></td></tr>
 		<tr><td colspan="6"><strong>速度：</strong> ${Parser.getSpeedString(mon)}</td></tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		
 		<tr class="mon__ability-names">
-			<th>力量</th><th>敏捷</th><th>體質</th><th>智力</th><th>睿知</th><th>魅力</th>
+			<th>力量</th><th>敏捷</th><th>体质</th><th>智力</th><th>睿知</th><th>魅力</th>
 		</tr>
 		<tr class="mon__ability-scores">
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.str)}|${mon.str} (${Parser.getAbilityModifier(mon.str)})|力量}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.dex)}|${mon.dex} (${Parser.getAbilityModifier(mon.dex)})|敏捷}`)}</td>
-			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.con)}|${mon.con} (${Parser.getAbilityModifier(mon.con)})|體質}`)}</td>
+			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.con)}|${mon.con} (${Parser.getAbilityModifier(mon.con)})|体质}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.int)}|${mon.int} (${Parser.getAbilityModifier(mon.int)})|智力}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.wis)}|${mon.wis} (${Parser.getAbilityModifier(mon.wis)})|睿知}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.cha)}|${mon.cha} (${Parser.getAbilityModifier(mon.cha)})|魅力}`)}</td>
@@ -133,31 +133,31 @@ class RenderBestiary {
 		
 		${mon.save ? `<tr><td colspan="6"><strong>豁免：</strong> ${Object.keys(mon.save).map(it => Renderer.monster.getSave(renderer, it, mon.save[it])).join(", ")}</td></tr>` : ""}
 		${mon.skill ? `<tr><td colspan="6"><strong>技能：</strong> ${Renderer.monster.getSkillsString(renderer, mon)}</td></tr>` : ""}
-		${mon.vulnerable ? `<tr><td colspan="6"><strong>傷害易傷：</strong> ${Parser.monImmResToFull(mon.vulnerable)}</td></tr>` : ""}
-		${mon.resist ? `<tr><td colspan="6"><strong>傷害抗性：</strong> ${Parser.monImmResToFull(mon.resist)}</td></tr>` : ""}
-		${mon.immune ? `<tr><td colspan="6"><strong>傷害免疫：</strong> ${Parser.monImmResToFull(mon.immune)}</td></tr>` : ""}
-		${mon.conditionImmune ? `<tr><td colspan="6"><strong>狀態免疫：</strong> ${Parser.monCondImmToFull(mon.conditionImmune)}</td></tr>` : ""}
-		<tr><td colspan="6"><strong>感官：</strong> ${mon.senses ? `${Renderer.monster.getRenderedSenses(mon.senses)},` : ""} 被動感知 ${mon.passive || "\u2014"}</td></tr>
-		<tr><td colspan="6"><strong>語言：</strong> ${mon.languages || "\u2014"}</td></tr>
+		${mon.vulnerable ? `<tr><td colspan="6"><strong>伤害易伤：</strong> ${Parser.monImmResToFull(mon.vulnerable)}</td></tr>` : ""}
+		${mon.resist ? `<tr><td colspan="6"><strong>伤害抗性：</strong> ${Parser.monImmResToFull(mon.resist)}</td></tr>` : ""}
+		${mon.immune ? `<tr><td colspan="6"><strong>伤害免疫：</strong> ${Parser.monImmResToFull(mon.immune)}</td></tr>` : ""}
+		${mon.conditionImmune ? `<tr><td colspan="6"><strong>状态免疫：</strong> ${Parser.monCondImmToFull(mon.conditionImmune)}</td></tr>` : ""}
+		<tr><td colspan="6"><strong>感官：</strong> ${mon.senses ? `${Renderer.monster.getRenderedSenses(mon.senses)},` : ""} 被动感知 ${mon.passive || "\u2014"}</td></tr>
+		<tr><td colspan="6"><strong>语言：</strong> ${mon.languages || "\u2014"}</td></tr>
 		
-		<tr><td colspan="6" style="position: relative;"><strong>挑戰等級：</strong>
+		<tr><td colspan="6" style="position: relative;"><strong>挑战等级：</strong>
 			<span>${Parser.monCrToFull(mon.cr)}</span>
 			${options.$btnScaleCr || ""}
 			${options.$btnResetScaleCr || ""}
 		</td></tr>
 		
 		${trait ? `<tr><td class="divider" colspan="6"><div></div></td></tr>${RenderBestiary._getRenderedSection("trait", trait, 1)}` : ""}
-		${mon.action ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">動作</span></td></tr>
+		${mon.action ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">动作</span></td></tr>
 		${RenderBestiary._getRenderedSection("action", mon.action, 1)}` : ""}
-		${mon.reaction ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">反應</span></td></tr>
+		${mon.reaction ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">反应</span></td></tr>
 		${RenderBestiary._getRenderedSection("reaction", mon.reaction, 1)}` : ""}
-		${mon.legendary ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">傳奇動作</span></td></tr>
+		${mon.legendary ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">传奇动作</span></td></tr>
 		<tr class='legendary'><td colspan='6'><span class='name'></span> <span>${Renderer.monster.getLegendaryActionIntro(mon)}</span></td></tr>
 		${RenderBestiary._getRenderedSection("legendary", mon.legendary, 1)}` : ""}
 		
-		${legGroup && legGroup.lairActions ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">巢穴動作</span></td></tr>
+		${legGroup && legGroup.lairActions ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">巢穴动作</span></td></tr>
 		${RenderBestiary._getRenderedSection("lairaction", legGroup.lairActions, -1)}` : ""}
-		${legGroup && legGroup.regionalEffects ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">區域效應</span></td></tr>
+		${legGroup && legGroup.regionalEffects ? `<tr><td colspan="6" class="mon__stat-header-underline"><span class="mon__sect-header-inner">区域效应</span></td></tr>
 		${RenderBestiary._getRenderedSection("regionaleffect", legGroup.regionalEffects, -1)}` : ""}
 		
 		${renderedVariants ? `<tr>${renderedVariants}</tr>` : ""}

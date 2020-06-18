@@ -13,13 +13,13 @@ const displayRewardType = function(item){
 	switch(item){
 		case "Blessing": return "祝福";
 		case "Boon": return "恩惠";
-		case "Charm": return "護咒";
+		case "Charm": return "护咒";
 		default: return item; 
 	};
 }
 const sourceFilter = getSourceFilter();
 const typeFilter = new Filter({
-	header: "Type", headerName: "類型",
+	header: "Type", headerName: "类型",
 	items: [
 		"Blessing",
 		"Boon",

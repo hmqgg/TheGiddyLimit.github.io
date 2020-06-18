@@ -14,7 +14,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -314,7 +314,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -364,7 +364,7 @@
 			],
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The kraken can breathe air and water."
 					]

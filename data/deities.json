@@ -1,18 +1,18 @@
 {
 	"deity": [
 		{
-			"name": "達格達", "ENG_name": "Daghdha",
+			"name": "达格达", "ENG_name": "Daghdha",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "天氣和作物之神",
+			"title": "天气和作物之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Nature",
 				"Trickery"
 			],
-			"symbol": "冒泡的大鍋或盾牌",
+			"symbol": "冒泡的大锅或盾牌",
 			"source": "PHB",
 			"page": 298
 		},
@@ -33,22 +33,22 @@
 			"page": 298
 		},
 		{
-			"name": "巴萊納斯", "ENG_name": "Belenus",
+			"name": "巴莱纳斯", "ENG_name": "Belenus",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "太陽、光明、和溫暖之神",
+			"title": "太阳、光明、和温暖之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Light"
 			],
-			"symbol": "日輪和豎立的石頭",
+			"symbol": "日轮和竖立的石头",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "布里甘緹雅", "ENG_name": "Brigantia",
+			"name": "布里甘缇雅", "ENG_name": "Brigantia",
 			"alignment": [
 				"N",
 				"G"
@@ -58,53 +58,53 @@
 			"domains": [
 				"Life"
 			],
-			"symbol": "步行橋",
+			"symbol": "步行桥",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "迪安斯徹特", "ENG_name": "Diancecht",
+			"name": "迪安斯彻特", "ENG_name": "Diancecht",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "醫藥和治療之神",
+			"title": "医药和治疗之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Life"
 			],
-			"symbol": "交叉的橡樹枝和槲寄生",
+			"symbol": "交叉的橡树枝和槲寄生",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "杜納提斯", "ENG_name": "Dunatis",
+			"name": "杜纳提斯", "ENG_name": "Dunatis",
 			"alignment": [
 				"N"
 			],
-			"title": "山巒和山峰之神",
+			"title": "山峦和山峰之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Nature"
 			],
-			"symbol": "紅日照耀的山峰",
+			"symbol": "红日照耀的山峰",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "格布紐", "ENG_name": "Goibhniu",
+			"name": "格布纽", "ENG_name": "Goibhniu",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "鍛造和醫療之神",
+			"title": "锻造和医疗之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Forge",
 				"Knowledge",
 				"Life"
 			],
-			"symbol": "跨在寶劍上的巨錘",
+			"symbol": "跨在宝剑上的巨锤",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -120,18 +120,18 @@
 				"C",
 				"N"
 			],
-			"title": "藝術、旅行、和商貿之神",
+			"title": "艺术、旅行、和商贸之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Knowledge",
 				"Life"
 			],
-			"symbol": "一雙長手",
+			"symbol": "一双长手",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "馬納南．麥克李爾", "ENG_name": "Manannan mac Lir",
+			"name": "马纳南．麦克李尔", "ENG_name": "Manannan mac Lir",
 			"alignment": [
 				"L",
 				"N"
@@ -142,12 +142,12 @@
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "綠地上的白水波浪",
+			"symbol": "绿地上的白水波浪",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "馬斯．馬索努伊", "ENG_name": "Math Mathonwy",
+			"name": "马斯．马索努伊", "ENG_name": "Math Mathonwy",
 			"alignment": [
 				"N",
 				"E"
@@ -167,27 +167,27 @@
 				"C",
 				"E"
 			],
-			"title": "戰鬥女神",
+			"title": "战斗女神",
 			"pantheon": "Celtic",
 			"domains": [
 				"War"
 			],
-			"symbol": "兩把交叉的矛",
+			"symbol": "两把交叉的矛",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "努亞達", "ENG_name": "Nuada",
+			"name": "努亚达", "ENG_name": "Nuada",
 			"alignment": [
 				"N"
 			],
-			"title": "戰爭和勇士之神",
+			"title": "战争和勇士之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"War",
 				"Order"
 			],
-			"symbol": "漆黑背景上的銀手",
+			"symbol": "漆黑背景上的银手",
 			"source": "PHB",
 			"page": 298,
 			"additionalSources": [
@@ -197,17 +197,17 @@
 			]
 		},
 		{
-			"name": "歐格瑪", "ENG_name": "Oghma",
+			"name": "欧格玛", "ENG_name": "Oghma",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "演講和寫作之神",
+			"title": "演讲和写作之神",
 			"pantheon": "Celtic",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "展開的卷軸",
+			"symbol": "展开的卷轴",
 			"source": "PHB",
 			"page": 298
 		},
@@ -221,7 +221,7 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "夏日橡樹",
+			"symbol": "夏日橡树",
 			"source": "PHB",
 			"page": 298
 		},
@@ -230,37 +230,37 @@
 			"alignment": [
 				"N"
 			],
-			"title": "天空之神、眾神之王",
+			"title": "天空之神、众神之王",
 			"pantheon": "Greek",
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "緊握閃電束的拳頭",
+			"symbol": "紧握闪电束的拳头",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "阿芙蘿黛蒂", "ENG_name": "Aphrodite",
+			"name": "阿芙萝黛蒂", "ENG_name": "Aphrodite",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "愛與美的女神",
+			"title": "爱与美的女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Light"
 			],
-			"symbol": "海貝",
+			"symbol": "海贝",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "阿波羅", "ENG_name": "Apollo",
+			"name": "阿波罗", "ENG_name": "Apollo",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "光明、音樂和醫療之神",
+			"title": "光明、音乐和医疗之神",
 			"pantheon": "Greek",
 			"domains": [
 				"Knowledge",
@@ -277,7 +277,7 @@
 				"C",
 				"E"
 			],
-			"title": "戰爭和衝突之神",
+			"title": "战争和冲突之神",
 			"pantheon": "Greek",
 			"domains": [
 				"War"
@@ -287,18 +287,18 @@
 			"page": 298
 		},
 		{
-			"name": "阿緹蜜絲", "ENG_name": "Artemis",
+			"name": "阿缇蜜丝", "ENG_name": "Artemis",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "狩獵和新生女神",
+			"title": "狩猎和新生女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Life",
 				"Nature"
 			],
-			"symbol": "月輪上的弓與箭",
+			"symbol": "月轮上的弓与箭",
 			"source": "PHB",
 			"page": 298
 		},
@@ -315,7 +315,7 @@
 				"War",
 				"Order"
 			],
-			"symbol": "貓頭鷹",
+			"symbol": "猫头鹰",
 			"source": "PHB",
 			"page": 298,
 			"additionalSources": [
@@ -330,27 +330,27 @@
 				"N",
 				"G"
 			],
-			"title": "農業女神",
+			"title": "农业女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Life"
 			],
-			"symbol": "牝馬頭",
+			"symbol": "牝马头",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "戴奧尼索斯", "ENG_name": "Dionysus",
+			"name": "戴奥尼索斯", "ENG_name": "Dionysus",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "歡樂和美酒之神",
+			"title": "欢乐和美酒之神",
 			"pantheon": "Greek",
 			"domains": [
 				"Life"
 			],
-			"symbol": "酒神權杖（松果杖端的手杖）",
+			"symbol": "酒神权杖（松果杖端的手杖）",
 			"source": "PHB",
 			"page": 298
 		},
@@ -382,7 +382,7 @@
 				"C",
 				"E"
 			],
-			"title": "魔法與黑月女神",
+			"title": "魔法与黑月女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Knowledge",
@@ -398,13 +398,13 @@
 				"N",
 				"G"
 			],
-			"title": "鐵匠和工藝之神",
+			"title": "铁匠和工艺之神",
 			"pantheon": "Greek",
 			"domains": [
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "鐵鎚與鐵砧",
+			"symbol": "铁锤与铁砧",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -420,7 +420,7 @@
 				"C",
 				"N"
 			],
-			"title": "婚姻和陰謀女神",
+			"title": "婚姻和阴谋女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Trickery"
@@ -435,13 +435,13 @@
 				"C",
 				"G"
 			],
-			"title": "力量與冒險之神",
+			"title": "力量与冒险之神",
 			"pantheon": "Greek",
 			"domains": [
 				"Tempest",
 				"War"
 			],
-			"symbol": "獅首",
+			"symbol": "狮首",
 			"source": "PHB",
 			"page": 298
 		},
@@ -451,27 +451,27 @@
 				"C",
 				"G"
 			],
-			"title": "旅行和商貿之神",
+			"title": "旅行和商贸之神",
 			"pantheon": "Greek",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "雙蛇杖（帶翼和蛇的手杖）",
+			"symbol": "双蛇杖（带翼和蛇的手杖）",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "赫斯緹雅", "ENG_name": "Hestia",
+			"name": "赫斯缇雅", "ENG_name": "Hestia",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "住宅與家庭女神",
+			"title": "住宅与家庭女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Life"
 			],
-			"symbol": "爐灶",
+			"symbol": "炉灶",
 			"source": "PHB",
 			"page": 298
 		},
@@ -481,12 +481,12 @@
 				"L",
 				"N"
 			],
-			"title": "勝利女神",
+			"title": "胜利女神",
 			"pantheon": "Greek",
 			"domains": [
 				"War"
 			],
-			"symbol": "帶翼女子",
+			"symbol": "带翼女子",
 			"source": "PHB",
 			"page": 298
 		},
@@ -501,12 +501,12 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "潘神排簫",
+			"symbol": "潘神排箫",
 			"source": "PHB",
 			"page": 298
 		},
 		{
-			"name": "波賽頓", "ENG_name": "Poseidon",
+			"name": "波赛顿", "ENG_name": "Poseidon",
 			"alignment": [
 				"C",
 				"N"
@@ -525,12 +525,12 @@
 			"alignment": [
 				"N"
 			],
-			"title": "幸運女神",
+			"title": "幸运女神",
 			"pantheon": "Greek",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "紅色五芒星",
+			"symbol": "红色五芒星",
 			"source": "PHB",
 			"page": 298
 		},
@@ -540,13 +540,13 @@
 				"L",
 				"G"
 			],
-			"title": "太陽神、眾神之王",
+			"title": "太阳神、众神之王",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "被蛇圍繞的日輪",
+			"symbol": "被蛇围绕的日轮",
 			"source": "PHB",
 			"page": 299
 		},
@@ -556,7 +556,7 @@
 				"L",
 				"N"
 			],
-			"title": "審判和死亡之神",
+			"title": "审判和死亡之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Death",
@@ -582,7 +582,7 @@
 				"N",
 				"E"
 			],
-			"title": "邪惡、火焰、和眾蛇之神",
+			"title": "邪恶、火焰、和众蛇之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Trickery"
@@ -597,22 +597,22 @@
 				"C",
 				"G"
 			],
-			"title": "復仇與貓之女神",
+			"title": "复仇与猫之女神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"War"
 			],
-			"symbol": "貓",
+			"symbol": "猫",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "貝斯", "ENG_name": "Bes",
+			"name": "贝斯", "ENG_name": "Bes",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "幸運和音樂之神",
+			"title": "幸运和音乐之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Trickery"
@@ -622,33 +622,33 @@
 			"page": 299
 		},
 		{
-			"name": "哈托爾", "ENG_name": "Hathor",
+			"name": "哈托尔", "ENG_name": "Hathor",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "愛情、音樂、母親的女神",
+			"title": "爱情、音乐、母亲的女神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "月輪上的帶角母牛頭",
+			"symbol": "月轮上的带角母牛头",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "印和闐", "ENG_name": "Imhotep",
+			"name": "印和阗", "ENG_name": "Imhotep",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "工藝和醫藥之神",
+			"title": "工艺和医药之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "階梯金字塔",
+			"symbol": "阶梯金字塔",
 			"source": "PHB",
 			"page": 299
 		},
@@ -674,17 +674,17 @@
 				"C",
 				"G"
 			],
-			"title": "死亡和悲傷女神",
+			"title": "死亡和悲伤女神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Death"
 			],
-			"symbol": "被角圍繞的月輪",
+			"symbol": "被角围绕的月轮",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "歐西里斯", "ENG_name": "Osiris",
+			"name": "欧西里斯", "ENG_name": "Osiris",
 			"alignment": [
 				"L",
 				"G"
@@ -696,7 +696,7 @@
 				"Life",
 				"Nature"
 			],
-			"symbol": "鉤子和鏈枷",
+			"symbol": "钩子和链枷",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -712,7 +712,7 @@
 				"L",
 				"N"
 			],
-			"title": "工藝、知識和秘密之神",
+			"title": "工艺、知识和秘密之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Knowledge"
@@ -722,7 +722,7 @@
 			"page": 299
 		},
 		{
-			"name": "賽特", "ENG_name": "Set",
+			"name": "赛特", "ENG_name": "Set",
 			"alignment": [
 				"C",
 				"E"
@@ -734,23 +734,23 @@
 				"Tempest",
 				"Trickery"
 			],
-			"symbol": "盤繞的眼鏡蛇",
+			"symbol": "盘绕的眼镜蛇",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "索貝克", "ENG_name": "Sobek",
+			"name": "索贝克", "ENG_name": "Sobek",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "水域與鱷魚之神",
+			"title": "水域与鳄鱼之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "帶角和羽毛的鱷魚頭",
+			"symbol": "带角和羽毛的鳄鱼头",
 			"source": "PHB",
 			"page": 299
 		},
@@ -759,74 +759,74 @@
 			"alignment": [
 				"N"
 			],
-			"title": "知識和智慧之神",
+			"title": "知识和智慧之神",
 			"pantheon": "Egyptian",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "埃及聖䴉",
+			"symbol": "埃及圣鹮",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "奧丁", "ENG_name": "Odin",
+			"name": "奥丁", "ENG_name": "Odin",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "知識和戰爭之神",
+			"title": "知识和战争之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Knowledge",
 				"War"
 			],
-			"symbol": "注視的藍眼",
+			"symbol": "注视的蓝眼",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "埃吉爾", "ENG_name": "Aegir",
+			"name": "埃吉尔", "ENG_name": "Aegir",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "海洋和風暴之神",
+			"title": "海洋和风暴之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "洶湧的海浪",
+			"symbol": "汹涌的海浪",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "巴德爾", "ENG_name": "Balder",
+			"name": "巴德尔", "ENG_name": "Balder",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "美麗和詩賦之神",
+			"title": "美丽和诗赋之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "鑲嵌寶石的銀酒杯",
+			"symbol": "镶嵌宝石的银酒杯",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "凡賽堤", "ENG_name": "Forseti",
+			"name": "凡赛堤", "ENG_name": "Forseti",
 			"alignment": [
 				"N"
 			],
-			"title": "正義和律法之神",
+			"title": "正义和律法之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Light",
 				"Order"
 			],
-			"symbol": "鬍鬚男子之首",
+			"symbol": "胡须男子之首",
 			"source": "PHB",
 			"page": 299,
 			"additionalSources": [
@@ -841,13 +841,13 @@
 				"N",
 				"G"
 			],
-			"title": "豐饒與太陽之神",
+			"title": "丰饶与太阳之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "冰藍巨劍",
+			"symbol": "冰蓝巨剑",
 			"source": "PHB",
 			"page": 299
 		},
@@ -857,48 +857,48 @@
 				"N",
 				"G"
 			],
-			"title": "豐饒與愛之女神",
+			"title": "丰饶与爱之女神",
 			"pantheon": "Norse",
 			"domains": [
 				"Life"
 			],
-			"symbol": "獵鷹",
+			"symbol": "猎鹰",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "弗麗嘉", "ENG_name": "Frigga",
+			"name": "弗丽嘉", "ENG_name": "Frigga",
 			"alignment": [
 				"N"
 			],
-			"title": "生育與豐饒女神",
+			"title": "生育与丰饶女神",
 			"pantheon": "Norse",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "貓",
+			"symbol": "猫",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "海姆達爾", "ENG_name": "Heimdall",
+			"name": "海姆达尔", "ENG_name": "Heimdall",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "警覺和忠誠之神",
+			"title": "警觉和忠诚之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Light",
 				"War"
 			],
-			"symbol": "蜷曲的音樂號角",
+			"symbol": "蜷曲的音乐号角",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "赫爾", "ENG_name": "Hel",
+			"name": "赫尔", "ENG_name": "Hel",
 			"alignment": [
 				"N",
 				"E"
@@ -908,22 +908,22 @@
 			"domains": [
 				"Death"
 			],
-			"symbol": "半邊腐爛的女人面孔",
+			"symbol": "半边腐烂的女人面孔",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "赫爾莫德", "ENG_name": "Hermod",
+			"name": "赫尔莫德", "ENG_name": "Hermod",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "幸運之神",
+			"title": "幸运之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "帶翼卷軸",
+			"symbol": "带翼卷轴",
 			"source": "PHB",
 			"page": 299
 		},
@@ -933,7 +933,7 @@
 				"C",
 				"E"
 			],
-			"title": "盜賊和詭計之神",
+			"title": "盗贼和诡计之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Trickery"
@@ -943,33 +943,33 @@
 			"page": 299
 		},
 		{
-			"name": "尼約德", "ENG_name": "Njord",
+			"name": "尼约德", "ENG_name": "Njord",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "海與風之神",
+			"title": "海与风之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "黃金硬幣",
+			"symbol": "黄金硬币",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "奧都爾", "ENG_name": "Odur",
+			"name": "奥都尔", "ENG_name": "Odur",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "光明和太陽之神",
+			"title": "光明和太阳之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Light"
 			],
-			"symbol": "日輪",
+			"symbol": "日轮",
 			"source": "PHB",
 			"page": 299
 		},
@@ -979,21 +979,21 @@
 				"C",
 				"G"
 			],
-			"title": "戰爭女神",
+			"title": "战争女神",
 			"pantheon": "Norse",
 			"domains": [
 				"War"
 			],
-			"symbol": "舉起的劍",
+			"symbol": "举起的剑",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "絲卡蒂", "ENG_name": "Skadi",
+			"name": "丝卡蒂", "ENG_name": "Skadi",
 			"alignment": [
 				"N"
 			],
-			"title": "大地和山脈之神",
+			"title": "大地和山脉之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Nature"
@@ -1003,33 +1003,33 @@
 			"page": 299
 		},
 		{
-			"name": "史爾特爾", "ENG_name": "Surtur",
+			"name": "史尔特尔", "ENG_name": "Surtur",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "火巨人和戰爭之神",
+			"title": "火巨人和战争之神",
 			"pantheon": "Norse",
 			"domains": [
 				"War"
 			],
-			"symbol": "燃燒之劍",
+			"symbol": "燃烧之剑",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "索爾", "ENG_name": "Thor",
+			"name": "索尔", "ENG_name": "Thor",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "風暴和雷霆之神",
+			"title": "风暴和雷霆之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Tempest",
 				"War"
 			],
-			"symbol": "鎚子",
+			"symbol": "锤子",
 			"source": "PHB",
 			"page": 299
 		},
@@ -1044,24 +1044,24 @@
 			"domains": [
 				"War"
 			],
-			"symbol": "雪白雙刃斧",
+			"symbol": "雪白双刃斧",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "提爾", "ENG_name": "Tyr",
+			"name": "提尔", "ENG_name": "Tyr",
 			"alignment": [
 				"L",
 				"N"
 			],
-			"title": "勇氣和策略之神",
+			"title": "勇气和策略之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Knowledge",
 				"War",
 				"Order"
 			],
-			"symbol": "寶劍",
+			"symbol": "宝剑",
 			"source": "PHB",
 			"page": 299,
 			"additionalSources": [
@@ -1071,22 +1071,22 @@
 			]
 		},
 		{
-			"name": "烏勒爾", "ENG_name": "Uller",
+			"name": "乌勒尔", "ENG_name": "Uller",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "狩獵和寒冬之神",
+			"title": "狩猎和寒冬之神",
 			"pantheon": "Norse",
 			"domains": [
 				"Nature"
 			],
-			"symbol": "長弓",
+			"symbol": "长弓",
 			"source": "PHB",
 			"page": 299
 		},
 		{
-			"name": "歐呂爾", "ENG_name": "Auril",
+			"name": "欧吕尔", "ENG_name": "Auril",
 			"alignment": [
 				"N",
 				"E"
@@ -1107,12 +1107,12 @@
 				"L",
 				"N"
 			],
-			"title": "法師之神",
+			"title": "法师之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "火焰輪廓，指向上方的左手",
+			"symbol": "火焰轮廓，指向上方的左手",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1128,7 +1128,7 @@
 				"War",
 				"Order"
 			],
-			"symbol": "豎立的黑色右手，拇指與手指併攏",
+			"symbol": "竖立的黑色右手，拇指与手指并拢",
 			"source": "PHB",
 			"page": 294,
 			"additionalSources": [
@@ -1143,7 +1143,7 @@
 				"C",
 				"E"
 			],
-			"title": "厄運女神",
+			"title": "厄运女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Trickery"
@@ -1153,32 +1153,32 @@
 			"page": 294
 		},
 		{
-			"name": "巴爾", "ENG_name": "Bhaal",
+			"name": "巴尔", "ENG_name": "Bhaal",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "謀殺之神",
+			"title": "谋杀之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Death"
 			],
-			"symbol": "被血滴環繞的骷髏頭",
+			"symbol": "被血滴环绕的骷髅头",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "裳禔亞", "ENG_name": "Chauntea",
+			"name": "裳禔亚", "ENG_name": "Chauntea",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "農業女神",
+			"title": "农业女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life"
 			],
-			"symbol": "一捆穀物或在穀物上盛開的玫瑰",
+			"symbol": "一捆谷物或在谷物上盛开的玫瑰",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1188,32 +1188,32 @@
 				"C",
 				"E"
 			],
-			"title": "謊言之神",
+			"title": "谎言之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "籠罩在黑色或紫色光芒中的白色無頜顱骨",
+			"symbol": "笼罩在黑色或紫色光芒中的白色无颌颅骨",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "迪尼爾", "ENG_name": "Deneir",
+			"name": "迪尼尔", "ENG_name": "Deneir",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "寫作之神",
+			"title": "写作之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "在一個睜開眼睛上方的點燃蠟燭",
+			"symbol": "在一个睁开眼睛上方的点燃蜡烛",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "埃達絲", "ENG_name": "Eldath",
+			"name": "埃达丝", "ENG_name": "Eldath",
 			"alignment": [
 				"N",
 				"G"
@@ -1224,22 +1224,22 @@
 				"Life",
 				"Nature"
 			],
-			"symbol": "注入平靜水池的瀑布",
+			"symbol": "注入平静水池的瀑布",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "貢德", "ENG_name": "Gond",
+			"name": "贡德", "ENG_name": "Gond",
 			"alignment": [
 				"N"
 			],
-			"title": "工藝之神",
+			"title": "工艺之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "四道輪輻的齒輪",
+			"symbol": "四道轮辐的齿轮",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -1255,33 +1255,33 @@
 				"L",
 				"N"
 			],
-			"title": "守護之神",
+			"title": "守护之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "豎立的左手鐵手套上有一隻凝視的眼睛",
+			"symbol": "竖立的左手铁手套上有一只凝视的眼睛",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "伊爾瑪特", "ENG_name": "Ilmater",
+			"name": "伊尔玛特", "ENG_name": "Ilmater",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "受難之神",
+			"title": "受难之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life"
 			],
-			"symbol": "被紅繩綁住手腕的雙手",
+			"symbol": "被红绳绑住手腕的双手",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "凱蘭沃", "ENG_name": "Kelemvor",
+			"name": "凯兰沃", "ENG_name": "Kelemvor",
 			"alignment": [
 				"L",
 				"N"
@@ -1292,7 +1292,7 @@
 				"Death",
 				"Grave"
 			],
-			"symbol": "持握著平衡天秤的豎立骨手臂",
+			"symbol": "持握着平衡天秤的竖立骨手臂",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -1303,12 +1303,12 @@
 			"page": 294
 		},
 		{
-			"name": "洛山達", "ENG_name": "Lathander",
+			"name": "洛山达", "ENG_name": "Lathander",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "新生與復興之神",
+			"title": "新生与复兴之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life",
@@ -1319,7 +1319,7 @@
 			"page": 294
 		},
 		{
-			"name": "萊拉", "ENG_name": "Leira",
+			"name": "莱拉", "ENG_name": "Leira",
 			"alignment": [
 				"C",
 				"N"
@@ -1329,27 +1329,27 @@
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "裝有旋霧的向下三角",
+			"symbol": "装有旋雾的向下三角",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "黎兒拉", "ENG_name": "Lliira",
+			"name": "黎儿拉", "ENG_name": "Lliira",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "歡樂女神",
+			"title": "欢乐女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life"
 			],
-			"symbol": "三個六角星組成的三角",
+			"symbol": "三个六角星组成的三角",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "勞薇艾塔", "ENG_name": "Loviatar",
+			"name": "劳薇艾塔", "ENG_name": "Loviatar",
 			"alignment": [
 				"L",
 				"E"
@@ -1364,12 +1364,12 @@
 			"page": 294
 		},
 		{
-			"name": "馬拉", "ENG_name": "Malar",
+			"name": "马拉", "ENG_name": "Malar",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "獵殺之神",
+			"title": "猎杀之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Nature"
@@ -1379,12 +1379,12 @@
 			"page": 294
 		},
 		{
-			"name": "馬斯克", "ENG_name": "Mask",
+			"name": "马斯克", "ENG_name": "Mask",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "盜賊之神",
+			"title": "盗贼之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Trickery"
@@ -1394,7 +1394,7 @@
 			"page": 294
 		},
 		{
-			"name": "梅莉凱", "ENG_name": "Mielikki",
+			"name": "梅莉凯", "ENG_name": "Mielikki",
 			"alignment": [
 				"N",
 				"G"
@@ -1404,7 +1404,7 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "獨角獸頭",
+			"symbol": "独角兽头",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1414,17 +1414,17 @@
 				"N",
 				"G"
 			],
-			"title": "詩歌之神",
+			"title": "诗歌之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Light"
 			],
-			"symbol": "樹葉編造的五弦豎琴",
+			"symbol": "树叶编造的五弦竖琴",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "米爾寇", "ENG_name": "Myrkul",
+			"name": "米尔寇", "ENG_name": "Myrkul",
 			"alignment": [
 				"N",
 				"E"
@@ -1434,7 +1434,7 @@
 			"domains": [
 				"Death"
 			],
-			"symbol": "白色人類頭骨",
+			"symbol": "白色人类头骨",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1449,41 +1449,41 @@
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "七星圓環、九星環繞的流淌紅霧、或一顆星形",
+			"symbol": "七星圆环、九星环绕的流淌红雾、或一颗星形",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "歐格瑪", "ENG_name": "Oghma",
+			"name": "欧格玛", "ENG_name": "Oghma",
 			"alignment": [
 				"N"
 			],
-			"title": "知識之神",
+			"title": "知识之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "空白的卷軸",
+			"symbol": "空白的卷轴",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "薩弗拉斯", "ENG_name": "Savras",
+			"name": "萨弗拉斯", "ENG_name": "Savras",
 			"alignment": [
 				"L",
 				"N"
 			],
-			"title": "占卜和命運之神",
+			"title": "占卜和命运之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "裝有各種眼睛的水晶球",
+			"symbol": "装有各种眼睛的水晶球",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "蘇倫", "ENG_name": "Selûne",
+			"name": "苏伦", "ENG_name": "Selûne",
 			"alignment": [
 				"C",
 				"G"
@@ -1494,23 +1494,23 @@
 				"Knowledge",
 				"Life"
 			],
-			"symbol": "一雙被七顆星環繞的眼睛",
+			"symbol": "一双被七颗星环绕的眼睛",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "莎爾", "ENG_name": "Shar",
+			"name": "莎尔", "ENG_name": "Shar",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "黑暗和失喪女神",
+			"title": "黑暗和失丧女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Death",
 				"Trickery"
 			],
-			"symbol": "帶邊框的黑盤子",
+			"symbol": "带边框的黑盘子",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1524,7 +1524,7 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "橡樹葉",
+			"symbol": "橡树叶",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1534,13 +1534,13 @@
 				"C",
 				"G"
 			],
-			"title": "愛與美的女神",
+			"title": "爱与美的女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "美麗紅髮女性的臉龐",
+			"symbol": "美丽红发女性的脸庞",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1550,12 +1550,12 @@
 				"C",
 				"E"
 			],
-			"title": "疾病和劇毒女神",
+			"title": "疾病和剧毒女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Death"
 			],
-			"symbol": "三角形上的三滴眼淚",
+			"symbol": "三角形上的三滴眼泪",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1565,12 +1565,12 @@
 				"C",
 				"E"
 			],
-			"title": "風暴之神",
+			"title": "风暴之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "三道從中心點散射的閃電束",
+			"symbol": "三道从中心点散射的闪电束",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1579,12 +1579,12 @@
 			"alignment": [
 				"N"
 			],
-			"title": "戰爭之神",
+			"title": "战争之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"War"
 			],
-			"symbol": "豎立的火焰劍",
+			"symbol": "竖立的火焰剑",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1594,12 +1594,12 @@
 				"L",
 				"G"
 			],
-			"title": "勇氣和自我犧牲之神",
+			"title": "勇气和自我牺牲之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"War"
 			],
-			"symbol": "白色右手鐵手套",
+			"symbol": "白色右手铁手套",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1609,28 +1609,28 @@
 				"C",
 				"G"
 			],
-			"title": "幸運女神",
+			"title": "幸运女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "面朝上的硬幣",
+			"symbol": "面朝上的硬币",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "提爾", "ENG_name": "Tyr",
+			"name": "提尔", "ENG_name": "Tyr",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "正義之神",
+			"title": "正义之神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"War",
 				"Order"
 			],
-			"symbol": "佇立在戰錘上的天秤",
+			"symbol": "伫立在战锤上的天秤",
 			"source": "PHB",
 			"page": 294,
 			"additionalSources": [
@@ -1650,7 +1650,7 @@
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "左右捲曲的波浪",
+			"symbol": "左右卷曲的波浪",
 			"source": "PHB",
 			"page": 294
 		},
@@ -1659,18 +1659,18 @@
 			"alignment": [
 				"N"
 			],
-			"title": "貿易女神",
+			"title": "贸易女神",
 			"pantheon": "Forgotten Realms",
 			"domains": [
 				"Knowledge",
 				"Trickery"
 			],
-			"symbol": "刻有渥金左臉的直立硬幣",
+			"symbol": "刻有渥金左脸的直立硬币",
 			"source": "PHB",
 			"page": 294
 		},
 		{
-			"name": "貝歐瑞", "ENG_name": "Beory",
+			"name": "贝欧瑞", "ENG_name": "Beory",
 			"alignment": [
 				"N"
 			],
@@ -1679,7 +1679,7 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "綠色圓盤",
+			"symbol": "绿色圆盘",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1693,7 +1693,7 @@
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "五芒星內的眼睛",
+			"symbol": "五芒星内的眼睛",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1707,12 +1707,12 @@
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "圓形內排成弧形的七顆星",
+			"symbol": "圆形内排成弧形的七颗星",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "艾羅娜", "ENG_name": "Ehlonna",
+			"name": "艾罗娜", "ENG_name": "Ehlonna",
 			"alignment": [
 				"N",
 				"G"
@@ -1723,7 +1723,7 @@
 				"Life",
 				"Nature"
 			],
-			"symbol": "獨角獸角",
+			"symbol": "独角兽角",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1733,7 +1733,7 @@
 				"C",
 				"E"
 			],
-			"title": "嫉妒和屠殺之神",
+			"title": "嫉妒和屠杀之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"War"
@@ -1743,7 +1743,7 @@
 			"page": 295
 		},
 		{
-			"name": "法蘭恩", "ENG_name": "Fharlanghn",
+			"name": "法兰恩", "ENG_name": "Fharlanghn",
 			"alignment": [
 				"N",
 				"G"
@@ -1754,7 +1754,7 @@
 				"Knowledge",
 				"Trickery"
 			],
-			"symbol": "一個跨過圓圈的微彎地平線",
+			"symbol": "一个跨过圆圈的微弯地平线",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1764,12 +1764,12 @@
 				"L",
 				"G"
 			],
-			"title": "騎士和勇氣之神",
+			"title": "骑士和勇气之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"War"
 			],
-			"symbol": "閃電束",
+			"symbol": "闪电束",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1779,7 +1779,7 @@
 				"L",
 				"E"
 			],
-			"title": "戰爭與無序之神",
+			"title": "战争与无序之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"War"
@@ -1794,57 +1794,57 @@
 				"C",
 				"G"
 			],
-			"title": "運動和體育之神",
+			"title": "运动和体育之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Tempest",
 				"War"
 			],
-			"symbol": "從中心散開的四把矛或四把硬頭錘",
+			"symbol": "从中心散开的四把矛或四把硬头锤",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "英凱布洛斯", "ENG_name": "Incabulos",
+			"name": "英凯布洛斯", "ENG_name": "Incabulos",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "瘟疫和饑荒之神",
+			"title": "瘟疫和饥荒之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Death"
 			],
-			"symbol": "鑲在水平菱形中的爬蟲類之眼",
+			"symbol": "镶在水平菱形中的爬虫类之眼",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "伊斯圖絲", "ENG_name": "Istus",
+			"name": "伊斯图丝", "ENG_name": "Istus",
 			"alignment": [
 				"N"
 			],
-			"title": "天意和命運女神",
+			"title": "天意和命运女神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "纏繞著三根紡線的織針",
+			"symbol": "缠绕着三根纺线的织针",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "埃烏茲", "ENG_name": "Iuz",
+			"name": "埃乌兹", "ENG_name": "Iuz",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "痛苦和壓迫之神",
+			"title": "痛苦和压迫之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Death"
 			],
-			"symbol": "咧嘴而笑的人類頭骨",
+			"symbol": "咧嘴而笑的人类头骨",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1859,12 +1859,12 @@
 			"domains": [
 				"Death"
 			],
-			"symbol": "伴著一把鐮刀或長柄大鐮的頭骨",
+			"symbol": "伴着一把镰刀或长柄大镰的头骨",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "歐拜．亥", "ENG_name": "Obad-Hai",
+			"name": "欧拜．亥", "ENG_name": "Obad-Hai",
 			"alignment": [
 				"N"
 			],
@@ -1873,17 +1873,17 @@
 			"domains": [
 				"Nature"
 			],
-			"symbol": "橡樹葉和橡實",
+			"symbol": "橡树叶和橡实",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "渥利達馬拉", "ENG_name": "Olidammara",
+			"name": "渥利达马拉", "ENG_name": "Olidammara",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "狂歡之神",
+			"title": "狂欢之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Trickery"
@@ -1893,18 +1893,18 @@
 			"page": 295
 		},
 		{
-			"name": "培羅", "ENG_name": "Pelor",
+			"name": "培罗", "ENG_name": "Pelor",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "太陽與醫療之神",
+			"title": "太阳与医疗之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "太陽",
+			"symbol": "太阳",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1920,7 +1920,7 @@
 				"Light",
 				"Order"
 			],
-			"symbol": "銀色太陽或一個被新月遮住部分的滿月",
+			"symbol": "银色太阳或一个被新月遮住部分的满月",
 			"source": "PHB",
 			"page": 295,
 			"additionalSources": [
@@ -1930,12 +1930,12 @@
 			]
 		},
 		{
-			"name": "羅爾刹", "ENG_name": "Ralishaz",
+			"name": "罗尔刹", "ENG_name": "Ralishaz",
 			"alignment": [
 				"C",
 				"N"
 			],
-			"title": "厄運和瘋狂之神",
+			"title": "厄运和疯狂之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Trickery"
@@ -1945,7 +1945,7 @@
 			"page": 295
 		},
 		{
-			"name": "拉奧", "ENG_name": "Rao",
+			"name": "拉奥", "ENG_name": "Rao",
 			"alignment": [
 				"L",
 				"G"
@@ -1960,32 +1960,32 @@
 			"page": 295
 		},
 		{
-			"name": "聖庫斯伯特", "ENG_name": "St. Cuthbert",
+			"name": "圣库斯伯特", "ENG_name": "St. Cuthbert",
 			"alignment": [
 				"L",
 				"N"
 			],
-			"title": "常識和熱情之神l",
+			"title": "常识和热情之神l",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "在星輝線中心的圓形",
+			"symbol": "在星辉线中心的圆形",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "薩瑞茲頓", "ENG_name": "Tharizdun",
+			"name": "萨瑞兹顿", "ENG_name": "Tharizdun",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "永恆黑暗之神",
+			"title": "永恒黑暗之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "黑暗螺旋或倒金字神廟",
+			"symbol": "黑暗螺旋或倒金字神庙",
 			"source": "PHB",
 			"page": 295
 		},
@@ -1995,38 +1995,38 @@
 				"C",
 				"G"
 			],
-			"title": "自由和報應之神",
+			"title": "自由和报应之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"War"
 			],
-			"symbol": "三曲枝圖",
+			"symbol": "三曲枝图",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "歐菈", "ENG_name": "Ulaa",
+			"name": "欧菈", "ENG_name": "Ulaa",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "丘陵與山脈女神",
+			"title": "丘陵与山脉女神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Life",
 				"War"
 			],
-			"symbol": "在中心處有一個圓圈的山脈",
+			"symbol": "在中心处有一个圆圈的山脉",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "維克那", "ENG_name": "Vecna",
+			"name": "维克那", "ENG_name": "Vecna",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "邪惡秘密之神",
+			"title": "邪恶秘密之神",
 			"pantheon": "Greyhawk",
 			"domains": [
 				"Knowledge"
@@ -2036,7 +2036,7 @@
 			"page": 295
 		},
 		{
-			"name": "維婕絲", "ENG_name": "Wee Jas",
+			"name": "维婕丝", "ENG_name": "Wee Jas",
 			"alignment": [
 				"L",
 				"N"
@@ -2049,7 +2049,7 @@
 				"Knowledge",
 				"Order"
 			],
-			"symbol": "火球前的紅色骷髏頭",
+			"symbol": "火球前的红色骷髅头",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -2068,34 +2068,34 @@
 				"L",
 				"G"
 			],
-			"title": "統治者和守護者之神",
+			"title": "统治者和守护者之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Good",
 			"domains": [
 				"War"
 			],
-			"symbol": "銀色三角",
+			"symbol": "银色三角",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "布蘭查拉", "ENG_name": "Branchala",
+			"name": "布兰查拉", "ENG_name": "Branchala",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "音樂之神",
+			"title": "音乐之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Good",
 			"domains": [
 				"Light"
 			],
-			"symbol": "吟游詩人的豎琴",
+			"symbol": "吟游诗人的竖琴",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "哈巴庫克", "ENG_name": "Habbakuk",
+			"name": "哈巴库克", "ENG_name": "Habbakuk",
 			"alignment": [
 				"N",
 				"G"
@@ -2107,17 +2107,17 @@
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "藍鳥",
+			"symbol": "蓝鸟",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "奇力．喬里思", "ENG_name": "Kiri-Jolith",
+			"name": "奇力．乔里思", "ENG_name": "Kiri-Jolith",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "榮譽和戰爭之神",
+			"title": "荣誉和战争之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Good",
 			"domains": [
@@ -2128,7 +2128,7 @@
 			"page": 295
 		},
 		{
-			"name": "馬哲理", "ENG_name": "Majere",
+			"name": "马哲理", "ENG_name": "Majere",
 			"alignment": [
 				"L",
 				"G"
@@ -2140,7 +2140,7 @@
 				"Knowledge",
 				"Order"
 			],
-			"symbol": "銅蜘蛛",
+			"symbol": "铜蜘蛛",
 			"source": "PHB",
 			"page": 295,
 			"additionalSources": [
@@ -2150,19 +2150,19 @@
 			]
 		},
 		{
-			"name": "米莎凱", "ENG_name": "Mishakal",
+			"name": "米莎凯", "ENG_name": "Mishakal",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "醫療女神",
+			"title": "医疗女神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Good",
 			"domains": [
 				"Knowledge",
 				"Life"
 			],
-			"symbol": "藍色的無限符號",
+			"symbol": "蓝色的无限符号",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2175,7 +2175,7 @@
 			"title": "善良魔法之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Good",
-			"symbol": "白色圓環或球體",
+			"symbol": "白色圆环或球体",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2184,13 +2184,13 @@
 			"alignment": [
 				"N"
 			],
-			"title": "知識之神",
+			"title": "知识之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Neutrality",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "打開的書本",
+			"symbol": "打开的书本",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2210,18 +2210,18 @@
 			"page": 295
 		},
 		{
-			"name": "李奧克斯", "ENG_name": "Reorx",
+			"name": "李奥克斯", "ENG_name": "Reorx",
 			"alignment": [
 				"N"
 			],
-			"title": "工藝之神",
+			"title": "工艺之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Neutrality",
 			"domains": [
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "鍛造之錘",
+			"symbol": "锻造之锤",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -2236,14 +2236,14 @@
 			"alignment": [
 				"N"
 			],
-			"title": "財富和貿易女神",
+			"title": "财富和贸易女神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Neutrality",
 			"domains": [
 				"Knowledge",
 				"Trickery"
 			],
-			"symbol": "獅鷲之翼",
+			"symbol": "狮鹫之翼",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2252,7 +2252,7 @@
 			"alignment": [
 				"N"
 			],
-			"title": "火焰和變化之神",
+			"title": "火焰和变化之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Neutrality",
 			"domains": [
@@ -2263,7 +2263,7 @@
 			"page": 295
 		},
 		{
-			"name": "亦為林", "ENG_name": "Zivilyn",
+			"name": "亦为林", "ENG_name": "Zivilyn",
 			"alignment": [
 				"N"
 			],
@@ -2273,7 +2273,7 @@
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "大草原或金色樹木",
+			"symbol": "大草原或金色树木",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2285,12 +2285,12 @@
 			"title": "中立魔法女神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Neutrality",
-			"symbol": "紅色圓環或球體",
+			"symbol": "红色圆环或球体",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "塔克西絲", "ENG_name": "Takhisis",
+			"name": "塔克西丝", "ENG_name": "Takhisis",
 			"alignment": [
 				"L",
 				"E"
@@ -2306,7 +2306,7 @@
 			"page": 295
 		},
 		{
-			"name": "奇魔須", "ENG_name": "Chemosh",
+			"name": "奇魔须", "ENG_name": "Chemosh",
 			"alignment": [
 				"L",
 				"E"
@@ -2317,23 +2317,23 @@
 			"domains": [
 				"Death"
 			],
-			"symbol": "黃色頭骨",
+			"symbol": "黄色头骨",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "西都凱", "ENG_name": "Hiddukel",
+			"name": "西都凯", "ENG_name": "Hiddukel",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "謊言和貪婪之神",
+			"title": "谎言和贪婪之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Evil",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "損壞的商秤",
+			"symbol": "损坏的商秤",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2349,39 +2349,39 @@
 			"domains": [
 				"Death"
 			],
-			"symbol": "露出一雙紅眼的兜帽",
+			"symbol": "露出一双红眼的兜帽",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "沙苟納", "ENG_name": "Sargonnas",
+			"name": "沙苟纳", "ENG_name": "Sargonnas",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "復仇和火焰之神",
+			"title": "复仇和火焰之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Evil",
 			"domains": [
 				"War"
 			],
-			"symbol": "不寫實的紅色禿鷹",
+			"symbol": "不写实的红色秃鹰",
 			"source": "PHB",
 			"page": 295
 		},
 		{
-			"name": "賽波音", "ENG_name": "Zeboim",
+			"name": "赛波音", "ENG_name": "Zeboim",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "海洋和風暴女神",
+			"title": "海洋和风暴女神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Evil",
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "龜殼",
+			"symbol": "龟壳",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2391,10 +2391,10 @@
 				"L",
 				"E"
 			],
-			"title": "邪惡魔法之神",
+			"title": "邪恶魔法之神",
 			"pantheon": "Dragonlance",
 			"category": "The Gods of Evil",
-			"symbol": "黑色圓環或球體",
+			"symbol": "黑色圆环或球体",
 			"source": "PHB",
 			"page": 295
 		},
@@ -2404,14 +2404,14 @@
 				"N",
 				"G"
 			],
-			"title": "豐饒女神",
+			"title": "丰饶女神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature"
 			],
-			"symbol": "一綑用綠色段帶綁住的小麥",
+			"symbol": "一捆用绿色段带绑住的小麦",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2421,14 +2421,14 @@
 				"L",
 				"N"
 			],
-			"title": "律法和知識之神",
+			"title": "律法和知识之神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"Knowledge",
 				"Order"
 			],
-			"symbol": "打開的典籍",
+			"symbol": "打开的典籍",
 			"source": "PHB",
 			"page": 296,
 			"additionalSources": [
@@ -2438,18 +2438,18 @@
 			]
 		},
 		{
-			"name": "巴力諾", "ENG_name": "Balinor",
+			"name": "巴力诺", "ENG_name": "Balinor",
 			"alignment": [
 				"N"
 			],
-			"title": "野獸和狩獵之神",
+			"title": "野兽和狩猎之神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature"
 			],
-			"symbol": "一對鹿角",
+			"symbol": "一对鹿角",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2465,7 +2465,7 @@
 			"domains": [
 				"Life"
 			],
-			"symbol": "石爐中的火焰",
+			"symbol": "石炉中的火焰",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2475,7 +2475,7 @@
 				"L",
 				"G"
 			],
-			"title": "陽光和榮耀女神",
+			"title": "阳光和荣耀女神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
@@ -2487,43 +2487,43 @@
 			"page": 296
 		},
 		{
-			"name": "杜．頓恩", "ENG_name": "Dol Dorn",
+			"name": "杜．顿恩", "ENG_name": "Dol Dorn",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "力量和軍事之神",
+			"title": "力量和军事之神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"War"
 			],
-			"symbol": "橫跨盾牌上的長劍",
+			"symbol": "横跨盾牌上的长剑",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "寇．科蘭", "ENG_name": "Kol Korran",
+			"name": "寇．科兰", "ENG_name": "Kol Korran",
 			"alignment": [
 				"N"
 			],
-			"title": "貿易和財富之神",
+			"title": "贸易和财富之神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "九邊形的黃金硬幣",
+			"symbol": "九边形的黄金硬币",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "歐拉卓", "ENG_name": "Olladra",
+			"name": "欧拉卓", "ENG_name": "Olladra",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "幸運女神",
+			"title": "幸运女神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
@@ -2540,14 +2540,14 @@
 				"N",
 				"G"
 			],
-			"title": "工藝之神",
+			"title": "工艺之神",
 			"pantheon": "Eberron",
 			"category": "The Sovereign Host",
 			"domains": [
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "交叉的鐵鎚與火鉗",
+			"symbol": "交叉的铁锤与火钳",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -2569,39 +2569,39 @@
 			"domains": [
 				"Tempest"
 			],
-			"symbol": "綑住的五根削肩骨頭",
+			"symbol": "捆住的五根削肩骨头",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "憤恨", "ENG_name": "The Fury",
+			"name": "愤恨", "ENG_name": "The Fury",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "憤怒和瘋狂女神",
+			"title": "愤怒和疯狂女神",
 			"pantheon": "Eberron",
 			"category": "The Dark Six",
 			"domains": [
 				"War"
 			],
-			"symbol": "有著女人頭部和上半身的雙足飛龍",
+			"symbol": "有着女人头部和上半身的双足飞龙",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "監守", "ENG_name": "The Keeper",
+			"name": "监守", "ENG_name": "The Keeper",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "貪婪和死亡之神",
+			"title": "贪婪和死亡之神",
 			"pantheon": "Eberron",
 			"category": "The Dark Six",
 			"domains": [
 				"Death"
 			],
-			"symbol": "尖牙形狀的龍晶石",
+			"symbol": "尖牙形状的龙晶石",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2617,12 +2617,12 @@
 			"domains": [
 				"War"
 			],
-			"symbol": "五把濺血的工具",
+			"symbol": "五把溅血的工具",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "陰影", "ENG_name": "The Shadow",
+			"name": "阴影", "ENG_name": "The Shadow",
 			"alignment": [
 				"C",
 				"E"
@@ -2643,24 +2643,24 @@
 				"C",
 				"N"
 			],
-			"title": "混亂和變化的神靈",
+			"title": "混乱和变化的神灵",
 			"pantheon": "Eberron",
 			"category": "The Dark Six",
 			"domains": [
 				"Knowledge",
 				"Trickery"
 			],
-			"symbol": "四根交叉、刻有符文的骨頭",
+			"symbol": "四根交叉、刻有符文的骨头",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "銀焰", "ENG_name": "The Silver Flame",
+			"name": "银焰", "ENG_name": "The Silver Flame",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "守護和善良神祇",
+			"title": "守护和善良神祇",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
@@ -2668,40 +2668,40 @@
 				"Light",
 				"War"
 			],
-			"symbol": "以銀繪製或熔塑而成的烈焰",
+			"symbol": "以银绘制或熔塑而成的烈焰",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "沃爾血族", "ENG_name": "The Blood of Vol",
+			"name": "沃尔血族", "ENG_name": "The Blood of Vol",
 			"alignment": [
 				"L",
 				"N"
 			],
-			"title": "永生和不死哲學",
+			"title": "永生和不死哲学",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Death",
 				"Life"
 			],
-			"symbol": "紅色淚滴寶石上的不寫實龍骨",
+			"symbol": "红色泪滴宝石上的不写实龙骨",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "黃泉巨龍會", "ENG_name": "Cults of the Dragon Below",
+			"name": "黄泉巨龙会", "ENG_name": "Cults of the Dragon Below",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "瘋狂諸神",
+			"title": "疯狂诸神",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "各式各樣",
+			"symbol": "各式各样",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2711,7 +2711,7 @@
 				"L",
 				"N"
 			],
-			"title": "光明和自我完善的哲學",
+			"title": "光明和自我完善的哲学",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
@@ -2723,12 +2723,12 @@
 			"page": 296
 		},
 		{
-			"name": "不朽評議會", "ENG_name": "The Undying Court",
+			"name": "不朽评议会", "ENG_name": "The Undying Court",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "精靈先祖",
+			"title": "精灵先祖",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
@@ -2736,7 +2736,7 @@
 				"Knowledge",
 				"Life"
 			],
-			"symbol": "各式各樣",
+			"symbol": "各式各样",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -2747,18 +2747,18 @@
 			"page": 296
 		},
 		{
-			"name": "過往戰魂", "ENG_name": "The Spirits of the Past",
+			"name": "过往战魂", "ENG_name": "The Spirits of the Past",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "精靈先祖",
+			"title": "精灵先祖",
 			"pantheon": "Eberron",
 			"category": "Other Faiths of Eberron",
 			"domains": [
 				"War"
 			],
-			"symbol": "各式各樣",
+			"symbol": "各式各样",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2768,13 +2768,13 @@
 				"L",
 				"G"
 			],
-			"title": "善良龍神",
+			"title": "善良龙神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Life",
 				"War"
 			],
-			"symbol": "龍頭的輪廓",
+			"symbol": "龙头的轮廓",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2784,12 +2784,12 @@
 				"N",
 				"E"
 			],
-			"title": "寇濤魚人女神",
+			"title": "寇涛鱼人女神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Death"
 			],
-			"symbol": "龍蝦頭或黑珍珠",
+			"symbol": "龙虾头或黑珍珠",
 			"source": "PHB",
 			"page": 296
 		},
@@ -2799,22 +2799,22 @@
 				"C",
 				"G"
 			],
-			"title": "精靈的藝術和魔法神祇",
+			"title": "精灵的艺术和魔法神祇",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Light"
 			],
-			"symbol": "弦月或星輝",
+			"symbol": "弦月或星辉",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "深海．賽悉拉", "ENG_name": "Deep Sashelas",
+			"name": "深海．赛悉拉", "ENG_name": "Deep Sashelas",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "精靈的海洋之神",
+			"title": "精灵的海洋之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Nature",
@@ -2829,64 +2829,64 @@
 			"alignment": [
 				"N"
 			],
-			"title": "人魚的海洋神祇",
+			"title": "人鱼的海洋神祇",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "螺旋設計",
+			"symbol": "螺旋设计",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "加爾．閃金", "ENG_name": "Garl Glittergold",
+			"name": "加尔．闪金", "ENG_name": "Garl Glittergold",
 			"alignment": [
 				"L",
 				"G"
 			],
-			"title": "侏儒的詭計和花招之神",
+			"title": "侏儒的诡计和花招之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "金塊",
+			"symbol": "金块",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "葛洛藍托", "ENG_name": "Grolantor",
+			"name": "葛洛蓝托", "ENG_name": "Grolantor",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "山丘巨人的戰爭之神",
+			"title": "山丘巨人的战争之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"War"
 			],
-			"symbol": "木製棍棒",
+			"symbol": "木制棍棒",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "格烏什", "ENG_name": "Gruumsh",
+			"name": "格乌什", "ENG_name": "Gruumsh",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "獸人的風暴和戰爭之神",
+			"title": "兽人的风暴和战争之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Tempest",
 				"War"
 			],
-			"symbol": "永遠睜著的獨眼",
+			"symbol": "永远睁着的独眼",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "赫魯格克", "ENG_name": "Hruggek",
+			"name": "赫鲁格克", "ENG_name": "Hruggek",
 			"alignment": [
 				"C",
 				"E"
@@ -2896,32 +2896,32 @@
 			"domains": [
 				"War"
 			],
-			"symbol": "流星錘",
+			"symbol": "流星锤",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "庫爾圖馬克", "ENG_name": "Kurtulmak",
+			"name": "库尔图马克", "ENG_name": "Kurtulmak",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "狗頭人的戰爭和礦業之神",
+			"title": "狗头人的战争和矿业之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"War"
 			],
-			"symbol": "侏儒的頭骨",
+			"symbol": "侏儒的头骨",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "勞格茲德", "ENG_name": "Laogzed",
+			"name": "劳格兹德", "ENG_name": "Laogzed",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "戰蜥人的飢餓之神",
+			"title": "战蜥人的饥饿之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Death"
@@ -2931,12 +2931,12 @@
 			"page": 296
 		},
 		{
-			"name": "羅絲", "ENG_name": "Lolth",
+			"name": "罗丝", "ENG_name": "Lolth",
 			"alignment": [
 				"C",
 				"E"
 			],
-			"title": "卓爾的蜘蛛女神",
+			"title": "卓尔的蜘蛛女神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Trickery"
@@ -2946,18 +2946,18 @@
 			"page": 296
 		},
 		{
-			"name": "瑪格魯比耶", "ENG_name": "Maglubiyet",
+			"name": "玛格鲁比耶", "ENG_name": "Maglubiyet",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "類哥布林的戰爭之神",
+			"title": "类哥布林的战争之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"War",
 				"Order"
 			],
-			"symbol": "血淋淋的斧頭",
+			"symbol": "血淋淋的斧头",
 			"source": "PHB",
 			"page": 296,
 			"additionalSources": [
@@ -2972,13 +2972,13 @@
 				"L",
 				"G"
 			],
-			"title": "矮人的創造之神",
+			"title": "矮人的创造之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "鐵鎚與鐵砧",
+			"symbol": "铁锤与铁砧",
 			"source": "PHB",
 			"additionalSources": [
 				{
@@ -2989,12 +2989,12 @@
 			"page": 296
 		},
 		{
-			"name": "瑞里芬．萊勒菲", "ENG_name": "Rillifane Rallathil",
+			"name": "瑞里芬．莱勒菲", "ENG_name": "Rillifane Rallathil",
 			"alignment": [
 				"C",
 				"G"
 			],
-			"title": "木精靈的自然之神",
+			"title": "木精灵的自然之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Nature"
@@ -3009,7 +3009,7 @@
 				"C",
 				"G"
 			],
-			"title": "精靈的月亮女神",
+			"title": "精灵的月亮女神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Knowledge"
@@ -3024,13 +3024,13 @@
 				"L",
 				"E"
 			],
-			"title": "沙華魚人的狩獵之神",
+			"title": "沙华鱼人的狩猎之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Nature",
 				"Tempest"
 			],
-			"symbol": "鯊魚",
+			"symbol": "鲨鱼",
 			"source": "PHB",
 			"page": 296
 		},
@@ -3049,46 +3049,46 @@
 			"page": 296
 		},
 		{
-			"name": "斯凱里特", "ENG_name": "Skerrit",
+			"name": "斯凯里特", "ENG_name": "Skerrit",
 			"alignment": [
 				"N"
 			],
-			"title": "半人馬和半人羊的自然之神",
+			"title": "半人马和半人羊的自然之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Nature"
 			],
-			"symbol": "橡實中長出的橡樹",
+			"symbol": "橡实中长出的橡树",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "司寇雷烏斯．岩骨", "ENG_name": "Skoraeus Stonebones",
+			"name": "司寇雷乌斯．岩骨", "ENG_name": "Skoraeus Stonebones",
 			"alignment": [
 				"N"
 			],
-			"title": "石巨人和藝術之神",
+			"title": "石巨人和艺术之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "鐘乳石",
+			"symbol": "钟乳石",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "史爾特爾", "ENG_name": "Surtur",
+			"name": "史尔特尔", "ENG_name": "Surtur",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "火巨人和工藝之神",
+			"title": "火巨人和工艺之神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Knowledge",
 				"War"
 			],
-			"symbol": "燃燒之劍",
+			"symbol": "燃烧之剑",
 			"source": "PHB",
 			"page": 296
 		},
@@ -3103,22 +3103,22 @@
 			"domains": [
 				"War"
 			],
-			"symbol": "雪白雙刃斧",
+			"symbol": "雪白双刃斧",
 			"source": "PHB",
 			"page": 296
 		},
 		{
-			"name": "提雅瑪特", "ENG_name": "Tiamat",
+			"name": "提雅玛特", "ENG_name": "Tiamat",
 			"alignment": [
 				"L",
 				"E"
 			],
-			"title": "邪惡女龍神",
+			"title": "邪恶女龙神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Trickery"
 			],
-			"symbol": "伴著五道爪痕的龍頭",
+			"symbol": "伴着五道爪痕的龙头",
 			"source": "PHB",
 			"page": 296
 		},
@@ -3128,7 +3128,7 @@
 				"L",
 				"G"
 			],
-			"title": "半身人的生育和守護女神",
+			"title": "半身人的生育和守护女神",
 			"pantheon": "Nonhuman",
 			"domains": [
 				"Life"
@@ -3328,14 +3328,14 @@
 				"L",
 				"G"
 			],
-			"title": "創造之神",
+			"title": "创造之神",
 			"pantheon": "Dawn War",
 			"domains": [
 				"Forge",
 				"Knowledge",
 				"War"
 			],
-			"symbol": "燃燒的鐵砧",
+			"symbol": "燃烧的铁砧",
 			"source": "DMG",
 			"page": 10,
 			"additionalSources": [
@@ -3346,18 +3346,18 @@
 			]
 		},
 		{
-			"name": "培羅", "ENG_name": "Pelor",
+			"name": "培罗", "ENG_name": "Pelor",
 			"alignment": [
 				"N",
 				"G"
 			],
-			"title": "太陽與農業之神",
+			"title": "太阳与农业之神",
 			"pantheon": "Dawn War",
 			"domains": [
 				"Life",
 				"Light"
 			],
-			"symbol": "六點向外輻射的圓形",
+			"symbol": "六点向外辐射的圆形",
 			"source": "DMG",
 			"page": 10
 		},
@@ -3440,18 +3440,18 @@
 			"page": 10
 		},
 		{
-			"name": "維克那", "ENG_name": "Vecna",
+			"name": "维克那", "ENG_name": "Vecna",
 			"alignment": [
 				"N",
 				"E"
 			],
-			"title": "邪惡秘密之神",
+			"title": "邪恶秘密之神",
 			"pantheon": "Dawn War",
 			"domains": [
 				"Death",
 				"Knowledge"
 			],
-			"symbol": "半毀的獨眼骷髏頭",
+			"symbol": "半毁的独眼骷髅头",
 			"source": "DMG",
 			"page": 10
 		},
@@ -3732,8 +3732,8 @@
 		{
 			"source": "SCAG",
 			"pantheon": "Faerûnian",
-			"name": "裳禔亞", "ENG_name": "Chauntea",
-			"title": "農業女神",
+			"name": "裳禔亚", "ENG_name": "Chauntea",
+			"title": "农业女神",
 			"alignment": [
 				"N",
 				"G"
@@ -3741,7 +3741,7 @@
 			"domains": [
 				"Life"
 			],
-			"symbol": "一捆穀物或在穀物上盛開的玫瑰",
+			"symbol": "一捆谷物或在谷物上盛开的玫瑰",
 			"entries": [
 				"Chauntea is goddess of agriculture: sowing and reaping, seeding and harvest, breeding and butchery, shearing and weaving. In this aspect she is a rural deity rarely prayed to behind the walls of a city except by kitchen gardeners. But Chauntea is also the Great Mother, a goddess of crib, hearth, and home. And as such she is welcomed into all homes at mealtimes and at the birth of children, and folk give her thanks whenever they experience the pleasure of settling by a fire and feeling safe and loved.",
 				"Chauntea's faith is one of nurturing and growth. Agricultural aphorisms and farming parables dot her teachings. Growing and reaping, the eternal cycle, is a common theme in the faith. Destruction for its own sake, or leveling without rebuilding, is anathema to her.",
@@ -3869,8 +3869,8 @@
 		{
 			"source": "SCAG",
 			"pantheon": "Faerûnian",
-			"name": "貢德", "ENG_name": "Gond",
-			"title": "工藝之神",
+			"name": "贡德", "ENG_name": "Gond",
+			"title": "工艺之神",
 			"alignment": [
 				"N"
 			],
@@ -3878,7 +3878,7 @@
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "四道輪輻的齒輪",
+			"symbol": "四道轮辐的齿轮",
 			"entries": [
 				"Gond is the god of artifice, craft, and construction. He is revered by blacksmiths, woodworkers, engineers, and inventors. Anyone who is crafting something might say a prayer to Gond to guide the work, but folk know that Gond smiles most brightly upon new inventions that others find useful.",
 				"Priests of Gond wander the North dressed in saffron vestments, adorned with sashes that contain within their folds gears, locks, hooks, and bits of steel, tin, and wood that might prove useful in a pinch. They also wear belts of large, linked metal medallions and enormous sun hats. A traveling priest of Gond offers services to distant villages as a tinker, a carpenter, and a civil engineer rolled into one, ready to help build a better paddock gate, dig a new well, or mend pots or furniture that might otherwise go to waste. All priests of Gond keep journals in which they record ideas, inventions, and innovations discovered in their travels, and take great delight in meeting fellow priests and sharing their finds. In large cities, the Gondar construct temples that serve as great workshops and inventors' labs. Wandering priests turn their journals over to the resident scribes at such temples, who then record the priests' observations for posterity and the benefit of all.",
@@ -4013,8 +4013,8 @@
 		{
 			"source": "SCAG",
 			"pantheon": "Faerûnian",
-			"name": "伊爾瑪特", "ENG_name": "Ilmater",
-			"title": "受難之神",
+			"name": "伊尔玛特", "ENG_name": "Ilmater",
+			"title": "受难之神",
 			"alignment": [
 				"L",
 				"G"
@@ -4022,7 +4022,7 @@
 			"domains": [
 				"Life"
 			],
-			"symbol": "被紅繩綁住手腕的雙手",
+			"symbol": "被红绳绑住手腕的双手",
 			"entries": [
 				"Ilmater is the god of suffering, martyrdom, and perseverance, renowned for his compassion and endurance. It is he who offers succor and calming words to those who are in pain, victimized, or in great need. He is the willing sufferer, the one who takes the place of another to heft the other's burden, to take the other's pain. He is the god of the oppressed and the unjustly treated.",
 				"It is said that if he had his way, the Crying God would take all the suffering in the world onto himself, so as to spare others. Since he can't, he blesses those who endure on others' behalf, and he alleviates suffering when he can. Martyrs who die that others may live are always blessed by Ilmater with a final rest and reward in the god's afterlife, should they so choose.",
@@ -4167,8 +4167,8 @@
 		{
 			"source": "SCAG",
 			"pantheon": "Faerûnian",
-			"name": "洛山達", "ENG_name": "Lathander",
-			"title": "晨曦和復興之神",
+			"name": "洛山达", "ENG_name": "Lathander",
+			"title": "晨曦和复兴之神",
 			"alignment": [
 				"N",
 				"G"
@@ -4481,15 +4481,15 @@
 		{
 			"source": "SCAG",
 			"pantheon": "Faerûnian",
-			"name": "歐格瑪", "ENG_name": "Oghma",
-			"title": "知識之神",
+			"name": "欧格玛", "ENG_name": "Oghma",
+			"title": "知识之神",
 			"alignment": [
 				"N"
 			],
 			"domains": [
 				"Knowledge"
 			],
-			"symbol": "空白的卷軸",
+			"symbol": "空白的卷轴",
 			"entries": [
 				"Oghma is the god of inspiration, invention, and knowledge. Above all else, Oghma represents knowledge in its most supreme, raw form - the idea. An aphorism cited by his faithful about this concept serves them as a prayer when it is repeated aloud: \"An idea has no heft but it can move mountains. An idea has no authority but it can dominate people. An idea has no strength but it can push aside empires. Knowledge is the greatest tool of the mortal mind, outweighing anything made by mortal hands. Before anything else can exist, the idea must exist.\"",
 				"Oghma's faithful spread knowledge and literacy as widely as possible, believing that minds ought never to be shackled by ignorance and thus not be able to bequeath the benefit they might otherwise provide their fellows. Not surprisingly, those who follow Oghma oppose those who foster deceit, trickery, and ignorance.",
@@ -5132,7 +5132,7 @@
 			"source": "SCAG",
 			"pantheon": "Dwarven",
 			"name": "摩拉丁", "ENG_name": "Moradin",
-			"title": "創造之神",
+			"title": "创造之神",
 			"alignment": [
 				"L",
 				"G"
@@ -5141,7 +5141,7 @@
 				"Forge",
 				"Knowledge"
 			],
-			"symbol": "鐵鎚與鐵砧",
+			"symbol": "铁锤与铁砧",
 			"page": 22,
 			"additionalSources": [
 				{
@@ -6749,7 +6749,7 @@
 			],
 			"province": "Primary deity of dwarves",
 			"category": "The Mordinsamman",
-			"symbol": "鐵鎚與鐵砧",
+			"symbol": "铁锤与铁砧",
 			"source": "MTF",
 			"additionalSources": [
 				{

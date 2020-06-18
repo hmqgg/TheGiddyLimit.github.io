@@ -126,7 +126,7 @@
 				"perception": "+2"
 			},
 			"passive": 12,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"senses": "darkvision 60 ft.",
 			"cr": "0",
 			"trait": [
@@ -276,7 +276,7 @@
 				{
 					"ac": 9,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -352,7 +352,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -612,7 +612,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -848,7 +848,7 @@
 					]
 				},
 				{
-					"name": "巨鎚", "tENG_name": "Maul",
+					"name": "巨锤", "tENG_name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 11} to hit, reach 10 ft., one target. {@h}28 ({@damage 6d6 + 7}) bludgeoning damage."
 					]
@@ -981,7 +981,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"{@item 護胸甲|phb}",
+						"{@item 护胸甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -1009,7 +1009,7 @@
 			],
 			"senses": "darkvision 60 ft.",
 			"passive": 12,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "0",
 			"trait": [
 				{
@@ -1171,7 +1171,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1197,7 +1197,7 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The crab can breathe air and water."
 					]
@@ -1251,7 +1251,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1299,7 +1299,7 @@
 							"{@spell detect magic}",
 							"{@spell ice storm}",
 							"{@spell stone shape}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						]
 					},
 					"ability": "cha"
@@ -1545,7 +1545,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}"
+						"{@item 鳞甲|phb}"
 					]
 				}
 			],
@@ -1587,7 +1587,7 @@
 			"cr": "13",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Hekaton can breathe air and water."
 					]
@@ -1635,7 +1635,7 @@
 					"will": [
 						"{@spell detect magic}",
 						"{@spell feather fall}",
-						"{@spell 浮空術}",
+						"{@spell 浮空术}",
 						"{@spell light}"
 					],
 					"daily": {
@@ -1681,7 +1681,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1930,7 +1930,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2373,7 +2373,7 @@
 				"persuasion": "+5"
 			},
 			"passive": 16,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "0",
 			"trait": [
 				{
@@ -2751,7 +2751,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2966,7 +2966,7 @@
 			],
 			"action": [
 				{
-					"name": "巨鎚", "tENG_name": "Maul",
+					"name": "巨锤", "tENG_name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
 					]
@@ -3098,7 +3098,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3150,7 +3150,7 @@
 					]
 				},
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Slarkrethel can breathe air and water."
 					]
@@ -3286,7 +3286,7 @@
 							"spells": [
 								"{@spell delayed blast fireball}",
 								"{@spell sequester}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -3353,7 +3353,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3465,7 +3465,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4078,7 +4078,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4200,9 +4200,9 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell gust of wind}",
-								"{@spell 浮空術}"
+								"{@spell 浮空术}"
 							]
 						},
 						"3": {

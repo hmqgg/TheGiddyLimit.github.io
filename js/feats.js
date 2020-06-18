@@ -21,15 +21,15 @@ async function onJsonLoad (data) {
 	const prereqFilter = new Filter({
 		displayFn: function(tag){
 			switch(tag){
-				case "Ability": 	return "屬性值";
-				case "Race": 		return "種族";
-				case "Proficiency": return "熟練";
+				case "Ability": 	return "属性值";
+				case "Race": 		return "种族";
+				case "Proficiency": return "熟练";
 				case "Spellcasting":return "施法";
 				default: return tag;
 			}
 		},
 		header: "Prerequisite",
-		headerName: "先決條件",
+		headerName: "先决条件",
 		items: ["Ability", "Race", "Proficiency", "Spellcasting"]
 	});
 	filterBox = await pInitFilterBox(
@@ -188,7 +188,7 @@ function loadhash (id) {
 	$content.append(`
 		${Renderer.utils.getBorderTr()}
 		${Renderer.utils.getNameTr(feat)}
-		${prerequisite ? `<tr><td colspan="6"><span class="prerequisite">先決條件：${prerequisite}</span></td></tr>` : ""}
+		${prerequisite ? `<tr><td colspan="6"><span class="prerequisite">先决条件：${prerequisite}</span></td></tr>` : ""}
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		<tr class='text'><td colspan='6'>${renderStack.join("")}</td></tr>
 		${Renderer.utils.getPageTr(feat)}

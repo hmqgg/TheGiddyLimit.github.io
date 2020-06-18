@@ -58,17 +58,17 @@ async function onJsonLoad (data) {
 	});
 
 	const alignmentFilter = new Filter({
-		header: "Alignment", headerName: "陣營",
+		header: "Alignment", headerName: "阵营",
 		items: ["L", "NX", "C", "G", "NY", "E", "N"],
 		displayFn: Parser.alignmentAbvToFull
 	});
 	const domainFilter = new Filter({
-		header: "Domain", headerName: "領域",
+		header: "Domain", headerName: "领域",
 		items: [STR_NONE, "Arcana", "Death", "Forge", "Grave", "Knowledge", "Life", "Light", "Nature", "Order", "Tempest", "Trickery", "War"],
 		displayFn: Parser.SubclassToDisplay
 	});
 	const miscFilter = new Filter({
-		header: "Miscellaneous", headerName: "雜項",
+		header: "Miscellaneous", headerName: "杂项",
 		items: [STR_REPRINTED],
 		displayFn: StrUtil.uppercaseFirst,
 		deselFn: (it) => { return it === STR_REPRINTED }
@@ -221,7 +221,7 @@ function loadhash (jsonIndex) {
 		${reprintIndex ? `
 			<tr><td colspan="6">
 			<i class="text-muted">
-			${reprintIndex === 1 ? `這個神祇是再印版本。` : ""} 以下版本被印於較舊的出版品中 (${Parser.sourceJsonToFull(deity.source)}${deity.page ? `-第${deity.page}頁` : ""}).
+			${reprintIndex === 1 ? `这个神祇是再印版本。` : ""} 以下版本被印于较旧的出版品中 (${Parser.sourceJsonToFull(deity.source)}${deity.page ? `-第${deity.page}页` : ""}).
 			</i>
 			</td></tr>
 		` : ""}
@@ -238,7 +238,7 @@ function loadhash (jsonIndex) {
 		${Renderer.utils.getBorderTr()}
 		${Renderer.utils.getNameTr(deity, false, "", deity.title ? `, ${deity.title.toTitleCase()}` : "")}
 		${getDeityBody(deity)}
-		${deity.reprinted ? `<tr class="text"><td colspan="6"><i class="text-muted">註記：這個神祇已在更新的出版品中被再印。</i></td></tr>` : ""}
+		${deity.reprinted ? `<tr class="text"><td colspan="6"><i class="text-muted">注记：这个神祇已在更新的出版品中被再印。</i></td></tr>` : ""}
 		${Renderer.utils.getPageTr(deity)}
 		${deity.previousVersions ? `
 		${Renderer.utils.getDividerTr()}

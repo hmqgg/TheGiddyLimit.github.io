@@ -20,7 +20,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -75,7 +75,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell enlarge/reduce}",
 								"{@spell misty step}"
 							]
@@ -91,9 +91,9 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell Evard's black tentacles}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -196,7 +196,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -346,7 +346,7 @@
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell 致病射線}",
+								"{@spell 致病射线}",
 								"{@spell sleep}",
 								"{@spell Tasha's hideous laughter}"
 							]
@@ -403,7 +403,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -583,7 +583,7 @@
 							"spells": [
 								"{@spell darkvision}",
 								"{@spell knock}",
-								"{@spell 鏡影術}"
+								"{@spell 镜影术}"
 							]
 						},
 						"3": {
@@ -678,7 +678,7 @@
 				{
 					"ac": 5,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -722,7 +722,7 @@
 					"daily": {
 						"3e": [
 							"{@spell counterspell}",
-							"{@spell 瘋狂冠冕}",
+							"{@spell 疯狂冠冕}",
 							"{@spell hypnotic pattern}",
 							"{@spell telekinesis}"
 						]
@@ -964,7 +964,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 火焰風暴}",
+								"{@spell 火焰风暴}",
 								"{@spell regenerate}"
 							]
 						},
@@ -1029,7 +1029,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1239,7 +1239,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1609,7 +1609,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1679,13 +1679,13 @@
 							"spells": [
 								"{@spell detect thoughts}",
 								"{@spell gust of wind}",
-								"{@spell 鏡影術}"
+								"{@spell 镜影术}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell fireball}",
 								"{@spell nondetection}"
 							]
@@ -1693,9 +1693,9 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell greater invisibility}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -1941,7 +1941,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2057,7 +2057,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],

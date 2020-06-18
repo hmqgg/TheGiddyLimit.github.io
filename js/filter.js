@@ -130,13 +130,13 @@ class FilterBox {
 		this.$miniView = $(`<div class="mini-view btn-group"/>`);
 		const $inputGroup = $(this.inputGroup);
 
-		const $btnShowAll = $(`<button id="fltr-show-all" class="btn btn-xs btn-default">顯示全部</button>`).click(() => this.showAll());
-		const $btnHideAll = $(`<button id="fltr-hide-all" class="btn btn-xs btn-default">隱藏全部</button>`).click(() => this.hideAll());
+		const $btnShowAll = $(`<button id="fltr-show-all" class="btn btn-xs btn-default">显示全部</button>`).click(() => this.showAll());
+		const $btnHideAll = $(`<button id="fltr-hide-all" class="btn btn-xs btn-default">隐藏全部</button>`).click(() => this.hideAll());
 		const $btnReset = $(`<button id="fltr-reset" class="btn btn-xs btn-default">重置</button>`).click((evt) => this.reset(evt.shiftKey));
 
 		this._$outer = $(`<div class="dropdown-menu ${FilterBox.CLS_DROPDOWN_MENU_FILTER} homebrew-window">
 			<h4 class="title">
-				<span>篩選</span>
+				<span>筛选</span>
 				<div>
 					<div class="btn-group">
 						<div data-r="$btnShowAll"/>
@@ -151,13 +151,13 @@ class FilterBox {
 		this._showAll = () => {
 			const $btns = this._$outer.find(`.show-hide-button`);
 			$btns.each((i, e) => {
-				if ($(e).text() === "顯示") $(e).click();
+				if ($(e).text() === "显示") $(e).click();
 			});
 		};
 		this._hideAll = () => {
 			const $btns = this._$outer.find(`.show-hide-button`);
 			$btns.each((i, e) => {
-				if ($(e).text() === "隱藏") $(e).click();
+				if ($(e).text() === "隐藏") $(e).click();
 			});
 		};
 
@@ -172,7 +172,7 @@ class FilterBox {
 					$btnAndOr.text(nxt);
 					$btnAndOr.data("andor", nxt);
 				});
-			$hdrLineInner.append(`結合篩選器為... `).append(`<div style="display: inline-block; width: 10px;"/>`).append($btnAndOr);
+			$hdrLineInner.append(`结合筛选器为... `).append(`<div style="display: inline-block; width: 10px;"/>`).append($btnAndOr);
 		}
 		$hdrLineInner.append(this.$txtCount);
 		if (!this.filterList[0].minimalUI) this._$outer.append($hdrLine).append(this._get$divider());
@@ -198,7 +198,7 @@ class FilterBox {
 		const addResetHandler = () => {
 			if (this.resetButton !== null && this.resetButton !== undefined) {
 				const $btnReset = $(this.resetButton);
-				$btnReset.attr("title", "重置篩選器。按SHIFT以重置 顯示/隱藏。");
+				$btnReset.attr("title", "重置筛选器。按SHIFT以重置 显示/隐藏。");
 				this.resetButton.addEventListener("click", (evt) => this.reset(evt.shiftKey));
 			}
 		};
@@ -213,7 +213,7 @@ class FilterBox {
 		const $buttonWrapper = $(`<div id="filter-toggle-btn"/>`);
 		$buttonWrapper.addClass(FilterBox.CLS_INPUT_GROUP_BUTTON);
 
-		const $filterButton = $(`<button class="btn btn-default btn-filter">篩選<span/></button>`);
+		const $filterButton = $(`<button class="btn btn-default btn-filter">筛选<span/></button>`);
 		$buttonWrapper.append($filterButton);
 		return $buttonWrapper;
 	}
@@ -226,21 +226,21 @@ class FilterBox {
 			const getChildren = () => filter.filters.map(it => this.headers[it.header]);
 
 			const $hdrCompact = $(`<div class="multi-compact-visible-f split">
-						<div>${filter.categoryName} <span class="group-comb-toggle text-muted">(群組 ${filter.mode.toUpperCase()})</span></div>
+						<div>${filter.categoryName} <span class="group-comb-toggle text-muted">(群组 ${filter.mode.toUpperCase()})</span></div>
 					</div>`).appendTo($parent);
 			const $btnToggleComb = $hdrCompact.find(`.group-comb-toggle`);
 			const setCombineAnd = () => {
 				filter.setModeAnd();
-				$btnToggleComb.text("(群組 AND)");
+				$btnToggleComb.text("(群组 AND)");
 				getChildren().forEach(ch => ch.ele.data("handleUpdateCombiner")(filter.mode));
 			};
 			const setCombineOr = () => {
 				filter.setModeOr();
-				$btnToggleComb.text("(群組 OR)");
+				$btnToggleComb.text("(群组 OR)");
 				getChildren().forEach(ch => ch.ele.data("handleUpdateCombiner")(filter.mode));
 			};
 			$hdrCompact.find(`.group-comb-toggle`).click(() => {
-				if ($btnToggleComb.text() === "(群組 AND)") setCombineOr();
+				if ($btnToggleComb.text() === "(群组 AND)") setCombineOr();
 				else setCombineAnd();
 			});
 
@@ -262,16 +262,16 @@ class FilterBox {
 						$e.data("resetMeta") && $e.data("resetMeta")();
 					});
 				});
-			const $btnShowHideGroup = $(`<button class="btn btn-default btn-xs show-hide-button multi-compact-visible btn-meta" style="margin-left: 5px;">隱藏</button>`)
+			const $btnShowHideGroup = $(`<button class="btn btn-default btn-xs show-hide-button multi-compact-visible btn-meta" style="margin-left: 5px;">隐藏</button>`)
 				.appendTo($wrpButtons)
 				.click(function () {
 					const $this = $(this);
-					if ($this.text() === "隱藏") {
+					if ($this.text() === "隐藏") {
 						filter.eles.forEach($e => $e.data("hideFilter")());
-						$this.text("顯示");
+						$this.text("显示");
 					} else {
 						filter.eles.forEach($e => $e.data("showFilter")());
-						$this.text("隱藏");
+						$this.text("隐藏");
 					}
 					updateSummary();
 				});
@@ -288,7 +288,7 @@ class FilterBox {
 					return this.storedVisible[it] === false;
 				}
 			}).length;
-			if (numHidden) $btnShowHideGroup.text("顯示");
+			if (numHidden) $btnShowHideGroup.text("显示");
 			updateSummary();
 
 			$parent.data(
@@ -355,12 +355,12 @@ class FilterBox {
 
 		function _addGroupLabel (idx, $line) {
 			$(`
-					<div class="multi-compact-hidden">${namePrefix ? `<span class="text-muted">${namePrefix} <span class="group-comb-toggle">(群組 ${parent.mode.toUpperCase()})</span>: </span>` : ""}<span>${filter.headerName ? filter.headerName : filter.header}</span></div>
+					<div class="multi-compact-hidden">${namePrefix ? `<span class="text-muted">${namePrefix} <span class="group-comb-toggle">(群组 ${parent.mode.toUpperCase()})</span>: </span>` : ""}<span>${filter.headerName ? filter.headerName : filter.header}</span></div>
 				`).appendTo($line);
 
 			$line.find(`.group-comb-toggle`).click(function () {
 				const $this = $(this);
-				if ($this.text() === "(群組 AND)") {
+				if ($this.text() === "(群组 AND)") {
 					parent.$ele.data("setCombiner")("or");
 				} else {
 					parent.$ele.data("setCombiner")("and");
@@ -414,10 +414,10 @@ class FilterBox {
 			const $wrpRhs = $(`<div class="flex-v-center"/>`).appendTo($line);
 
 			const $quickBtns = $(`<span class="btn-group quick-btns ml-2"/>`).appendTo($wrpRhs);
-			const $all = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">全選</button>`).appendTo($quickBtns);
+			const $all = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">全选</button>`).appendTo($quickBtns);
 			const $clear = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">清除</button>`).appendTo($quickBtns);
-			const $none = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">全無</button>`).appendTo($quickBtns);
-			const $default = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">預設</button>`).appendTo($quickBtns);
+			const $none = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">全无</button>`).appendTo($quickBtns);
+			const $default = $(`<button class="btn btn-default btn-xs btn-meta ${minimalClass}">预设</button>`).appendTo($quickBtns);
 
 			const $summary = $(`<span class="summary ml-2"/>`).appendTo($wrpRhs);
 			const $summaryInclude = $(`<span class="filter__summary_item filter__summary_item--include" title="Hidden includes"/>`).appendTo($summary);
@@ -427,17 +427,17 @@ class FilterBox {
 
 			const $logicBtns = $(`<span class="btn-group andor-btns ml-2"/>`).append($btnAndOrBlue).append($btnAndOrRed).appendTo($wrpRhs);
 
-			const $showHide = $(`<button class="btn btn-default btn-xs btn-meta show-hide-button ${minimalClass} ml-2">隱藏</button>`).appendTo($wrpRhs);
+			const $showHide = $(`<button class="btn btn-default btn-xs btn-meta show-hide-button ${minimalClass} ml-2">隐藏</button>`).appendTo($wrpRhs);
 
 			// FIXME this bugs out in some unknown cases
 			const doShow = () => {
-				$showHide.text("隱藏");
+				$showHide.text("隐藏");
 				$grid.show();
 				$quickBtns.show();
 				$summary.hide();
 			};
 			const doHide = () => {
-				$showHide.text("顯示");
+				$showHide.text("显示");
 				$grid.hide();
 				$quickBtns.hide();
 				updateSummary();
@@ -799,7 +799,7 @@ class FilterBox {
 				(mode) => {
 					if (parent) {
 						this.headers[filter.header].$header.find(`.group-comb-toggle`).each((i, e) => {
-							$(e).text(`(群組 ${mode.toUpperCase()})`);
+							$(e).text(`(群组 ${mode.toUpperCase()})`);
 						});
 					}
 				}
@@ -863,17 +863,17 @@ class FilterBox {
 			const $summaryRange = $(`<span class="filter__summary_item filter__summary_item--include multi-compact-hidden" title="Selected range"/>`).appendTo($summary);
 			$summary.hide();
 
-			const $showHide = $(`<button class="btn btn-default btn-xs show-hide-button multi-compact-hidden btn-meta" style="margin-left: 5px;">隱藏</button>`).appendTo($line);
+			const $showHide = $(`<button class="btn btn-default btn-xs show-hide-button multi-compact-hidden btn-meta" style="margin-left: 5px;">隐藏</button>`).appendTo($line);
 
 			const doHide = () => {
-				$showHide.text("顯示");
+				$showHide.text("显示");
 				$wrpSlide.hide();
 				$quickBtns.hide();
 				updateSummary();
 				$summary.show();
 			};
 			const doShow = () => {
-				$showHide.text("隱藏");
+				$showHide.text("隐藏");
 				$wrpSlide.show();
 				$quickBtns.show();
 				$summary.hide();
@@ -999,7 +999,7 @@ class FilterBox {
 				(mode) => {
 					if (parent) {
 						this.headers[filter.header].$header.find(`.group-comb-toggle`).each((i, e) => {
-							$(e).text(`(群組 ${mode.toUpperCase()})`);
+							$(e).text(`(群组 ${mode.toUpperCase()})`);
 						});
 					}
 				}
@@ -1334,7 +1334,7 @@ class FilterBox {
 	 * @param maxCount total items
 	 */
 	setCount (count, maxCount) {
-		this.$txtCount.html(`顯示 ${count}/${maxCount}`);
+		this.$txtCount.html(`显示 ${count}/${maxCount}`);
 	}
 
 	/**
@@ -1388,7 +1388,7 @@ FilterBox.CLS_INPUT_GROUP_BUTTON = "input-group-btn";
 FilterBox.CLS_DROPDOWN_MENU_FILTER = "dropdown-menu-filter";
 FilterBox.EVNT_VALCHANGE = "valchange";
 FilterBox.SOURCE_HEADER = "Source";
-FilterBox.SOURCE_HEADER_NAME = "資源";
+FilterBox.SOURCE_HEADER_NAME = "资源";
 FilterBox._PILL_STATES = ["ignore", "yes", "no"];
 FilterBox._STORAGE_NAME = "filterState";
 FilterBox._STORAGE_NAME_META = "filterMetaState";

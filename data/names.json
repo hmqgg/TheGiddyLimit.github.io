@@ -1,7 +1,7 @@
 {
 	"name": [
 		{
-			"race": "龍裔",
+			"race": "龙裔",
 			"source": "XGE",
 			"tables": [
 				{
@@ -1615,7 +1615,7 @@
 			]
 		},
 		{
-			"race": "精靈",
+			"race": "精灵",
 			"source": "XGE",
 			"tables": [
 				{
@@ -4193,7 +4193,7 @@
 			]
 		},
 		{
-			"race": "半獸人",
+			"race": "半兽人",
 			"source": "XGE",
 			"tables": [
 				{
@@ -5485,7 +5485,7 @@
 			]
 		},
 		{
-			"race": "人類",
+			"race": "人类",
 			"source": "XGE",
 			"tables": [
 				{

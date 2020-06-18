@@ -15,7 +15,7 @@
 		{
 			"name": "Embric",
 			"_copy": {
-				"name": "強盜首領",
+				"name": "强盗首领",
 				"source": "MM",
 				"_mod": {
 					"*": {
@@ -142,7 +142,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -295,7 +295,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -399,7 +399,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -628,7 +628,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -645,7 +645,7 @@
 							"spells": [
 								"{@spell fire shield}",
 								"{@spell greater invisibility}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -793,8 +793,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -985,7 +985,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1877,7 +1877,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2174,7 +2174,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell produce flame}",
 								"{@spell shillelagh}"
 							]
@@ -2309,8 +2309,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -2325,7 +2325,7 @@
 							"spells": [
 								"{@spell mage hand}",
 								"{@spell minor illusion}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell ray of frost}"
 							]
 						},
@@ -2434,7 +2434,7 @@
 				"poison"
 			],
 			"passive": 10,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1/2",
 			"senses": "darkvision 60 ft.",
 			"trait": [
@@ -2510,7 +2510,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2593,7 +2593,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -2683,7 +2683,7 @@
 				"poison"
 			],
 			"passive": 10,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1/4",
 			"senses": "",
 			"trait": [
@@ -3428,7 +3428,7 @@
 				"poison"
 			],
 			"passive": 13,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "0",
 			"senses": "darkvision 60 ft.",
 			"trait": [
@@ -3589,7 +3589,7 @@
 				"poison"
 			],
 			"passive": 10,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1/8",
 			"senses": "darkvision 60 ft.",
 			"trait": [
@@ -3844,7 +3844,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell fireball}",
 								"{@spell fly}"
 							]
@@ -3852,7 +3852,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell ice storm}"
 							]
 						},
@@ -4203,7 +4203,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell produce flame}",
 								"{@spell shillelagh}"
 							]
@@ -4881,7 +4881,7 @@
 			],
 			"reaction": [
 				{
-					"name": "直覺閃避","tENG_name": "Uncanny Dodge",
+					"name": "直觉闪避","tENG_name": "Uncanny Dodge",
 					"entries": [
 						"The Black Viper halves the damage that she takes from an attack that hits her. She must be able to see the attacker."
 					]
@@ -4994,7 +4994,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell invisibility}",
 								"{@spell suggestion}"
 							]
@@ -5012,7 +5012,7 @@
 							"spells": [
 								"{@spell compulsion}",
 								"{@spell freedom of movement}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -5152,8 +5152,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -5226,7 +5226,7 @@
 				"perception": "+5"
 			},
 			"passive": 15,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "9",
 			"senses": "",
 			"trait": [
@@ -5700,7 +5700,7 @@
 				"poison"
 			],
 			"passive": 13,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "8",
 			"senses": "darkvision 60 ft.",
 			"trait": [
@@ -5719,7 +5719,7 @@
 					]
 				},
 				{
-					"name": "巨鎚", "tENG_name": "Maul",
+					"name": "巨锤", "tENG_name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}8 ({@damage 2d6 + 1}) bludgeoning damage."
 					]
@@ -6068,8 +6068,8 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
-							"{@spell 浮空術} (self only)"
+							"{@spell 妖火术}",
+							"{@spell 浮空术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -6289,7 +6289,7 @@
 							"slots": 1,
 							"spells": [
 								"{@spell prismatic spray}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -6446,7 +6446,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -6463,7 +6463,7 @@
 							"spells": [
 								"{@spell fire shield}",
 								"{@spell greater invisibility}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -6675,7 +6675,7 @@
 				"stealth": "+8"
 			},
 			"passive": 15,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "9",
 			"senses": "",
 			"trait": [
@@ -6762,7 +6762,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7022,7 +7022,7 @@
 							"slots": 1,
 							"spells": [
 								"{@spell symbol}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						}
 					},
@@ -7611,8 +7611,8 @@
 							"spells": [
 								"{@spell augury}",
 								"{@spell lesser restoration}",
-								"{@spell 鏡影術}",
-								"{@spell 行蹤無跡}",
+								"{@spell 镜影术}",
+								"{@spell 行踪无迹}",
 								"{@spell spiritual weapon}"
 							]
 						},
@@ -7633,7 +7633,7 @@
 								"{@spell dimension door}",
 								"{@spell divination}",
 								"{@spell freedom of movement}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -7702,7 +7702,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],

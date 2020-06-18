@@ -2,7 +2,7 @@
 	"monster": [
 		{
 			"source": "UAArtificerRevisited",
-			"name": "煉金人工生命體", "ENG_name": "Alchemical Homunculus",
+			"name": "炼金人工生命体", "ENG_name": "Alchemical Homunculus",
 			"size": "T",
 			"type": "construct",
 			"alignment": [
@@ -12,12 +12,12 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
 			"hp": {
-				"special": "等同於你奇械師職業等級的五倍 + 你的智力調整值"
+				"special": "等同于你奇械师职业等级的五倍 + 你的智力调整值"
 			},
 			"speed": {
 				"walk": 20,
@@ -43,14 +43,14 @@
 				"poisoned"
 			],
 			"passive": 10,
-			"senses": "黑暗視覺60呎",
-			"languages": "理解你所說的語言",
+			"senses": "黑暗视觉60呎",
+			"languages": "理解你所说的语言",
 			"cr": "Unknown",
 			"trait": [
 				{
 					"name": "主人之力", "tENG_name": "Might of the Master",
 					"entries": [
-						"每當你的熟練加值提升1點，下列數據也會跟著提升1點：煉金人工生命體的技能加值、以及它酸性唾沫的命中加值和傷害加值。"
+						"每当你的熟练加值提升1点，下列数据也会跟着提升1点：炼金人工生命体的技能加值、以及它酸性唾沫的命中加值和伤害加值。"
 					]
 				}
 			],
@@ -58,13 +58,13 @@
 				{
 					"name": "酸性唾沫", "tENG_name": "Acidic Spittle",
 					"entries": [
-						"{@atk rw} 命中{@hit 4}，射程30呎，單一你所能看見的目標。{@h}{@dice 1d6 + 2}酸蝕傷害。"
+						"{@atk rw} 命中{@hit 4}，射程30呎，单一你所能看见的目标。{@h}{@dice 1d6 + 2}酸蚀伤害。"
 					]
 				},
 				{
-					"name": "煉金藥膏 (3/日)", "tENG_name": "Alchemical Salve (3/Day)",
+					"name": "炼金药膏 (3/日)", "tENG_name": "Alchemical Salve (3/Day)",
 					"entries": [
-						"煉金人工生命體製造出一劑藥膏並觸碰一個你所指定的生物。目標將接受下列其中一個你所選擇的魔法效果：",
+						"炼金人工生命体制造出一剂药膏并触碰一个你所指定的生物。目标将接受下列其中一个你所选择的魔法效果：",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -72,17 +72,17 @@
 								{
 									"type": "item",
 									"name": "浮力", "tENG_name": "Buoyancy",
-									"entry": "目標獲得10呎的飛行速度，持續10分鐘。"
+									"entry": "目标获得10呎的飞行速度，持续10分钟。"
 								},
 								{
 									"type": "item",
-									"name": "激勵", "tENG_name": "Inspiration",
-									"entry": "目標將感到醍醐灌頂，在接下來1小時內在某些屬性檢定中獲得優勢。目標可以在檢定擲骰之前或之後選擇是否使用此效果。這個魔法將在目標使用等同於你智力調整值的次數（最少1次）後被耗盡。"
+									"name": "激励", "tENG_name": "Inspiration",
+									"entry": "目标将感到醍醐灌顶，在接下来1小时内在某些属性检定中获得优势。目标可以在检定掷骰之前或之后选择是否使用此效果。这个魔法将在目标使用等同于你智力调整值的次数（最少1次）后被耗尽。"
 								},
 								{
 									"type": "item",
-									"name": "韌性", "tENG_name": "Resilience",
-									"entry": "目標獲得等同於{@dice 2d6}+你的智力調整值的臨時生命值。"
+									"name": "韧性", "tENG_name": "Resilience",
+									"entry": "目标获得等同于{@dice 2d6}+你的智力调整值的临时生命值。"
 								}
 							]
 						}

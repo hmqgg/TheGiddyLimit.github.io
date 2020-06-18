@@ -25,7 +25,7 @@ async function onJsonLoad (data) {
 
 	const typeFilter = new Filter({
 		header: "Type",
-		headerName: "類型",
+		headerName: "类型",
 		items: ["b", "c"],
 		displayFn: cultBoonTypeToFull
 	});

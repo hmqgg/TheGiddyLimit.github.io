@@ -1,7 +1,7 @@
 "use strict";
 
 const Omnisearch = {
-	_PLACEHOLDER_TEXT: "全域搜尋...",
+	_PLACEHOLDER_TEXT: "全域搜寻...",
 	_searchIndex: null,
 	_pLoadSearch: null,
 	_CATEGORY_COUNTS: {},
@@ -10,7 +10,7 @@ const Omnisearch = {
 	init: function () {
 		const $nav = $(`#navbar`);
 
-		const $searchIn = $(`<input class="form-control search omni__input" placeholder="${Omnisearch._PLACEHOLDER_TEXT}" title="免責聲明：不一定真的達到全域搜尋，請謹慎使用。">`);
+		const $searchIn = $(`<input class="form-control search omni__input" placeholder="${Omnisearch._PLACEHOLDER_TEXT}" title="免责声明：不一定真的达到全域搜寻，请谨慎使用。">`);
 		const $searchSubmit = $(`<button class="btn btn-default omni__submit" tabindex="-1"><span class="glyphicon glyphicon-search"></span></button>`);
 
 		const $searchInputWrapper = $$`

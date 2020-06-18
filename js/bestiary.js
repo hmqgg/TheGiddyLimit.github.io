@@ -153,9 +153,9 @@ window.onload = async function load () {
 let list;
 let printBookView;
 const sourceFilter = getSourceFilter();
-const crFilter = new RangeFilter({header: "Challenge Rating", headerName:"挑戰等級", labels: true});
+const crFilter = new RangeFilter({header: "Challenge Rating", headerName:"挑战等级", labels: true});
 const sizeFilter = new Filter({
-	header: "Size", headerName:"體型",
+	header: "Size", headerName:"体型",
 	items: [
 		SZ_TINY,
 		SZ_SMALL,
@@ -168,35 +168,35 @@ const sizeFilter = new Filter({
 	displayFn: Parser.sizeAbvToFull
 });
 const speedFilter = new RangeFilter({header: "Speed", headerName:"速度", min: 30, max: 30});
-const speedTypeFilter = new Filter({header: "Speed Type", headerName:"速度類型", items: ["walk", "burrow", "climb", "fly", "hover", "swim"], displayFn: Parser.SpeedToDisplay});
+const speedTypeFilter = new Filter({header: "Speed Type", headerName:"速度类型", items: ["walk", "burrow", "climb", "fly", "hover", "swim"], displayFn: Parser.SpeedToDisplay});
 const strengthFilter = new RangeFilter({header: "Strength",headerName:"力量", min: 1, max: 30});
 const dexterityFilter = new RangeFilter({header: "Dexterity",headerName:"敏捷", min: 1, max: 30});
-const constitutionFilter = new RangeFilter({header: "Constitution",headerName:"體質", min: 1, max: 30});
+const constitutionFilter = new RangeFilter({header: "Constitution",headerName:"体质", min: 1, max: 30});
 const intelligenceFilter = new RangeFilter({header: "Intelligence",headerName:"智力", min: 1, max: 30});
 const wisdomFilter = new RangeFilter({header: "Wisdom",headerName:"睿知", min: 1, max: 30});
 const charismaFilter = new RangeFilter({header: "Charisma",headerName:"魅力", min: 1, max: 30});
-const abilityScoreFilter = new MultiFilter({name: "Ability Scores",headerName:"屬性值", compact: true, mode: "and"}, strengthFilter, dexterityFilter, constitutionFilter, intelligenceFilter, wisdomFilter, charismaFilter);
-const acFilter = new RangeFilter({header: "Armor Class",headerName:"護甲等級"});
+const abilityScoreFilter = new MultiFilter({name: "Ability Scores",headerName:"属性值", compact: true, mode: "and"}, strengthFilter, dexterityFilter, constitutionFilter, intelligenceFilter, wisdomFilter, charismaFilter);
+const acFilter = new RangeFilter({header: "Armor Class",headerName:"护甲等级"});
 const averageHpFilter = new RangeFilter({header: "Average Hit Points",headerName:"平均生命值"});
 const typeFilter = new Filter({
-	header: "Type", headerName: "生物類型",
+	header: "Type", headerName: "生物类型",
 	items: Parser.MON_TYPES,
 	displayFn: Parser.monTypeToPlural
 });
-const tagFilter = new Filter({header: "Tag", headerName: "類型附標", items:["any race"], displayFn: Parser.MonsterTagToDisplay});
+const tagFilter = new Filter({header: "Tag", headerName: "类型附标", items:["any race"], displayFn: Parser.MonsterTagToDisplay});
 const alignmentFilter = new Filter({
-	header: "Alignment", headerName: "陣營",
+	header: "Alignment", headerName: "阵营",
 	items: ["L", "NX", "C", "G", "NY", "E", "N", "U", "A"],
 	displayFn: Parser.alignmentAbvToFull
 });
 const languageFilter = new Filter({
-	header: "Languages", headerName: "語言",
+	header: "Languages", headerName: "语言",
 	displayFn: (k) => Parser.LanguageToDisplay(languages[k]),
 	umbrellaItems: ["X", "XX"],
 	umbrellaExcludes: ["CS"]
 });
 const damageTypeFilter = new Filter({
-	header: "Damage Inflicted", headerName: "造成傷害",
+	header: "Damage Inflicted", headerName: "造成伤害",
 	displayFn: (it) => Parser.dmgTypeToFull(it).toTitleCase(),
 	items: ["A", "B", "C", "F", "O", "L", "N", "P", "I", "Y", "R", "S", "T"]
 });
@@ -216,7 +216,7 @@ const saveFilter = new Filter({
 	items: [...Parser.ABIL_ABVS]
 });
 const environmentFilter = new Filter({
-	header: "Environment", headerName: "環境",
+	header: "Environment", headerName: "环境",
 	items: ["arctic", "coastal", "desert", "forest", "grassland", "hill", "mountain", "swamp", "underdark", "underwater", "urban"],
 	displayFn: Parser.EnvironmentToDisplay
 });
@@ -255,10 +255,10 @@ const CONDS = [
 	"disease"
 ];
 function dispVulnFilter (item) {
-	return `${Parser.DamageToDisplay(item)}易傷`;
+	return `${Parser.DamageToDisplay(item)}易伤`;
 }
 const vulnerableFilter = new Filter({
-	header: "Vulnerabilities", headerName: "易傷",
+	header: "Vulnerabilities", headerName: "易伤",
 	items: DMG_TYPES,
 	displayFn: dispVulnFilter
 });
@@ -278,9 +278,9 @@ const immuneFilter = new Filter({
 	items: DMG_TYPES,
 	displayFn: dispImmFilter
 });
-const defenceFilter = new MultiFilter({name: "Damage", headerName: "傷害", mode: "and"}, vulnerableFilter, resistFilter, immuneFilter);
+const defenceFilter = new MultiFilter({name: "Damage", headerName: "伤害", mode: "and"}, vulnerableFilter, resistFilter, immuneFilter);
 const conditionImmuneFilter = new Filter({
-	header: "Condition Immunity", headerName: "狀態免疫",
+	header: "Condition Immunity", headerName: "状态免疫",
 	items: CONDS,
 	displayFn: Parser.ConditionToDisplay
 });
@@ -292,86 +292,86 @@ const traitFilter = new Filter({
 	displayFn: function(t){
 		switch(t){
 			case "Aggressive": return "侵略性";
-			case "Ambusher": return "伏擊者";
-			case "Amorphous": return "無定形";
-			case "Amphibious": return "兩棲";
+			case "Ambusher": return "伏击者";
+			case "Amorphous": return "无定形";
+			case "Amphibious": return "两栖";
 			case "Antimagic Susceptibility": return "反魔法敏感";
-			case "Brute": return "殘暴";
-			case "Charge": return "衝鋒";
-			case "Damage Absorption": return "傷害吸收";
+			case "Brute": return "残暴";
+			case "Charge": return "冲锋";
+			case "Damage Absorption": return "伤害吸收";
 			case "Death Burst": return "死亡自爆";
-			case "Devil's Sight": return "魔鬼視界";
-			case "False Appearance": return "擬形";
-			case "Fey Ancestry": return "精類血統";
-			case "Flyby": return "飛掠";
+			case "Devil's Sight": return "魔鬼视界";
+			case "False Appearance": return "拟形";
+			case "Fey Ancestry": return "精类血统";
+			case "Flyby": return "飞掠";
 			case "Hold Breath": return "屏息";
 			case "Illumination": return "照明";
-			case "Immutable Form": return "不變形態";
-			case "Incorporeal Movement": return "虛體移動";
-			case "Keen Senses": return "敏銳感官";
-			case "Legendary Resistances": return "傳奇抗性";
-			case "Light Sensitivity": return "光線敏感";
+			case "Immutable Form": return "不变形态";
+			case "Incorporeal Movement": return "虚体移动";
+			case "Keen Senses": return "敏锐感官";
+			case "Legendary Resistances": return "传奇抗性";
+			case "Light Sensitivity": return "光线敏感";
 			case "Magic Resistance": return "魔法抗性";
 			case "Magic Weapons": return "魔法武器";
-			case "Pack Tactics": return "群體戰術";
-			case "Pounce": return "猛撲";
-			case "Reckless": return "魯莽";
+			case "Pack Tactics": return "群体战术";
+			case "Pounce": return "猛扑";
+			case "Reckless": return "鲁莽";
 			case "Regeneration": return "再生";
-			case "Rejuvenation": return "復生";
+			case "Rejuvenation": return "复生";
 			case "Rampage": return "暴走";
-			case "Shapechanger": return "變形者";
+			case "Shapechanger": return "变形者";
 			case "Siege Monster": return "攻城怪物";
-			case "Sneak Attack": return "偷襲";
+			case "Sneak Attack": return "偷袭";
 			case "Spider Climb": return "蛛行";
 			case "Sunlight Sensitivity": return "日光敏感";
-			case "Turn Immunity": return "驅散免疫";
-			case "Turn Resistance": return "驅散抗性";
-			case "Undead Fortitude": return "不死韌性";
+			case "Turn Immunity": return "驱散免疫";
+			case "Turn Resistance": return "驱散抗性";
+			case "Undead Fortitude": return "不死韧性";
 			case "Water Breathing": return "水下呼吸";
-			case "Web Sense": return "蛛網感知";
-			case "Web Walker": return "蛛網行者";
+			case "Web Sense": return "蛛网感知";
+			case "Web Walker": return "蛛网行者";
 			default: return t;
 	};},
 });
 const actionReactionFilter = new Filter({
-	header: "Actions & Reactions", headerName: "動作&反應",
+	header: "Actions & Reactions", headerName: "动作&反应",
 	items: [
 		"Frightful Presence", "Multiattack", "Parry", "Swallow", "Teleport", "Tentacles"
 	],
 	displayFn: function(a){
 		switch(a){
-			case "Frightful Presence": return "駭人威儀";
-			case "Multiattack": return "多重攻擊";
-			case "Parry": return "格擋";
-			case "Swallow": return "吞嚥";
-			case "Teleport": return "傳送";
-			case "Tentacles": return "觸手";
+			case "Frightful Presence": return "骇人威仪";
+			case "Multiattack": return "多重攻击";
+			case "Parry": return "格挡";
+			case "Swallow": return "吞咽";
+			case "Teleport": return "传送";
+			case "Tentacles": return "触手";
 			default: return a;
 	};}
 });
 const miscFilter = new Filter({
-	header: "Miscellaneous", headerName: "雜項",
+	header: "Miscellaneous", headerName: "杂项",
 	items: ["Familiar", "Lair Actions", "Legendary", "Named NPC", "Spellcaster", "Regional Effects", "Reactions", "Swarm", "Has Variants"],
 	displayFn: function(m){
 		switch(m){
-			case "Familiar": return "魔寵";
-			case "Lair Actions": return "巢穴動作";
-			case "Legendary": return "傳奇";
+			case "Familiar": return "魔宠";
+			case "Lair Actions": return "巢穴动作";
+			case "Legendary": return "传奇";
 			case "Named NPC": return "具名NPC";
 			case "Spellcaster": return "施法者";
 			case "Spellcaster, int": return "施法者,智力";
 			case "Spellcaster, wis": return "施法者,睿知";
 			case "Spellcaster, cha": return "施法者,魅力";
-			case "Regional Effects": return "區域效應";
+			case "Regional Effects": return "区域效应";
 			case "Swarm": return "集群";
-			case "Has Variants": return "擁有變體";
-			case "Reactions": return "反應";
+			case "Has Variants": return "拥有变体";
+			case "Reactions": return "反应";
 			default: return m;
 		};},
 	deselFn: (it) => it === "Named NPC"
 });
 const spellcastingTypeFilter = new Filter({
-	header: "Spellcasting Type", headerName: "施法類型",
+	header: "Spellcasting Type", headerName: "施法类型",
 	items: ["F", "I", "P", "S", "CB", "CC", "CD", "CP", "CR", "CS", "CL", "CW"],
 	displayFn: Parser.monSpellcastingTagToFull
 });
@@ -1004,7 +1004,7 @@ function renderStatblock (mon, isScaled) {
 
 	// reset tabs
 	const statTab = Renderer.utils.tabButton(
-		"資料卡",
+		"资料卡",
 		() => {
 			$wrpBtnProf.append(profBtn);
 			$(`#float-token`).show();
@@ -1012,7 +1012,7 @@ function renderStatblock (mon, isScaled) {
 		buildStatsTab
 	);
 	const infoTab = Renderer.utils.tabButton(
-		"資訊",
+		"资讯",
 		() => {
 			profBtn = profBtn || $wrpBtnProf.children().detach();
 			$(`#float-token`).hide();
@@ -1020,7 +1020,7 @@ function renderStatblock (mon, isScaled) {
 		buildFluffTab
 	);
 	const picTab = Renderer.utils.tabButton(
-		"圖片",
+		"图片",
 		() => {
 			profBtn = profBtn || $wrpBtnProf.children().detach();
 			$(`#float-token`).hide();

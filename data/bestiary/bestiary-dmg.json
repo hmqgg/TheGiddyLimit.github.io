@@ -13,7 +13,7 @@
 				20
 			],
 			"hp": {
-				"special": "其召喚者生命值最大值的一半"
+				"special": "其召唤者生命值最大值的一半"
 			},
 			"speed": {
 				"walk": 60,
@@ -41,29 +41,29 @@
 				"poisoned",
 				"unconscious"
 			],
-			"senses": "黑暗視覺60呎, 真實視覺60呎",
+			"senses": "黑暗视觉60呎, 真实视觉60呎",
 			"passive": 13,
-			"languages": "所有其召喚者所知的語言",
+			"languages": "所有其召唤者所知的语言",
 			"cr": "Unknown",
 			"trait": [
 				{
-					"name": "虛體移動", "tENG_name": "Incorporeal Movement",
+					"name": "虚体移动", "tENG_name": "Incorporeal Movement",
 					"entries": [
-						"死亡化身可以把其它生物和物體視作困難地形移動穿過它們。若它在一個物體內結束它的回合，則它將受到5 ({@damage 1d10})力場傷害。"
+						"死亡化身可以把其它生物和物体视作困难地形移动穿过它们。若它在一个物体内结束它的回合，则它将受到5 ({@damage 1d10})力场伤害。"
 					]
 				},
 				{
-					"name": "驅散免疫", "tENG_name": "Turn Immunity",
+					"name": "驱散免疫", "tENG_name": "Turn Immunity",
 					"entries": [
-						"死亡化身免疫於驅散不死的效果。"
+						"死亡化身免疫于驱散不死的效果。"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "收割之鐮", "tENG_name": "Reaping Scythe",
+					"name": "收割之镰", "tENG_name": "Reaping Scythe",
 					"entries": [
-						"死亡化身將它的靈體大鐮橫掃穿過一個距離它5呎內的生物，造成 7 ({@damage 1d8 + 3})劈砍傷害加上 4 ({@damage 1d8})死靈傷害。"
+						"死亡化身将它的灵体大镰横扫穿过一个距离它5呎内的生物，造成 7 ({@damage 1d8 + 3})劈砍伤害加上 4 ({@damage 1d8})死灵伤害。"
 					]
 				}
 			],
@@ -86,7 +86,7 @@
 			]
 		},
 		{
-			"name": "巨蒼蠅", "ENG_name": "Giant Fly",
+			"name": "巨苍蝇", "ENG_name": "Giant Fly",
 			"size": "L",
 			"type": "beast",
 			"source": "DMG",
@@ -110,7 +110,7 @@
 			"int": 2,
 			"wis": 10,
 			"cha": 3,
-			"senses": "黑暗視覺60呎",
+			"senses": "黑暗视觉60呎",
 			"passive": 10,
 			"cr": "0",
 			"page": 169,
@@ -120,7 +120,7 @@
 		},
 		{
 			"source": "DMG",
-			"name": "墮魂幼蟲", "ENG_name": "Larva",
+			"name": "堕魂幼虫", "ENG_name": "Larva",
 			"size": "M",
 			"type": "fiend",
 			"alignment": [
@@ -144,13 +144,13 @@
 			"wis": 10,
 			"cha": 2,
 			"passive": 10,
-			"languages": "理解它生前所知的語言，但不會說",
+			"languages": "理解它生前所知的语言，但不会说",
 			"cr": "0",
 			"action": [
 				{
 					"name": "啃咬", "tENG_name": "Bite",
 					"entries": [
-						"{@atk mw} 命中{@hit 1}，觸及5呎，單一目標。{@h}1 ({@damage 1d4 - 1})穿刺傷害。"
+						"{@atk mw} 命中{@hit 1}，触及5呎，单一目标。{@h}1 ({@damage 1d4 - 1})穿刺伤害。"
 					]
 				}
 			],

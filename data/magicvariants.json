@@ -1,11 +1,11 @@
 {
 	"variant": [
 		{
-			"name": "精金彈藥", "ENG_name": "Adamantine Ammunition",
+			"name": "精金弹药", "ENG_name": "Adamantine Ammunition",
 			"type": "GV",
 			"entries": [
-				"由精金打造或鍍上精金的彈藥在用於破壞物體時通常會特別有效。每當一發精金彈藥命中一個物體時，該次命中視為重擊。",
-				"精金版本的彈藥每十發會比原始版本的價格高出500金幣，無論該彈藥是由該金屬打造或僅是鍍上該金屬。"
+				"由精金打造或镀上精金的弹药在用于破坏物体时通常会特别有效。每当一发精金弹药命中一个物体时，该次命中视为重击。",
+				"精金版本的弹药每十发会比原始版本的价格高出500金币，无论该弹药是由该金属打造或仅是镀上该金属。"
 			],
 			"requires": [
 				{
@@ -19,12 +19,12 @@
 				"page": 71,
 				"namePrefix": "精金", "ENG_namePrefix": "Adamantine ",
 				"entries": [
-					"每當你使用此彈藥命中一個物體時，該次命中視為重擊。"
+					"每当你使用此弹药命中一个物体时，该次命中视为重击。"
 				]
 			}
 		},
 		{
-			"name": "精金護甲", "ENG_name": "Adamantine Armor",
+			"name": "精金护甲", "ENG_name": "Adamantine Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -44,7 +44,7 @@
 				"page": 150,
 				"namePrefix": "精金", "ENG_namePrefix": "Adamantine ",
 				"entries": [
-					"這套護甲是由精金打造，現存最堅硬的物質之一。當你穿著此護甲時，任何對你的重擊都將變為普通命中。"
+					"这套护甲是由精金打造，现存最坚硬的物质之一。当你穿着此护甲时，任何对你的重击都将变为普通命中。"
 				]
 			}
 		},
@@ -52,8 +52,8 @@
 			"name": "精金武器", "ENG_name": "Adamantine Weapon",
 			"type": "GV",
 			"entries": [
-				"由精金打造或鍍上精金的近戰武器在用於破壞物體時通常會特別有效。每當一把精金武器命中一個物體時，該次命中視為重擊。",
-				"精金版本的武器會比原始版本的價格高出500金幣，無論該武器是由該金屬打造或僅是鍍上該金屬。"
+				"由精金打造或镀上精金的近战武器在用于破坏物体时通常会特别有效。每当一把精金武器命中一个物体时，该次命中视为重击。",
+				"精金版本的武器会比原始版本的价格高出500金币，无论该武器是由该金属打造或仅是镀上该金属。"
 			],
 			"requires": [
 				{
@@ -70,12 +70,12 @@
 				"page": 71,
 				"namePrefix": "精金", "ENG_namePrefix": "Adamantine ",
 				"entries": [
-					"每當你使用此武器命中一個物體時，該次命中視為重擊。"
+					"每当你使用此武器命中一个物体时，该次命中视为重击。"
 				]
 			}
 		},
 		{
-			"name": "彈藥+1", "ENG_name": "Ammunition +1",
+			"name": "弹药+1", "ENG_name": "Ammunition +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -90,7 +90,7 @@
 				"page": 150,
 				"nameSuffix": "+1", "ENG_nameSuffix": " +1",
 				"entries": [
-					"你在使用這發魔法彈藥進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。一旦命中目標，這發彈藥就不再具有魔法效果。"
+					"你在使用这发魔法弹药进行的攻击检定和伤害骰上具有{=genericBonus}加值。一旦命中目标，这发弹药就不再具有魔法效果。"
 				],
 				"modifier": [
 					{
@@ -114,7 +114,7 @@
 			}
 		},
 		{
-			"name": "彈藥+2", "ENG_name": "Ammunition +2",
+			"name": "弹药+2", "ENG_name": "Ammunition +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -129,7 +129,7 @@
 				"page": 150,
 				"nameSuffix": "+2", "ENG_nameSuffix": " +2",
 				"entries": [
-					"你在使用這發魔法彈藥進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。一旦命中目標，這發彈藥就不再具有魔法效果。"
+					"你在使用这发魔法弹药进行的攻击检定和伤害骰上具有{=genericBonus}加值。一旦命中目标，这发弹药就不再具有魔法效果。"
 				],
 				"modifier": [
 					{
@@ -153,7 +153,7 @@
 			}
 		},
 		{
-			"name": "彈藥+3", "ENG_name": "Ammunition +3",
+			"name": "弹药+3", "ENG_name": "Ammunition +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -168,7 +168,7 @@
 				"page": 150,
 				"nameSuffix": "+3", "ENG_nameSuffix": " +3",
 				"entries": [
-					"你在使用這發魔法彈藥進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。一旦命中目標，這發彈藥就不再具有魔法效果。"
+					"你在使用这发魔法弹药进行的攻击检定和伤害骰上具有{=genericBonus}加值。一旦命中目标，这发弹药就不再具有魔法效果。"
 				],
 				"modifier": [
 					{
@@ -215,7 +215,7 @@
 			}
 		},
 		{
-			"name": "護甲+1", "ENG_name": "Armor +1",
+			"name": "护甲+1", "ENG_name": "Armor +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -230,7 +230,7 @@
 				"page": 152,
 				"nameSuffix": "+1", "ENG_nameSuffix": " +1",
 				"entries": [
-					"你在穿著此護甲時AC獲得{=genericBonus}加值。"
+					"你在穿着此护甲时AC获得{=genericBonus}加值。"
 				],
 				"modifier": [
 					{
@@ -244,7 +244,7 @@
 			}
 		},
 		{
-			"name": "護甲+2", "ENG_name": "Armor +2",
+			"name": "护甲+2", "ENG_name": "Armor +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -259,7 +259,7 @@
 				"page": 152,
 				"nameSuffix": "+2", "ENG_nameSuffix": " +2",
 				"entries": [
-					"你在穿著此護甲時AC獲得{=genericBonus}加值。"
+					"你在穿着此护甲时AC获得{=genericBonus}加值。"
 				],
 				"modifier": [
 					{
@@ -273,7 +273,7 @@
 			}
 		},
 		{
-			"name": "護甲+3", "ENG_name": "Armor +3",
+			"name": "护甲+3", "ENG_name": "Armor +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -288,7 +288,7 @@
 				"page": 152,
 				"nameSuffix": "+3", "ENG_nameSuffix": " +3",
 				"entries": [
-					"你在穿著此護甲時AC獲得{=genericBonus}加值。"
+					"你在穿着此护甲时AC获得{=genericBonus}加值。"
 				],
 				"modifier": [
 					{
@@ -302,7 +302,7 @@
 			}
 		},
 		{
-			"name": "酸蝕抗性護甲", "ENG_name": "Armor of Acid Resistance",
+			"name": "酸蚀抗性护甲", "ENG_name": "Armor of Acid Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -316,11 +316,11 @@
 				"source": "DMG",
 				"page": 162,
 				"reqAttune": true,
-				"namePrefix": "酸蝕抗性", "ENG_nameSuffix": " of Acid Resistance"
+				"namePrefix": "酸蚀抗性", "ENG_nameSuffix": " of Acid Resistance"
 			}
 		},
 		{
-			"name": "寒冰抗性護甲", "ENG_name": "Armor of Cold Resistance",
+			"name": "寒冰抗性护甲", "ENG_name": "Armor of Cold Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -338,7 +338,7 @@
 			}
 		},
 		{
-			"name": "火焰抗性護甲", "ENG_name": "Armor of Fire Resistance",
+			"name": "火焰抗性护甲", "ENG_name": "Armor of Fire Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -356,7 +356,7 @@
 			}
 		},
 		{
-			"name": "力場抗性護甲", "ENG_name": "Armor of Force Resistance",
+			"name": "力场抗性护甲", "ENG_name": "Armor of Force Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -370,11 +370,11 @@
 				"source": "DMG",
 				"page": 162,
 				"reqAttune": true,
-				"namePrefix": "力場抗性", "ENG_nameSuffix": " of Force Resistance"
+				"namePrefix": "力场抗性", "ENG_nameSuffix": " of Force Resistance"
 			}
 		},
 		{
-			"name": "閃爍護甲", "ENG_name": "Armor of Gleaming",
+			"name": "闪烁护甲", "ENG_name": "Armor of Gleaming",
 			"type": "GV",
 			"requires": [
 				{
@@ -386,14 +386,14 @@
 				"rarity": "Common",
 				"source": "XGE",
 				"page": 136,
-				"nameSuffix": "閃爍", "ENG_nameSuffix": " of Gleaming",
+				"nameSuffix": "闪烁", "ENG_nameSuffix": " of Gleaming",
 				"entries": [
-					"這件護甲永遠不會被弄髒。"
+					"这件护甲永远不会被弄脏。"
 				]
 			}
 		},
 		{
-			"name": "閃電抗性護甲", "ENG_name": "Armor of Lightning Resistance",
+			"name": "闪电抗性护甲", "ENG_name": "Armor of Lightning Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -407,11 +407,11 @@
 				"source": "DMG",
 				"page": 162,
 				"reqAttune": true,
-				"namePrefix": "閃電抗性", "ENG_nameSuffix": " of Lightning Resistance"
+				"namePrefix": "闪电抗性", "ENG_nameSuffix": " of Lightning Resistance"
 			}
 		},
 		{
-			"name": "死靈抗性護甲", "ENG_name": "Armor of Necrotic Resistance",
+			"name": "死灵抗性护甲", "ENG_name": "Armor of Necrotic Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -425,11 +425,11 @@
 				"source": "DMG",
 				"page": 162,
 				"reqAttune": true,
-				"namePrefix": "死靈抗性", "ENG_nameSuffix": " of Necrotic Resistance"
+				"namePrefix": "死灵抗性", "ENG_nameSuffix": " of Necrotic Resistance"
 			}
 		},
 		{
-			"name": "毒素抗性護甲", "ENG_name": "Armor of Poison Resistance",
+			"name": "毒素抗性护甲", "ENG_name": "Armor of Poison Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -447,7 +447,7 @@
 			}
 		},
 		{
-			"name": "精神抗性護甲", "ENG_name": "Armor of Psychic Resistance",
+			"name": "精神抗性护甲", "ENG_name": "Armor of Psychic Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -465,7 +465,7 @@
 			}
 		},
 		{
-			"name": "光耀抗性護甲", "ENG_name": "Armor of Radiant Resistance",
+			"name": "光耀抗性护甲", "ENG_name": "Armor of Radiant Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -483,7 +483,7 @@
 			}
 		},
 		{
-			"name": "雷鳴抗性護甲", "ENG_name": "Armor of Thunder Resistance",
+			"name": "雷鸣抗性护甲", "ENG_name": "Armor of Thunder Resistance",
 			"type": "GV",
 			"requires": [
 				{
@@ -497,16 +497,16 @@
 				"source": "DMG",
 				"page": 162,
 				"reqAttune": true,
-				"namePrefix": "雷鳴抗性", "ENG_nameSuffix": " of Thunder Resistance"
+				"namePrefix": "雷鸣抗性", "ENG_nameSuffix": " of Thunder Resistance"
 			}
 		},
 		{
-			"name": "屠殺箭(通用)", "ENG_name": "Arrow of Slaying (Generic)",
+			"name": "屠杀箭(通用)", "ENG_name": "Arrow of Slaying (Generic)",
 			"type": "GV",
 			"entries": [
-				"一支{@italic 屠殺箭}是一種用以屠殺特定種類生物的魔法武器。它們有些會比其他同類更局限於某個範圍；舉例來說，一支{@italic 龍族屠殺箭}和一支{@italic 藍龍屠殺箭}都可能存在。若一個屬於{@italic 屠殺箭}所關聯類型、種族、或團體的生物受到來自這支箭的傷害，該生物必須進行一次DC 17的體質豁免，若豁免失敗則受到額外的{@dice 6d10}穿刺傷害，豁免成功則只受到一半的傷害。",
-				"一旦一支{@italic 屠殺箭}對一個生物造成了它的額外傷害，它將變回非魔法箭矢。",
-				"儘管箭是最常見的種類，但也存在著其他類型的這類魔法彈藥，像是供弩使用的屠殺弩矢。"
+				"一支{@italic 屠杀箭}是一种用以屠杀特定种类生物的魔法武器。它们有些会比其他同类更局限于某个范围；举例来说，一支{@italic 龙族屠杀箭}和一支{@italic 蓝龙屠杀箭}都可能存在。若一个属于{@italic 屠杀箭}所关联类型、种族、或团体的生物受到来自这支箭的伤害，该生物必须进行一次DC 17的体质豁免，若豁免失败则受到额外的{@dice 6d10}穿刺伤害，豁免成功则只受到一半的伤害。",
+				"一旦一支{@italic 屠杀箭}对一个生物造成了它的额外伤害，它将变回非魔法箭矢。",
+				"尽管箭是最常见的种类，但也存在着其他类型的这类魔法弹药，像是供弩使用的屠杀弩矢。"
 			],
 			"requires": [
 				{
@@ -521,15 +521,15 @@
 				"rarity": "Very Rare",
 				"source": "DMG",
 				"page": 152,
-				"namePrefix": "屠殺", "ENG_nameSuffix": " of Slaying",
+				"namePrefix": "屠杀", "ENG_nameSuffix": " of Slaying",
 				"entries": [
-					"一個屠殺{=baseName/l}是一種用以屠殺特定種類生物的魔法武器。它們有些會比其他同類更局限於某個範圍；舉例來說，一個{@italic 龍族屠殺{=baseName/l}}和一個{@italic 藍龍屠殺{=baseName/l}}都可能存在。若一個屬於{@italic 屠殺{=baseName/l}}所關聯類型、種族、或團體的生物受到來自這支{=baseName/l}的傷害，該生物必須進行一次DC 17的體質豁免，若豁免失敗則受到額外的{@dice 6d10}穿刺傷害，豁免成功則只受到一半的傷害。",
-					"一旦一個屠殺{=baseName/l}對一個生物造成了它的額外傷害，它將變回非魔法{=baseName/l}。"
+					"一个屠杀{=baseName/l}是一种用以屠杀特定种类生物的魔法武器。它们有些会比其他同类更局限于某个范围；举例来说，一个{@italic 龙族屠杀{=baseName/l}}和一个{@italic 蓝龙屠杀{=baseName/l}}都可能存在。若一个属于{@italic 屠杀{=baseName/l}}所关联类型、种族、或团体的生物受到来自这支{=baseName/l}的伤害，该生物必须进行一次DC 17的体质豁免，若豁免失败则受到额外的{@dice 6d10}穿刺伤害，豁免成功则只受到一半的伤害。",
+					"一旦一个屠杀{=baseName/l}对一个生物造成了它的额外伤害，它将变回非魔法{=baseName/l}。"
 				]
 			}
 		},
 		{
-			"name": "狂戰士之斧", "ENG_name": "Berserker Axe",
+			"name": "狂战士之斧", "ENG_name": "Berserker Axe",
 			"type": "GV",
 			"requires": [
 				{
@@ -543,17 +543,17 @@
 				"page": 155,
 				"reqAttune": true,
 				"curse": true,
-				"namePrefix": "狂戰士", "ENG_namePrefix": "Berserker ",
+				"namePrefix": "狂战士", "ENG_namePrefix": "Berserker ",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。此外，當你同調於這把武器時，你的生命值最大值將增加等同你等級的數值。",
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。此外，当你同调于这把武器时，你的生命值最大值将增加等同你等级的数值。",
 					{
 						"type": "entries",
-						"name": "詛咒", "tENG_name": "Curse",
+						"name": "诅咒", "tENG_name": "Curse",
 						"entries": [
-							"這把斧頭受到詛咒，且與它同調將會使詛咒蔓延到你身上。只要你還承受這個詛咒，你就會不願意與這把斧頭分開，且永遠會將它放在你的觸及範圍內。同時，除非距離你60呎內沒有任何你能看見或聽見的敵人，否則你在使用它以外的武器所進行的攻擊檢定中具有劣勢。"
+							"这把斧头受到诅咒，且与它同调将会使诅咒蔓延到你身上。只要你还承受这个诅咒，你就会不愿意与这把斧头分开，且永远会将它放在你的触及范围内。同时，除非距离你60呎内没有任何你能看见或听见的敌人，否则你在使用它以外的武器所进行的攻击检定中具有劣势。"
 						]
 					},
-					"每當一個敵對生物在你持有這把斧頭時傷害你，你就必須成功通過一次DC 15的睿知豁免，否則陷入狂怒。當處於狂怒狀態時，你每輪都必須使用你的動作以這把斧頭攻擊距離你最近的生物。若你能夠進行額外攻擊以做為攻擊動作的一部份，則你可以使用這些攻擊，在你擊敗你當前的目標之後向著下一個最近生物移動並攻擊。若你有多個可選目標，則你隨機攻擊其中一個。你將維持狂怒直到你在周遭60呎內沒有任何你能看見或聽見的生物的情況下開始你的回合。"
+					"每当一个敌对生物在你持有这把斧头时伤害你，你就必须成功通过一次DC 15的睿知豁免，否则陷入狂怒。当处于狂怒状态时，你每轮都必须使用你的动作以这把斧头攻击距离你最近的生物。若你能够进行额外攻击以做为攻击动作的一部份，则你可以使用这些攻击，在你击败你当前的目标之后向着下一个最近生物移动并攻击。若你有多个可选目标，则你随机攻击其中一个。你将维持狂怒直到你在周遭60呎内没有任何你能看见或听见的生物的情况下开始你的回合。"
 				],
 				"modifier": [
 					{
@@ -577,7 +577,7 @@
 			}
 		},
 		{
-			"name": "速脫護甲", "ENG_name": "Cast-Off Armor",
+			"name": "速脱护甲", "ENG_name": "Cast-Off Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -589,14 +589,14 @@
 				"rarity": "Common",
 				"source": "XGE",
 				"page": 136,
-				"namePrefix": "速脫", "ENG_namePrefix": "Cast-Off ",
+				"namePrefix": "速脱", "ENG_namePrefix": "Cast-Off ",
 				"entries": [
-					"你能夠以一個動作卸除這件護甲。"
+					"你能够以一个动作卸除这件护甲。"
 				]
 			}
 		},
 		{
-			"name": "舞空劍", "ENG_name": "Dancing Sword",
+			"name": "舞空剑", "ENG_name": "Dancing Sword",
 			"type": "GV",
 			"requires": [
 				{
@@ -611,9 +611,9 @@
 				"reqAttune": true,
 				"namePrefix": "舞空", "ENG_namePrefix": "Dancing ",
 				"entries": [
-					"你可以使用一個附贈動作將這把魔法劍投向空中，並說出它的命令語。當你這麼做時，這把劍將開始浮空，飛行最多30呎距離，並攻擊一個距離它5呎內你所選擇的生物。這把劍使用你的攻擊檢定，且傷害骰也使用你的屬性調整值。",
-					"當這把劍浮在空中時，你可以使用一個附贈動作以讓它飛行最多30呎距離到另一個距離你30呎內的位置。做為這個附贈動作的一部份，你可以讓這把劍攻擊一個距離它5呎內的生物。",
-					"在這把浮空劍第四次攻擊之後，它將飛行最多30呎距離並嘗試回到你的手中。若你沒有手空著，則它將掉落在你腳邊的地上。若這把劍與你之間沒有暢通的路徑，則它將盡可能接近你並接著掉落地面。它也會在你抓住它、或你與它的距離超過30呎時停止浮空。"
+					"你可以使用一个附赠动作将这把魔法剑投向空中，并说出它的命令语。当你这么做时，这把剑将开始浮空，飞行最多30呎距离，并攻击一个距离它5呎内你所选择的生物。这把剑使用你的攻击检定，且伤害骰也使用你的属性调整值。",
+					"当这把剑浮在空中时，你可以使用一个附赠动作以让它飞行最多30呎距离到另一个距离你30呎内的位置。做为这个附赠动作的一部份，你可以让这把剑攻击一个距离它5呎内的生物。",
+					"在这把浮空剑第四次攻击之后，它将飞行最多30呎距离并尝试回到你的手中。若你没有手空着，则它将掉落在你脚边的地上。若这把剑与你之间没有畅通的路径，则它将尽可能接近你并接着掉落地面。它也会在你抓住它、或你与它的距离超过30呎时停止浮空。"
 				],
 				"lootTables": [
 					"魔法物品表H"
@@ -621,7 +621,7 @@
 			}
 		},
 		{
-			"name": "防禦者", "ENG_name": "Defender",
+			"name": "防御者", "ENG_name": "Defender",
 			"type": "GV",
 			"requires": [
 				{
@@ -634,10 +634,10 @@
 				"source": "DMG",
 				"page": 164,
 				"reqAttune": true,
-				"namePrefix": "防禦者", "ENG_namePrefix": "Defender ",
+				"namePrefix": "防御者", "ENG_namePrefix": "Defender ",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+3加值。",
-					"你在你的每個回合第一次以這把劍進行攻擊時，你可以將這把劍一部份或全部的加值轉移到你的護甲等級上，而非將其用於該回合中的任何攻擊中。舉例來說，你可以將你在攻擊檢定和傷害骰中的加值降低為+1，並讓AC獲得+2的加值。這個加值調整將持續發揮效果直到你的下個回合開始，且你必須要持握這把劍才能從它獲得對AC的加值。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+3加值。",
+					"你在你的每个回合第一次以这把剑进行攻击时，你可以将这把剑一部份或全部的加值转移到你的护甲等级上，而非将其用于该回合中的任何攻击中。举例来说，你可以将你在攻击检定和伤害骰中的加值降低为+1，并让AC获得+2的加值。这个加值调整将持续发挥效果直到你的下个回合开始，且你必须要持握这把剑才能从它获得对AC的加值。"
 				],
 				"lootTables": [
 					"魔法物品表I"
@@ -645,7 +645,7 @@
 			}
 		},
 		{
-			"name": "屠龍者", "ENG_name": "Dragon Slayer",
+			"name": "屠龙者", "ENG_name": "Dragon Slayer",
 			"type": "GV",
 			"requires": [
 				{
@@ -657,10 +657,10 @@
 				"rarity": "Rare",
 				"source": "DMG",
 				"page": 166,
-				"namePrefix": "屠龍者", "ENG_namePrefix": "Dragon Slayer ",
+				"namePrefix": "屠龙者", "ENG_namePrefix": "Dragon Slayer ",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。",
-					"當你使用這把武器命中一隻龍，該龍將會受到額外的{@dice 3d6}該武器類型的傷害。對這個武器而言，「龍」是指任何類型為龍的生物，包括{@creature 龍龜}和{@creature 飛龍}。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。",
+					"当你使用这把武器命中一只龙，该龙将会受到额外的{@dice 3d6}该武器类型的伤害。对这个武器而言，「龙」是指任何类型为龙的生物，包括{@creature 龙龟}和{@creature 飞龙}。"
 				],
 				"modifier": [
 					{
@@ -699,7 +699,7 @@
 				"reqAttune": true,
 				"namePrefix": "焰舌", "ENG_namePrefix": "Flame Tongue ",
 				"entries": [
-					"你可以使用一個附贈動作以說出這把魔法劍的命令語，使火焰從劍刃迸發而出。這團烈焰將散發出40呎半徑的明亮光照和再延伸40呎的微光光照。當這把劍刃燃燒時，它將對任何它命中的目標造成額外的{@dice 2d6}火焰傷害。這團烈焰將持續直到你使用一個附贈動作再次說出命令語，或直到你把劍丟下或收入鞘中。"
+					"你可以使用一个附赠动作以说出这把魔法剑的命令语，使火焰从剑刃迸发而出。这团烈焰将散发出40呎半径的明亮光照和再延伸40呎的微光光照。当这把剑刃燃烧时，它将对任何它命中的目标造成额外的{@dice 2d6}火焰伤害。这团烈焰将持续直到你使用一个附赠动作再次说出命令语，或直到你把剑丢下或收入鞘中。"
 				],
 				"lootTables": [
 					"魔法物品表G"
@@ -707,7 +707,7 @@
 			}
 		},
 		{
-			"name": "霜銘", "ENG_name": "Frost Brand",
+			"name": "霜铭", "ENG_name": "Frost Brand",
 			"type": "GV",
 			"requires": [
 				{
@@ -720,11 +720,11 @@
 				"source": "DMG",
 				"page": 171,
 				"reqAttune": true,
-				"namePrefix": "霜銘", "ENG_namePrefix": "Frost Brand ",
+				"namePrefix": "霜铭", "ENG_namePrefix": "Frost Brand ",
 				"entries": [
-					"當你使用這把魔法劍以攻擊命中目標時，目標將受到額外的{@dice 1d6}寒冰傷害。此外，當你持握這把劍時，你具有對火焰傷害的抗性。",
-					"在嚴寒的溫度下，它的劍刃將散發出10呎半徑的明亮光照和再延伸10呎的微光光照。",
-					"當你抽出這把武器時，你可以熄滅距離你30呎內的所有非魔法火焰。這個特性每小時不能使用超過一次。"
+					"当你使用这把魔法剑以攻击命中目标时，目标将受到额外的{@dice 1d6}寒冰伤害。此外，当你持握这把剑时，你具有对火焰伤害的抗性。",
+					"在严寒的温度下，它的剑刃将散发出10呎半径的明亮光照和再延伸10呎的微光光照。",
+					"当你抽出这把武器时，你可以熄灭距离你30呎内的所有非魔法火焰。这个特性每小时不能使用超过一次。"
 				],
 				"lootTables": [
 					"魔法物品表H"
@@ -732,7 +732,7 @@
 			}
 		},
 		{
-			"name": "巨人殺手", "ENG_name": "Giant Slayer",
+			"name": "巨人杀手", "ENG_name": "Giant Slayer",
 			"type": "GV",
 			"requires": [
 				{
@@ -747,10 +747,10 @@
 				"rarity": "Rare",
 				"source": "DMG",
 				"page": 172,
-				"namePrefix": "巨人殺手", "ENG_namePrefix": "Giant Slayer ",
+				"namePrefix": "巨人杀手", "ENG_namePrefix": "Giant Slayer ",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。",
-					"當你使用這把武器命中一個巨人，該巨人將會受到額外的{@dice 2d6}該武器類型的傷害，且必須成功通過一次DC 15的力量豁免，否則將摔倒{@condition 伏地}。對這個武器而言，「巨人」是指任何類型為巨人的生物，包括{@creature 雙頭巨人}和{@creature 巨魔}。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。",
+					"当你使用这把武器命中一个巨人，该巨人将会受到额外的{@dice 2d6}该武器类型的伤害，且必须成功通过一次DC 15的力量豁免，否则将摔倒{@condition 伏地}。对这个武器而言，「巨人」是指任何类型为巨人的生物，包括{@creature 双头巨人}和{@creature 巨魔}。"
 				],
 				"modifier": [
 					{
@@ -774,7 +774,7 @@
 			}
 		},
 		{
-			"name": "神聖復仇者", "ENG_name": "Holy Avenger",
+			"name": "神圣复仇者", "ENG_name": "Holy Avenger",
 			"type": "GV",
 			"requires": [
 				{
@@ -786,11 +786,11 @@
 				"rarity": "Legendary",
 				"source": "DMG",
 				"page": 174,
-				"namePrefix": "神聖復仇者", "ENG_namePrefix": "Holy Avenger ",
-				"reqAttune": "由聖騎士",
+				"namePrefix": "神圣复仇者", "ENG_namePrefix": "Holy Avenger ",
+				"reqAttune": "由圣骑士",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+3加值。當你以它命中一個邪魔或不死生物時，該生物將受到額外的{@dice 2d10}光耀傷害。",
-					"當你持握這把出鞘的劍時，它將創造出一道環繞著你的10呎半徑靈光。你和所有處於靈光中且對你友善的生物將在對抗法術或其他魔法的豁免檢定中具有優勢。若你的聖騎士職業等級為17或更高，則這個靈光的半徑將增加至30呎。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+3加值。当你以它命中一个邪魔或不死生物时，该生物将受到额外的{@dice 2d10}光耀伤害。",
+					"当你持握这把出鞘的剑时，它将创造出一道环绕着你的10呎半径灵光。你和所有处于灵光中且对你友善的生物将在对抗法术或其他魔法的豁免检定中具有优势。若你的圣骑士职业等级为17或更高，则这个灵光的半径将增加至30呎。"
 				],
 				"modifier": [
 					{
@@ -1069,19 +1069,19 @@
 			"name": "吉兆之刃", "ENG_name": "Luck Blade",
 			"type": "GV",
 			"entries": [
-				"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。當這把劍在你身上時，你同時在豁免檢定中獲得+1加值。",
+				"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。当这把剑在你身上时，你同时在豁免检定中获得+1加值。",
 				{
 					"type": "entries",
-					"name": "幸運", "tENG_name": "Luck",
+					"name": "幸运", "tENG_name": "Luck",
 					"entries": [
-						"若這把劍在你身上，你可以呼求它的好運以重骰一次你不滿意結果的攻擊檢定、屬性檢定、或豁免檢定（無須動作）你必須使用第二次擲骰的結果。這個特性直到下次日出之前都不能再被使用。"
+						"若这把剑在你身上，你可以呼求它的好运以重骰一次你不满意结果的攻击检定、属性检定、或豁免检定（无须动作）你必须使用第二次掷骰的结果。这个特性直到下次日出之前都不能再被使用。"
 					]
 				},
 				{
 					"type": "entries",
-					"name": "許願", "tENG_name": "Wish",
+					"name": "许愿", "tENG_name": "Wish",
 					"entries": [
-						"這把劍含有{@dice 1d4-1}發充能。當持握它時，你可以使用一個動作以消耗1發充能，並從它施放{@spell 祈願術}法術。這個特性直到下次日出之前都不能再被使用。這把劍若沒有任何剩餘的充能，則它將失去這個特性。"
+						"这把剑含有{@dice 1d4-1}发充能。当持握它时，你可以使用一个动作以消耗1发充能，并从它施放{@spell 祈愿术}法术。这个特性直到下次日出之前都不能再被使用。这把剑若没有任何剩余的充能，则它将失去这个特性。"
 					]
 				}
 			],
@@ -1098,19 +1098,19 @@
 				"namePrefix": "吉兆", "ENG_namePrefix": "Luck Blade ",
 				"reqAttune": true,
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。當這把劍在你身上時，你同時在豁免檢定中獲得+1加值。",
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。当这把剑在你身上时，你同时在豁免检定中获得+1加值。",
 					{
 						"type": "entries",
-						"name": "幸運", "tENG_name": "Luck",
+						"name": "幸运", "tENG_name": "Luck",
 						"entries": [
-							"若這把劍在你身上，你可以呼求它的好運以重骰一次你不滿意結果的攻擊檢定、屬性檢定、或豁免檢定（無須動作）你必須使用第二次擲骰的結果。這個特性直到下次日出之前都不能再被使用。"
+							"若这把剑在你身上，你可以呼求它的好运以重骰一次你不满意结果的攻击检定、属性检定、或豁免检定（无须动作）你必须使用第二次掷骰的结果。这个特性直到下次日出之前都不能再被使用。"
 						]
 					},
 					{
 						"type": "entries",
-						"name": "許願", "tENG_name": "Wish",
+						"name": "许愿", "tENG_name": "Wish",
 						"entries": [
-							"這把劍含有{@dice 1d4-1}發充能。當持握它時，你可以使用一個動作以消耗1發充能，並從它施放{@spell 祈願術}法術。這個特性直到下次日出之前都不能再被使用。這把劍若沒有任何剩餘的充能，則它將失去這個特性。"
+							"这把剑含有{@dice 1d4-1}发充能。当持握它时，你可以使用一个动作以消耗1发充能，并从它施放{@spell 祈愿术}法术。这个特性直到下次日出之前都不能再被使用。这把剑若没有任何剩余的充能，则它将失去这个特性。"
 						]
 					}
 				],
@@ -1151,7 +1151,7 @@
 			]
 		},
 		{
-			"name": "水手護甲", "ENG_name": "Mariner's Armor",
+			"name": "水手护甲", "ENG_name": "Mariner's Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -1165,7 +1165,7 @@
 				"page": 181,
 				"namePrefix": "水手", "ENG_namePrefix": "Mariner's ",
 				"entries": [
-					"當穿著此護甲時，你具有等同於你步行速度的游泳速度。此外，每當你在水中以0點生命值的狀態開始你的回合，這件護甲將會使你向著水面升起60呎的距離。這件護甲被飾以魚和貝類的圖案。"
+					"当穿着此护甲时，你具有等同于你步行速度的游泳速度。此外，每当你在水中以0点生命值的状态开始你的回合，这件护甲将会使你向着水面升起60呎的距离。这件护甲被饰以鱼和贝类的图案。"
 				],
 				"lootTables": [
 					"魔法物品表B"
@@ -1173,7 +1173,7 @@
 			}
 		},
 		{
-			"name": "心靈之刃", "ENG_name": "Mind Blade",
+			"name": "心灵之刃", "ENG_name": "Mind Blade",
 			"type": "GV",
 			"requires": [
 				{
@@ -1184,15 +1184,15 @@
 				"rarity": "Rare",
 				"source": "VGM",
 				"page": 81,
-				"namePrefix": "心靈之刃", "ENG_namePrefix": "Mind Blade ",
-				"reqAttune": "由一名特定個體",
+				"namePrefix": "心灵之刃", "ENG_namePrefix": "Mind Blade ",
+				"reqAttune": "由一名特定个体",
 				"entries": [
-					"奪心魔可以將任何非魔法刀劍轉變成一把心靈之刃。只有一個生物可以於它同調：一名特定的奪心魔，或者是它的其中一個奴僕。當在任何其他生物手中時，這把心靈之刃的功能就如同一把與相同種類的普通刀劍。而在它預定的持有者手中，這把心靈之刃是一把魔法武器，且可以對任何它所命中的目標造成額外的{@dice 2d6}精神傷害。"
+					"夺心魔可以将任何非魔法刀剑转变成一把心灵之刃。只有一个生物可以于它同调：一名特定的夺心魔，或者是它的其中一个奴仆。当在任何其他生物手中时，这把心灵之刃的功能就如同一把与相同种类的普通刀剑。而在它预定的持有者手中，这把心灵之刃是一把魔法武器，且可以对任何它所命中的目标造成额外的{@dice 2d6}精神伤害。"
 				]
 			}
 		},
 		{
-			"name": "心靈鎧殼護甲", "ENG_name": "Mind Carapace Armor",
+			"name": "心灵铠壳护甲", "ENG_name": "Mind Carapace Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -1203,15 +1203,15 @@
 				"rarity": "Uncommon",
 				"source": "VGM",
 				"page": 81,
-				"namePrefix": "心靈鎧殼", "ENG_namePrefix": "Mind Carapace ",
-				"reqAttune": "由一名特定個體",
+				"namePrefix": "心灵铠壳", "ENG_namePrefix": "Mind Carapace ",
+				"reqAttune": "由一名特定个体",
 				"entries": [
-					"任何一套非魔法重甲都可以被奪心魔轉變成心靈鎧殼護甲。只有一個生物可以於它同調：一名特定的奪心魔，或者是它的其中一個奴僕。當被任何其他生物穿著時，這件心靈鎧殼護甲的功能就如同一件與相同種類的普通護甲。而在它預定的穿著者身上，這件護甲將使它在智力、睿知、和魅力豁免中具有優勢，且讓其穿著者免疫於{@condition 恐懼}狀態。"
+					"任何一套非魔法重甲都可以被夺心魔转变成心灵铠壳护甲。只有一个生物可以于它同调：一名特定的夺心魔，或者是它的其中一个奴仆。当被任何其他生物穿着时，这件心灵铠壳护甲的功能就如同一件与相同种类的普通护甲。而在它预定的穿著者身上，这件护甲将使它在智力、睿知、和魅力豁免中具有优势，且让其穿著者免疫于{@condition 恐惧}状态。"
 				]
 			}
 		},
 		{
-			"name": "秘銀護甲", "ENG_name": "Mithral Armor",
+			"name": "秘银护甲", "ENG_name": "Mithral Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -1230,9 +1230,9 @@
 				"source": "DMG",
 				"page": 182,
 				"stealth": false,
-				"namePrefix": "秘銀", "ENG_namePrefix": "Mithral ",
+				"namePrefix": "秘银", "ENG_namePrefix": "Mithral ",
 				"entries": [
-					"秘銀是一種輕盈柔韌的金屬。一件秘銀鏈甲衫或護胸甲可以被穿在普通衣物之下。若該護甲原本會導致敏捷（隱匿）檢定承受劣勢，或具有對穿戴者力量屬性的需求，則該護甲的秘銀版本不會具有這些特性。"
+					"秘银是一种轻盈柔韧的金属。一件秘银链甲衫或护胸甲可以被穿在普通衣物之下。若该护甲原本会导致敏捷（隐匿）检定承受劣势，或具有对穿戴者力量属性的需求，则该护甲的秘银版本不会具有这些特性。"
 				],
 				"lootTables": [
 					"魔法物品表B"
@@ -1240,7 +1240,7 @@
 			}
 		},
 		{
-			"name": "觸月之劍", "ENG_name": "Moon-Touched Sword",
+			"name": "触月之剑", "ENG_name": "Moon-Touched Sword",
 			"type": "GV",
 			"requires": [
 				{
@@ -1252,14 +1252,14 @@
 				"rarity": "Common",
 				"source": "XGE",
 				"page": 138,
-				"namePrefix": "觸月", "ENG_namePrefix": "Moon-Touched ",
+				"namePrefix": "触月", "ENG_namePrefix": "Moon-Touched ",
 				"entries": [
-					"在黑暗環境中，這把劍出鞘的劍刃將散發出月光，創造出15呎半徑的明亮光照和再延伸15呎的微光光照。"
+					"在黑暗环境中，这把剑出鞘的剑刃将散发出月光，创造出15呎半径的明亮光照和再延伸15呎的微光光照。"
 				]
 			}
 		},
 		{
-			"name": "九轉奪命劍", "ENG_name": "Nine Lives Stealer",
+			"name": "九转夺命剑", "ENG_name": "Nine Lives Stealer",
 			"type": "GV",
 			"requires": [
 				{
@@ -1271,11 +1271,11 @@
 				"rarity": "Very Rare",
 				"source": "DMG",
 				"page": 183,
-				"namePrefix": "九轉奪命", "ENG_namePrefix": "Nine Lives Stealer ",
+				"namePrefix": "九转夺命", "ENG_namePrefix": "Nine Lives Stealer ",
 				"reqAttune": true,
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+2加值。",
-					"這把劍含有{@dice 1d8+1}發充能。若你重擊一個擁有100點或更低生命值的生物，則它必須成功通過一次DC 15的體質豁免，否則將因為被這把劍吸乾生命力而立即被殺死（構裝體和不死生物免疫這個效果）。若該生物被殺死，這把劍將失去1發充能。當這把劍不再留有任何充能，它將失去這個特性。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+2加值。",
+					"这把剑含有{@dice 1d8+1}发充能。若你重击一个拥有100点或更低生命值的生物，则它必须成功通过一次DC 15的体质豁免，否则将因为被这把剑吸干生命力而立即被杀死（构装体和不死生物免疫这个效果）。若该生物被杀死，这把剑将失去1发充能。当这把剑不再留有任何充能，它将失去这个特性。"
 				],
 				"modifier": [
 					{
@@ -1567,7 +1567,7 @@
 				"page": 200,
 				"nameSuffix": "+1", "ENG_nameSuffix": " +1",
 				"entries": [
-					"當持握這面盾牌時，你的AC額外獲得{=genericBonus}加值。這個加值會加入這面盾牌原本對AC的加值中。"
+					"当持握这面盾牌时，你的AC额外获得{=genericBonus}加值。这个加值会加入这面盾牌原本对AC的加值中。"
 				],
 				"modifier": [
 					{
@@ -1596,7 +1596,7 @@
 				"page": 200,
 				"nameSuffix": "+2", "ENG_nameSuffix": " +2",
 				"entries": [
-					"當持握這面盾牌時，你的AC額外獲得{=genericBonus}加值。這個加值會加入這面盾牌原本對AC的加值中。"
+					"当持握这面盾牌时，你的AC额外获得{=genericBonus}加值。这个加值会加入这面盾牌原本对AC的加值中。"
 				],
 				"modifier": [
 					{
@@ -1625,7 +1625,7 @@
 				"page": 200,
 				"nameSuffix": "+3", "ENG_nameSuffix": " +3",
 				"entries": [
-					"當持握這面盾牌時，你的AC額外獲得{=genericBonus}加值。這個加值會加入這面盾牌原本對AC的加值中。"
+					"当持握这面盾牌时，你的AC额外获得{=genericBonus}加值。这个加值会加入这面盾牌原本对AC的加值中。"
 				],
 				"modifier": [
 					{
@@ -1639,10 +1639,10 @@
 			}
 		},
 		{
-			"name": "銀質彈藥", "ENG_name": "Silvered Ammunition",
+			"name": "银质弹药", "ENG_name": "Silvered Ammunition",
 			"type": "GV",
 			"entries": [
-				"有些對非魔法武器具有抗性或免疫能力的怪物仍會受到銀質彈藥的傷害，因此有些謹慎的冒險者們會投資額外的錢財為他們的彈藥鍍銀。你可以用100金幣為十發彈藥鍍銀。這些花費不僅代表了銀本身的價格，也包括了在不減損其效能的前提下鍍銀於彈藥上所需的時間和專業知識。"
+				"有些对非魔法武器具有抗性或免疫能力的怪物仍会受到银质弹药的伤害，因此有些谨慎的冒险者们会投资额外的钱财为他们的弹药镀银。你可以用100金币为十发弹药镀银。这些花费不仅代表了银本身的价格，也包括了在不减损其效能的前提下镀银于弹药上所需的时间和专业知识。"
 			],
 			"requires": [
 				{
@@ -1654,14 +1654,14 @@
 				"rarity": "Unknown",
 				"source": "PHB",
 				"page": 148,
-				"namePrefix": "銀質", "ENG_namePrefix": "Silvered "
+				"namePrefix": "银质", "ENG_namePrefix": "Silvered "
 			}
 		},
 		{
-			"name": "銀質武器", "ENG_name": "Silvered Weapon",
+			"name": "银质武器", "ENG_name": "Silvered Weapon",
 			"type": "GV",
 			"entries": [
-				"有些對非魔法武器具有抗性或免疫能力的怪物仍會受到銀質武器的傷害，因此有些謹慎的冒險者們會投資額外的錢財為他們的武器鍍銀。你可以用100金幣為一把武器鍍銀。這些花費不僅代表了銀本身的價格，也包括了在不減損其效能的前提下鍍銀於武器上所需的時間和專業知識。"
+				"有些对非魔法武器具有抗性或免疫能力的怪物仍会受到银质武器的伤害，因此有些谨慎的冒险者们会投资额外的钱财为他们的武器镀银。你可以用100金币为一把武器镀银。这些花费不仅代表了银本身的价格，也包括了在不减损其效能的前提下镀银于武器上所需的时间和专业知识。"
 			],
 			"requires": [
 				{
@@ -1676,11 +1676,11 @@
 				"tier": "Major",
 				"source": "PHB",
 				"page": 148,
-				"namePrefix": "銀質", "ENG_namePrefix": "Silvered "
+				"namePrefix": "银质", "ENG_namePrefix": "Silvered "
 			}
 		},
 		{
-			"name": "燜燃護甲", "ENG_name": "Smoldering Armor",
+			"name": "焖燃护甲", "ENG_name": "Smoldering Armor",
 			"type": "GV",
 			"requires": [
 				{
@@ -1692,14 +1692,14 @@
 				"rarity": "Common",
 				"source": "XGE",
 				"page": 139,
-				"namePrefix": "燜燃", "ENG_namePrefix": "Smoldering ",
+				"namePrefix": "焖燃", "ENG_namePrefix": "Smoldering ",
 				"entries": [
-					"這件護甲會在被穿著時飄出一縷無害無味的煙霧。"
+					"这件护甲会在被穿着时飘出一缕无害无味的烟雾。"
 				]
 			}
 		},
 		{
-			"name": "竊命之劍", "ENG_name": "Sword of Life Stealing",
+			"name": "窃命之剑", "ENG_name": "Sword of Life Stealing",
 			"type": "GV",
 			"requires": [
 				{
@@ -1711,11 +1711,11 @@
 				"rarity": "Rare",
 				"source": "DMG",
 				"page": 206,
-				"namePrefix": "竊命", "ENG_nameSuffix": " of Life Stealing",
+				"namePrefix": "窃命", "ENG_nameSuffix": " of Life Stealing",
 				"reqAttune": true,
 				"entries": [
-					"當你以這把魔法武器攻擊一個生物並在該攻擊檢定中骰出了20，若目標不為構裝體或不死生物，則目標將受到額外的10點死靈傷害。你也將獲得10點臨時生命值。",
-					"{@i 註記：根據SRD，其額外傷害為{@dice 3d6}死靈傷害。}"
+					"当你以这把魔法武器攻击一个生物并在该攻击检定中骰出了20，若目标不为构装体或不死生物，则目标将受到额外的10点死灵伤害。你也将获得10点临时生命值。",
+					"{@i 注记：根据SRD，其额外伤害为{@dice 3d6}死灵伤害。}"
 				],
 				"lootTables": [
 					"魔法物品表G"
@@ -1723,7 +1723,7 @@
 			}
 		},
 		{
-			"name": "鋒銳之劍", "ENG_name": "Sword of Sharpness",
+			"name": "锋锐之剑", "ENG_name": "Sword of Sharpness",
 			"type": "GV",
 			"requires": [
 				{
@@ -1736,13 +1736,13 @@
 				"rarity": "Very Rare",
 				"source": "DMG",
 				"page": 206,
-				"nameSuffix": "鋒銳", "ENG_nameSuffix": " of Sharpness",
+				"nameSuffix": "锋锐", "ENG_nameSuffix": " of Sharpness",
 				"reqAttune": true,
 				"entries": [
-					"當你以這把魔法武器攻擊並命中一個物體時，將你對目標的武器傷害骰取最大值。",
-					"當你以這把魔法武器攻擊一個生物並在該攻擊檢定中骰出了20，則目標將受到額外的14點劈砍傷害。接著骰另一顆{@dice d20}。若你骰出了20，則你將砍斷目標的其中一個肢體，並由DM決定這種損傷會有什麼效果。若該生物沒有可以被砍斷的肢體，則你將改為砍下它軀體的一部分。",
-					"{@i 註記：根據SRD，其額外傷害為{@dice 4d6}劈砍傷害，儘管{@link 這並不正確|https://twitter.com/JeremyECrawford/status/949111823990534144}}。",
-					"此外，你可以說出這把劍的命令語，使劍刃散發出10呎半徑的明亮光照和再延伸10呎的微光光照。再次說出命令語或將這把劍收入鞘中將會使這個光照熄滅。"
+					"当你以这把魔法武器攻击并命中一个物体时，将你对目标的武器伤害骰取最大值。",
+					"当你以这把魔法武器攻击一个生物并在该攻击检定中骰出了20，则目标将受到额外的14点劈砍伤害。接着骰另一颗{@dice d20}。若你骰出了20，则你将砍断目标的其中一个肢体，并由DM决定这种损伤会有什么效果。若该生物没有可以被砍断的肢体，则你将改为砍下它躯体的一部分。",
+					"{@i 注记：根据SRD，其额外伤害为{@dice 4d6}劈砍伤害，尽管{@link 这并不正确|https://twitter.com/JeremyECrawford/status/949111823990534144}}。",
+					"此外，你可以说出这把剑的命令语，使剑刃散发出10呎半径的明亮光照和再延伸10呎的微光光照。再次说出命令语或将这把剑收入鞘中将会使这个光照熄灭。"
 				],
 				"lootTables": [
 					"魔法物品表H"
@@ -1750,7 +1750,7 @@
 			}
 		},
 		{
-			"name": "復仇之劍", "ENG_name": "Sword of Vengeance",
+			"name": "复仇之剑", "ENG_name": "Sword of Vengeance",
 			"type": "GV",
 			"requires": [
 				{
@@ -1762,18 +1762,18 @@
 				"rarity": "Uncommon",
 				"source": "DMG",
 				"page": 206,
-				"namePrefix": "復仇", "ENG_nameSuffix": " of Vengeance",
+				"namePrefix": "复仇", "ENG_nameSuffix": " of Vengeance",
 				"reqAttune": true,
 				"curse": true,
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+1加值。",
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+1加值。",
 					{
-						"name": "詛咒", "tENG_name": "Curse",
+						"name": "诅咒", "tENG_name": "Curse",
 						"type": "entries",
 						"entries": [
-							"這把劍受到詛咒，且被一個渴望復仇的靈魂所寄宿。與它同調將會使詛咒蔓延到你身上。只要你還承受這個詛咒，你就會不願意與這把劍分開，且永遠會將它放在你的觸及範圍內。當同調於這把武器時，你在使用它以外的武器所進行的攻擊檢定中具有劣勢。",
-							"此外，當這把劍在你身上時，每當你在戰鬥中受到傷害時，你都必須成功通過一次DC 15的睿知豁免。若豁免失敗，則你必須攻擊那個傷害你的生物直到你或它的生命值歸零，或直到你無法來到該生物身邊以對它進行近戰攻擊。",
-							"你能夠透過通常手段打破這個詛咒。或者，對這把劍施放{@spell 放逐術|phb}法術將強迫這個復仇靈魂離開它。這把劍接著將變回一把沒有其他屬性的+1武器。"
+							"这把剑受到诅咒，且被一个渴望复仇的灵魂所寄宿。与它同调将会使诅咒蔓延到你身上。只要你还承受这个诅咒，你就会不愿意与这把剑分开，且永远会将它放在你的触及范围内。当同调于这把武器时，你在使用它以外的武器所进行的攻击检定中具有劣势。",
+							"此外，当这把剑在你身上时，每当你在战斗中受到伤害时，你都必须成功通过一次DC 15的睿知豁免。若豁免失败，则你必须攻击那个伤害你的生物直到你或它的生命值归零，或直到你无法来到该生物身边以对它进行近战攻击。",
+							"你能够透过通常手段打破这个诅咒。或者，对这把剑施放{@spell 放逐术|phb}法术将强迫这个复仇灵魂离开它。这把剑接着将变回一把没有其他属性的+1武器。"
 						]
 					}
 				],
@@ -1799,7 +1799,7 @@
 			}
 		},
 		{
-			"name": "重創之劍", "ENG_name": "Sword of Wounding",
+			"name": "重创之剑", "ENG_name": "Sword of Wounding",
 			"type": "GV",
 			"requires": [
 				{
@@ -1811,11 +1811,11 @@
 				"rarity": "Rare",
 				"source": "DMG",
 				"page": 207,
-				"namePrefix": "重創", "ENG_nameSuffix": " of Wounding",
+				"namePrefix": "重创", "ENG_nameSuffix": " of Wounding",
 				"reqAttune": true,
 				"entries": [
-					"因這把武器的傷害而失去的生命值只能透過短休或長休回復，而無法藉由再生、魔法、或其他手段回復。",
-					"每回合一次，當你使用這把魔法武器以攻擊命中一個生物時，你可以在該目標身上留下創傷。在受創生物的每個回合開始時，它將為每個你在它身上留下的創傷而各自受到{@dice 1d4}死靈傷害，且它可以進行一次DC 15的體質豁免，豁免成功則結束所有這類創傷對它的影響。或者，受創生物或一個距離它5呎內的生物都可以使用一個動作以進行一次DC 15的睿知（{@skill 醫藥}）檢定，成功則結束這類創傷對它的影響。"
+					"因这把武器的伤害而失去的生命值只能透过短休或长休回复，而无法借由再生、魔法、或其他手段回复。",
+					"每回合一次，当你使用这把魔法武器以攻击命中一个生物时，你可以在该目标身上留下创伤。在受创生物的每个回合开始时，它将为每个你在它身上留下的创伤而各自受到{@dice 1d4}死灵伤害，且它可以进行一次DC 15的体质豁免，豁免成功则结束所有这类创伤对它的影响。或者，受创生物或一个距离它5呎内的生物都可以使用一个动作以进行一次DC 15的睿知（{@skill 医药}）检定，成功则结束这类创伤对它的影响。"
 				],
 				"lootTables": [
 					"魔法物品表G"
@@ -1823,7 +1823,7 @@
 			}
 		},
 		{
-			"name": "惡毒武器", "ENG_name": "Vicious Weapon",
+			"name": "恶毒武器", "ENG_name": "Vicious Weapon",
 			"type": "GV",
 			"requires": [
 				{
@@ -1834,18 +1834,18 @@
 				"name": "Net"
 			},
 			"entries": [
-				"當你以這把魔法武器骰出了20時，目標將受到額外7點該武器類型的傷害。",
-				"{@i 註記：根據SRD，其額外傷害為{@dice 2d6}傷害。}"
+				"当你以这把魔法武器骰出了20时，目标将受到额外7点该武器类型的伤害。",
+				"{@i 注记：根据SRD，其额外伤害为{@dice 2d6}伤害。}"
 			],
 			"inherits": {
 				"tier": "Major",
 				"rarity": "Rare",
 				"source": "DMG",
 				"page": 209,
-				"namePrefix": "惡毒", "ENG_namePrefix": "Vicious ",
+				"namePrefix": "恶毒", "ENG_namePrefix": "Vicious ",
 				"entries": [
-					"當你以這把魔法武器骰出了20時，目標將受到額外的7點{=dmgType}傷害。",
-					"{@i 註記：根據SRD，其額外傷害為{@dice 2d6}{=dmgType}傷害。}"
+					"当你以这把魔法武器骰出了20时，目标将受到额外的7点{=dmgType}伤害。",
+					"{@i 注记：根据SRD，其额外伤害为{@dice 2d6}{=dmgType}伤害。}"
 				],
 				"lootTables": [
 					"魔法物品表G"
@@ -1853,7 +1853,7 @@
 			}
 		},
 		{
-			"name": "斬首之劍", "ENG_name": "Vorpal Sword",
+			"name": "斩首之剑", "ENG_name": "Vorpal Sword",
 			"type": "GV",
 			"requires": [
 				{
@@ -1866,11 +1866,11 @@
 				"rarity": "Legendary",
 				"source": "DMG",
 				"page": 209,
-				"namePrefix": "斬首", "ENG_namePrefix": "Vorpal ",
+				"namePrefix": "斩首", "ENG_namePrefix": "Vorpal ",
 				"reqAttune": true,
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有+3加值。此外，這把武器將忽略劈砍傷害的抗性。",
-					"當你以這把武器攻擊一個擁有至少一顆頭的生物，且在該攻擊檢定中骰出了20，則你將砍斷該生物的其中一顆頭。若該生物無法在失去那顆頭的情況下生存，則它將死亡。若一個生物免疫於劈砍傷害、沒有或不需要頭、擁有傳奇動作、或DM認為該生物太過巨大以至於這把劍無法砍斷它的頭顱，則該生物將免疫於這個效果。這類生物將改為因該次命中而受到額外的{@dice 6d8}劈砍傷害。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有+3加值。此外，这把武器将忽略劈砍伤害的抗性。",
+					"当你以这把武器攻击一个拥有至少一颗头的生物，且在该攻击检定中骰出了20，则你将砍断该生物的其中一颗头。若该生物无法在失去那颗头的情况下生存，则它将死亡。若一个生物免疫于劈砍伤害、没有或不需要头、拥有传奇动作、或DM认为该生物太过巨大以至于这把剑无法砍断它的头颅，则该生物将免疫于这个效果。这类生物将改为因该次命中而受到额外的{@dice 6d8}劈砍伤害。"
 				],
 				"modifier": [
 					{
@@ -1894,7 +1894,7 @@
 			}
 		},
 		{
-			"name": "衝擊彈藥", "ENG_name": "Walloping Ammunition",
+			"name": "冲击弹药", "ENG_name": "Walloping Ammunition",
 			"type": "GV",
 			"requires": [
 				{
@@ -1906,14 +1906,14 @@
 				"rarity": "Common",
 				"source": "XGE",
 				"page": 139,
-				"namePrefix": "衝擊", "ENG_namePrefix": "Walloping ",
+				"namePrefix": "冲击", "ENG_namePrefix": "Walloping ",
 				"entries": [
-					"這發彈藥富有衝擊力。一個被這發彈藥命中的生物必須成功通過一次DC 10的力量豁免，否則被擊倒{@condition 伏地}。"
+					"这发弹药富有冲击力。一个被这发弹药命中的生物必须成功通过一次DC 10的力量豁免，否则被击倒{@condition 伏地}。"
 				]
 			}
 		},
 		{
-			"name": "武器(無傷害)+1", "ENG_name": "Weapon (no damage) +1",
+			"name": "武器(无伤害)+1", "ENG_name": "Weapon (no damage) +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -1928,12 +1928,12 @@
 				"page": 213,
 				"nameSuffix": "+1", "ENG_nameSuffix": " +1",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定上具有{=genericBonus}加值。"
 				]
 			}
 		},
 		{
-			"name": "武器(無傷害)+2", "ENG_name": "Weapon (no damage) +2",
+			"name": "武器(无伤害)+2", "ENG_name": "Weapon (no damage) +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -1948,12 +1948,12 @@
 				"page": 213,
 				"nameSuffix": "+2", "ENG_nameSuffix": " +2",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定上具有{=genericBonus}加值。"
 				]
 			}
 		},
 		{
-			"name": "武器(無傷害)+3", "ENG_name": "Weapon (no damage) +3",
+			"name": "武器(无伤害)+3", "ENG_name": "Weapon (no damage) +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -1968,7 +1968,7 @@
 				"page": 213,
 				"nameSuffix": "+3", "ENG_nameSuffix": " +3",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定上具有{=genericBonus}加值。"
 				]
 			}
 		},
@@ -1991,7 +1991,7 @@
 				"page": 213,
 				"nameSuffix": "+1", "ENG_nameSuffix": " +1",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有{=genericBonus}加值。"
 				],
 				"lootTables": [
 					"魔法物品表F"
@@ -2017,7 +2017,7 @@
 				"page": 213,
 				"nameSuffix": "+2", "ENG_nameSuffix": " +2",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有{=genericBonus}加值。"
 				],
 				"lootTables": [
 					"魔法物品表G"
@@ -2043,7 +2043,7 @@
 				"page": 213,
 				"nameSuffix": "+3", "ENG_nameSuffix": " +3",
 				"entries": [
-					"你在使用這把武器進行的攻擊檢定和傷害骰上具有{=genericBonus}加值。"
+					"你在使用这把武器进行的攻击检定和伤害骰上具有{=genericBonus}加值。"
 				],
 				"lootTables": [
 					"魔法物品表H"
@@ -2066,7 +2066,7 @@
 				"namePrefix": "警戒之", "ENG_nameSuffix": " of Warning",
 				"reqAttune": true,
 				"entries": [
-					"這把魔法武器會在危險時給你警告。當這把武器在你身上時，你在先攻檢定中具有優勢。此外，除非你們因為某些非魔法睡眠的原因而處於{@condition 無力}狀態，你和任何距離你30呎內的同伴都不會被突襲。若在戰鬥開始時你們正處於自然睡眠中，這把武器會神奇的喚醒你和你範圍內的同伴。"
+					"这把魔法武器会在危险时给你警告。当这把武器在你身上时，你在先攻检定中具有优势。此外，除非你们因为某些非魔法睡眠的原因而处于{@condition 无力}状态，你和任何距离你30呎内的同伴都不会被突袭。若在战斗开始时你们正处于自然睡眠中，这把武器会神奇的唤醒你和你范围内的同伴。"
 				],
 				"lootTables": [
 					"魔法物品表F"
@@ -2116,7 +2116,7 @@
 					"When you attack a creature with this magic weapon and roll a 20 on the attack roll, the creature must make a DC 15 Constitution saving throw in addition to suffering the attack's normal effects. On a failed save, the creature is restrained and must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this effect three times, the effect ends. If it fails its saves three times, it is turned to stone and subjected to the {@condition petrified} condition for 1 hour.",
 					"A creature is immune to this effect if it is immune to damage of the weapon's type, does not have a body made of flesh, or has legendary actions.",
 					{
-						"name": "詛咒", "tENG_name": "Curse",
+						"name": "诅咒", "tENG_name": "Curse",
 						"type": "entries",
 						"entries": [
 							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you must succeed on a DC 15 Constitution saving throw or be {@condition restrained} and forced to make additional saves against being {@condition petrified}, as above."
@@ -2143,7 +2143,7 @@
 				"entries": [
 					"Choose a magical bonus of +1 to +3. This sword gains that bonus to its attack and damage rolls. For each point of bonus you choose for the sword, you take a corresponding penalty (\u22121 to \u22123) to your death saving throws. You can change this magical bonus each day at dawn.",
 					{
-						"name": "詛咒", "tENG_name": "Curse",
+						"name": "诅咒", "tENG_name": "Curse",
 						"type": "entries",
 						"entries": [
 							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon."
@@ -2265,7 +2265,7 @@
 					},
 					"A creature is immune to this effect if it is immune to damage of the weapon's type, is a shapechanger, or has legendary actions.",
 					{
-						"name": "詛咒", "tENG_name": "Curse",
+						"name": "诅咒", "tENG_name": "Curse",
 						"type": "entries",
 						"entries": [
 							"This weapon is cursed, and becoming attuned to it extends the curse to you. Until the curse is broken with a {@spell remove curse} spell or similar magic, you are unwilling to part with the weapon. Whenever you attack a creature with this weapon and roll a 1 on the attack roll, you suffer the effect of a {@spell polymorph} spell for 1 hour, rolling on the table to determine your new form."

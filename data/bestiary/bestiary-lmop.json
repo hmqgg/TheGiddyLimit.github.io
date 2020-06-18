@@ -347,7 +347,7 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 妖火術} (save DC 12)"
+							"{@spell 妖火术} (save DC 12)"
 						]
 					}
 				},

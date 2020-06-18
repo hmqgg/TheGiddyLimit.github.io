@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>職業 - 5etools</title>
+	<title>职业 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -49,7 +49,7 @@
 		}
 
 		#please-select-message.showing > td::after {
-			content: "按下按鈕以檢視職業和子職業的資訊";
+			content: "按下按钮以检视职业和子职业的资讯";
 		}
 
 		.book-mode div.pnl-content {
@@ -299,8 +299,8 @@
 <body>
 <header class="hidden-xs hidden-sm page__header">
 	<div class="container">
-		<h1 class="page__title">職業</h1>
-		<p class="page__subtitle">使用左側的名稱搜尋，點擊職業名稱以在右側顯示。</p>
+		<h1 class="page__title">职业</h1>
+		<p class="page__subtitle">使用左侧的名称搜寻，点击职业名称以在右侧显示。</p>
 	</div>
 </header>
 <nav class="container page__nav" id="navigation">
@@ -316,21 +316,21 @@
 	<div class="row">
 		<div class="col-sm-3" id="listcontainer">
 			<div class="input-group" id="filter-search-input-group">
-				<input type="search" id="search" class="search form-control" placeholder="搜尋職業...">
+				<input type="search" id="search" class="search form-control" placeholder="搜寻职业...">
 				<span class="input-group-btn">
 						<button class="btn btn-default" id="reset">重置</button>
 					</span>
 			</div>
 			<div id="filtertools" class="sortlabel btn-group">
-				<button class="col-8 sort btn btn-default btn-xs" data-sort="name">名稱 <span class="caret_wrp"></span></button>
-				<button class="col-4 sort btn btn-default btn-xs" data-sort="source">資源 <span class="caret_wrp"></span></button>
+				<button class="col-8 sort btn btn-default btn-xs" data-sort="name">名称 <span class="caret_wrp"></span></button>
+				<button class="col-4 sort btn btn-default btn-xs" data-sort="source">资源 <span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list classes">
 
 			</ul>
 			<p class="text-align-center">
-				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自製內容</button>
+				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自制内容</button>
 			</p>
 		</div>
 		<div class="col-sm-9" id="classtable">
@@ -339,14 +339,14 @@
 					<th class="border" colspan="15"></th>
 				</tr>
 				<tr>
-					<th id="nameTable" colspan="15">名稱</th>
+					<th id="nameTable" colspan="15">名称</th>
 				</tr>
 				<tr id="groupHeaders">
 					<th colspan="3"></th> <!-- spacer to match the 3 default cols (level, prof, features) -->
 				</tr>
 				<tr id="colHeaders">
-					<th class="level">等級</th>
-					<th class="pb">熟練加值</th>
+					<th class="level">等级</th>
+					<th class="pb">熟练加值</th>
 					<th class="features">能力</th>
 				</tr>
 				<tr id="level1">
@@ -459,13 +459,13 @@
 	<div class="row" id="desktop-flex">
 		<div class="col-md-3">
 			<div id="button-wrapper" class="text-align-center wrp-btn-readmode">
-				<button class="btn btn-default btn-xs noprint" id="btn-comparemode" title="用於比較子職業能力的彈出式表格。">子職業比較</button>
-				<button class="btn btn-default btn-xs noprint" id="btn-readmode" title="將職業與子職業的資料分開以符合書籍排版的彈出式閱讀模式。">書頁檢視</button>
+				<button class="btn btn-default btn-xs noprint" id="btn-comparemode" title="用于比较子职业能力的弹出式表格。">子职业比较</button>
+				<button class="btn btn-default btn-xs noprint" id="btn-readmode" title="将职业与子职业的资料分开以符合书籍排版的弹出式阅读模式。">书页检视</button>
 			</div>
 
 			<table id="statsprof" class="stats shadow-big">
 				<tr><th class="border" colspan="6"></th></tr>
-				<tr><th id="nameSummary" colspan="6">名稱</th></tr>
+				<tr><th id="nameSummary" colspan="6">名称</th></tr>
 				<tr><th id="author" colspan="6">作者</th></tr>
 				<tr id="statsprof_divider"><td class="divider" colspan="6"><div style="margin: 0;"></div></td></tr>
 				<tr>
@@ -475,18 +475,18 @@
 							<strong>生命骰：</strong> <span></span>
 						</div>
 						<div id="hp1stlevel">
-							<strong>首級生命值：</strong> <span></span>
+							<strong>首级生命值：</strong> <span></span>
 						</div>
 						<div id="hphigherlevels">
-							<strong>其後生命值：</strong> <span></span>
+							<strong>其后生命值：</strong> <span></span>
 						</div>
 					</td>
 				</tr>
 				<tr>
 					<td id="prof" colspan="6">
-						<h5>熟練</h5>
+						<h5>熟练</h5>
 						<div id="armor">
-							<strong>護甲：</strong> <span></span>
+							<strong>护甲：</strong> <span></span>
 						</div>
 						<div id="weapons">
 							<strong>武器：</strong> <span></span>
@@ -504,17 +504,17 @@
 				</tr>
 				<tr>
 					<td id="equipment" colspan="6">
-						<h5>起始裝備</h5>
+						<h5>起始装备</h5>
 						<div></div>
 					</td>
 				</tr>
 				<tr>
 					<td id="multiclassing" colspan="6">
-						<h5>兼職</h5>
+						<h5>兼职</h5>
 						<div id="multiclassing_prereqs"></div>
 						<div id="multiclassing_profs"></div>
 						<div id="multiclassing_profs_armor">
-							<strong>護甲：</strong> <span></span>
+							<strong>护甲：</strong> <span></span>
 						</div>
 						<div id="multiclassing_profs_weapons">
 							<strong>武器：</strong> <span></span>
@@ -540,7 +540,7 @@
 			<table id="pagecontent" class="stats shadow-big">
 				<tr id="ftTopBorder"><th class="border" colspan="6"></th></tr>
 
-				<tr><td colspan="6" id="msg-no-class-selected" class="initial-message">從列表中選擇一個職業以在此處檢視
+				<tr><td colspan="6" id="msg-no-class-selected" class="initial-message">从列表中选择一个职业以在此处检视
 				</td></tr>
 
 				<!-- populate with JS -->

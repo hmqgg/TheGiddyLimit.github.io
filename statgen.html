@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>屬性生成器 - 5etools</title>
+	<title>属性生成器 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -180,8 +180,8 @@
 <body>
 <header class="hidden-xs hidden-sm page__header">
 	<div class="container">
-		<h1 class="page__title">屬性生成器</h1>
-		<p class="page__subtitle">於左側變更生成方式，參照之生成方式將顯示於右側。</p>
+		<h1 class="page__title">属性生成器</h1>
+		<p class="page__subtitle">于左侧变更生成方式，参照之生成方式将显示于右侧。</p>
 	</div>
 </header>
 <nav class="container page__nav" id="navigation">
@@ -198,40 +198,40 @@
 		<div class="col-sm-3">
 			<nav>
 				<ul class="nav" id="rolltabs">
-					<li role="presentation"><a href="#rolled">擲骰制</a></li>
-					<li role="presentation"><a href="#array">陣列</a></li>
-					<li role="presentation"><a href="#pointbuy">購點制</a></li>
+					<li role="presentation"><a href="#rolled">掷骰制</a></li>
+					<li role="presentation"><a href="#array">阵列</a></li>
+					<li role="presentation"><a href="#pointbuy">购点制</a></li>
 				</ul>
 			</nav>
 		</div>
 		<div class="col-sm-9 statmethod" id="rolled" style="display: none">
-			<h3>擲骰決定屬性</h3>
+			<h3>掷骰决定属性</h3>
 			<div class="input-group">
 				<span class="input-group-addon" id="roller-mode"></span>
-				<input class="form-control" placeholder="輸入擲骰公式" value="4d6dl1" id="stats-formula">
+				<input class="form-control" placeholder="输入掷骰公式" value="4d6dl1" id="stats-formula">
 				<span class="input-group-btn">
-					<button id="rollbutton" class="btn btn-default">擲骰！</button>
+					<button id="rollbutton" class="btn btn-default">掷骰！</button>
 				</span>
 			</div>
 			<h3 id="rolls"></h3>
 		</div>
 		<div class="col-sm-9 statmethod" id="array" style="display: none">
-			<h3>標準陣列</h3>
+			<h3>标准阵列</h3>
 			<h4>15, 14, 13, 12, 10, 8</h4>
-			<p>將這些數字分配到你想要的屬性值。</p>
+			<p>将这些数字分配到你想要的属性值。</p>
 		</div>
 		<div class="col-sm-9 statmethod" id="pointbuy" style="display: none">
-			<h3>購點制</h3>
+			<h3>购点制</h3>
 			<div class="pbuy__split">
 				<div class="pbuy__split_item">
 
 					<div style="display: flex; align-items: flex-end;">
 						<label class="split-column split-column--inline">
-							<span class="text-align-center">預算</span>
+							<span class="text-align-center">预算</span>
 							<input class="form-control" id="budget" type="number" min="1" value="27" readonly>
 						</label>
 						<label class="split-column split-column--inline">
-							<span class="text-align-center">剩餘</span>
+							<span class="text-align-center">剩余</span>
 							<input class="form-control" id="remaining" type="number" min="10" value="27" readonly>
 						</label>
 						<button id="reset" class="btn btn-default" style="margin: auto auto 7px 2px;">重置</button>
@@ -241,14 +241,14 @@
 						<tr>
 							<td></td>
 							<td class="text-align-center">基本</td>
-							<td class="text-align-center">種族</td>
+							<td class="text-align-center">种族</td>
 							<td class="choose choose_head"></td>
-							<td title="在這裡輸入所有額外／自定義的加值" class="text-align-center help">額外</td>
+							<td title="在这里输入所有额外／自定义的加值" class="text-align-center help">额外</td>
 
 							<td style="width: 18px;"></td>
 
-							<td class="text-align-center">總和</td>
-							<td class="text-align-center">調整值</td>
+							<td class="text-align-center">总和</td>
+							<td class="text-align-center">调整值</td>
 						</tr>
 						<tr id="str">
 							<td><b>力量</b></td>
@@ -277,7 +277,7 @@
 							<td><input readonly class="bold" data-select="number"></td>
 						</tr>
 						<tr id="con">
-							<td><b>體質</b></td>
+							<td><b>体质</b></td>
 							<td><input type="number" value="8" class="base" data-select="number"></td>
 							<td><input class="racial" readonly data-select="number"></td>
 							<td class="choose"><input type="checkbox" class="choose pbuy__cb_choose"></td>
@@ -330,16 +330,16 @@
 						</tr>
 					</table>
 
-					<h5>選擇種族</h5>
+					<h5>选择种族</h5>
 					<select id="race" class="form-control"></select>
 
 					<table id="custom" style="display: none;">
-						<tr><td>自訂種族 <b>力量</b> 加值:</td><td><input name="str" class="custom" type="number" value="0" step="1"></td></tr>
-						<tr><td>自訂種族 <b>敏捷</b> 加值:</td><td><input name="dex" class="custom" type="number" value="0" step="1"></td></tr>
-						<tr><td>自訂種族 <b>體質</b> 加值:</td><td><input name="con" class="custom" type="number" value="0" step="1"></td></tr>
-						<tr><td>自訂種族 <b>智力</b> 加值:</td><td><input name="int" class="custom" type="number" value="0" step="1"></td></tr>
-						<tr><td>自訂種族 <b>睿知</b> 加值:</td><td><input name="wis" class="custom" type="number" value="0" step="1"></td></tr>
-						<tr><td>自訂種族 <b>魅力</b> 加值:</td><td><input name="cha" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>力量</b> 加值:</td><td><input name="str" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>敏捷</b> 加值:</td><td><input name="dex" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>体质</b> 加值:</td><td><input name="con" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>智力</b> 加值:</td><td><input name="int" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>睿知</b> 加值:</td><td><input name="wis" class="custom" type="number" value="0" step="1"></td></tr>
+						<tr><td>自订种族 <b>魅力</b> 加值:</td><td><input name="cha" class="custom" type="number" value="0" step="1"></td></tr>
 					</table>
 				</div>
 
@@ -347,8 +347,8 @@
 
 				<div class="pbuy__split_item">
 					<div class="flex-col">
-						<h4>屬性值購點花費</h4>
-						<label><input id="advanced" type="checkbox">自定義規則</label>
+						<h4>属性值购点花费</h4>
+						<label><input id="advanced" type="checkbox">自定义规则</label>
 						<table id="costs" class="pbuy__tbl_cost"></table>
 					</div>
 				</div>
@@ -357,9 +357,9 @@
 			<hr>
 
 			<div class="pbuy__save_wrp">
-				<button id="pbuy__save_file" class="btn btn-xs btn-primary" style="margin-right: 7px;">儲存檔案</button>
-				<button id="pbuy__load_file" class="btn btn-xs btn-primary" style="margin-right: 14px;">讀取檔案</button>
-				<button id="pbuy__save_url" class="btn btn-xs btn-primary">儲存至URL</button>
+				<button id="pbuy__save_file" class="btn btn-xs btn-primary" style="margin-right: 7px;">储存档案</button>
+				<button id="pbuy__load_file" class="btn btn-xs btn-primary" style="margin-right: 14px;">读取档案</button>
+				<button id="pbuy__save_url" class="btn btn-xs btn-primary">储存至URL</button>
 			</div>
 		</div>
 	</div>

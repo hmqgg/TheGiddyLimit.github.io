@@ -300,7 +300,7 @@ const BookUtil = {
 
 				const showPrev = ~chapter && chapter > 0;
 				(BookUtil.curRender.controls.$btnsPrv = BookUtil.curRender.controls.$btnsPrv || [])
-					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item"><span class="glyphicon glyphicon-chevron-left"></span>上一頁</button>`)
+					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item"><span class="glyphicon glyphicon-chevron-left"></span>上一页</button>`)
 						.click(() => goToPage(-1))
 						.toggle(showPrev)
 						.appendTo($wrpControls));
@@ -313,11 +313,11 @@ const BookUtil = {
 					$(`<button class="btn btn-xs btn-default ${~BookUtil.curRender.chapter ? "" : "active"}" title="Warning: Slow">View Entire ${BookUtil.contentType.uppercaseFirst()}</button>`).click(() => {
 						window.location.href = (~BookUtil.curRender.chapter ? BookUtil.thisContents.find(`.bk__contents_show_all`) : BookUtil.thisContents.find(`.bk__contents_header_link`)).attr("href");
 					}).appendTo($wrpControls);
-				} else $(`<button class="btn btn-xs btn-default">回到最頂</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
+				} else $(`<button class="btn btn-xs btn-default">回到最顶</button>`).click(() => MiscUtil.scrollPageTop()).appendTo($wrpControls);
 
 				const showNxt = ~chapter && chapter < data.length - 1;
 				(BookUtil.curRender.controls.$btnsNxt = BookUtil.curRender.controls.$btnsNxt || [])
-					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item">下一頁<span class="glyphicon glyphicon-chevron-right"></span></button>`)
+					.push($(`<button class="btn btn-xs btn-default bk__nav-head-foot-item">下一页<span class="glyphicon glyphicon-chevron-right"></span></button>`)
 						.click(() => goToPage(1))
 						.toggle(showNxt)
 						.appendTo($wrpControls));
@@ -446,7 +446,7 @@ const BookUtil = {
 		async function pHandleFound (fromIndex, homebrewData) {
 			document.title = `${fromIndex.name} - 5etools`;
 			$(`.book-head-header`).html(cleanName(fromIndex.name));
-			$(`.book-head-message`).html("瀏覽內容。按下F以搜尋，按下G以前往指定頁數。");
+			$(`.book-head-message`).html("浏览内容。按下F以搜寻，按下G以前往指定页数。");
 			await BookUtil.pLoadBook(fromIndex, bookId, hashParts, homebrewData);
 			NavBar.highlightCurrentPage();
 		}

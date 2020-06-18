@@ -2,7 +2,7 @@
 	"monster": [
 		{
 			"source": "XGE",
-			"name": "微型僕役", "ENG_name": "Tiny Servant",
+			"name": "微型仆役", "ENG_name": "Tiny Servant",
 			"size": "T",
 			"type": "construct",
 			"alignment": [
@@ -12,7 +12,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -46,12 +46,12 @@
 				"petrified",
 				"poisoned"
 			],
-			"senses": "盲視60呎（超過半徑範圍則視作目盲）",
+			"senses": "盲视60呎（超过半径范围则视作目盲）",
 			"action": [
 				{
-					"name": "猛擊",
+					"name": "猛击",
 					"entries": [
-						"{@atk mw} 命中{@hit 5}，觸及10呎，單一目標。{@h}5 ({@damage 1d4 + 3})鈍擊傷害。"
+						"{@atk mw} 命中{@hit 5}，触及10呎，单一目标。{@h}5 ({@damage 1d4 + 3})钝击伤害。"
 					]
 				}
 			],

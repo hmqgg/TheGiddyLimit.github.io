@@ -93,7 +93,7 @@ class LootGen {
 					</tr>
 					</tbody>
 				</table>
-				<small><strong>資源:</strong> <em>${Parser.sourceJsonToFull(itemsTable.source)}</em>, 第 ${itemsTable.page}頁</small>
+				<small><strong>资源:</strong> <em>${Parser.sourceJsonToFull(itemsTable.source)}</em>, 第 ${itemsTable.page}页</small>
 			`);
 
 			const $tbody = $table.find("tbody");
@@ -162,7 +162,7 @@ class LootGen {
 	}
 
 	static itemTitleHtml (table) {
-		return $(`<div class="id-top">從<strong>${table.name}</strong>中擲骰:</div>`);
+		return $(`<div class="id-top">从<strong>${table.name}</strong>中掷骰:</div>`);
 	}
 
 	async pRollAgainstTable (ixTable, parentRoll) {
@@ -207,7 +207,7 @@ class LootGen {
 				const gems = [];
 				for (let i = 0; i < roll; i++) gems.push(artAndGemsTable.table[LootGen.randomNumber(0, artAndGemsTable.table.length - 1)]);
 				$(`
-					<li>${Parser._addCommas(artAndGems.type)} 金幣 ${loot.artobjects ? "藝術品" : "寶石"}${roll > 1 ? "" : ""}${roll > 1 ? ` (${MULT_SIGN}${roll})` : ""}:
+					<li>${Parser._addCommas(artAndGems.type)} 金币 ${loot.artobjects ? "艺术品" : "宝石"}${roll > 1 ? "" : ""}${roll > 1 ? ` (${MULT_SIGN}${roll})` : ""}:
 					<ul data-r/>
 					</li>
 				`).swap(lootGen.$getSortedDeduplicatedList(gems)).appendTo($el);
@@ -262,8 +262,8 @@ class LootGen {
 			$el.prepend(`<li>${lootGen.getFormattedCoinsForDisplay(loot.coins)}</li>`);
 		}
 		let title = hoard
-			? `<strong>積藏寶藏</strong> - 挑戰等級：<strong>${CHALLENGE_RATING_RANGE[cr]}</strong>`
-			: `<strong>個體寶藏</strong> - 挑戰等級：<strong>${CHALLENGE_RATING_RANGE[cr]}</strong>`;
+			? `<strong>积藏宝藏</strong> - 挑战等级：<strong>${CHALLENGE_RATING_RANGE[cr]}</strong>`
+			: `<strong>个体宝藏</strong> - 挑战等级：<strong>${CHALLENGE_RATING_RANGE[cr]}</strong>`;
 		lootOutput.add($el, title);
 	}
 
@@ -348,7 +348,7 @@ class LootGen {
 		});
 		const totalValueGP = Parser._addCommas(LootGen.getGPValueFromCoins(generatedCoins));
 		const combinedFormattedCoins = individuallyFormattedCoins.reduce((total, formattedCoin) => total + formattedCoin, "");
-		return `總計${totalValueGP} 金幣:<ul> ${combinedFormattedCoins}</ul>`;
+		return `总计${totalValueGP} 金币:<ul> ${combinedFormattedCoins}</ul>`;
 	}
 
 	static generateCoinsFromLoot (loot) {
@@ -392,7 +392,7 @@ class LootGen {
 	}
 
 	static _getOrViewSpellsPart (level) {
-		return renderer.render(`{@filter 查看所有${Parser.spLevelToFullLevelText(level, true)}法術|spells|level=${level}}`);
+		return renderer.render(`{@filter 查看所有${Parser.spLevelToFullLevelText(level, true)}法术|spells|level=${level}}`);
 	}
 
 	static async p$ParseLink (result, options = {}) {
@@ -500,7 +500,7 @@ class LootGen {
 			const $roll = $(`<span class="roller" onmousedown="event.preventDefault()">[重骰]</span>`).click(() => this.loadRollSpell($roll.parent(), level));
 			return $(`<em>(<span>${renderer.render(this.getRandomSpell(level))} <div data-r/></span> 或 ${LootGen._getOrViewSpellsPart(level)})</em>`).swap($roll);
 		}
-		const $spnRoll = $(`<span class="roller">擲骰</span>`).click(() => this.loadRollSpell($spnRoll.parent(), level));
+		const $spnRoll = $(`<span class="roller">掷骰</span>`).click(() => this.loadRollSpell($spnRoll.parent(), level));
 		return $(`<em>(<div data-r/> 或 ${LootGen._getOrViewSpellsPart(level)})</em>`).swap($spnRoll);
 	}
 
@@ -722,7 +722,7 @@ const randomLootTables = {
 			$("#random-from-loot-table").toggleClass("error-background", !tier && !rarity);
 			if (tier && rarity) {
 				const $ul = $(`<ul data-rarity="${rarity}" data-tier="${tier}"></ul>`).append(await randomLootTables.p$GetRandomItemHtml(tier, rarity));
-				lootOutput.add($ul, `從<strong>${Parser.ItemTierToDisplay(tier)} ${Parser.translateItemKeyToDisplay(rarity)}</strong>物品表中擲骰`);
+				lootOutput.add($ul, `从<strong>${Parser.ItemTierToDisplay(tier)} ${Parser.translateItemKeyToDisplay(rarity)}</strong>物品表中掷骰`);
 			}
 		});
 
@@ -734,9 +734,9 @@ const randomLootTables = {
 			if (useClosestTier) level = $(".slider").slider("value");
 			else level = $("#charLevel").val();
 
-			const text = useClosestTier ? `${level}級` : `${$(`#charLevel option[value=${level}]`).text()}級`;
+			const text = useClosestTier ? `${level}级` : `${$(`#charLevel option[value=${level}]`).text()}级`;
 			const itemsNeeded = randomLootTables.getNumberOfItemsNeeded(Number(level), useClosestTier, accumulateTiers);
-			const title = `給<strong>${text}</strong>隊伍的魔法物品：`;
+			const title = `给<strong>${text}</strong>队伍的魔法物品：`;
 			const $el = $(`<div/>`);
 
 			const itemCount = {};
@@ -763,7 +763,7 @@ const randomLootTables = {
 				},
 				{depth: 1}
 			);
-			if (!Object.values(itemCount).reduce((a, b) => a + b, 0)) $el.append(`<i>無道具。</i>`);
+			if (!Object.values(itemCount).reduce((a, b) => a + b, 0)) $el.append(`<i>无道具。</i>`);
 			lootOutput.add($el, title);
 		});
 	},
@@ -860,7 +860,7 @@ const randomLootTables = {
 			let html = $(`
 			<hr/>
 			<table id="stats">
-				<caption>稀有度為${Parser.translateItemKeyToDisplay(rarity)}的${Parser.ItemTierToDisplay(tier)}魔法物品表</caption>
+				<caption>稀有度为${Parser.translateItemKeyToDisplay(rarity)}的${Parser.ItemTierToDisplay(tier)}魔法物品表</caption>
 				<tbody>
 				<tr>
 					<th class="col-2 text-align-center"><span class="roller" onclick="randomLootTables.getRandomItem('${tier}', '${rarity}');">d${itemsArray.length}</span></th>

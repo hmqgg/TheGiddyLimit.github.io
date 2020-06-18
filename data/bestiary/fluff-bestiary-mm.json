@@ -74,10 +74,10 @@
 									"type": "list",
 									"style": "list-no-bullets",
 									"items": [
-										"1st level (4 slots): {@spell identify}, {@spell 致病射線}",
+										"1st level (4 slots): {@spell identify}, {@spell 致病射线}",
 										"2nd level (3 slots): {@spell hold person}, {@spell locate object}",
 										"3rd level (3 slots): {@spell bestow curse}, {@spell counterspell}, {@spell lightning bolt}",
-										"4th level (3 slots): {@spell phantasmal killer}, {@spell 變形術}",
+										"4th level (3 slots): {@spell phantasmal killer}, {@spell 变形术}",
 										"5th level (2 slots): {@spell contact other plane}, {@spell scrying}",
 										"6th level (1 slot): {@spell eyebite}"
 									]
@@ -1110,35 +1110,35 @@
 							"entries": [
 								{
 									"type": "entries",
-									"name": "{@creature (獸化)野豬人}",
+									"name": "{@creature (兽化)野猪人}",
 									"entries": [
 										"The character gains a Strength of 19 if his or her score isn't already higher, and a +1 bonus to AC while in bear or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@creature (獸化)熊人}",
+									"name": "{@creature (兽化)熊人}",
 									"entries": [
 										"The character gains a Strength of 17 if his or her score isn't already higher, and a +1 bonus to AC while in boar or hybrid form (from natural armor). Attack and damage rolls for the tusks are based on Strength. For the Charge trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@creature (獸化)鼠人}",
+									"name": "{@creature (兽化)鼠人}",
 									"entries": [
 										"The character gains a Dexterity of 15 if his or her score isn't already higher. Attack and damage rolls for the bite are based on whichever is higher of the character's Strength and Dexterity."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@creature (獸化)虎人}",
+									"name": "{@creature (兽化)虎人}",
 									"entries": [
 										"The character gains a Strength of 17 if his or her score isn't already higher. Attack and damage rolls for the natural weapons are based on Strength. For the Pounce trait, the DC is 8 + the character's proficiency bonus + Strength modifier."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@creature (獸化)狼人}",
+									"name": "{@creature (兽化)狼人}",
 									"entries": [
 										"The character gains a Strength of 15 if his or her score isn't already higher, and a +1 bonus to AC while in wolf or hybrid form (from natural armor). Attack and damage rolls for the natural weapons are based on Strength."
 									]
@@ -1150,7 +1150,7 @@
 			]
 		},
 		{
-			"name": "阿蘭寇拉鷹人", "ENG_name": "Aarakocra",
+			"name": "阿兰寇拉鹰人", "ENG_name": "Aarakocra",
 			"source": "MM",
 			"images": [
 				{
@@ -1234,11 +1234,11 @@
 			"name": "侍僧", "ENG_name": "Acolyte",
 			"source": "MM",
 			"entries": [
-				"侍僧是神職者中的初級成員，通常從屬於一名{@creature 祭司}。他們負責神廟裡的各種工作，並被其侍奉的神祇賦予了微弱的施法能力。"
+				"侍僧是神职者中的初级成员，通常从属于一名{@creature 祭司}。他们负责神庙里的各种工作，并被其侍奉的神祇赋予了微弱的施法能力。"
 			]
 		},
 		{
-			"name": "成年黑龍", "ENG_name": "Adult Black Dragon",
+			"name": "成年黑龙", "ENG_name": "Adult Black Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -1291,7 +1291,7 @@
 			]
 		},
 		{
-			"name": "成年藍龍", "ENG_name": "Adult Blue Dragon",
+			"name": "成年蓝龙", "ENG_name": "Adult Blue Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -1299,7 +1299,7 @@
 			}
 		},
 		{
-			"name": "成年黃銅龍", "ENG_name": "Adult Brass Dragon",
+			"name": "成年黄铜龙", "ENG_name": "Adult Brass Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -1307,7 +1307,7 @@
 			}
 		},
 		{
-			"name": "成年青銅龍", "ENG_name": "Adult Bronze Dragon",
+			"name": "成年青铜龙", "ENG_name": "Adult Bronze Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -1315,7 +1315,7 @@
 			}
 		},
 		{
-			"name": "成年赤銅龍", "ENG_name": "Adult Copper Dragon",
+			"name": "成年赤铜龙", "ENG_name": "Adult Copper Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -1323,7 +1323,7 @@
 			}
 		},
 		{
-			"name": "成年金龍", "ENG_name": "Adult Gold Dragon",
+			"name": "成年金龙", "ENG_name": "Adult Gold Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -1331,7 +1331,7 @@
 			}
 		},
 		{
-			"name": "成年綠龍", "ENG_name": "Adult Green Dragon",
+			"name": "成年绿龙", "ENG_name": "Adult Green Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -1339,7 +1339,7 @@
 			}
 		},
 		{
-			"name": "成年紅龍", "ENG_name": "Adult Red Dragon",
+			"name": "成年红龙", "ENG_name": "Adult Red Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -1347,7 +1347,7 @@
 			}
 		},
 		{
-			"name": "成年銀龍", "ENG_name": "Adult Silver Dragon",
+			"name": "成年银龙", "ENG_name": "Adult Silver Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -1355,7 +1355,7 @@
 			}
 		},
 		{
-			"name": "成年白龍", "ENG_name": "Adult White Dragon",
+			"name": "成年白龙", "ENG_name": "Adult White Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -1363,7 +1363,7 @@
 			}
 		},
 		{
-			"name": "氣元素", "ENG_name": "Air Elemental",
+			"name": "气元素", "ENG_name": "Air Elemental",
 			"source": "MM",
 			"images": [
 				{
@@ -1384,7 +1384,7 @@
 			}
 		},
 		{
-			"name": "異特龍", "ENG_name": "Allosaurus",
+			"name": "异特龙", "ENG_name": "Allosaurus",
 			"source": "MM",
 			"images": [
 				{
@@ -1408,7 +1408,7 @@
 			]
 		},
 		{
-			"name": "遠古黑龍", "ENG_name": "Ancient Black Dragon",
+			"name": "远古黑龙", "ENG_name": "Ancient Black Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -1416,7 +1416,7 @@
 			}
 		},
 		{
-			"name": "遠古藍龍", "ENG_name": "Ancient Blue Dragon",
+			"name": "远古蓝龙", "ENG_name": "Ancient Blue Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -1424,7 +1424,7 @@
 			}
 		},
 		{
-			"name": "遠古黃銅龍", "ENG_name": "Ancient Brass Dragon",
+			"name": "远古黄铜龙", "ENG_name": "Ancient Brass Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -1432,7 +1432,7 @@
 			}
 		},
 		{
-			"name": "遠古青銅龍", "ENG_name": "Ancient Bronze Dragon",
+			"name": "远古青铜龙", "ENG_name": "Ancient Bronze Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -1440,7 +1440,7 @@
 			}
 		},
 		{
-			"name": "遠古赤銅龍", "ENG_name": "Ancient Copper Dragon",
+			"name": "远古赤铜龙", "ENG_name": "Ancient Copper Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -1448,7 +1448,7 @@
 			}
 		},
 		{
-			"name": "遠古金龍", "ENG_name": "Ancient Gold Dragon",
+			"name": "远古金龙", "ENG_name": "Ancient Gold Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -1456,7 +1456,7 @@
 			}
 		},
 		{
-			"name": "遠古綠龍", "ENG_name": "Ancient Green Dragon",
+			"name": "远古绿龙", "ENG_name": "Ancient Green Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -1464,7 +1464,7 @@
 			}
 		},
 		{
-			"name": "遠古紅龍", "ENG_name": "Ancient Red Dragon",
+			"name": "远古红龙", "ENG_name": "Ancient Red Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -1472,7 +1472,7 @@
 			}
 		},
 		{
-			"name": "遠古銀龍", "ENG_name": "Ancient Silver Dragon",
+			"name": "远古银龙", "ENG_name": "Ancient Silver Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -1480,7 +1480,7 @@
 			}
 		},
 		{
-			"name": "遠古白龍", "ENG_name": "Ancient White Dragon",
+			"name": "远古白龙", "ENG_name": "Ancient White Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -1592,7 +1592,7 @@
 			]
 		},
 		{
-			"name": "甲龍", "ENG_name": "Ankylosaurus",
+			"name": "甲龙", "ENG_name": "Ankylosaurus",
 			"source": "MM",
 			"images": [
 				{
@@ -1637,7 +1637,7 @@
 			}
 		},
 		{
-			"name": "大法師", "ENG_name": "Archmage",
+			"name": "大法师", "ENG_name": "Archmage",
 			"source": "MM",
 			"images": [
 				{
@@ -1657,25 +1657,25 @@
 			"name": "刺客", "ENG_name": "Assassin",
 			"source": "MM",
 			"entries": [
-				"受訓於使用毒藥，刺客做為無情的殺手受僱於貴族、公會會長、統治者、以及任何付得起錢的客戶。"
+				"受训于使用毒药，刺客做为无情的杀手受雇于贵族、公会会长、统治者、以及任何付得起钱的客户。"
 			]
 		},
 		{
-			"name": "啟蒙灌木", "ENG_name": "Awakened Shrub",
+			"name": "启蒙灌木", "ENG_name": "Awakened Shrub",
 			"source": "MM",
 			"entries": [
-				"啟蒙灌木是一株被{@spell 啟蒙術}或類似魔法效果賦予知覺和移動能力的尋常灌木。"
+				"启蒙灌木是一株被{@spell 启蒙术}或类似魔法效果赋予知觉和移动能力的寻常灌木。"
 			]
 		},
 		{
-			"name": "啟蒙樹木", "ENG_name": "Awakened Tree",
+			"name": "启蒙树木", "ENG_name": "Awakened Tree",
 			"source": "MM",
 			"entries": [
-				"啟蒙樹木是一株被{@spell 啟蒙術}或類似魔法效果賦予知覺和移動能力的尋常樹木。"
+				"启蒙树木是一株被{@spell 启蒙术}或类似魔法效果赋予知觉和移动能力的寻常树木。"
 			]
 		},
 		{
-			"name": "斧喙鳥", "ENG_name": "Axe Beak",
+			"name": "斧喙鸟", "ENG_name": "Axe Beak",
 			"source": "MM",
 			"entries": [
 				"An axe beak is a tall flightless bird with strong legs and a heavy, wedge-shaped beak. It has a nasty disposition and tends to attack any unfamiliar creature that wanders too close."
@@ -1749,15 +1749,15 @@
 			}
 		},
 		{
-			"name": "強盜", "ENG_name": "Bandit",
+			"name": "强盗", "ENG_name": "Bandit",
 			"source": "MM",
 			"entries": [
-				"強盜遊蕩成群，且經常由{@creature 暴徒}、{@creature 老兵}、或施法者所帶領。並非所有強盜都是邪惡的。苛政、旱災、疾病、或飢荒經常會驅使其他老實百姓過上強盜的生活。",
-				"海盜則是公海中的強盜。他們可能是只對寶藏和殺戮有興趣的掠奪者，也可能是由王權默許的私掠船隊，用以劫掠敵對國家的船隻。"
+				"强盗游荡成群，且经常由{@creature 暴徒}、{@creature 老兵}、或施法者所带领。并非所有强盗都是邪恶的。苛政、旱灾、疾病、或饥荒经常会驱使其他老实百姓过上强盗的生活。",
+				"海盗则是公海中的强盗。他们可能是只对宝藏和杀戮有兴趣的掠夺者，也可能是由王权默许的私掠船队，用以劫掠敌对国家的船只。"
 			]
 		},
 		{
-			"name": "強盜首領", "ENG_name": "Bandit Captain",
+			"name": "强盗首领", "ENG_name": "Bandit Captain",
 			"source": "MM",
 			"images": [
 				{
@@ -1893,7 +1893,7 @@
 			]
 		},
 		{
-			"name": "鬚魔", "ENG_name": "Bearded Devil",
+			"name": "须魔", "ENG_name": "Bearded Devil",
 			"source": "MM",
 			"images": [
 				{
@@ -2006,19 +2006,19 @@
 				}
 			],
 			"_copy": {
-				"name": "殭屍",
+				"name": "僵尸",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "狂戰士", "ENG_name": "Berserker",
+			"name": "狂战士", "ENG_name": "Berserker",
 			"source": "MM",
 			"entries": [
 				"Hailing from uncivilized lands, unpredictable Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
 			]
 		},
 		{
-			"name": "黑龍幼龍", "ENG_name": "Black Dragon Wyrmling",
+			"name": "黑龙幼龙", "ENG_name": "Black Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -2057,7 +2057,7 @@
 			]
 		},
 		{
-			"name": "閃現犬", "ENG_name": "Blink Dog",
+			"name": "闪现犬", "ENG_name": "Blink Dog",
 			"source": "MM",
 			"images": [
 				{
@@ -2073,14 +2073,14 @@
 			]
 		},
 		{
-			"name": "血鷹", "ENG_name": "Blood Hawk",
+			"name": "血鹰", "ENG_name": "Blood Hawk",
 			"source": "MM",
 			"entries": [
 				"Taking its name from its crimson feathers and aggressive nature, the blood hawk fearlessly attacks almost any animal, stabbing it with its daggerlike beak. Blood hawks flock together in large numbers, attacking as a pack to take down prey."
 			]
 		},
 		{
-			"name": "藍龍幼龍", "ENG_name": "Blue Dragon Wyrmling",
+			"name": "蓝龙幼龙", "ENG_name": "Blue Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -2152,7 +2152,7 @@
 			}
 		},
 		{
-			"name": "黃銅龍幼龍", "ENG_name": "Brass Dragon Wyrmling",
+			"name": "黄铜龙幼龙", "ENG_name": "Brass Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -2160,7 +2160,7 @@
 			}
 		},
 		{
-			"name": "青銅龍幼龍", "ENG_name": "Bronze Dragon Wyrmling",
+			"name": "青铜龙幼龙", "ENG_name": "Bronze Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -2205,7 +2205,7 @@
 			]
 		},
 		{
-			"name": "熊地精酋長", "ENG_name": "Bugbear Chief",
+			"name": "熊地精酋长", "ENG_name": "Bugbear Chief",
 			"source": "MM",
 			"_copy": {
 				"name": "熊地精",
@@ -2590,7 +2590,7 @@
 			]
 		},
 		{
-			"name": "雲巨人", "ENG_name": "Cloud Giant",
+			"name": "云巨人", "ENG_name": "Cloud Giant",
 			"source": "MM",
 			"images": [
 				{
@@ -2658,7 +2658,7 @@
 			}
 		},
 		{
-			"name": "雞蛇獸", "ENG_name": "Cockatrice",
+			"name": "鸡蛇兽", "ENG_name": "Cockatrice",
 			"source": "MM",
 			"images": [
 				{
@@ -2677,11 +2677,11 @@
 			"name": "平民", "ENG_name": "Commoner",
 			"source": "MM",
 			"entries": [
-				"平民包括了農民、農奴、奴隸、僕從、朝聖者、商人、工匠、以及隱士。"
+				"平民包括了农民、农奴、奴隶、仆从、朝圣者、商人、工匠、以及隐士。"
 			]
 		},
 		{
-			"name": "赤銅龍幼龍", "ENG_name": "Copper Dragon Wyrmling",
+			"name": "赤铜龙幼龙", "ENG_name": "Copper Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -2797,7 +2797,7 @@
 			]
 		},
 		{
-			"name": "獨眼巨人", "ENG_name": "Cyclops",
+			"name": "独眼巨人", "ENG_name": "Cyclops",
 			"source": "MM",
 			"images": [
 				{
@@ -3309,7 +3309,7 @@
 			]
 		},
 		{
-			"name": "龍龜", "ENG_name": "Dragon Turtle",
+			"name": "龙龟", "ENG_name": "Dragon Turtle",
 			"source": "MM",
 			"images": [
 				{
@@ -3393,7 +3393,7 @@
 			}
 		},
 		{
-			"name": "卓爾", "ENG_name": "Drow",
+			"name": "卓尔", "ENG_name": "Drow",
 			"source": "MM",
 			"images": [
 				{
@@ -3492,35 +3492,35 @@
 			]
 		},
 		{
-			"name": "卓爾菁英戰士", "ENG_name": "Drow Elite Warrior",
+			"name": "卓尔菁英战士", "ENG_name": "Drow Elite Warrior",
 			"source": "MM",
 			"_appendCopy": {
-				"name": "卓爾",
+				"name": "卓尔",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "卓爾魔法師", "ENG_name": "Drow Mage",
+			"name": "卓尔魔法师", "ENG_name": "Drow Mage",
 			"source": "MM",
 			"_appendCopy": {
-				"name": "卓爾",
+				"name": "卓尔",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "卓爾．羅絲女祭司", "ENG_name": "Drow Priestess of Lolth",
+			"name": "卓尔．罗丝女祭司", "ENG_name": "Drow Priestess of Lolth",
 			"source": "MM",
 			"entries": [
 				"Female drow with blood ties to a noble house are molded and trained from birth to become priestesses of Lolth. The Spider Queen doesn't allow male drow to hold such positions.",
 				"Such priestesses execute the will of the Spider Queen, and as a result, they wield tremendous power and influence in drow society. The matron mothers who rule the drow houses are the most powerful of Lolth's priestesses, but they must constantly balance their devotion to the Spider Queen with their devotion to their families."
 			],
 			"_appendCopy": {
-				"name": "卓爾",
+				"name": "卓尔",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "德魯伊", "ENG_name": "Druid",
+			"name": "德鲁伊", "ENG_name": "Druid",
 			"source": "MM",
 			"images": [
 				{
@@ -3837,7 +3837,7 @@
 			]
 		},
 		{
-			"name": "雙頭巨人", "ENG_name": "Ettin",
+			"name": "双头巨人", "ENG_name": "Ettin",
 			"source": "MM",
 			"images": [
 				{
@@ -3885,7 +3885,7 @@
 			]
 		},
 		{
-			"name": "妖精龍(藍)", "ENG_name": "Faerie Dragon (Blue)",
+			"name": "妖精龙(蓝)", "ENG_name": "Faerie Dragon (Blue)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3893,7 +3893,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(綠)", "ENG_name": "Faerie Dragon (Green)",
+			"name": "妖精龙(绿)", "ENG_name": "Faerie Dragon (Green)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3901,7 +3901,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(靛)", "ENG_name": "Faerie Dragon (Indigo)",
+			"name": "妖精龙(靛)", "ENG_name": "Faerie Dragon (Indigo)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3909,7 +3909,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(橙)", "ENG_name": "Faerie Dragon (Orange)",
+			"name": "妖精龙(橙)", "ENG_name": "Faerie Dragon (Orange)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3917,7 +3917,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(紅)", "ENG_name": "Faerie Dragon (Red)",
+			"name": "妖精龙(红)", "ENG_name": "Faerie Dragon (Red)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3925,7 +3925,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(紫)", "ENG_name": "Faerie Dragon (Violet)",
+			"name": "妖精龙(紫)", "ENG_name": "Faerie Dragon (Violet)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -3933,7 +3933,7 @@
 			}
 		},
 		{
-			"name": "妖精龍(黃)", "ENG_name": "Faerie Dragon (Yellow)",
+			"name": "妖精龙(黄)", "ENG_name": "Faerie Dragon (Yellow)",
 			"source": "MM",
 			"_copy": {
 				"name": "Faerie Dragon",
@@ -4115,7 +4115,7 @@
 			]
 		},
 		{
-			"name": "呋嚕", "ENG_name": "Flumph",
+			"name": "呋噜", "ENG_name": "Flumph",
 			"source": "MM",
 			"images": [
 				{
@@ -4161,7 +4161,7 @@
 			]
 		},
 		{
-			"name": "飛行刀劍", "ENG_name": "Flying Sword",
+			"name": "飞行刀剑", "ENG_name": "Flying Sword",
 			"source": "MM",
 			"images": [
 				{
@@ -4191,7 +4191,7 @@
 			]
 		},
 		{
-			"name": "廢陋巨人(弗摩爾巨人)", "ENG_name": "Fomorian",
+			"name": "废陋巨人(弗摩尔巨人)", "ENG_name": "Fomorian",
 			"source": "MM",
 			"images": [
 				{
@@ -4381,7 +4381,7 @@
 			]
 		},
 		{
-			"name": "毒氣孢子", "ENG_name": "Gas Spore",
+			"name": "毒气孢子", "ENG_name": "Gas Spore",
 			"source": "MM",
 			"images": [
 				{
@@ -4427,7 +4427,7 @@
 			]
 		},
 		{
-			"name": "凝膠方塊", "ENG_name": "Gelatinous Cube",
+			"name": "凝胶方块", "ENG_name": "Gelatinous Cube",
 			"source": "MM",
 			"images": [
 				{
@@ -4461,7 +4461,7 @@
 			"name": "妖鬼", "ENG_name": "Ghast",
 			"source": "MM",
 			"_copy": {
-				"name": "食屍鬼",
+				"name": "食尸鬼",
 				"source": "MM"
 			}
 		},
@@ -4504,7 +4504,7 @@
 			]
 		},
 		{
-			"name": "食屍鬼", "ENG_name": "Ghoul",
+			"name": "食尸鬼", "ENG_name": "Ghoul",
 			"source": "MM",
 			"images": [
 				{
@@ -4692,7 +4692,7 @@
 			]
 		},
 		{
-			"name": "吉斯洋基騎士", "ENG_name": "Githyanki Knight",
+			"name": "吉斯洋基骑士", "ENG_name": "Githyanki Knight",
 			"source": "MM",
 			"_copy": {
 				"name": "Githyanki",
@@ -4700,7 +4700,7 @@
 			}
 		},
 		{
-			"name": "吉斯洋基戰士", "ENG_name": "Githyanki Warrior",
+			"name": "吉斯洋基战士", "ENG_name": "Githyanki Warrior",
 			"source": "MM",
 			"_copy": {
 				"name": "Githyanki",
@@ -4708,7 +4708,7 @@
 			}
 		},
 		{
-			"name": "吉斯澤萊武僧", "ENG_name": "Githzerai Monk",
+			"name": "吉斯泽莱武僧", "ENG_name": "Githzerai Monk",
 			"source": "MM",
 			"_copy": {
 				"name": "Githzerai",
@@ -4716,7 +4716,7 @@
 			}
 		},
 		{
-			"name": "吉斯澤萊澤斯修士", "ENG_name": "Githzerai Zerth",
+			"name": "吉斯泽莱泽斯修士", "ENG_name": "Githzerai Zerth",
 			"source": "MM",
 			"_copy": {
 				"name": "Githzerai",
@@ -4724,7 +4724,7 @@
 			}
 		},
 		{
-			"name": "迷誘魔", "ENG_name": "Glabrezu",
+			"name": "迷诱魔", "ENG_name": "Glabrezu",
 			"source": "MM",
 			"images": [
 				{
@@ -4745,7 +4745,7 @@
 			}
 		},
 		{
-			"name": "角鬥士", "ENG_name": "Gladiator",
+			"name": "角斗士", "ENG_name": "Gladiator",
 			"source": "MM",
 			"entries": [
 				"Gladiators battle for the entertainment of raucous crowds. Some gladiators are brutal pit fighters who treat each match as a life-or-death struggle, while others are professional duelists who command huge fees but rarely fight to the death."
@@ -4784,7 +4784,7 @@
 			]
 		},
 		{
-			"name": "豺狼人．耶諾古毒牙", "ENG_name": "Gnoll Fang of Yeenoghu",
+			"name": "豺狼人．耶诺古毒牙", "ENG_name": "Gnoll Fang of Yeenoghu",
 			"source": "MM",
 			"images": [
 				{
@@ -4812,7 +4812,7 @@
 			]
 		},
 		{
-			"name": "豺狼人頭領", "ENG_name": "Gnoll Pack Lord",
+			"name": "豺狼人头领", "ENG_name": "Gnoll Pack Lord",
 			"source": "MM",
 			"images": [
 				{
@@ -4890,7 +4890,7 @@
 			]
 		},
 		{
-			"name": "哥布林頭目", "ENG_name": "Goblin Boss",
+			"name": "哥布林头目", "ENG_name": "Goblin Boss",
 			"source": "MM",
 			"_copy": {
 				"name": "哥布林",
@@ -4898,7 +4898,7 @@
 			}
 		},
 		{
-			"name": "金龍幼龍", "ENG_name": "Gold Dragon Wyrmling",
+			"name": "金龙幼龙", "ENG_name": "Gold Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -4987,7 +4987,7 @@
 			]
 		},
 		{
-			"name": "灰泥怪(靈能)", "ENG_name": "Gray Ooze (Psychic)",
+			"name": "灰泥怪(灵能)", "ENG_name": "Gray Ooze (Psychic)",
 			"source": "MM",
 			"_copy": {
 				"name": "灰泥怪",
@@ -5029,7 +5029,7 @@
 			]
 		},
 		{
-			"name": "綠龍幼龍", "ENG_name": "Green Dragon Wyrmling",
+			"name": "绿龙幼龙", "ENG_name": "Green Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -5183,7 +5183,7 @@
 			}
 		},
 		{
-			"name": "獅鷲", "ENG_name": "Griffon",
+			"name": "狮鹫", "ENG_name": "Griffon",
 			"source": "MM",
 			"images": [
 				{
@@ -5223,7 +5223,7 @@
 			]
 		},
 		{
-			"name": "石盲蠻族", "ENG_name": "Grimlock",
+			"name": "石盲蛮族", "ENG_name": "Grimlock",
 			"source": "MM",
 			"images": [
 				{
@@ -5256,7 +5256,7 @@
 			]
 		},
 		{
-			"name": "衛兵", "ENG_name": "Guard",
+			"name": "卫兵", "ENG_name": "Guard",
 			"source": "MM",
 			"entries": [
 				"Guards include members of a city watch, sentries in a citadel or fortified town, and the bodyguards of merchants and nobles."
@@ -5368,7 +5368,7 @@
 			]
 		},
 		{
-			"name": "半紅龍老兵", "ENG_name": "Half-Red Dragon Veteran",
+			"name": "半红龙老兵", "ENG_name": "Half-Red Dragon Veteran",
 			"source": "MM",
 			"type": "section",
 			"images": [
@@ -5612,7 +5612,7 @@
 			]
 		},
 		{
-			"name": "恐怖鎧甲", "ENG_name": "Helmed Horror",
+			"name": "恐怖铠甲", "ENG_name": "Helmed Horror",
 			"source": "MM",
 			"images": [
 				{
@@ -5649,7 +5649,7 @@
 			]
 		},
 		{
-			"name": "狂戰魔", "ENG_name": "Hezrou",
+			"name": "狂战魔", "ENG_name": "Hezrou",
 			"source": "MM",
 			"images": [
 				{
@@ -5840,7 +5840,7 @@
 			]
 		},
 		{
-			"name": "大哥布林隊長", "ENG_name": "Hobgoblin Captain",
+			"name": "大哥布林队长", "ENG_name": "Hobgoblin Captain",
 			"source": "MM",
 			"_copy": {
 				"name": "大哥布林",
@@ -5848,7 +5848,7 @@
 			}
 		},
 		{
-			"name": "大哥布林督軍", "ENG_name": "Hobgoblin Warlord",
+			"name": "大哥布林督军", "ENG_name": "Hobgoblin Warlord",
 			"source": "MM",
 			"_copy": {
 				"name": "大哥布林",
@@ -5856,7 +5856,7 @@
 			}
 		},
 		{
-			"name": "荷蒙庫魯斯", "ENG_name": "Homunculus",
+			"name": "荷蒙库鲁斯", "ENG_name": "Homunculus",
 			"source": "MM",
 			"images": [
 				{
@@ -6153,7 +6153,7 @@
 			]
 		},
 		{
-			"name": "鋼鐵魔像", "ENG_name": "Iron Golem",
+			"name": "钢铁魔像", "ENG_name": "Iron Golem",
 			"source": "MM",
 			"images": [
 				{
@@ -6251,14 +6251,14 @@
 			]
 		},
 		{
-			"name": "騎士", "ENG_name": "Knight",
+			"name": "骑士", "ENG_name": "Knight",
 			"source": "MM",
 			"entries": [
 				"Knights are warriors who pledge service to rulers, religious orders, and noble causes. A knight's alignment determines the extent to which a pledge is honored. Whether undertaking a quest or patrolling a realm, a knight often travels with an entourage that includes squires and hirelings who are commoners."
 			]
 		},
 		{
-			"name": "狗頭人", "ENG_name": "Kobold",
+			"name": "狗头人", "ENG_name": "Kobold",
 			"source": "MM",
 			"images": [
 				{
@@ -6327,7 +6327,7 @@
 			]
 		},
 		{
-			"name": "寇濤魚人", "ENG_name": "Kuo-toa",
+			"name": "寇涛鱼人", "ENG_name": "Kuo-toa",
 			"source": "MM",
 			"images": [
 				{
@@ -6380,7 +6380,7 @@
 			]
 		},
 		{
-			"name": "寇濤魚人大祭司", "ENG_name": "Kuo-toa Archpriest",
+			"name": "寇涛鱼人大祭司", "ENG_name": "Kuo-toa Archpriest",
 			"source": "MM",
 			"images": [
 				{
@@ -6392,20 +6392,20 @@
 				}
 			],
 			"_copy": {
-				"name": "寇濤魚人",
+				"name": "寇涛鱼人",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "寇濤魚人監督者", "ENG_name": "Kuo-toa Monitor",
+			"name": "寇涛鱼人监督者", "ENG_name": "Kuo-toa Monitor",
 			"source": "MM",
 			"_copy": {
-				"name": "寇濤魚人",
+				"name": "寇涛鱼人",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "寇濤魚人鞭策者", "ENG_name": "Kuo-toa Whip",
+			"name": "寇涛鱼人鞭策者", "ENG_name": "Kuo-toa Whip",
 			"source": "MM",
 			"images": [
 				{
@@ -6417,7 +6417,7 @@
 				}
 			],
 			"_copy": {
-				"name": "寇濤魚人",
+				"name": "寇涛鱼人",
 				"source": "MM"
 			}
 		},
@@ -6628,7 +6628,7 @@
 			]
 		},
 		{
-			"name": "蜥蜴人薩滿", "ENG_name": "Lizardfolk Shaman",
+			"name": "蜥蜴人萨满", "ENG_name": "Lizardfolk Shaman",
 			"source": "MM",
 			"_copy": {
 				"name": "Lizardfolk",
@@ -6636,7 +6636,7 @@
 			}
 		},
 		{
-			"name": "魔法師", "ENG_name": "Mage",
+			"name": "魔法师", "ENG_name": "Mage",
 			"source": "MM",
 			"entries": [
 				"Mages spend their lives in the study and practice of magic. Good-aligned mages offer counsel to nobles and others in power, while evil mages dwell in isolated sites to perform unspeakable experiments without interference.",
@@ -6881,7 +6881,7 @@
 			]
 		},
 		{
-			"name": "人魚", "ENG_name": "Merfolk",
+			"name": "人鱼", "ENG_name": "Merfolk",
 			"source": "MM",
 			"images": [
 				{
@@ -6907,7 +6907,7 @@
 			]
 		},
 		{
-			"name": "邁羅人魚", "ENG_name": "Merrow",
+			"name": "迈罗人鱼", "ENG_name": "Merrow",
 			"source": "MM",
 			"images": [
 				{
@@ -7047,7 +7047,7 @@
 			}
 		},
 		{
-			"name": "米諾陶", "ENG_name": "Minotaur",
+			"name": "米诺陶", "ENG_name": "Minotaur",
 			"source": "MM",
 			"images": [
 				{
@@ -7082,7 +7082,7 @@
 			]
 		},
 		{
-			"name": "骷髏米諾陶", "ENG_name": "Minotaur Skeleton",
+			"name": "骷髅米诺陶", "ENG_name": "Minotaur Skeleton",
 			"source": "MM",
 			"images": [
 				{
@@ -7094,12 +7094,12 @@
 				}
 			],
 			"_copy": {
-				"name": "骷髏",
+				"name": "骷髅",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "單元冢", "ENG_name": "Monodrone",
+			"name": "单元冢", "ENG_name": "Monodrone",
 			"source": "MM",
 			"images": [
 				{
@@ -7263,7 +7263,7 @@
 			]
 		},
 		{
-			"name": "蕈人成體", "ENG_name": "Myconid Adult",
+			"name": "蕈人成体", "ENG_name": "Myconid Adult",
 			"source": "MM",
 			"_copy": {
 				"name": "Myconid",
@@ -7279,7 +7279,7 @@
 			}
 		},
 		{
-			"name": "蕈人幼體", "ENG_name": "Myconid Sprout",
+			"name": "蕈人幼体", "ENG_name": "Myconid Sprout",
 			"source": "MM",
 			"_copy": {
 				"name": "Myconid",
@@ -7308,7 +7308,7 @@
 			}
 		},
 		{
-			"name": "枯針怪", "ENG_name": "Needle Blight",
+			"name": "枯针怪", "ENG_name": "Needle Blight",
 			"source": "MM",
 			"images": [
 				{
@@ -7434,7 +7434,7 @@
 			]
 		},
 		{
-			"name": "貴族", "ENG_name": "Noble",
+			"name": "贵族", "ENG_name": "Noble",
 			"source": "MM",
 			"images": [
 				{
@@ -7503,7 +7503,7 @@
 			}
 		},
 		{
-			"name": "赭凍怪", "ENG_name": "Ochre Jelly",
+			"name": "赭冻怪", "ENG_name": "Ochre Jelly",
 			"source": "MM",
 			"images": [
 				{
@@ -7606,12 +7606,12 @@
 				}
 			],
 			"_copy": {
-				"name": "殭屍",
+				"name": "僵尸",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "惡鬼", "ENG_name": "Oni",
+			"name": "恶鬼", "ENG_name": "Oni",
 			"source": "MM",
 			"images": [
 				{
@@ -7641,7 +7641,7 @@
 			]
 		},
 		{
-			"name": "獸人", "ENG_name": "Orc",
+			"name": "兽人", "ENG_name": "Orc",
 			"source": "MM",
 			"images": [
 				{
@@ -7684,7 +7684,7 @@
 			]
 		},
 		{
-			"name": "獸人．格烏什之眼", "ENG_name": "Orc Eye of Gruumsh",
+			"name": "兽人．格乌什之眼", "ENG_name": "Orc Eye of Gruumsh",
 			"source": "MM",
 			"images": [
 				{
@@ -7717,7 +7717,7 @@
 			]
 		},
 		{
-			"name": "獸人戰酋", "ENG_name": "Orc War Chief",
+			"name": "兽人战酋", "ENG_name": "Orc War Chief",
 			"source": "MM",
 			"images": [
 				{
@@ -7754,7 +7754,7 @@
 			]
 		},
 		{
-			"name": "魔獸人", "ENG_name": "Orog",
+			"name": "魔兽人", "ENG_name": "Orog",
 			"source": "MM",
 			"images": [
 				{
@@ -7836,7 +7836,7 @@
 			]
 		},
 		{
-			"name": "梟熊", "ENG_name": "Owlbear",
+			"name": "枭熊", "ENG_name": "Owlbear",
 			"source": "MM",
 			"images": [
 				{
@@ -7883,7 +7883,7 @@
 			]
 		},
 		{
-			"name": "飛馬", "ENG_name": "Pegasus",
+			"name": "飞马", "ENG_name": "Pegasus",
 			"source": "MM",
 			"images": [
 				{
@@ -7999,7 +7999,7 @@
 			]
 		},
 		{
-			"name": "穿刺蟲", "ENG_name": "Piercer",
+			"name": "穿刺虫", "ENG_name": "Piercer",
 			"source": "MM",
 			"images": [
 				{
@@ -8187,7 +8187,7 @@
 			]
 		},
 		{
-			"name": "偽龍", "ENG_name": "Pseudodragon",
+			"name": "伪龙", "ENG_name": "Pseudodragon",
 			"source": "MM",
 			"images": [
 				{
@@ -8321,7 +8321,7 @@
 			]
 		},
 		{
-			"name": "澤地熊人", "ENG_name": "Quaggoth",
+			"name": "泽地熊人", "ENG_name": "Quaggoth",
 			"source": "MM",
 			"images": [
 				{
@@ -8367,7 +8367,7 @@
 			]
 		},
 		{
-			"name": "澤地熊人孢子僕役", "ENG_name": "Quaggoth Spore Servant",
+			"name": "泽地熊人孢子仆役", "ENG_name": "Quaggoth Spore Servant",
 			"source": "MM",
 			"images": [
 				{
@@ -8453,10 +8453,10 @@
 			]
 		},
 		{
-			"name": "澤地熊人．索諾祭司", "ENG_name": "Quaggoth Thonot",
+			"name": "泽地熊人．索诺祭司", "ENG_name": "Quaggoth Thonot",
 			"source": "MM",
 			"_copy": {
-				"name": "澤地熊人",
+				"name": "泽地熊人",
 				"source": "MM"
 			}
 		},
@@ -8538,7 +8538,7 @@
 			]
 		},
 		{
-			"name": "紅龍幼龍", "ENG_name": "Red Dragon Wyrmling",
+			"name": "红龙幼龙", "ENG_name": "Red Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -8726,7 +8726,7 @@
 			]
 		},
 		{
-			"name": "悶窒魔毯", "ENG_name": "Rug of Smothering",
+			"name": "闷窒魔毯", "ENG_name": "Rug of Smothering",
 			"source": "MM",
 			"images": [
 				{
@@ -8785,7 +8785,7 @@
 			]
 		},
 		{
-			"name": "沙華魚人", "ENG_name": "Sahuagin",
+			"name": "沙华鱼人", "ENG_name": "Sahuagin",
 			"source": "MM",
 			"images": [
 				{
@@ -8826,7 +8826,7 @@
 			]
 		},
 		{
-			"name": "沙華魚人男爵", "ENG_name": "Sahuagin Baron",
+			"name": "沙华鱼人男爵", "ENG_name": "Sahuagin Baron",
 			"source": "MM",
 			"images": [
 				{
@@ -8838,15 +8838,15 @@
 				}
 			],
 			"_copy": {
-				"name": "沙華魚人",
+				"name": "沙华鱼人",
 				"source": "MM"
 			}
 		},
 		{
-			"name": "沙華魚人女祭司", "ENG_name": "Sahuagin Priestess",
+			"name": "沙华鱼人女祭司", "ENG_name": "Sahuagin Priestess",
 			"source": "MM",
 			"_copy": {
-				"name": "沙華魚人",
+				"name": "沙华鱼人",
 				"source": "MM"
 			}
 		},
@@ -9000,7 +9000,7 @@
 			}
 		},
 		{
-			"name": "陰影", "ENG_name": "Shadow",
+			"name": "阴影", "ENG_name": "Shadow",
 			"source": "MM",
 			"images": [
 				{
@@ -9094,7 +9094,7 @@
 			]
 		},
 		{
-			"name": "構裝盾衛", "ENG_name": "Shield Guardian",
+			"name": "构装盾卫", "ENG_name": "Shield Guardian",
 			"source": "MM",
 			"images": [
 				{
@@ -9158,7 +9158,7 @@
 			]
 		},
 		{
-			"name": "銀龍幼龍", "ENG_name": "Silver Dragon Wyrmling",
+			"name": "银龙幼龙", "ENG_name": "Silver Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -9166,7 +9166,7 @@
 			}
 		},
 		{
-			"name": "骷髏", "ENG_name": "Skeleton",
+			"name": "骷髅", "ENG_name": "Skeleton",
 			"source": "MM",
 			"images": [
 				{
@@ -9351,7 +9351,7 @@
 			]
 		},
 		{
-			"name": "幽靈", "ENG_name": "Specter",
+			"name": "幽灵", "ENG_name": "Specter",
 			"source": "MM",
 			"images": [
 				{
@@ -9626,7 +9626,7 @@
 			]
 		},
 		{
-			"name": "風暴巨人", "ENG_name": "Storm Giant",
+			"name": "风暴巨人", "ENG_name": "Storm Giant",
 			"source": "MM",
 			"images": [
 				{
@@ -9710,7 +9710,7 @@
 			}
 		},
 		{
-			"name": "甲蟲群", "ENG_name": "Swarm of Beetles",
+			"name": "甲虫群", "ENG_name": "Swarm of Beetles",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -9726,7 +9726,7 @@
 			}
 		},
 		{
-			"name": "昆蟲群", "ENG_name": "Swarm of Insects",
+			"name": "昆虫群", "ENG_name": "Swarm of Insects",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -9742,7 +9742,7 @@
 			}
 		},
 		{
-			"name": "食人魚群", "ENG_name": "Swarm of Quippers",
+			"name": "食人鱼群", "ENG_name": "Swarm of Quippers",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -9758,7 +9758,7 @@
 			}
 		},
 		{
-			"name": "渡鴉群", "ENG_name": "Swarm of Ravens",
+			"name": "渡鸦群", "ENG_name": "Swarm of Ravens",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -9774,7 +9774,7 @@
 			}
 		},
 		{
-			"name": "黃蜂群", "ENG_name": "Swarm of Wasps",
+			"name": "黄蜂群", "ENG_name": "Swarm of Wasps",
 			"source": "MM",
 			"_copy": {
 				"name": "Generic Swarm",
@@ -9846,7 +9846,7 @@
 			]
 		},
 		{
-			"name": "斯里克林螳螂人(靈能)", "ENG_name": "Thri-kreen (Psionic)",
+			"name": "斯里克林螳螂人(灵能)", "ENG_name": "Thri-kreen (Psionic)",
 			"source": "MM",
 			"_copy": {
 				"name": "斯里克林螳螂人",
@@ -9915,7 +9915,7 @@
 			]
 		},
 		{
-			"name": "三角龍", "ENG_name": "Triceratops",
+			"name": "三角龙", "ENG_name": "Triceratops",
 			"source": "MM",
 			"images": [
 				{
@@ -9966,7 +9966,7 @@
 			]
 		},
 		{
-			"name": "戰蜥人", "ENG_name": "Troglodyte",
+			"name": "战蜥人", "ENG_name": "Troglodyte",
 			"source": "MM",
 			"images": [
 				{
@@ -10069,7 +10069,7 @@
 			]
 		},
 		{
-			"name": "霸王龍", "ENG_name": "Tyrannosaurus Rex",
+			"name": "霸王龙", "ENG_name": "Tyrannosaurus Rex",
 			"source": "MM",
 			"images": [
 				{
@@ -10400,10 +10400,10 @@
 			}
 		},
 		{
-			"name": "骷髏戰馬", "ENG_name": "Warhorse Skeleton",
+			"name": "骷髅战马", "ENG_name": "Warhorse Skeleton",
 			"source": "MM",
 			"_copy": {
-				"name": "骷髏",
+				"name": "骷髅",
 				"source": "MM"
 			}
 		},
@@ -10460,7 +10460,7 @@
 			]
 		},
 		{
-			"name": "(獸化)熊人", "ENG_name": "Werebear",
+			"name": "(兽化)熊人", "ENG_name": "Werebear",
 			"source": "MM",
 			"images": [
 				{
@@ -10482,7 +10482,7 @@
 			}
 		},
 		{
-			"name": "(獸化)野豬人", "ENG_name": "Wereboar",
+			"name": "(兽化)野猪人", "ENG_name": "Wereboar",
 			"source": "MM",
 			"images": [
 				{
@@ -10503,7 +10503,7 @@
 			}
 		},
 		{
-			"name": "(獸化)鼠人", "ENG_name": "Wererat",
+			"name": "(兽化)鼠人", "ENG_name": "Wererat",
 			"source": "MM",
 			"images": [
 				{
@@ -10525,7 +10525,7 @@
 			}
 		},
 		{
-			"name": "(獸化)虎人", "ENG_name": "Weretiger",
+			"name": "(兽化)虎人", "ENG_name": "Weretiger",
 			"source": "MM",
 			"images": [
 				{
@@ -10547,7 +10547,7 @@
 			}
 		},
 		{
-			"name": "(獸化)狼人", "ENG_name": "Werewolf",
+			"name": "(兽化)狼人", "ENG_name": "Werewolf",
 			"source": "MM",
 			"images": [
 				{
@@ -10568,7 +10568,7 @@
 			}
 		},
 		{
-			"name": "白龍幼龍", "ENG_name": "White Dragon Wyrmling",
+			"name": "白龙幼龙", "ENG_name": "White Dragon Wyrmling",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -10576,7 +10576,7 @@
 			}
 		},
 		{
-			"name": "屍妖", "ENG_name": "Wight",
+			"name": "尸妖", "ENG_name": "Wight",
 			"source": "MM",
 			"images": [
 				{
@@ -10655,10 +10655,10 @@
 			]
 		},
 		{
-			"name": "帶翼狗頭人", "ENG_name": "Winged Kobold",
+			"name": "带翼狗头人", "ENG_name": "Winged Kobold",
 			"source": "MM",
 			"_copy": {
-				"name": "狗頭人",
+				"name": "狗头人",
 				"source": "MM"
 			}
 		},
@@ -10741,7 +10741,7 @@
 			]
 		},
 		{
-			"name": "飛龍", "ENG_name": "Wyvern",
+			"name": "飞龙", "ENG_name": "Wyvern",
 			"source": "MM",
 			"images": [
 				{
@@ -10850,7 +10850,7 @@
 			]
 		},
 		{
-			"name": "蠟融妖", "ENG_name": "Yochlol",
+			"name": "蜡融妖", "ENG_name": "Yochlol",
 			"source": "MM",
 			"images": [
 				{
@@ -10871,7 +10871,7 @@
 			}
 		},
 		{
-			"name": "少年黑龍", "ENG_name": "Young Black Dragon",
+			"name": "少年黑龙", "ENG_name": "Young Black Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Black Dragon",
@@ -10879,7 +10879,7 @@
 			}
 		},
 		{
-			"name": "少年藍龍", "ENG_name": "Young Blue Dragon",
+			"name": "少年蓝龙", "ENG_name": "Young Blue Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Blue Dragon",
@@ -10887,7 +10887,7 @@
 			}
 		},
 		{
-			"name": "少年黃銅龍", "ENG_name": "Young Brass Dragon",
+			"name": "少年黄铜龙", "ENG_name": "Young Brass Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Brass Dragon",
@@ -10895,7 +10895,7 @@
 			}
 		},
 		{
-			"name": "少年青銅龍", "ENG_name": "Young Bronze Dragon",
+			"name": "少年青铜龙", "ENG_name": "Young Bronze Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Bronze Dragon",
@@ -10903,7 +10903,7 @@
 			}
 		},
 		{
-			"name": "少年赤銅龍", "ENG_name": "Young Copper Dragon",
+			"name": "少年赤铜龙", "ENG_name": "Young Copper Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Copper Dragon",
@@ -10911,7 +10911,7 @@
 			}
 		},
 		{
-			"name": "少年金龍", "ENG_name": "Young Gold Dragon",
+			"name": "少年金龙", "ENG_name": "Young Gold Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Gold Dragon",
@@ -10919,7 +10919,7 @@
 			}
 		},
 		{
-			"name": "少年綠龍", "ENG_name": "Young Green Dragon",
+			"name": "少年绿龙", "ENG_name": "Young Green Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Green Dragon",
@@ -10927,7 +10927,7 @@
 			}
 		},
 		{
-			"name": "少年紅龍", "ENG_name": "Young Red Dragon",
+			"name": "少年红龙", "ENG_name": "Young Red Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Red Dragon",
@@ -10935,7 +10935,7 @@
 			}
 		},
 		{
-			"name": "少年幽影紅龍", "ENG_name": "Young Red Shadow Dragon",
+			"name": "少年幽影红龙", "ENG_name": "Young Red Shadow Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Shadow Dragon",
@@ -10951,7 +10951,7 @@
 			}
 		},
 		{
-			"name": "少年銀龍", "ENG_name": "Young Silver Dragon",
+			"name": "少年银龙", "ENG_name": "Young Silver Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "Silver Dragon",
@@ -10959,7 +10959,7 @@
 			}
 		},
 		{
-			"name": "少年白龍", "ENG_name": "Young White Dragon",
+			"name": "少年白龙", "ENG_name": "Young White Dragon",
 			"source": "MM",
 			"_copy": {
 				"name": "White Dragon",
@@ -11031,7 +11031,7 @@
 			}
 		},
 		{
-			"name": "純血蛇人", "ENG_name": "Yuan-ti Pureblood",
+			"name": "纯血蛇人", "ENG_name": "Yuan-ti Pureblood",
 			"source": "MM",
 			"images": [
 				{
@@ -11071,7 +11071,7 @@
 			]
 		},
 		{
-			"name": "殭屍", "ENG_name": "Zombie",
+			"name": "僵尸", "ENG_name": "Zombie",
 			"source": "MM",
 			"images": [
 				{

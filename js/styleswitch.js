@@ -22,7 +22,7 @@ class StyleSwitcher {
 		if (!$button || !$button.length) {
 			return;
 		}
-		$button.html(`${style === StyleSwitcher.STYLE_DAY ? "夜晚" : "白晝"}模式`);
+		$button.html(`${style === StyleSwitcher.STYLE_DAY ? "夜晚" : "白昼"}模式`);
 	}
 
 	getActiveStyleSheet () {

@@ -162,7 +162,7 @@ function loadhash (id) {
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		${Renderer.table.getCompactRenderedString(it)}
 		${it.chapter ? `<tr class="text"><td colspan="6">
-		${Renderer.get().render(`{@note ${it._type === "t" ? `這個表格` : "這些表格"}可以在 ${Parser.sourceJsonToFull(it.source)}${Parser.bookOrdinalToAbv(it.chapter.ordinal, true)}, {@book ${it.chapter.name}|${it.source}|${it.chapter.index}|${it.chapter.name}} 中被找到}`)}
+		${Renderer.get().render(`{@note ${it._type === "t" ? `这个表格` : "这些表格"}可以在 ${Parser.sourceJsonToFull(it.source)}${Parser.bookOrdinalToAbv(it.chapter.ordinal, true)}, {@book ${it.chapter.name}|${it.source}|${it.chapter.index}|${it.chapter.name}} 中被找到}`)}
 		</td></tr>` : ""}
 		${Renderer.utils.getPageTr(it)}
 		${Renderer.utils.getBorderTr()}

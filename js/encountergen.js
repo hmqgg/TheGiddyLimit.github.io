@@ -18,7 +18,7 @@ function makeContentsBlock (i, loc) {
 }
 
 function getTableName (loc, table) {
-	return `${loc.location}遭遇 (等級 ${table.minlvl}\u2014${table.maxlvl})`;
+	return `${loc.location}遭遇 (等级 ${table.minlvl}\u2014${table.maxlvl})`;
 }
 
 window.onload = function load () {

@@ -13,7 +13,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -205,7 +205,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -548,7 +548,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -696,7 +696,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -942,7 +942,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1240,7 +1240,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1427,7 +1427,7 @@
 							"slots": 2,
 							"spells": [
 								"{@spell conjure elemental}",
-								"{@spell 變形術}",
+								"{@spell 变形术}",
 								"{@spell wall of fire}",
 								"{@spell wall of force}"
 							]
@@ -1445,7 +1445,7 @@
 							"spells": [
 								"{@spell project image}",
 								"{@spell reverse gravity}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -1718,7 +1718,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1823,7 +1823,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1909,7 +1909,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1995,7 +1995,7 @@
 						"The dryad's innate spellcasting ability is Charisma (spell save DC 17). The dryad can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell 德魯伊伎倆}"
+						"{@spell 德鲁伊伎俩}"
 					],
 					"daily": {
 						"3e": [
@@ -2048,7 +2048,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2184,7 +2184,7 @@
 					],
 					"will": [
 						"{@spell 解除魔法}",
-						"{@spell 德魯伊伎倆}"
+						"{@spell 德鲁伊伎俩}"
 					],
 					"daily": {
 						"3e": [
@@ -2249,7 +2249,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2475,7 +2475,7 @@
 					],
 					"will": [
 						"{@spell charm person} (as a 3rd-level spell)",
-						"{@spell 瘋狂冠冕}"
+						"{@spell 疯狂冠冕}"
 					],
 					"daily": {
 						"1": [
@@ -2525,7 +2525,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2709,7 +2709,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2802,7 +2802,7 @@
 					],
 					"will": [
 						"{@spell clairvoyance}",
-						"{@spell 瘋狂冠冕}",
+						"{@spell 疯狂冠冕}",
 						"{@spell major image}",
 						"{@spell suggestion}"
 					],
@@ -2851,7 +2851,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2923,7 +2923,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2991,7 +2991,7 @@
 					]
 				},
 				{
-					"name": "巨鎚", "tENG_name": "Maul",
+					"name": "巨锤", "tENG_name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 13} to hit, reach 10 ft., one target. Hit: 28 ({@damage 6d6 + 7}) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked {@condition prone}."
 					]
@@ -3438,7 +3438,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3461,7 +3461,7 @@
 			"page": 217,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The hybrid can breathe air and water."
 					]
@@ -3901,7 +3901,7 @@
 								"{@spell acid splash}",
 								"{@spell light}",
 								"{@spell mending}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell shocking grasp}"
 							]
 						},
@@ -3936,7 +3936,7 @@
 							"spells": [
 								"{@spell confusion}",
 								"{@spell conjure minor elementals}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -3950,8 +3950,8 @@
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 地動術}",
-								"{@spell 冰牆術}"
+								"{@spell 地动术}",
+								"{@spell 冰墙术}"
 							]
 						},
 						"7": {
@@ -4082,7 +4082,7 @@
 						"{@spell detect magic}",
 						"{@spell eldritch blast} (at 11th level)",
 						"{@spell false life}",
-						"{@spell 浮空術} (self only)",
+						"{@spell 浮空术} (self only)",
 						"{@spell mage armor} (self only)"
 					],
 					"daily": {
@@ -4397,7 +4397,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell produce flame}",
 								"{@spell resistance}",
 								"{@spell thorn whip}"
@@ -4407,7 +4407,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell cure wounds}",
-								"{@spell 妖火術}",
+								"{@spell 妖火术}",
 								"{@spell thunderwave}"
 							]
 						},
@@ -4416,7 +4416,7 @@
 							"spells": [
 								"{@spell beast sense}",
 								"{@spell 火焰刀}",
-								"{@spell 行蹤無跡}"
+								"{@spell 行踪无迹}"
 							]
 						},
 						"3": {
@@ -4884,7 +4884,7 @@
 							"{@spell stoneskin}"
 						],
 						"3e": [
-							"{@spell 浮空術}",
+							"{@spell 浮空术}",
 							"{@spell lightning bolt}",
 							"{@spell thunderwave}"
 						]
@@ -5026,7 +5026,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -5410,7 +5410,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell enthrall}",
 								"{@spell suggestion}"
 							]
@@ -5761,7 +5761,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell blur}",
-								"{@spell 浮空術}"
+								"{@spell 浮空术}"
 							]
 						},
 						"3": {
@@ -5903,7 +5903,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -6235,7 +6235,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell shillelagh}",
 								"{@spell thorn whip}"
 							]
@@ -6245,13 +6245,13 @@
 							"spells": [
 								"{@spell cure wounds}",
 								"{@spell entangle}",
-								"{@spell 致病射線}"
+								"{@spell 致病射线}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 行蹤無跡}",
+								"{@spell 行踪无迹}",
 								"{@spell ray of enfeeblement}",
 								"{@spell spike growth}"
 							]
@@ -6259,7 +6259,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell 解除魔法}",
 								"{@spell plant growth}"
 							]
@@ -6267,7 +6267,7 @@
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell giant insect}"
 							]
 						}
@@ -6312,7 +6312,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6393,16 +6393,16 @@
 					],
 					"will": [
 						"{@spell chill touch}",
-						"{@spell 毒氣噴灑}"
+						"{@spell 毒气喷洒}"
 					],
 					"daily": {
 						"3e": [
 							"{@spell ray of enfeeblement}",
-							"{@spell 致病射線}"
+							"{@spell 致病射线}"
 						],
 						"1e": [
-							"{@spell 活化死屍}",
-							"{@spell 枯萎術}",
+							"{@spell 活化死尸}",
+							"{@spell 枯萎术}",
 							"{@spell vampiric touch}"
 						]
 					},
@@ -6447,7 +6447,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6531,7 +6531,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6569,7 +6569,7 @@
 			"senses": "darkvision 60 ft.",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Zegana can breathe air and water."
 					]
@@ -6637,7 +6637,7 @@
 						"0": {
 							"spells": [
 								"{@spell acid splash}",
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell ray of frost}",
 								"{@spell shape water|XGE}"
 							]
@@ -6671,7 +6671,7 @@
 							"spells": [
 								"{@spell control water}",
 								"{@spell ice storm}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -6684,15 +6684,15 @@
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell 地動術}",
-								"{@spell 冰牆術}"
+								"{@spell 地动术}",
+								"{@spell 冰墙术}"
 							]
 						},
 						"7": {
 							"slots": 1,
 							"spells": [
 								"{@spell prismatic spray}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -6740,7 +6740,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6762,7 +6762,7 @@
 			"page": 210,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The krasis can breathe air and water."
 					]
@@ -6811,7 +6811,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6833,7 +6833,7 @@
 			"page": 211,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The krasis can breathe air and water."
 					]
@@ -6882,7 +6882,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -6904,7 +6904,7 @@
 			"page": 212,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The krasis can breathe air and water."
 					]
@@ -6961,7 +6961,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7205,7 +7205,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -7284,7 +7284,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7313,7 +7313,7 @@
 			"page": 220,
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The skyswimmer can breathe air and water."
 					]
@@ -7364,7 +7364,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7474,7 +7474,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7560,7 +7560,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7682,7 +7682,7 @@
 						"3e": [
 							"{@spell blur}",
 							"{@spell confusion}",
-							"{@spell 鏡影術}"
+							"{@spell 镜影术}"
 						],
 						"1e": [
 							"{@spell modify memory}",
@@ -7804,7 +7804,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -7912,7 +7912,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -8031,7 +8031,7 @@
 								"{@spell acid splash}",
 								"{@spell chill touch}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell prestidigitation}"
 							]
 						},
@@ -8040,7 +8040,7 @@
 							"spells": [
 								"{@spell chromatic orb}",
 								"{@spell magic missile}",
-								"{@spell 致病射線}"
+								"{@spell 致病射线}"
 							]
 						},
 						"2": {
@@ -8055,16 +8055,16 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell bestow curse}",
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell vampiric touch}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell Evard's black tentacles}"
 							]
 						},
@@ -8126,7 +8126,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -8335,7 +8335,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -8478,7 +8478,7 @@
 								"{@spell acid splash}",
 								"{@spell chill touch}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell prestidigitation}"
 							]
 						},
@@ -8486,7 +8486,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell entangle}",
-								"{@spell 致病射線}",
+								"{@spell 致病射线}",
 								"{@spell sleep}"
 							]
 						},
@@ -8502,7 +8502,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell plant growth}",
 								"{@spell vampiric touch}"
 							]
@@ -8510,7 +8510,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell giant insect}",
 								"{@spell grasping vine}"
 							]
@@ -8669,7 +8669,7 @@
 						"3e": [
 							"{@spell charm person}",
 							"{@spell hold person}",
-							"{@spell 鏡影術}",
+							"{@spell 镜影术}",
 							"{@spell sleep}"
 						],
 						"1e": [
@@ -8713,7 +8713,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -8826,7 +8826,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					],
 					"condition": "plus 1 for each other Obzedat"
 				}

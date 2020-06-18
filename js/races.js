@@ -62,13 +62,13 @@ function getSpeedRating (speed) {
 
 let list;
 const sourceFilter = getSourceFilter();
-const sizeFilter = new Filter({header: "Size", headerName: "體型", displayFn: Parser.sizeAbvToFull});
+const sizeFilter = new Filter({header: "Size", headerName: "体型", displayFn: Parser.sizeAbvToFull});
 const asiFilter = new Filter({
-	header: "Ability Bonus (Including Subrace)", headerName: "屬性加值 (包括亞種)",
+	header: "Ability Bonus (Including Subrace)", headerName: "属性加值 (包括亚种)",
 	items: [
 		"任意力量增加",
 		"任意敏捷增加",
-		"任意體質增加",
+		"任意体质增加",
 		"任意智力增加",
 		"任意睿知增加",
 		"任意魅力增加",
@@ -76,8 +76,8 @@ const asiFilter = new Filter({
 		"力量+1",
 		"敏捷+2",
 		"敏捷+1",
-		"體質+2",
-		"體質+1",
+		"体质+2",
+		"体质+1",
 		"智力+2",
 		"智力+1",
 		"睿知+2",
@@ -116,22 +116,22 @@ async function onJsonLoad (data) {
 		],
 		displayFn: function(t){
 			switch(t){
-				case "NPC Race": 		return "NPC種族";
-				case "Monstrous Race":	return "怪物種族";
-				case "Armor Proficiency": 	return "護甲熟練";
-				case "Skill Proficiency": 	return "技能熟練";
-				case "Tool Proficiency": 	return "工具熟練";
-				case "Weapon Proficiency": 	return "武器熟練";
-				case "Darkvision": 			return "黑暗視覺";
-				case "Superior Darkvision": return "高級黑暗視覺";
-				case "Natural Armor": 		return "天生護甲";
-				case "Damage Resistance": 	return "傷害抗性";
+				case "NPC Race": 		return "NPC种族";
+				case "Monstrous Race":	return "怪物种族";
+				case "Armor Proficiency": 	return "护甲熟练";
+				case "Skill Proficiency": 	return "技能熟练";
+				case "Tool Proficiency": 	return "工具熟练";
+				case "Weapon Proficiency": 	return "武器熟练";
+				case "Darkvision": 			return "黑暗视觉";
+				case "Superior Darkvision": return "高级黑暗视觉";
+				case "Natural Armor": 		return "天生护甲";
+				case "Damage Resistance": 	return "伤害抗性";
 				case "Spellcasting": 		return "施法";
-				case "Unarmed Strike": 		return "徒手打擊";
-				case "Amphibious": 			return "兩棲";
-				case "Powerful Build": 		return "強健體格";
-				case "Dragonmark": 			return "龍紋";
-				case "Improved Resting": 	return "修整強化";
+				case "Unarmed Strike": 		return "徒手打击";
+				case "Amphibious": 			return "两栖";
+				case "Powerful Build": 		return "强健体格";
+				case "Dragonmark": 			return "龙纹";
+				case "Improved Resting": 	return "修整强化";
 				default: return t;
 			}
 		},
@@ -140,7 +140,7 @@ async function onJsonLoad (data) {
 		}
 	});
 	const languageFilter = new Filter({
-		header: "Languages", headerName: "語言",
+		header: "Languages", headerName: "语言",
 		items: [
 			"Choose",
 			"Common",
@@ -229,7 +229,7 @@ function addRaces (data) {
 		const race = raceList[rcI];
 		if (ExcludeUtil.isExcluded(race.name, "race", race.source)) continue;
 
-		const ability = race.ability ? utils_getAbilityData(race.ability) : {asTextShort: "無"};
+		const ability = race.ability ? utils_getAbilityData(race.ability) : {asTextShort: "无"};
 		if (race.ability) {
 			const abils = getAbilityObjs(race.ability);
 			race._fAbility = abils.map(a => mapAbilityObjToFull(a));
@@ -382,8 +382,8 @@ function loadhash (id) {
 		${race.soundClip ? getPronunciationButton() : ""}
 		<span class="stats-source ${Parser.sourceJsonToColor(race.source)}" title="${Parser.sourceJsonToFull(race.source)}">${Parser.sourceJsonToAbv(race.source)}</span>
 		</th></tr>
-		<tr><td colspan="6"><b>屬性值：</b> ${(race.ability ? utils_getAbilityData(race.ability) : {asText: "無"}).asText}</td></tr>
-		<tr><td colspan="6"><b>體型：</b> ${Parser.sizeAbvToFull(race.size)}</td></tr>
+		<tr><td colspan="6"><b>属性值：</b> ${(race.ability ? utils_getAbilityData(race.ability) : {asText: "无"}).asText}</td></tr>
+		<tr><td colspan="6"><b>体型：</b> ${Parser.sizeAbvToFull(race.size)}</td></tr>
 		<tr><td colspan="6"><b>速度：</b> ${Parser.getSpeedString(race)}</td></tr>
 		<tr id="traits"><td class="divider" colspan="6"><div></div></td></tr>
 		${Renderer.utils.getBorderTr()}
@@ -397,7 +397,7 @@ function loadhash (id) {
 		if (race.traitTags && race.traitTags.includes("NPC Race")) {
 			renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted">`);
 			renderer.recursiveRender(
-				`{@i 註記： 這個種族被記載於{@i 《地下城主指南》}以做為創造非玩家角色的選項。它並非被設計做為玩家可用的種族。}`
+				`{@i 注记： 这个种族被记载于{@i 《地下城主指南》}以做为创造非玩家角色的选项。它并非被设计做为玩家可用的种族。}`
 				, renderStack, {depth: 2});
 			renderStack.push(`</section></td></tr>`);
 		}
@@ -494,12 +494,12 @@ function loadhash (id) {
 		buildStatsTab
 	);
 	const infoTab = Renderer.utils.tabButton(
-		"資訊",
+		"资讯",
 		() => {},
 		buildFluffTab
 	);
 	const picTab = Renderer.utils.tabButton(
-		"圖片",
+		"图片",
 		() => {},
 		buildFluffTab.bind(null, true)
 	);

@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "吟遊詩人", "ENG_name": "Bard",
+			"name": "吟游诗人", "ENG_name": "Bard",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -14,8 +14,8 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter 已知戲法|spells|level=0|class=bard}",
-						"{@filter 已知法術|spells|class=bard}"
+						"{@filter 已知戏法|spells|level=0|class=bard}",
+						"{@filter 已知法术|spells|class=bard}"
 					],
 					"rows": [
 						[
@@ -101,17 +101,17 @@
 					]
 				},
 				{
-					"title": "法術位/每環",
+					"title": "法术位/每环",
 					"colLabels": [
-						"{@filter 1環|spells|level=1|class=bard}",
-						"{@filter 2環|spells|level=2|class=bard}",
-						"{@filter 3環|spells|level=3|class=bard}",
-						"{@filter 4環|spells|level=4|class=bard}",
-						"{@filter 5環|spells|level=5|class=bard}",
-						"{@filter 6環|spells|level=6|class=bard}",
-						"{@filter 7環|spells|level=7|class=bard}",
-						"{@filter 8環|spells|level=8|class=bard}",
-						"{@filter 9環|spells|level=9|class=bard}"
+						"{@filter 1环|spells|level=1|class=bard}",
+						"{@filter 2环|spells|level=2|class=bard}",
+						"{@filter 3环|spells|level=3|class=bard}",
+						"{@filter 4环|spells|level=4|class=bard}",
+						"{@filter 5环|spells|level=5|class=bard}",
+						"{@filter 6环|spells|level=6|class=bard}",
+						"{@filter 7环|spells|level=7|class=bard}",
+						"{@filter 8环|spells|level=8|class=bard}",
+						"{@filter 9环|spells|level=9|class=bard}"
 					],
 					"rows": [
 						[
@@ -344,12 +344,12 @@
 				"weapons": [
 					"simple",
 					"手弩",
-					"長劍",
-					"細劍",
-					"短劍"
+					"长剑",
+					"细剑",
+					"短剑"
 				],
 				"tools": [
-					"三種你所選擇的樂器"
+					"三种你所选择的乐器"
 				],
 				"skills": {
 					"choose": 3,
@@ -378,12 +378,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a)一把{@item 刺劍|phb}, (b)一把{@item 長劍|phb}, 或 (c)任何一把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}",
-					"(a)一套{@item 大使套裝|phb} 或 (b)一套{@item 表演家套裝|phb}",
-					"(a)一把{@item 魯特琴|phb} 或 (b)任何一把其他{@filter 樂器|items|miscellaneous=mundane|type=instrument}",
+					"(a)一把{@item 刺剑|phb}, (b)一把{@item 长剑|phb}, 或 (c)任何一把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}",
+					"(a)一套{@item 大使套装|phb} 或 (b)一套{@item 表演家套装|phb}",
+					"(a)一把{@item 鲁特琴|phb} 或 (b)任何一把其他{@filter 乐器|items|miscellaneous=mundane|type=instrument}",
 					"一件{@item 皮甲|phb}，以及一把{@item 匕首|phb}"
 				],
-				"goldAlternative": "{@dice 5d4×10|5d4 × 10|起始金錢}"
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|起始金钱}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -417,64 +417,64 @@
 						]
 					},
 					"tools": [
-						"一種你所選擇的樂器"
+						"一种你所选择的乐器"
 					]
 				}
 			},
 			"classFeatures": [
 				[
 					{
-						"name": "吟遊激勵", "ENG_name": "Bardic Inspiration",
+						"name": "吟游激励", "ENG_name": "Bardic Inspiration",
 						"entries": [
-							"你可以用振奮人心的言詞或音樂來激勵其他生物。在你的回合中使用一個附贈動作來選擇一個除你之外，距離你60呎內且可以聽見你的生物，該生物獲得一個吟遊激勵骰{@dice d6}。",
-							"在接下來的10分鐘內，該生物可以骰這顆激勵骰，並將骰出來的數字加到它所進行的一次屬性檢定、攻擊檢定、或豁免檢定中。該生物可以在骰{@dice d20}之後才決定是否使用使用吟遊激勵骰，但必須在DM宣布該檢定結果之前使用。一旦吟遊激勵骰被使用，它就消失。且一個生物同時只能擁有一顆吟遊激勵骰。",
-							"你可以使用這個能力的次數等同於你的魅力調整值（最少為1）。你在完成一次長休後恢復所有你花費掉的次數。",
-							"你的吟遊激勵骰會在你本職業升至特定等級時改變。在5級的時候變為{@dice d8}、10級時{@dice d10}、15級時{@dice d12}。"
+							"你可以用振奋人心的言词或音乐来激励其他生物。在你的回合中使用一个附赠动作来选择一个除你之外，距离你60呎内且可以听见你的生物，该生物获得一个吟游激励骰{@dice d6}。",
+							"在接下来的10分钟内，该生物可以骰这颗激励骰，并将骰出来的数字加到它所进行的一次属性检定、攻击检定、或豁免检定中。该生物可以在骰{@dice d20}之后才决定是否使用使用吟游激励骰，但必须在DM宣布该检定结果之前使用。一旦吟游激励骰被使用，它就消失。且一个生物同时只能拥有一颗吟游激励骰。",
+							"你可以使用这个能力的次数等同于你的魅力调整值（最少为1）。你在完成一次长休后恢复所有你花费掉的次数。",
+							"你的吟游激励骰会在你本职业升至特定等级时改变。在5级的时候变为{@dice d8}、10级时{@dice d10}、15级时{@dice d12}。"
 						]
 					},
 					{
 						"name": "施法", "ENG_name": "Spellcasting",
 						"entries": [
-							"你習得用音樂和意志來解構並重塑現實的力量。你的法術是你龐大的樂章的一部份，也是你可以因應不同情況調律的魔法。請參閱{@book 第十章|PHB|10}以了解關於施法的規則，以及第十一章以查閱{@filter 吟遊詩人法術列表|spells|class=bard}。",
+							"你习得用音乐和意志来解构并重塑现实的力量。你的法术是你庞大的乐章的一部份，也是你可以因应不同情况调律的魔法。请参阅{@book 第十章|PHB|10}以了解关于施法的规则，以及第十一章以查阅{@filter 吟游诗人法术列表|spells|class=bard}。",
 							{
 								"type": "entries",
-								"name": "戲法",
+								"name": "戏法",
 								"entries": [
-									"你知曉兩個從{@filter 吟遊詩人法術列表|spells|class=bard}自選的戲法。你將在升至更高的吟遊詩人等級時學會額外的吟遊詩人戲法：在4級的時候學會第3個戲法，在10級的時候學會第4個。"
+									"你知晓两个从{@filter 吟游诗人法术列表|spells|class=bard}自选的戏法。你将在升至更高的吟游诗人等级时学会额外的吟游诗人戏法：在4级的时候学会第3个戏法，在10级的时候学会第4个。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "法術位",
+								"name": "法术位",
 								"entries": [
-									"吟遊詩人表中顯示了你有多少個法術位可以用來施放你一環或更高環的{@filter 吟遊詩人法術|spells|class=bard}。要施放其中一個法術，你必須消耗一個與該法術環階相同或更高的法術位。你在完成一次長休後恢復所有你花費掉的法術位。",
-									"舉例來說，如果你知曉一個1環的{@spell 治療傷勢}法術，且你擁有一個1環和一個2環的法術位，則你可以使用其中任意一個法術位來施放{@spell 治療傷勢}。"
+									"吟游诗人表中显示了你有多少个法术位可以用来施放你一环或更高环的{@filter 吟游诗人法术|spells|class=bard}。要施放其中一个法术，你必须消耗一个与该法术环阶相同或更高的法术位。你在完成一次长休后恢复所有你花费掉的法术位。",
+									"举例来说，如果你知晓一个1环的{@spell 治疗伤势}法术，且你拥有一个1环和一个2环的法术位，则你可以使用其中任意一个法术位来施放{@spell 治疗伤势}。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "一環或更高環的已知法術",
+								"name": "一环或更高环的已知法术",
 								"entries": [
-									"你知曉四個從吟遊詩人法術列表中自選的1環法術。",
-									"你將在提升至在每個除了第12,16,19,和20級的吟遊詩人等級時，習得一個新的吟遊詩人法術。每個這些法術的環階都必須符合你所擁有法術位的環階。舉例來說，當你在此職業升至3級時，你可以學習一個新的1環或2環法術。",
-									"此外，當你提升這個職業的等級時，你可以從吟遊詩人的法術列表中挑選一個法術來取代一個你目前已知的法術，而它的環階也必須符合你所擁有法術位的環階。"
+									"你知晓四个从吟游诗人法术列表中自选的1环法术。",
+									"你将在提升至在每个除了第12,16,19,和20级的吟游诗人等级时，习得一个新的吟游诗人法术。每个这些法术的环阶都必须符合你所拥有法术位的环阶。举例来说，当你在此职业升至3级时，你可以学习一个新的1环或2环法术。",
+									"此外，当你提升这个职业的等级时，你可以从吟游诗人的法术列表中挑选一个法术来取代一个你目前已知的法术，而它的环阶也必须符合你所拥有法术位的环阶。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "施法屬性",
+								"name": "施法属性",
 								"entries": [
-									"魅力是你施展吟遊詩人法術的施法屬性。你的魔法源自你傾注於音樂與演說表演的心神與靈魂。每當法術提及你的施法屬性時，你將使用你的魅力。此外，當決定你吟遊詩人法術的豁免DC、以及使用吟遊詩人法術進行攻擊檢定時，你使用你的魅力調整值。",
+									"魅力是你施展吟游诗人法术的施法属性。你的魔法源自你倾注于音乐与演说表演的心神与灵魂。每当法术提及你的施法属性时，你将使用你的魅力。此外，当决定你吟游诗人法术的豁免DC、以及使用吟游诗人法术进行攻击检定时，你使用你的魅力调整值。",
 									{
 										"type": "abilityDc",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"cha"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"cha"
 										]
@@ -483,16 +483,16 @@
 							},
 							{
 								"type": "entries",
-								"name": "儀式施法",
+								"name": "仪式施法",
 								"entries": [
-									"你可以用儀式來施放任何具有儀式標籤，且你已知的吟遊詩人法術。"
+									"你可以用仪式来施放任何具有仪式标签，且你已知的吟游诗人法术。"
 								]
 							},
 							{
 								"type": "entries",
 								"name": "施法法器",
 								"entries": [
-									"你可以使用你的樂器（{@book 第五章|PHB|5}），來做為你施放吟遊詩人法術的法器。"
+									"你可以使用你的乐器（{@book 第五章|PHB|5}），来做为你施放吟游诗人法术的法器。"
 								]
 							}
 						]
@@ -502,53 +502,53 @@
 					{
 						"name": "全能高手", "ENG_name": "Jack of All Trades",
 						"entries": [
-							"從2級開始，你可以將你熟練加值的一半（向下取整）加入任何你尚未熟練的屬性檢定中。"
+							"从2级开始，你可以将你熟练加值的一半（向下取整）加入任何你尚未熟练的属性检定中。"
 						]
 					},
 					{
-						"name": "紓壓曲(d6)", "ENG_name": "Song of Rest",
+						"name": "纾压曲(d6)", "ENG_name": "Song of Rest",
 						"entries": [
-							"從2級開始，你可以在短休期間利用安撫人心的音樂或演說來使你受傷的隊友恢復活力。若你或任何可以聽見你表演的生物在短休結束時藉由消耗生命骰回復生命值，則每個這麼做的生物回復額外的{@dice 1d6}生命值。",
-							"這個額外的生命值將會在你本職業升至特定等級時隨之提升：9級時{@dice 1d8}、13級時{@dice 1d10}、17級時{@dice 1d12}。"
+							"从2级开始，你可以在短休期间利用安抚人心的音乐或演说来使你受伤的队友恢复活力。若你或任何可以听见你表演的生物在短休结束时借由消耗生命骰回复生命值，则每个这么做的生物回复额外的{@dice 1d6}生命值。",
+							"这个额外的生命值将会在你本职业升至特定等级时随之提升：9级时{@dice 1d8}、13级时{@dice 1d10}、17级时{@dice 1d12}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "吟遊學院", "ENG_name": "Bard College",
+						"name": "吟游学院", "ENG_name": "Bard College",
 						"entries": [
-							"在3級時，你從可選的學院列表中選擇一個吟遊詩人學院來深入你的技巧。這個選擇會在3級、6級、和14級的時候賦予你新的能力。"
+							"在3级时，你从可选的学院列表中选择一个吟游诗人学院来深入你的技巧。这个选择会在3级、6级、和14级的时候赋予你新的能力。"
 						],
 						"gainSubclassFeature": true
 					},
 					{
-						"name": "專精", "ENG_name": "Expertise",
+						"name": "专精", "ENG_name": "Expertise",
 						"entries": [
-							"在3級時，選擇兩個你的技能熟練，你的熟練加值在使用所選熟練項所進行的任何屬性檢定中變為兩倍。",
-							"在10級時，你可以再選擇另外兩個技能熟練以獲得這個好處。"
+							"在3级时，选择两个你的技能熟练，你的熟练加值在使用所选熟练项所进行的任何属性检定中变为两倍。",
+							"在10级时，你可以再选择另外两个技能熟练以获得这个好处。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "吟遊激勵(d8)", "ENG_name": "Bardic Inspiration",
+						"name": "吟游激励(d8)", "ENG_name": "Bardic Inspiration",
 						"entries": [
-							"在5級時，你的吟遊激勵骰變更為{@dice d8}。"
+							"在5级时，你的吟游激励骰变更为{@dice d8}。"
 						]
 					},
 					{
-						"name": "激勵湧泉", "ENG_name": "Font of Inspiration",
+						"name": "激励涌泉", "ENG_name": "Font of Inspiration",
 						"entries": [
-							"從你升至5級開始，你在完成一次短休或長休後都會恢復所有你在吟遊激勵骰花費掉的次數。"
+							"从你升至5级开始，你在完成一次短休或长休后都会恢复所有你在吟游激励骰花费掉的次数。"
 						]
 					}
 				],
@@ -556,13 +556,13 @@
 					{
 						"name": "反制迷惑", "ENG_name": "Countercharm",
 						"entries": [
-							"在6級時，你獲得使用音樂或言語的力量來干擾會影響心靈效果的能力。以一個動作，你可以開始一段持續到你下個回合結束的表演。在這段期間，你和任何與你距離30呎內的友善生物在對抗{@condition 恐懼}或{@condition 魅惑}的豁免檢定中獲得優勢。只有能聽見你的生物可以獲得此效果。這段表演將在你陷入{@condition 無力}、被沉默、或是你自願停止（不需要動作）時提早結束。"
+							"在6级时，你获得使用音乐或言语的力量来干扰会影响心灵效果的能力。以一个动作，你可以开始一段持续到你下个回合结束的表演。在这段期间，你和任何与你距离30呎内的友善生物在对抗{@condition 恐惧}或{@condition 魅惑}的豁免检定中获得优势。只有能听见你的生物可以获得此效果。这段表演将在你陷入{@condition 无力}、被沉默、或是你自愿停止（不需要动作）时提早结束。"
 						]
 					},
 					{
-						"name": "吟遊學院能力", "ENG_name": "Bard College",
+						"name": "吟游学院能力", "ENG_name": "Bard College",
 						"entries": [
-							"在6級時，你獲得一個來自你吟遊詩人學院的能力。"
+							"在6级时，你获得一个来自你吟游诗人学院的能力。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -570,58 +570,58 @@
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "紓壓曲(d8)", "ENG_name": "Song of Rest",
+						"name": "纾压曲(d8)", "ENG_name": "Song of Rest",
 						"entries": [
-							"在9級時，紓壓曲所給予的額外生命值增加至{@dice 1d8}。"
+							"在9级时，纾压曲所给予的额外生命值增加至{@dice 1d8}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "吟遊激勵(d10)", "ENG_name": "Bardic Inspiration",
+						"name": "吟游激励(d10)", "ENG_name": "Bardic Inspiration",
 						"entries": [
-							"在10級時，你的吟遊激勵骰變更為{@dice d10}。"
+							"在10级时，你的吟游激励骰变更为{@dice d10}。"
 						]
 					},
 					{
-						"name": "專精", "ENG_name": "Expertise",
+						"name": "专精", "ENG_name": "Expertise",
 						"entries": [
-							"在10級時，你可以選擇另外兩個技能熟練。你的熟練加值在使用所選熟練項所進行的任何屬性檢定中變為兩倍。"
+							"在10级时，你可以选择另外两个技能熟练。你的熟练加值在使用所选熟练项所进行的任何属性检定中变为两倍。"
 						]
 					},
 					{
 						"name": "魔法秘密", "ENG_name": "Magical Secrets",
 						"entries": [
-							"在10級時，你從廣泛的學科中掠奪了它們的魔法知識。從任意職業中（包括本職業）中選擇二個法術。你所選擇的法術必須要是你所能施放的環階（見吟遊詩人表），或者是戲法。",
-							"對你而言，所選的法術將被視為吟遊詩人法術，且會被算在吟遊詩人表中的已知法術數量中。",
-							"你將會在14級和18級時再從任意職業中學會二個額外法術。"
+							"在10级时，你从广泛的学科中掠夺了它们的魔法知识。从任意职业中（包括本职业）中选择二个法术。你所选择的法术必须要是你所能施放的环阶（见吟游诗人表），或者是戏法。",
+							"对你而言，所选的法术将被视为吟游诗人法术，且会被算在吟游诗人表中的已知法术数量中。",
+							"你将会在14级和18级时再从任意职业中学会二个额外法术。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "紓壓曲(d10)", "ENG_name": "Song of Rest",
+						"name": "纾压曲(d10)", "ENG_name": "Song of Rest",
 						"entries": [
-							"在13級時，紓壓曲所給予的額外生命值增加至{@dice 1d10}。"
+							"在13级时，纾压曲所给予的额外生命值增加至{@dice 1d10}。"
 						]
 					}
 				],
@@ -629,40 +629,40 @@
 					{
 						"name": "魔法秘密", "ENG_name": "Magical Secrets",
 						"entries": [
-							"在14級時，從任意職業中（包括本職業）額外選擇二個法術。你所選擇的法術必須要是你所能施放的環階（見吟遊詩人表），或者是戲法。",
-							"對你而言，所選的法術將被視為吟遊詩人法術，且會被算在吟遊詩人表中的已知法術數量中。"
+							"在14级时，从任意职业中（包括本职业）额外选择二个法术。你所选择的法术必须要是你所能施放的环阶（见吟游诗人表），或者是戏法。",
+							"对你而言，所选的法术将被视为吟游诗人法术，且会被算在吟游诗人表中的已知法术数量中。"
 						]
 					},
 					{
-						"name": "吟遊學院能力", "ENG_name": "Bard College",
+						"name": "吟游学院能力", "ENG_name": "Bard College",
 						"entries": [
-							"在14級時，你獲得一個來自你吟遊詩人學院的能力。"
+							"在14级时，你获得一个来自你吟游诗人学院的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "吟遊激勵(d12)", "ENG_name": "Bardic Inspiration",
+						"name": "吟游激励(d12)", "ENG_name": "Bardic Inspiration",
 						"entries": [
-							"在15級時，你的吟遊激勵骰變更為{@dice d12}。"
+							"在15级时，你的吟游激励骰变更为{@dice d12}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "紓壓曲(d12)", "ENG_name": "Song of Rest",
+						"name": "纾压曲(d12)", "ENG_name": "Song of Rest",
 						"entries": [
-							"在17級時，紓壓曲所給予的額外生命值增加至{@dice 1d12}。"
+							"在17级时，纾压曲所给予的额外生命值增加至{@dice 1d12}。"
 						]
 					}
 				],
@@ -670,25 +670,25 @@
 					{
 						"name": "魔法秘密", "ENG_name": "Magical Secrets",
 						"entries": [
-							"在18級時，從任意職業中（包括本職業）額外選擇二個法術。你所選擇的法術必須要是你所能施放的環階（見吟遊詩人表），或者是戲法。",
-							"對你而言，所選的法術將被視為吟遊詩人法術，且會被算在吟遊詩人表中的已知法術數量中。"
+							"在18级时，从任意职业中（包括本职业）额外选择二个法术。你所选择的法术必须要是你所能施放的环阶（见吟游诗人表），或者是戏法。",
+							"对你而言，所选的法术将被视为吟游诗人法术，且会被算在吟游诗人表中的已知法术数量中。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "卓越激勵", "ENG_name": "Superior Inspiration",
+						"name": "卓越激励", "ENG_name": "Superior Inspiration",
 						"entries": [
-							"在20級時，當你骰先攻時且吟遊激勵骰已經沒有剩下的使用次數，則你獲得一次使用次數。"
+							"在20级时，当你骰先攻时且吟游激励骰已经没有剩下的使用次数，则你获得一次使用次数。"
 						]
 					}
 				]
@@ -696,27 +696,27 @@
 			"subclassTitle": "Bard College",
 			"subclasses": [
 				{
-					"name": "知識學院", "ENG_name": "College of Lore",
+					"name": "知识学院", "ENG_name": "College of Lore",
 					"subclassFeatures": [
 						[
 							{
-								"name": "知識學院", "ENG_name": "College of Lore",
+								"name": "知识学院", "ENG_name": "College of Lore",
 								"entries": [
-									"知識學院的吟遊詩人知曉大部分的事情，並從各式各樣的來源，從學術典籍到鄉野奇談，蒐集種種不同的知識。無論是酒館中的歌唱家、或是皇室宮廷裡的作曲家，這些詩人都會運用他們的天賦讓觀眾們入迷。當掌聲響畢，觀眾們將可能會發現自己對所有深信不疑的事情提出質疑，從他們對當地神殿中神職人員的信仰，到他們對君王的忠誠。",
-									"這些吟遊詩人忠於對真實和美的追求，而非效忠於君王或追隨神祇的教條。那些雇傭這類吟遊詩人做為使者或顧問的貴族，也知道這些詩人更傾向誠實而非圓滑。",
-									"這個學院的成員有時會聚集在圖書館或有著教室和宿舍的真正學院，彼此分享他們的學識。他們也會在節日或政事中相見，讓他們得以揭露腐敗、謊言、並嘲弄那些自命不凡的權威人物。",
+									"知识学院的吟游诗人知晓大部分的事情，并从各式各样的来源，从学术典籍到乡野奇谈，搜集种种不同的知识。无论是酒馆中的歌唱家、或是皇室宫廷里的作曲家，这些诗人都会运用他们的天赋让观众们入迷。当掌声响毕，观众们将可能会发现自己对所有深信不疑的事情提出质疑，从他们对当地神殿中神职人员的信仰，到他们对君王的忠诚。",
+									"这些吟游诗人忠于对真实和美的追求，而非效忠于君王或追随神祇的教条。那些雇佣这类吟游诗人做为使者或顾问的贵族，也知道这些诗人更倾向诚实而非圆滑。",
+									"这个学院的成员有时会聚集在图书馆或有着教室和宿舍的真正学院，彼此分享他们的学识。他们也会在节日或政事中相见，让他们得以揭露腐败、谎言、并嘲弄那些自命不凡的权威人物。",
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiencies",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiencies",
 										"entries": [
-											"當你在3級時加入知識學院，你將獲得三個自選技能的熟練。"
+											"当你在3级时加入知识学院，你将获得三个自选技能的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "語出驚人", "ENG_name": "Cutting Words",
+										"name": "语出惊人", "ENG_name": "Cutting Words",
 										"entries": [
-											"同樣在3級時，你學會如何運用你的機智去干擾、迷惑、並瓦解他人的信心和能力。當一個距離你60呎內且你所能看見的生物進行一次攻擊檢定、屬性檢定、或傷害骰時，你可以使用你的反應並消耗一次你吟遊激勵的使用次數，骰一顆吟遊激勵骰，並將骰出來的數字減掉該生物的擲骰結果。你可以選擇在該生物擲骰後，但DM決定其攻擊檢定或屬性檢定成功與否之前、或在該生物造成其傷害之前使用此能力。若該生物無法聽見你或它免疫於{@condition 魅惑}，則該生物免疫於此效果。"
+											"同样在3级时，你学会如何运用你的机智去干扰、迷惑、并瓦解他人的信心和能力。当一个距离你60呎内且你所能看见的生物进行一次攻击检定、属性检定、或伤害骰时，你可以使用你的反应并消耗一次你吟游激励的使用次数，骰一颗吟游激励骰，并将骰出来的数字减掉该生物的掷骰结果。你可以选择在该生物掷骰后，但DM决定其攻击检定或属性检定成功与否之前、或在该生物造成其伤害之前使用此能力。若该生物无法听见你或它免疫于{@condition 魅惑}，则该生物免疫于此效果。"
 										]
 									}
 								]
@@ -727,9 +727,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "額外魔法秘密", "ENG_name": "Additional Magical Secrets",
+										"name": "额外魔法秘密", "ENG_name": "Additional Magical Secrets",
 										"entries": [
-											"在6級時，你從任意職業中額外習得二個法術。你所選擇的法術必須要符合你所能施放的環階（見吟遊詩人表）或是戲法。所選的法術對你而言被視作吟遊詩人法術，但不會被計入你已知吟遊詩人法術的數量中。"
+											"在6级时，你从任意职业中额外习得二个法术。你所选择的法术必须要符合你所能施放的环阶（见吟游诗人表）或是戏法。所选的法术对你而言被视作吟游诗人法术，但不会被计入你已知吟游诗人法术的数量中。"
 										]
 									}
 								]
@@ -740,9 +740,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "絕代技能", "ENG_name": "Peerless Skill",
+										"name": "绝代技能", "ENG_name": "Peerless Skill",
 										"entries": [
-											"從14級開始，當你進行一次屬性檢定時，你可以消耗一次你吟遊激勵的使用次數。骰一顆吟遊激勵骰，並將骰出來的數字加入該屬性檢定的擲骰結果中。你可以選擇在你為該屬性檢定擲骰後，但DM宣布你成功與否之前使用此能力。"
+											"从14级开始，当你进行一次属性检定时，你可以消耗一次你吟游激励的使用次数。骰一颗吟游激励骰，并将骰出来的数字加入该属性检定的掷骰结果中。你可以选择在你为该属性检定掷骰后，但DM宣布你成功与否之前使用此能力。"
 										]
 									}
 								]
@@ -750,28 +750,28 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "知識"
+					"shortName": "知识"
 				},
 				{
-					"name": "勇氣學院", "ENG_name": "College of Valor",
+					"name": "勇气学院", "ENG_name": "College of Valor",
 					"subclassFeatures": [
 						[
 							{
-								"name": "勇氣學院", "ENG_name": "College of Valor",
+								"name": "勇气学院", "ENG_name": "College of Valor",
 								"entries": [
-									"勇氣學院的吟遊詩人是一群勇敢的歌者，他們的詩歌讓關於過去偉大英雄們的記憶仍然永存世間，並因此激勵新世代的英雄們。這些詩人們或聚集在青草會堂、或環繞在熊熊篝火邊，吟唱著關於過去和現在的偉大事蹟。他們遍歷大陸以親眼見證重大事件，並確保這些事件的記憶不會被世界遺忘。透過歌曲，他們啟發他人達到與過去英雄同等的成就。",
+									"勇气学院的吟游诗人是一群勇敢的歌者，他们的诗歌让关于过去伟大英雄们的记忆仍然永存世间，并因此激励新世代的英雄们。这些诗人们或聚集在青草会堂、或环绕在熊熊篝火边，吟唱着关于过去和现在的伟大事迹。他们遍历大陆以亲眼见证重大事件，并确保这些事件的记忆不会被世界遗忘。透过歌曲，他们启发他人达到与过去英雄同等的成就。",
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiencies",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiencies",
 										"entries": [
-											"當你在3級時加入勇氣學院，你將獲得中甲、盾牌、和軍用武器的熟練。"
+											"当你在3级时加入勇气学院，你将获得中甲、盾牌、和军用武器的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "戰鬥激勵", "ENG_name": "Combat Inspiration",
+										"name": "战斗激励", "ENG_name": "Combat Inspiration",
 										"entries": [
-											"同樣在3級時，你學會在戰鬥中激勵他人。一個擁有你所給予的吟遊激勵骰的生物，可以骰該吟遊激勵骰以將骰出來的數字加入它剛進行的武器傷害骰中。或者，當一個以該生物為目標的攻擊檢定被進行時，它可以在看見該次攻擊檢定的結果後，但DM宣布該次攻擊命中與否之前，使用它的反應以骰該吟遊激勵骰，並將骰出來的數字加入它對該次攻擊的AC中。"
+											"同样在3级时，你学会在战斗中激励他人。一个拥有你所给予的吟游激励骰的生物，可以骰该吟游激励骰以将骰出来的数字加入它刚进行的武器伤害骰中。或者，当一个以该生物为目标的攻击检定被进行时，它可以在看见该次攻击检定的结果后，但DM宣布该次攻击命中与否之前，使用它的反应以骰该吟游激励骰，并将骰出来的数字加入它对该次攻击的AC中。"
 										]
 									}
 								]
@@ -782,9 +782,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "額外攻擊", "ENG_name": "Extra Attack",
+										"name": "额外攻击", "ENG_name": "Extra Attack",
 										"entries": [
-											"從6級開始，每當你在你的回合採取{@action 攻擊}動作，你可以攻擊二次，而非一次。"
+											"从6级开始，每当你在你的回合采取{@action 攻击}动作，你可以攻击二次，而非一次。"
 										]
 									}
 								]
@@ -795,9 +795,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "戰鬥魔法", "ENG_name": "Battle Magic",
+										"name": "战斗魔法", "ENG_name": "Battle Magic",
 										"entries": [
-											"在14級時，你已經精通於將施法和使用武器編織成一個協調的行動。當你使用你的動作施放一個吟遊詩人法術時，你能夠以一個附贈動作進行一次武器攻擊。"
+											"在14级时，你已经精通于将施法和使用武器编织成一个协调的行动。当你使用你的动作施放一个吟游诗人法术时，你能够以一个附赠动作进行一次武器攻击。"
 										]
 									}
 								]
@@ -805,14 +805,14 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "勇氣"
+					"shortName": "勇气"
 				},
 				{
-					"name": "迷惑學院(UA)", "ENG_name": "College of Glamour (UA)",
+					"name": "迷惑学院(UA)", "ENG_name": "College of Glamour (UA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "迷惑學院", "ENG_name": "College of Glamour",
+								"name": "迷惑学院", "ENG_name": "College of Glamour",
 								"entries": [
 									"The College of Glamour is open to those bards who mastered their craft in the vibrant, deadly realm of the Feywild. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.",
 									"The bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. The bards of this college are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, abusing their magic to turn their hosts into thralls.",
@@ -873,11 +873,11 @@
 					"shortName": "迷惑(UA)"
 				},
 				{
-					"name": "低語學院(UA)", "ENG_name": "College of Whispers (UA)",
+					"name": "低语学院(UA)", "ENG_name": "College of Whispers (UA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "低語學院", "ENG_name": "College of Whispers",
+								"name": "低语学院", "ENG_name": "College of Whispers",
 								"entries": [
 									"Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like any other bard, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.",
 									"Many other bards hate the College of Whispers, viewing it as a parasite that uses the bards' reputation to acquire wealth and power. For this reason, these bards rarely reveal their true nature unless they must. They typically claim to follow some other college, or keep their true nature secret in order to better infiltrate and exploit royal courts and other settings of power.",
@@ -939,14 +939,14 @@
 						]
 					],
 					"source": "UABardBardColleges",
-					"shortName": "低語(UA)"
+					"shortName": "低语(UA)"
 				},
 				{
-					"name": "劍舞學院(UA)", "ENG_name": "College of Swords (UA)",
+					"name": "剑舞学院(UA)", "ENG_name": "College of Swords (UA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "劍舞學院", "ENG_name": "College of Swords",
+								"name": "剑舞学院", "ENG_name": "College of Swords",
 								"entries": [
 									"Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
 									"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust them.",
@@ -1052,14 +1052,14 @@
 						]
 					],
 					"source": "UAKitsOfOld",
-					"shortName": "劍舞(UA)"
+					"shortName": "剑舞(UA)"
 				},
 				{
-					"name": "劍舞學院v2(UA)", "ENG_name": "College of Swords v2 (UA)",
+					"name": "剑舞学院v2(UA)", "ENG_name": "College of Swords v2 (UA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "劍舞學院v2", "ENG_name": "College of Swords v2",
+								"name": "剑舞学院v2", "ENG_name": "College of Swords v2",
 								"entries": [
 									"Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. But though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.",
 									"Their talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust them.",
@@ -1176,7 +1176,7 @@
 						]
 					],
 					"source": "UARevisedSubclasses",
-					"shortName": "劍舞v2(UA)"
+					"shortName": "剑舞v2(UA)"
 				},
 				{
 					"name": "College of Satire(UA)",
@@ -1249,31 +1249,31 @@
 					"shortName": "Satire (UA)"
 				},
 				{
-					"name": "迷惑學院", "ENG_name": "College of Glamour",
+					"name": "迷惑学院", "ENG_name": "College of Glamour",
 					"subclassFeatures": [
 						[
 							{
-								"name": "迷惑學院", "ENG_name": "College of Glamour",
+								"name": "迷惑学院", "ENG_name": "College of Glamour",
 								"entries": [
-									"迷惑學院，是那些在妖精荒野的活潑國度中精通他們技藝、或受到該地居民教導的吟遊詩人們的家園。在薩特羊人、雅靈、以及其他精類生物的教導下，這些詩人們學會運用他們的魔法以取悅和迷惑他人。",
-									"人們對這個學院的詩人們既敬畏又恐懼。他們的演出臻近傳奇。這些詩人們是如此的動人而善辯，以至於他們所演出的講詞或歌曲能夠讓綁匪不傷害詩人而將其釋放，或甚至能使憤怒的巨龍平靜而滿足。這能安撫野獸的魔法也同樣讓他們得以扭曲人心。這個學院中卑劣的吟遊詩人能夠依附在一個團體中，榨取它們長達數個禮拜，濫用他們的魔法以將他們的主人變成奴隸。這個學院中英勇的吟遊詩人則會使用這股力量去顛覆壓迫者，為被壓迫的人們帶來快樂。",
+									"迷惑学院，是那些在妖精荒野的活泼国度中精通他们技艺、或受到该地居民教导的吟游诗人们的家园。在萨特羊人、雅灵、以及其他精类生物的教导下，这些诗人们学会运用他们的魔法以取悦和迷惑他人。",
+									"人们对这个学院的诗人们既敬畏又恐惧。他们的演出臻近传奇。这些诗人们是如此的动人而善辩，以至于他们所演出的讲词或歌曲能够让绑匪不伤害诗人而将其释放，或甚至能使愤怒的巨龙平静而满足。这能安抚野兽的魔法也同样让他们得以扭曲人心。这个学院中卑劣的吟游诗人能够依附在一个团体中，榨取它们长达数个礼拜，滥用他们的魔法以将他们的主人变成奴隶。这个学院中英勇的吟游诗人则会使用这股力量去颠覆压迫者，为被压迫的人们带来快乐。",
 									{
 										"type": "entries",
-										"name": "激勵光環", "ENG_name": "Mantle of Inspiration",
+										"name": "激励光环", "ENG_name": "Mantle of Inspiration",
 										"entries": [
-											"當你在3級時加入迷惑學院，你獲得編織精族魔法之歌的能力，為你的盟友帶來活力與速度。",
-											"以一個附贈動作，你可以消耗一次你吟遊激勵的使用次數，賦予自己不可思議的美貌。當你這麼做時，選擇距離你60呎內你能看見，且它能看見你的任意數量個生物，數量最多等同於你的魅力調整值（最少為一）。它們將各自獲得5點臨時生命值。當一個生物獲得這些臨時生命值，它可以立刻使用它的反應移動最多等同於它的移動速度，而不會引發藉機攻擊。",
-											"臨時生命值將在你本職業升至特定等級時增加，5級時增加至8，10級時增加至11，15級時增加至14。"
+											"当你在3级时加入迷惑学院，你获得编织精族魔法之歌的能力，为你的盟友带来活力与速度。",
+											"以一个附赠动作，你可以消耗一次你吟游激励的使用次数，赋予自己不可思议的美貌。当你这么做时，选择距离你60呎内你能看见，且它能看见你的任意数量个生物，数量最多等同于你的魅力调整值（最少为一）。它们将各自获得5点临时生命值。当一个生物获得这些临时生命值，它可以立刻使用它的反应移动最多等同于它的移动速度，而不会引发借机攻击。",
+											"临时生命值将在你本职业升至特定等级时增加，5级时增加至8，10级时增加至11，15级时增加至14。"
 										]
 									},
 									{
 										"type": "entries",
 										"name": "醉人表演", "ENG_name": "Enthralling Performance",
 										"entries": [
-											"從3級開始，你可以在你的表演中注入魅惑人心的精類魔法。",
-											"若你持續表演至少1分鐘，你可以嘗試透過歌唱、朗誦詩歌、或跳舞來驚豔你的聽眾。在表演結束時，選擇距離你60呎內完整觀看或聆聽了你表演的任意數量個類人生物，數量最多等同於你的魅力調整值（最少為一）。每個目標必須成功通過一次對抗你法術豁免DC的睿知豁免，否則將被你{@condition 魅惑}。當因為這個方式被{@condition 魅惑}，目標將視你為偶像，熱烈地和任何人談論關於你的事，並阻撓任何反對你的人。除非它原本就傾向為你而戰，否則它會避免暴力手段。作用於一個目標上的此效果會在1小時後結束，或在它受到任何傷害、你攻擊它、或它目擊你攻擊或傷害了他的任何盟友時提早結束。",
-											"若目標成功通過豁免檢定，目標並不會察覺到你曾嘗試魅惑它。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"从3级开始，你可以在你的表演中注入魅惑人心的精类魔法。",
+											"若你持续表演至少1分钟，你可以尝试透过歌唱、朗诵诗歌、或跳舞来惊艳你的听众。在表演结束时，选择距离你60呎内完整观看或聆听了你表演的任意数量个类人生物，数量最多等同于你的魅力调整值（最少为一）。每个目标必须成功通过一次对抗你法术豁免DC的睿知豁免，否则将被你{@condition 魅惑}。当因为这个方式被{@condition 魅惑}，目标将视你为偶像，热烈地和任何人谈论关于你的事，并阻挠任何反对你的人。除非它原本就倾向为你而战，否则它会避免暴力手段。作用于一个目标上的此效果会在1小时后结束，或在它受到任何伤害、你攻击它、或它目击你攻击或伤害了他的任何盟友时提早结束。",
+											"若目标成功通过豁免检定，目标并不会察觉到你曾尝试魅惑它。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1284,11 +1284,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "威嚴光環", "ENG_name": "Mantle of Majesty",
+										"name": "威严光环", "ENG_name": "Mantle of Majesty",
 										"entries": [
-											"在6級時，你獲得用精族魔法籠罩自己的能力，讓他人不禁想要服侍你。以一個附贈動作，你可以施放{@spell 命令術}而無須消耗法術位，且你取得超凡的美貌長達1分鐘或直到你的專注結束（如同你專注於法術）。在這段期間，你可以在你的每個回合以一個附贈動作施放{@spell 命令術}，而無須消耗法術位。",
-											"任何被你{@condition 魅惑}的生物將在對抗你用此能力施放{@spell 命令術}的豁免檢定中自動失敗。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"在6级时，你获得用精族魔法笼罩自己的能力，让他人不禁想要服侍你。以一个附赠动作，你可以施放{@spell 命令术}而无须消耗法术位，且你取得超凡的美貌长达1分钟或直到你的专注结束（如同你专注于法术）。在这段期间，你可以在你的每个回合以一个附赠动作施放{@spell 命令术}，而无须消耗法术位。",
+											"任何被你{@condition 魅惑}的生物将在对抗你用此能力施放{@spell 命令术}的豁免检定中自动失败。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1299,11 +1299,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "無敵威嚴", "ENG_name": "Unbreakable Majesty",
+										"name": "无敌威严", "ENG_name": "Unbreakable Majesty",
 										"entries": [
-											"在14級時，你將永遠獲得超凡脫俗的外貌，使你看起來動人而強烈。",
-											"此外，以一個附贈動作，你可以展現魔法威嚴姿容長達1分鐘或直到你{@condition 無力}狀態。在這段期間，每當任何生物在一個回合中第一次嘗試攻擊你，該攻擊者必須進行一次對抗你法術豁免DC的魅力豁免。若豁免失敗，它在該回合不能攻擊你，且必須為它的攻擊選擇一個新的目標，否則該攻擊將被浪費。若豁免成功，它在該回合可以攻擊你，但它將在你下個回合對抗任何你法術的豁免檢定中具有劣勢。",
-											"一旦你展現這個威嚴姿容，直到你完成一次短休或長休之前你都不能再這麼做。"
+											"在14级时，你将永远获得超凡脱俗的外貌，使你看起来动人而强烈。",
+											"此外，以一个附赠动作，你可以展现魔法威严姿容长达1分钟或直到你{@condition 无力}状态。在这段期间，每当任何生物在一个回合中第一次尝试攻击你，该攻击者必须进行一次对抗你法术豁免DC的魅力豁免。若豁免失败，它在该回合不能攻击你，且必须为它的攻击选择一个新的目标，否则该攻击将被浪费。若豁免成功，它在该回合可以攻击你，但它将在你下个回合对抗任何你法术的豁免检定中具有劣势。",
+											"一旦你展现这个威严姿容，直到你完成一次短休或长休之前你都不能再这么做。"
 										]
 									}
 								]
@@ -1314,43 +1314,43 @@
 					"shortName": "迷惑"
 				},
 				{
-					"name": "劍舞學院", "ENG_name": "College of Swords",
+					"name": "剑舞学院", "ENG_name": "College of Swords",
 					"subclassFeatures": [
 						[
 							{
-								"name": "劍舞學院", "ENG_name": "College of Swords",
+								"name": "剑舞学院", "ENG_name": "College of Swords",
 								"entries": [
-									"劍舞學院的吟遊詩人們又被稱作「鋒刃」，且他們透過高超而英勇的武器技藝以娛樂大眾。鋒刃們的演出特技包括吞劍、扔刀雜耍、以及模擬戰鬥等等。即使他們使用武器來表演娛樂，他們同時也是具備著高超訓練和熟練技術的戰士。",
-									"他們在武器上的天賦讓許多鋒刃過著雙重生活。一個鋒刃可能會用一般馬戲團來掩蓋他們的惡毒行為，像是暗殺、搶劫、和勒索。其他鋒刃則致力於打擊邪惡，使正義臨到殘暴而強大的惡人。因為鋒刃的天賦能為表演帶來刺激感，大部分的劇團都樂於接納他們，但很少有藝人會完全信任與他們為伍的鋒刃。",
-									"捨棄了藝人身分的鋒刃，通常都是因為遇到了使他不可能維持他祕密行動的麻煩。一個因盜竊被捕、或致力於執行私法的鋒刃，對於大部分的劇團來說都是個太沉重的負擔。利用他們的武器技巧和魔法，這些鋒刃或者成為了盜賊公會的執法者，或是做為冒險者開闢自己的道路。",
+									"剑舞学院的吟游诗人们又被称作「锋刃」，且他们透过高超而英勇的武器技艺以娱乐大众。锋刃们的演出特技包括吞剑、扔刀杂耍、以及模拟战斗等等。即使他们使用武器来表演娱乐，他们同时也是具备着高超训练和熟练技术的战士。",
+									"他们在武器上的天赋让许多锋刃过着双重生活。一个锋刃可能会用一般马戏团来掩盖他们的恶毒行为，像是暗杀、抢劫、和勒索。其他锋刃则致力于打击邪恶，使正义临到残暴而强大的恶人。因为锋刃的天赋能为表演带来刺激感，大部分的剧团都乐于接纳他们，但很少有艺人会完全信任与他们为伍的锋刃。",
+									"舍弃了艺人身分的锋刃，通常都是因为遇到了使他不可能维持他秘密行动的麻烦。一个因盗窃被捕、或致力于执行私法的锋刃，对于大部分的剧团来说都是个太沉重的负担。利用他们的武器技巧和魔法，这些锋刃或者成为了盗贼公会的执法者，或是做为冒险者开辟自己的道路。",
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiencies",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiencies",
 										"entries": [
-											"當你在3級時加入劍舞學院，你將獲得中甲和{@item 彎刀|phb}的熟練。",
-											"若你熟練於一把簡易或軍用近戰武器，則你可以用它來你施放吟遊詩人法術的法器。"
+											"当你在3级时加入剑舞学院，你将获得中甲和{@item 弯刀|phb}的熟练。",
+											"若你熟练于一把简易或军用近战武器，则你可以用它来你施放吟游诗人法术的法器。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "戰鬥風格", "ENG_name": "Fighting Style",
+										"name": "战斗风格", "ENG_name": "Fighting Style",
 										"entries": [
-											"在3級時，你採用一種特殊的戰鬥風格以做為你的專業。從下列選項中選擇一種。你不能獲得相同的戰鬥風格選項超過一次，即使遊戲中的某個項目讓你有機會再選擇它也一樣。",
+											"在3级时，你采用一种特殊的战斗风格以做为你的专业。从下列选项中选择一种。你不能获得相同的战斗风格选项超过一次，即使游戏中的某个项目让你有机会再选择它也一样。",
 											{
 												"type": "options",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "決鬥", "ENG_name": "Dueling",
+														"name": "决斗", "ENG_name": "Dueling",
 														"entries": [
-															"當你單手持用一把近戰武器，且沒有持用其他武器時，你在使用該武器所進行的傷害骰中獲得+2加值。"
+															"当你单手持用一把近战武器，且没有持用其他武器时，你在使用该武器所进行的伤害骰中获得+2加值。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "雙武器戰鬥", "ENG_name": "Two-Weapon Fighting",
+														"name": "双武器战斗", "ENG_name": "Two-Weapon Fighting",
 														"entries": [
-															"當你進行雙武器戰鬥時，你可以將你的屬性調整值加入第二次攻擊的傷害中。"
+															"当你进行双武器战斗时，你可以将你的属性调整值加入第二次攻击的伤害中。"
 														]
 													}
 												]
@@ -1359,32 +1359,32 @@
 									},
 									{
 										"type": "entries",
-										"name": "鋒刃劍舞", "ENG_name": "Blade Flourish",
+										"name": "锋刃剑舞", "ENG_name": "Blade Flourish",
 										"entries": [
-											"在3級時，你學會展示出戰鬥技藝和速度而令人印象深刻的表演。",
-											"每當你在你的回合採取{@action 攻擊}動作，你的步行速度增加10呎直到這個回合結束，且若此攻擊動作的其中一次你所進行的武器攻擊命中一個生物，則你可以選擇使用下列其中一個鋒刃劍舞選項。你每回合只能使用一個鋒刃劍舞選項。",
+											"在3级时，你学会展示出战斗技艺和速度而令人印象深刻的表演。",
+											"每当你在你的回合采取{@action 攻击}动作，你的步行速度增加10呎直到这个回合结束，且若此攻击动作的其中一次你所进行的武器攻击命中一个生物，则你可以选择使用下列其中一个锋刃剑舞选项。你每回合只能使用一个锋刃剑舞选项。",
 											{
 												"type": "options",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "防禦劍舞", "ENG_name": "Defensive Flourish",
+														"name": "防御剑舞", "ENG_name": "Defensive Flourish",
 														"entries": [
-															"你可以消耗一次你吟遊激勵的使用次數，以讓武器對你命中的目標造成額外傷害。這個額外傷害等同於你吟遊激勵骰的擲骰結果。直到你的下個回合開始，你也將其擲骰結果加到你的AC中。"
+															"你可以消耗一次你吟游激励的使用次数，以让武器对你命中的目标造成额外伤害。这个额外伤害等同于你吟游激励骰的掷骰结果。直到你的下个回合开始，你也将其掷骰结果加到你的AC中。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "順劈劍舞", "ENG_name": "Slashing Flourish",
+														"name": "顺劈剑舞", "ENG_name": "Slashing Flourish",
 														"entries": [
-															"你可以消耗一次你吟遊激勵的使用次數，以讓武器對你命中的目標和任何距離你5呎內，你所選且你所能看見的其他生物造成額外傷害。這個額外傷害等同於你吟遊激勵骰的擲骰結果。"
+															"你可以消耗一次你吟游激励的使用次数，以让武器对你命中的目标和任何距离你5呎内，你所选且你所能看见的其他生物造成额外伤害。这个额外伤害等同于你吟游激励骰的掷骰结果。"
 														]
 													},
 													{
 														"type": "entries",
-														"name": "靈活劍舞", "ENG_name": "Mobile Flourish",
+														"name": "灵活剑舞", "ENG_name": "Mobile Flourish",
 														"entries": [
-															"你可以消耗一次你吟遊激勵的使用次數，以讓武器對你命中的目標造成額外傷害。這個額外傷害等同於你吟遊激勵骰的擲骰結果。你也可以將目標推離你5呎加上等同於其擲骰結果的呎數的距離。你可以接著立刻使用你的反應以移動最多你步行速度的距離到一處距離目標5呎內的未被佔據空間。"
+															"你可以消耗一次你吟游激励的使用次数，以让武器对你命中的目标造成额外伤害。这个额外伤害等同于你吟游激励骰的掷骰结果。你也可以将目标推离你5呎加上等同于其掷骰结果的呎数的距离。你可以接着立刻使用你的反应以移动最多你步行速度的距离到一处距离目标5呎内的未被占据空间。"
 														]
 													}
 												]
@@ -1399,9 +1399,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "額外攻擊", "ENG_name": "Extra Attack",
+										"name": "额外攻击", "ENG_name": "Extra Attack",
 										"entries": [
-											"從6級開始，每當你在你的回合採取{@action 攻擊}動作，你可以攻擊二次，而非一次。"
+											"从6级开始，每当你在你的回合采取{@action 攻击}动作，你可以攻击二次，而非一次。"
 										]
 									}
 								]
@@ -1412,9 +1412,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "劍舞大師", "ENG_name": "Master's Flourish",
+										"name": "剑舞大师", "ENG_name": "Master's Flourish",
 										"entries": [
-											"從14級開始，每當你使用一個鋒刃劍舞的選項，你可以骰一顆{@dice d6}，並使用它以取代一次吟遊激勵骰的消耗。"
+											"从14级开始，每当你使用一个锋刃剑舞的选项，你可以骰一颗{@dice d6}，并使用它以取代一次吟游激励骰的消耗。"
 										]
 									}
 								]
@@ -1422,34 +1422,34 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "劍舞"
+					"shortName": "剑舞"
 				},
 				{
-					"name": "低語學院", "ENG_name": "College of Whispers",
+					"name": "低语学院", "ENG_name": "College of Whispers",
 					"subclassFeatures": [
 						[
 							{
-								"name": "低語學院", "ENG_name": "College of Whispers",
+								"name": "低语学院", "ENG_name": "College of Whispers",
 								"entries": [
-									"大多數群眾都樂於招待吟遊詩人到他們之中。而低語學院的吟遊詩人正是利用了這一點。他們看起來就像其他吟遊詩人那樣，分享新聞，一展歌喉，並和關眾們述說他們所蒐集的軼事。但實際上，低語學院教導學生們成為披著羊皮的狼。這些詩人用他們的知識和魔法揭露秘密，並利用它們恐嚇或是勒索他人。",
-									"許多其他的吟遊詩人痛恨低語學院，認為它們是利用吟遊詩人的名譽來為自己賺取金錢與權力的害群之馬。因此，這個學院的詩人們鮮少揭露他們的本性。他們通常聲稱來自其他學院，隱藏他們實際的職業，以滲透進並利用皇室和其他權力團體。",
+									"大多数群众都乐于招待吟游诗人到他们之中。而低语学院的吟游诗人正是利用了这一点。他们看起来就像其他吟游诗人那样，分享新闻，一展歌喉，并和关众们述说他们所搜集的轶事。但实际上，低语学院教导学生们成为披着羊皮的狼。这些诗人用他们的知识和魔法揭露秘密，并利用它们恐吓或是勒索他人。",
+									"许多其他的吟游诗人痛恨低语学院，认为它们是利用吟游诗人的名誉来为自己赚取金钱与权力的害群之马。因此，这个学院的诗人们鲜少揭露他们的本性。他们通常声称来自其他学院，隐藏他们实际的职业，以渗透进并利用皇室和其他权力团体。",
 									{
 										"type": "entries",
 										"name": "精神之刃", "ENG_name": "Psychic Blades",
 										"entries": [
-											"當你在3級時加入低語學院，你獲得了使你的武器攻擊得以魔法性毒害其他生物精神的能力。",
-											"當你以一次武器攻擊命中一個生物時，你可以消耗一次你吟遊激勵的使用次數，以對該目標造成額外的{@dice 2d6}精神傷害。你每輪在你的回合只能使用此能力一次。",
-											"這個精神傷害會在你本職業升至特定等級時增加，在5級時增加至{@dice 3d6}、10級時{@dice 5d6}、15級時{@dice 8d6}。"
+											"当你在3级时加入低语学院，你获得了使你的武器攻击得以魔法性毒害其他生物精神的能力。",
+											"当你以一次武器攻击命中一个生物时，你可以消耗一次你吟游激励的使用次数，以对该目标造成额外的{@dice 2d6}精神伤害。你每轮在你的回合只能使用此能力一次。",
+											"这个精神伤害会在你本职业升至特定等级时增加，在5级时增加至{@dice 3d6}、10级时{@dice 5d6}、15级时{@dice 8d6}。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "駭人言詞", "ENG_name": "Words of Terror",
+										"name": "骇人言词", "ENG_name": "Words of Terror",
 										"entries": [
-											"在3級時，你學會將能夠引發恐慌的陰險魔法注入看似無害的言詞中。",
-											"若你和一個類人生物單獨談話至少1分鐘，你可以嘗試在它心中埋下偏執和妄想。在對話結束時，目標必須成功通過一次對抗你法術豁免DC的睿知豁免，否則因你或你所選擇的另一個生物陷入{@condition 恐懼}。目標將因為這個方式而陷入{@condition 恐懼}長達1小時，或直到它被攻擊或傷害、或直到它目擊它的盟友被攻擊或傷害。",
-											"若目標成功通過豁免檢定，目標並不會察覺到你曾嘗試恐懼它。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"在3级时，你学会将能够引发恐慌的阴险魔法注入看似无害的言词中。",
+											"若你和一个类人生物单独谈话至少1分钟，你可以尝试在它心中埋下偏执和妄想。在对话结束时，目标必须成功通过一次对抗你法术豁免DC的睿知豁免，否则因你或你所选择的另一个生物陷入{@condition 恐惧}。目标将因为这个方式而陷入{@condition 恐惧}长达1小时，或直到它被攻击或伤害、或直到它目击它的盟友被攻击或伤害。",
+											"若目标成功通过豁免检定，目标并不会察觉到你曾尝试恐惧它。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1460,13 +1460,13 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "低語斗篷", "ENG_name": "Mantle of Whispers",
+										"name": "低语斗篷", "ENG_name": "Mantle of Whispers",
 										"entries": [
-											"在6級時，你獲得變化成一個類人生物的身分人格的能力。當一個類人生物在距離你30呎內死亡時，你可以使用你的反應用魔法捕捉它的影子。你能保留這個影子直到你使用它、或直到你完成一次長休。",
-											"你能夠以一個動作使用這個影子。當你這麼做時，影子將消失，並魔法地變化成一個出現在你身上的偽裝。你看起來就像那個死去的人物，但健康且充滿生氣。這個偽裝持續1個小時，或直到你以一個附贈動作終止它。",
-											"當你處於此偽裝時，你能夠知曉所有該類人生物會隨意與泛泛之交分享的情報。這類情報包括了它出身背景和私人生活的尋常細節，但並不包括秘密。這些情報足以讓你利用它的記憶來冒充這個人物。",
-											"其他生物可以透過成功通過一次對抗你魅力（{@skill 欺瞞}）檢定的睿知（{@skill 察言觀色}）檢定，以看穿這個偽裝。你在該檢定中獲得+5加值。",
-											"一旦你用此能力捕捉了一個影子，直到你完成一次短休或長休之前你都不能再用它來捕捉另一個影子。"
+											"在6级时，你获得变化成一个类人生物的身分人格的能力。当一个类人生物在距离你30呎内死亡时，你可以使用你的反应用魔法捕捉它的影子。你能保留这个影子直到你使用它、或直到你完成一次长休。",
+											"你能够以一个动作使用这个影子。当你这么做时，影子将消失，并魔法地变化成一个出现在你身上的伪装。你看起来就像那个死去的人物，但健康且充满生气。这个伪装持续1个小时，或直到你以一个附赠动作终止它。",
+											"当你处于此伪装时，你能够知晓所有该类人生物会随意与泛泛之交分享的情报。这类情报包括了它出身背景和私人生活的寻常细节，但并不包括秘密。这些情报足以让你利用它的记忆来冒充这个人物。",
+											"其他生物可以透过成功通过一次对抗你魅力（{@skill 欺瞒}）检定的睿知（{@skill 察言观色}）检定，以看穿这个伪装。你在该检定中获得+5加值。",
+											"一旦你用此能力捕捉了一个影子，直到你完成一次短休或长休之前你都不能再用它来捕捉另一个影子。"
 										]
 									}
 								]
@@ -1477,14 +1477,14 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "陰影學識", "ENG_name": "Shadow Lore",
+										"name": "阴影学识", "ENG_name": "Shadow Lore",
 										"entries": [
-											"在14級時，你獲得將黑暗魔法編入你言詞，引發出一個生物最深恐懼的能力。",
-											"以一個動作，你用魔法低語一段詞句，且只有一個距離你30呎內的生物可以聽見。目標必須進行一次對抗你法術豁免DC的睿知豁免。若它與你之間沒有共通的語言或它無法聽見你，則它將自動通過該豁免檢定。若豁免成功，你的低語聽起來將像是一陣不知所云的呢喃，且沒有任何效果。",
-											"若豁免失敗，目標將在接下來8小時內被你{@condition 魅惑}，或直到你或你的盟友攻擊它、傷害它、或強迫它進行一次豁免檢定。它將把這段低語解讀成一段對它最不堪秘密的描述。你不會獲得任何對該秘密的情報，但目標會深信你已經知道該秘密。",
-											"被{@condition 魅惑}的生物將因為懼怕你揭露它的祕密而服從你的命令。它不會為你冒險賭上自己的性命或為你而戰，除非它原本就傾向會這麼做。它會為你提供只提供給親密朋友的幫助和禮物。",
-											"當這個效果結束，該生物不會理解它為什麼如此懼怕你。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"在14级时，你获得将黑暗魔法编入你言词，引发出一个生物最深恐惧的能力。",
+											"以一个动作，你用魔法低语一段词句，且只有一个距离你30呎内的生物可以听见。目标必须进行一次对抗你法术豁免DC的睿知豁免。若它与你之间没有共通的语言或它无法听见你，则它将自动通过该豁免检定。若豁免成功，你的低语听起来将像是一阵不知所云的呢喃，且没有任何效果。",
+											"若豁免失败，目标将在接下来8小时内被你{@condition 魅惑}，或直到你或你的盟友攻击它、伤害它、或强迫它进行一次豁免检定。它将把这段低语解读成一段对它最不堪秘密的描述。你不会获得任何对该秘密的情报，但目标会深信你已经知道该秘密。",
+											"被{@condition 魅惑}的生物将因为惧怕你揭露它的秘密而服从你的命令。它不会为你冒险赌上自己的性命或为你而战，除非它原本就倾向会这么做。它会为你提供只提供给亲密朋友的帮助和礼物。",
+											"当这个效果结束，该生物不会理解它为什么如此惧怕你。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1492,7 +1492,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "低語"
+					"shortName": "低语"
 				}
 			],
 			"fluff": [

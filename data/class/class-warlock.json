@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "契術師", "ENG_name": "Warlock",
+			"name": "契术师", "ENG_name": "Warlock",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -14,151 +14,151 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter 已知戲法|spells|level=0|class=Warlock}",
-						"{@filter 已知法術|spells|class=Warlock}",
-						"法術位",
-						"環階",
-						"{@filter 已知祈喚|optionalfeatures|feature type=ei}"
+						"{@filter 已知戏法|spells|level=0|class=Warlock}",
+						"{@filter 已知法术|spells|class=Warlock}",
+						"法术位",
+						"环阶",
+						"{@filter 已知祈唤|optionalfeatures|feature type=ei}"
 					],
 					"rows": [
 						[
 							2,
 							2,
 							1,
-							"{@filter 1環|spells|level=1|class=Warlock}",
+							"{@filter 1环|spells|level=1|class=Warlock}",
 							0
 						],
 						[
 							2,
 							3,
 							2,
-							"{@filter 1環|spells|level=1|class=Warlock}",
+							"{@filter 1环|spells|level=1|class=Warlock}",
 							2
 						],
 						[
 							2,
 							4,
 							2,
-							"{@filter 2環|spells|level=2|class=Warlock}",
+							"{@filter 2环|spells|level=2|class=Warlock}",
 							2
 						],
 						[
 							3,
 							5,
 							2,
-							"{@filter 2環|spells|level=2|class=Warlock}",
+							"{@filter 2环|spells|level=2|class=Warlock}",
 							2
 						],
 						[
 							3,
 							6,
 							2,
-							"{@filter 3環|spells|level=3|class=Warlock}",
+							"{@filter 3环|spells|level=3|class=Warlock}",
 							3
 						],
 						[
 							3,
 							7,
 							2,
-							"{@filter 3環|spells|level=3|class=Warlock}",
+							"{@filter 3环|spells|level=3|class=Warlock}",
 							3
 						],
 						[
 							3,
 							8,
 							2,
-							"{@filter 4環|spells|level=4|class=Warlock}",
+							"{@filter 4环|spells|level=4|class=Warlock}",
 							4
 						],
 						[
 							3,
 							9,
 							2,
-							"{@filter 4環|spells|level=4|class=Warlock}",
+							"{@filter 4环|spells|level=4|class=Warlock}",
 							4
 						],
 						[
 							3,
 							10,
 							2,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							10,
 							2,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							5
 						],
 						[
 							4,
 							11,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							12,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							6
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							13,
 							3,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							7
 						],
 						[
 							4,
 							14,
 							4,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							8
 						],
 						[
 							4,
 							15,
 							4,
-							"{@filter 5環|spells|level=5|class=Warlock}",
+							"{@filter 5环|spells|level=5|class=Warlock}",
 							8
 						]
 					]
@@ -187,12 +187,12 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a)一把{@item 輕弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}",
-					"(a)一個{@item 材料包|phb} 或 (b)一個{@item 奧術法器|phb}",
-					"(a)一套{@item 學者套裝|phb} 或 (b)一套{@item 地城探險家套裝|phb}",
-					"一件{@item 皮甲|phb}、任意一把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}、以及二把{@item 匕首|phb}"
+					"(a)一把{@item 轻弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}",
+					"(a)一个{@item 材料包|phb} 或 (b)一个{@item 奥术法器|phb}",
+					"(a)一套{@item 学者套装|phb} 或 (b)一套{@item 地城探险家套装|phb}",
+					"一件{@item 皮甲|phb}、任意一把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}、以及二把{@item 匕首|phb}"
 				],
-				"goldAlternative": "{@dice 4d4×10|4d4 × 10|起始金錢}"
+				"goldAlternative": "{@dice 4d4×10|4d4 × 10|起始金钱}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -210,48 +210,48 @@
 			"classFeatures": [
 				[
 					{
-						"name": "契約魔法", "ENG_name": "Pact Magic",
+						"name": "契约魔法", "ENG_name": "Pact Magic",
 						"entries": [
-							"你在祕法上的研究和你宗主所賜與你的魔法給予了你施展法術的能力。請參閱{@book 第十章|PHB|10}以了解關於施法的通用規則，以及第十一章以查閱{@filter 契術師法術列表|spells|class=warlock}。",
+							"你在秘法上的研究和你宗主所赐与你的魔法给予了你施展法术的能力。请参阅{@book 第十章|PHB|10}以了解关于施法的通用规则，以及第十一章以查阅{@filter 契术师法术列表|spells|class=warlock}。",
 							{
 								"type": "entries",
-								"name": "戲法",
+								"name": "戏法",
 								"entries": [
-									"你知曉兩個從{@filter 契術師法術列表|spells|class=warlock}自選的戲法。你將在升至更高的契術師等級時學會額外的契術師戲法，見契術師表格中的已知戲法欄位。"
+									"你知晓两个从{@filter 契术师法术列表|spells|class=warlock}自选的戏法。你将在升至更高的契术师等级时学会额外的契术师戏法，见契术师表格中的已知戏法栏位。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "法術位",
+								"name": "法术位",
 								"entries": [
-									"契術師表中顯示了你有多少個法術位可以用來施放你一環到五環的{@filter 契術師法術|spells|class=warlock}。這張表也顯示了這些法術位的環階；你所有法術位的環階都是相同的。要施放其中一個一環或更高的契術師法術，你必須消耗一個法術位。你在完成一次短休或長休後恢復所有你花費掉的法術位。",
-									"舉例來說，當你在5級時，你擁有二個3環的法術位。當你要施放一環法術{@spell 巫術箭}時，你必須消耗其中一個法術位，且你將它做為一個3環法術施放。"
+									"契术师表中显示了你有多少个法术位可以用来施放你一环到五环的{@filter 契术师法术|spells|class=warlock}。这张表也显示了这些法术位的环阶；你所有法术位的环阶都是相同的。要施放其中一个一环或更高的契术师法术，你必须消耗一个法术位。你在完成一次短休或长休后恢复所有你花费掉的法术位。",
+									"举例来说，当你在5级时，你拥有二个3环的法术位。当你要施放一环法术{@spell 巫术箭}时，你必须消耗其中一个法术位，且你将它做为一个3环法术施放。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "一環或更高環的已知法術",
+								"name": "一环或更高环的已知法术",
 								"entries": [
-									"在1級時，你知曉二個從契術師法術列表中自選的1環法術。",
-									"契術師表中的已知法術欄位顯示你會在什麼時候習得更多自選的一環或更高環的契術師法術。一個你所選的法術的環階必須不超過你當前等級在表上對應的環階。舉例來說，當你在此職業升至6級時，你可以學會一個新的契術師法術，這個法術可以是1環、2環、或3環。",
-									"此外，當你提升這個職業的等級時，你可以從契術師的法術列表中挑選一個法術來取代一個你目前已知的法術，而它的環階也不能超過你現有法術位的環階。"
+									"在1级时，你知晓二个从契术师法术列表中自选的1环法术。",
+									"契术师表中的已知法术栏位显示你会在什么时候习得更多自选的一环或更高环的契术师法术。一个你所选的法术的环阶必须不超过你当前等级在表上对应的环阶。举例来说，当你在此职业升至6级时，你可以学会一个新的契术师法术，这个法术可以是1环、2环、或3环。",
+									"此外，当你提升这个职业的等级时，你可以从契术师的法术列表中挑选一个法术来取代一个你目前已知的法术，而它的环阶也不能超过你现有法术位的环阶。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "施法屬性",
+								"name": "施法属性",
 								"entries": [
-									"魅力是你施展契術師法術的施法屬性，所以每當法術提及你的施法屬性時，你將使用你的魅力。此外，當決定你契術師法術的豁免DC、以及使用契術師法術進行攻擊檢定時，你使用你的魅力調整值。",
+									"魅力是你施展契术师法术的施法属性，所以每当法术提及你的施法属性时，你将使用你的魅力。此外，当决定你契术师法术的豁免DC、以及使用契术师法术进行攻击检定时，你使用你的魅力调整值。",
 									{
 										"type": "abilityDc",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"cha"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"cha"
 										]
@@ -262,77 +262,77 @@
 								"type": "entries",
 								"name": "施法法器",
 								"entries": [
-									"你可以使用一個{@item 奧術法器|phb}（第五章），來做為你施放契術師法術的法器。"
+									"你可以使用一个{@item 奥术法器|phb}（第五章），来做为你施放契术师法术的法器。"
 								]
 							}
 						]
 					},
 					{
-						"name": "異界宗主", "ENG_name": "Otherworldly Patron",
+						"name": "异界宗主", "ENG_name": "Otherworldly Patron",
 						"entries": [
-							"在1級時，你與你從可選宗主列表中選擇的一個的異界存在簽下了契約。你的選擇將在1級、6級、10級、和14級時賜予你新的能力。"
+							"在1级时，你与你从可选宗主列表中选择的一个的异界存在签下了契约。你的选择将在1级、6级、10级、和14级时赐予你新的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "魔能祈喚", "ENG_name": "Eldritch Invocations",
+						"name": "魔能祈唤", "ENG_name": "Eldritch Invocations",
 						"entries": [
-							"在你對於神秘知識的研究中，你發掘出了魔能祈喚，一種賦予你恆久魔法能力的禁忌知識殘章。",
+							"在你对于神秘知识的研究中，你发掘出了魔能祈唤，一种赋予你恒久魔法能力的禁忌知识残章。",
 							{
 								"type": "inlineBlock",
 								"entries": [
-									"在2級時，你獲得二個自選魔能祈喚。可選的魔能祈喚選項列表請參見{@filter 職業能力選項|optionalfeatures|Feature Type=EI}頁面。當你升至特定契術師等級時，你將再獲得額外的自選祈喚。"
+									"在2级时，你获得二个自选魔能祈唤。可选的魔能祈唤选项列表请参见{@filter 职业能力选项|optionalfeatures|Feature Type=EI}页面。当你升至特定契术师等级时，你将再获得额外的自选祈唤。"
 								]
 							},
-							"此外，當你提升這個職業的等級時，你可以選擇一個你在該等級可以習得的祈喚來取代一個你已知的祈喚。",
-							"祈喚的先決條件所提及的等級是指契術師等級，而非角色等級。"
+							"此外，当你提升这个职业的等级时，你可以选择一个你在该等级可以习得的祈唤来取代一个你已知的祈唤。",
+							"祈唤的先决条件所提及的等级是指契术师等级，而非角色等级。"
 						]
 					}
 				],
 				[
 					{
-						"name": "契約恩賜", "ENG_name": "Pact Boon",
+						"name": "契约恩赐", "ENG_name": "Pact Boon",
 						"entries": [
-							"在3級時，你的異界宗主將因為你忠誠的服務而賜予你一項贈禮。你從以下能力中選擇並獲得一項。",
+							"在3级时，你的异界宗主将因为你忠诚的服务而赐予你一项赠礼。你从以下能力中选择并获得一项。",
 							{
 								"type": "options",
 								"entries": [
 									{
 										"type": "patron",
-										"name": "鎖鏈魔契", "ENG_name": "Pact of the Chain",
+										"name": "锁链魔契", "ENG_name": "Pact of the Chain",
 										"entries": [
-											"你習得{@spell 尋獲魔寵}法術，並可以將之做為儀式施放。此法術不會計入你的已知法術數量中。",
-											"當你施放此法術時，你可以為你的魔寵選擇一個正常的型態，或選擇下列其中一個特殊的型態：{@creature 小魔鬼}、{@creature 偽龍}、{@creature 夸塞魔}、或{@creature 小妖精}。",
-											"此外，當你採取{@action 攻擊}動作時，你可以放棄你其中一次攻擊以讓你的魔寵使用它的反應進行一次攻擊。"
+											"你习得{@spell 寻获魔宠}法术，并可以将之做为仪式施放。此法术不会计入你的已知法术数量中。",
+											"当你施放此法术时，你可以为你的魔宠选择一个正常的型态，或选择下列其中一个特殊的型态：{@creature 小魔鬼}、{@creature 伪龙}、{@creature 夸塞魔}、或{@creature 小妖精}。",
+											"此外，当你采取{@action 攻击}动作时，你可以放弃你其中一次攻击以让你的魔宠使用它的反应进行一次攻击。"
 										]
 									},
 									{
 										"type": "patron",
-										"name": "鋒刃魔契", "ENG_name": "Pact of the Blade",
+										"name": "锋刃魔契", "ENG_name": "Pact of the Blade",
 										"entries": [
-											"你可以使用你的動作以在你的一隻空著的手中創造一把契約武器。你可以在每次創造它時選擇這把近戰武器的型態（參見第五章的武器選項）。你在使用它時熟練於該武器。這把武器在克服對非魔法攻擊和傷害的抗性和免疫時視作魔法武器。",
-											"你的契約武器會在距離你超過5呎外的情況下長達1分鐘或更久時消失。這把武器也會在你再次使用這個能力創造武器、你解消武器（無需花費動作）、或你死亡時消失。",
-											"你可以在持握一把魔法武器時藉由施展一種特別儀式以將該武器轉化成你的契約武器。施展這個儀式的過程需要1小時，且可以在短休期間被施展。你可以解消這把武器，將它存放在一個異次元空間，且它將在往後每次你創造你的契約武器時出現。你不能用這個方式影響一件神器或一把智能武器。若你死亡、你對另一把武器施展了1小時儀式、或你施展一個1小時儀式以打破跟這把武器的連結時，它將不再做為你的契約武器。若這把武器在連結中斷時處於異次元空間，則它將出現在你的腳邊。"
+											"你可以使用你的动作以在你的一只空着的手中创造一把契约武器。你可以在每次创造它时选择这把近战武器的型态（参见第五章的武器选项）。你在使用它时熟练于该武器。这把武器在克服对非魔法攻击和伤害的抗性和免疫时视作魔法武器。",
+											"你的契约武器会在距离你超过5呎外的情况下长达1分钟或更久时消失。这把武器也会在你再次使用这个能力创造武器、你解消武器（无需花费动作）、或你死亡时消失。",
+											"你可以在持握一把魔法武器时借由施展一种特别仪式以将该武器转化成你的契约武器。施展这个仪式的过程需要1小时，且可以在短休期间被施展。你可以解消这把武器，将它存放在一个异次元空间，且它将在往后每次你创造你的契约武器时出现。你不能用这个方式影响一件神器或一把智能武器。若你死亡、你对另一把武器施展了1小时仪式、或你施展一个1小时仪式以打破跟这把武器的连结时，它将不再做为你的契约武器。若这把武器在连结中断时处于异次元空间，则它将出现在你的脚边。"
 										]
 									},
 									{
 										"type": "patron",
-										"name": "書卷魔契", "ENG_name": "Pact of the Tome",
+										"name": "书卷魔契", "ENG_name": "Pact of the Tome",
 										"entries": [
-											"你的宗主賜予你一本被稱作「影之書」的魔法書。當你獲得這個能力時，從任何職業的法術列表中選擇三個戲法。這些戲法不需要來自同一個法術列表。當這本書在你身上時，你可以隨意施放這些戲法。它們不會計入你的已知戲法數量。任何你透過此能力施放的戲法對你而言都視作契術師戲法。若你失去了你的影之書，你可以施展一個長達1小時的儀式以從你的宗主那裏獲得一個替代品。這個儀式可以在短休或長休期間被施展，且它將摧毀前一本書卷。這本書會在你死亡的時候化作灰燼。"
+											"你的宗主赐予你一本被称作「影之书」的魔法书。当你获得这个能力时，从任何职业的法术列表中选择三个戏法。这些戏法不需要来自同一个法术列表。当这本书在你身上时，你可以随意施放这些戏法。它们不会计入你的已知戏法数量。任何你透过此能力施放的戏法对你而言都视作契术师戏法。若你失去了你的影之书，你可以施展一个长达1小时的仪式以从你的宗主那里获得一个替代品。这个仪式可以在短休或长休期间被施展，且它将摧毁前一本书卷。这本书会在你死亡的时候化作灰烬。"
 										]
 									},
 									{
 										"type": "patron",
-										"name": "星鏈魔契", "ENG_name": "Pact of the Star Chain",
+										"name": "星链魔契", "ENG_name": "Pact of the Star Chain",
 										"entries": [
-											"在3級時，一個獻身於the Seeker的角色可以選擇這個選項，而非契術師既存的契約恩賜選項。",
-											"The Seeker賦予你一條由星光打造的鎖鏈，飾以七顆閃爍的光輝塵埃。當這條鎖鏈在你身上時，你知曉{@spell 卜筮}法術，並可以將之做為儀式施放。此法術不會計入你的已知法術數量中。",
-											"此外，你可以在你攜帶這個物品時引發the Seeker的力量以在一次智力檢定中獲得優勢。一旦你使用這個能力，直到完成一次短休或長休之前，你都不能再使用它。",
-											"若你失去了你的星光鎖鏈，你可以施展一個長達1小時的儀式以從The Seeker那裏獲得一個替代品。。這個儀式可以在短休或長休期間被施展，且它將摧毀前一條鎖鏈。這條鎖鏈會在你死亡的時候在一陣閃光中消失。",
-											"這個物品的實際外型可能會根據你的宗主而有所不同。星光鎖鍊是受到灰鷹世界的神祇塞莱斯汀所啟發。"
+											"在3级时，一个献身于the Seeker的角色可以选择这个选项，而非契术师既存的契约恩赐选项。",
+											"The Seeker赋予你一条由星光打造的锁链，饰以七颗闪烁的光辉尘埃。当这条锁链在你身上时，你知晓{@spell 卜筮}法术，并可以将之做为仪式施放。此法术不会计入你的已知法术数量中。",
+											"此外，你可以在你携带这个物品时引发the Seeker的力量以在一次智力检定中获得优势。一旦你使用这个能力，直到完成一次短休或长休之前，你都不能再使用它。",
+											"若你失去了你的星光锁链，你可以施展一个长达1小时的仪式以从The Seeker那里获得一个替代品。。这个仪式可以在短休或长休期间被施展，且它将摧毁前一条锁链。这条锁链会在你死亡的时候在一阵闪光中消失。",
+											"这个物品的实际外型可能会根据你的宗主而有所不同。星光锁链是受到灰鹰世界的神祇塞莱斯汀所启发。"
 										],
 										"source": "UATheFaithful",
 										"subclass": {
@@ -347,19 +347,19 @@
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "異界宗主能力", "ENG_name": "Otherworldly Patron feature",
+						"name": "异界宗主能力", "ENG_name": "Otherworldly Patron feature",
 						"entries": [
-							"在6級時，你獲得一個由你異界宗主所賜予的能力。"
+							"在6级时，你获得一个由你异界宗主所赐予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -367,102 +367,102 @@
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "異界宗主能力", "ENG_name": "Otherworldly Patron feature",
+						"name": "异界宗主能力", "ENG_name": "Otherworldly Patron feature",
 						"entries": [
-							"在10級時，你獲得一個由你異界宗主所賜予的能力。"
+							"在10级时，你获得一个由你异界宗主所赐予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "玄奧秘法(6環)", "ENG_name": "Mystic Arcanum",
+						"name": "玄奥秘法(6环)", "ENG_name": "Mystic Arcanum",
 						"entries": [
-							"在11級時，你的宗主將賜予你一項被稱為祕法的魔法秘密。從契術師法術列表中選擇一個{@filter 6環契術師法術|spells|level=6|class=Warlock}做為此祕法。",
-							"你可以施放你的祕法法術一次而不需要消耗法術位。你必須在完成一次長休之後才能再次施展。",
-							"在更高的等級，你將獲得更多可以透過這個方式施放的自選契術師法術：在13級時一個7環法術、在15級時一個8環法術、以及在17級時一個9環法術。你在完成一次長休後恢復所有你玄奧秘法的使用次數。"
+							"在11级时，你的宗主将赐予你一项被称为秘法的魔法秘密。从契术师法术列表中选择一个{@filter 6环契术师法术|spells|level=6|class=Warlock}做为此秘法。",
+							"你可以施放你的秘法法术一次而不需要消耗法术位。你必须在完成一次长休之后才能再次施展。",
+							"在更高的等级，你将获得更多可以透过这个方式施放的自选契术师法术：在13级时一个7环法术、在15级时一个8环法术、以及在17级时一个9环法术。你在完成一次长休后恢复所有你玄奥秘法的使用次数。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "玄奧秘法(7環)", "ENG_name": "Mystic Arcanum",
+						"name": "玄奥秘法(7环)", "ENG_name": "Mystic Arcanum",
 						"entries": [
-							"在13級時，你的宗主將賜予你一項被稱為祕法的魔法秘密。從契術師法術列表中選擇一個{@filter 7環契術師法術|spells|level=7|class=Warlock}做為此祕法。",
-							"你可以施放你的祕法法術一次而不需要消耗法術位。你必須在完成一次長休之後才能再次施展。"
+							"在13级时，你的宗主将赐予你一项被称为秘法的魔法秘密。从契术师法术列表中选择一个{@filter 7环契术师法术|spells|level=7|class=Warlock}做为此秘法。",
+							"你可以施放你的秘法法术一次而不需要消耗法术位。你必须在完成一次长休之后才能再次施展。"
 						]
 					}
 				],
 				[
 					{
-						"name": "異界宗主能力", "ENG_name": "Otherworldly Patron feature",
+						"name": "异界宗主能力", "ENG_name": "Otherworldly Patron feature",
 						"entries": [
-							"在14級時，你獲得一個由你異界宗主所賜予的能力。"
+							"在14级时，你获得一个由你异界宗主所赐予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "玄奧秘法(8環)", "ENG_name": "Mystic Arcanum",
+						"name": "玄奥秘法(8环)", "ENG_name": "Mystic Arcanum",
 						"entries": [
-							"在15級時，你的宗主將賜予你一項被稱為祕法的魔法秘密。從契術師法術列表中選擇一個{@filter 8環契術師法術|spells|level=8|class=Warlock}做為此祕法。",
-							"你可以施放你的祕法法術一次而不需要消耗法術位。你必須在完成一次長休之後才能再次施展。"
+							"在15级时，你的宗主将赐予你一项被称为秘法的魔法秘密。从契术师法术列表中选择一个{@filter 8环契术师法术|spells|level=8|class=Warlock}做为此秘法。",
+							"你可以施放你的秘法法术一次而不需要消耗法术位。你必须在完成一次长休之后才能再次施展。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "玄奧秘法(9環)", "ENG_name": "Mystic Arcanum",
+						"name": "玄奥秘法(9环)", "ENG_name": "Mystic Arcanum",
 						"entries": [
-							"在17級時，你的宗主將賜予你一項被稱為祕法的魔法秘密。從契術師法術列表中選擇一個{@filter 9環契術師法術|spells|level=9|class=Warlock}做為此祕法。",
-							"你可以施放你的祕法法術一次而不需要消耗法術位。你必須在完成一次長休之後才能再次施展。"
+							"在17级时，你的宗主将赐予你一项被称为秘法的魔法秘密。从契术师法术列表中选择一个{@filter 9环契术师法术|spells|level=9|class=Warlock}做为此秘法。",
+							"你可以施放你的秘法法术一次而不需要消耗法术位。你必须在完成一次长休之后才能再次施展。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "魔能大師", "ENG_name": "Eldritch Master",
+						"name": "魔能大师", "ENG_name": "Eldritch Master",
 						"entries": [
-							"在20級時，你可以在懇求你的宗主時動用你體內儲備的神祕能量以恢復你花費掉的法術位。你可以花費1分鐘的時間懇求你宗主的協助以恢復所有你花費掉的來自契約魔法的法術位。一旦你透過此能力恢復法術位，你必須在完成一次長休之後才能再次使用此能力。"
+							"在20级时，你可以在恳求你的宗主时动用你体内储备的神秘能量以恢复你花费掉的法术位。你可以花费1分钟的时间恳求你宗主的协助以恢复所有你花费掉的来自契约魔法的法术位。一旦你透过此能力恢复法术位，你必须在完成一次长休之后才能再次使用此能力。"
 						]
 					}
 				]
@@ -476,18 +476,18 @@
 							{
 								"name": "至高妖精", "ENG_name": "The Archfey",
 								"entries": [
-									"你的宗主是一位妖精領主或女爵，一個掌握著在世俗種族誕生前便早已被遺忘秘密的傳說生物。這個存在的行為動機往往難以理解，ｕ有時反覆無常，且可能涉及爭取更強大的魔法力量、或解決久遠以前延續至今的仇恨。這類的存在包括了霜凍親王、薄暮之地的統治者空暗女王、仲夏之地的女王緹坦妮雅、她的配偶蒼翠之王奧伯龍、愚者之王希爾薩姆、以及古老的鬼婆們。",
+									"你的宗主是一位妖精领主或女爵，一个掌握着在世俗种族诞生前便早已被遗忘秘密的传说生物。这个存在的行为动机往往难以理解，ｕ有时反复无常，且可能涉及争取更强大的魔法力量、或解决久远以前延续至今的仇恨。这类的存在包括了霜冻亲王、薄暮之地的统治者空暗女王、仲夏之地的女王缇坦妮雅、她的配偶苍翠之王奥伯龙、愚者之王希尔萨姆、以及古老的鬼婆们。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，至高妖精宗主讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，至高妖精宗主让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "至高妖精擴展法術",
+												"caption": "至高妖精扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -495,24 +495,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 妖火術}, {@spell 睡眠術}"
+														"1环",
+														"{@spell 妖火术}, {@spell 睡眠术}"
 													],
 													[
-														"2環",
+														"2环",
 														"{@spell 安定心神}, {@spell 魅影之力}"
 													],
 													[
-														"3環",
-														"{@spell 閃現術}, {@spell 植物滋長}"
+														"3环",
+														"{@spell 闪现术}, {@spell 植物滋长}"
 													],
 													[
-														"4環",
-														"{@spell 支配野獸}, {@spell 高等隱形術}"
+														"4环",
+														"{@spell 支配野兽}, {@spell 高等隐形术}"
 													],
 													[
-														"5環",
-														"{@spell 支配人類}, {@spell 偽裝術}"
+														"5环",
+														"{@spell 支配人类}, {@spell 伪装术}"
 													]
 												]
 											}
@@ -520,10 +520,10 @@
 									},
 									{
 										"type": "entries",
-										"name": "妖精威儀", "ENG_name": "Fey Presence",
+										"name": "妖精威仪", "ENG_name": "Fey Presence",
 										"entries": [
-											"從1級開始，你的宗主賜予你散發出令人著迷和恐懼的精族威儀。以一個動作，你可以使每個在以你為中心的10呎邊長立方體範圍內的生物進行一次對抗你契術師法術豁免DC的睿知豁免。豁免失敗的生物將被你{@condition 魅惑}或{@condition 恐懼}（由你決定）直到你的下個回合結束。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"从1级开始，你的宗主赐予你散发出令人着迷和恐惧的精族威仪。以一个动作，你可以使每个在以你为中心的10呎边长立方体范围内的生物进行一次对抗你契术师法术豁免DC的睿知豁免。豁免失败的生物将被你{@condition 魅惑}或{@condition 恐惧}（由你决定）直到你的下个回合结束。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -534,10 +534,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "霧遁", "ENG_name": "Misty Escape",
+										"name": "雾遁", "ENG_name": "Misty Escape",
 										"entries": [
-											"從6級開始，你可以在受到傷害時於一團迷霧中消失無蹤。每當你受到傷害時，你可以使用你的反應變得{@condition 隱形}，並傳送最遠60呎距離到一處你所能看見的未被佔據空間。你保持{@condition 隱形}狀態直到你的下個回合開始，或直到你攻擊或施放法術。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"从6级开始，你可以在受到伤害时于一团迷雾中消失无踪。每当你受到伤害时，你可以使用你的反应变得{@condition 隐形}，并传送最远60呎距离到一处你所能看见的未被占据空间。你保持{@condition 隐形}状态直到你的下个回合开始，或直到你攻击或施放法术。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -548,9 +548,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "迷惑防護", "ENG_name": "Beguiling Defenses",
+										"name": "迷惑防护", "ENG_name": "Beguiling Defenses",
 										"entries": [
-											"從10級開始，你的宗主教導你如何逆轉你敵人的心靈影響魔法以對付它們。你免疫於{@condition 魅惑}，且當另一個生物嘗試魅惑你時，你可以使用你的反應以將該魅惑效果返還給該生物。該生物必須成功通過一次對抗你契術師法術豁免DC的睿知豁免，否則被你{@condition 魅惑}持續1分鐘，或直到該生物受到任何傷害。"
+											"从10级开始，你的宗主教导你如何逆转你敌人的心灵影响魔法以对付它们。你免疫于{@condition 魅惑}，且当另一个生物尝试魅惑你时，你可以使用你的反应以将该魅惑效果返还给该生物。该生物必须成功通过一次对抗你契术师法术豁免DC的睿知豁免，否则被你{@condition 魅惑}持续1分钟，或直到该生物受到任何伤害。"
 										]
 									}
 								]
@@ -561,11 +561,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "黑暗妄霧", "ENG_name": "Dark Delirium",
+										"name": "黑暗妄雾", "ENG_name": "Dark Delirium",
 										"entries": [
-											"從14級開始，你可以讓一個生物陷入幻覺領域之中。以一個動作，選擇一個距離你60呎內且你所能看見的生物。它必須進行一次對抗你契術師法術豁免DC的睿知豁免。若豁免失敗，它將被你{@condition 魅惑}或{@condition 恐懼}（由你決定）持續1分鐘或直到你的專注被打斷（如同你專注於一個法術）。這個效果會在目標受到任何傷害時提早結束。",
-											"直到這個幻象結束之前，該生物將認為自己迷失在一片迷霧領域之中，迷霧領域的外觀由你決定。該生物只能看見和聽見它自己、你、以及幻象。",
-											"你必須完成一次短休或長休才能再次使用此能力。"
+											"从14级开始，你可以让一个生物陷入幻觉领域之中。以一个动作，选择一个距离你60呎内且你所能看见的生物。它必须进行一次对抗你契术师法术豁免DC的睿知豁免。若豁免失败，它将被你{@condition 魅惑}或{@condition 恐惧}（由你决定）持续1分钟或直到你的专注被打断（如同你专注于一个法术）。这个效果会在目标受到任何伤害时提早结束。",
+											"直到这个幻象结束之前，该生物将认为自己迷失在一片迷雾领域之中，迷雾领域的外观由你决定。该生物只能看见和听见它自己、你、以及幻象。",
+											"你必须完成一次短休或长休才能再次使用此能力。"
 										]
 									}
 								]
@@ -582,18 +582,18 @@
 							{
 								"name": "邪魔宗主", "ENG_name": "The Fiend",
 								"entries": [
-									"即使你可能致力對抗於它們的邪惡目的，你仍與一個來自下層位面的邪魔締結了契約。這類存在渴望著世間萬物的腐化或破壞，最終也包括了你。那些強大到足以締造契約的邪魔包括了像是狄摩高根、奧庫斯、弗拉茲厄魯、和巴菲門特這類的惡魔領主；阿斯蒙帝斯、迪斯帕特、墨菲斯托菲利斯、和貝利亞這類的大魔鬼；特別強大的pit fiends和balors；以及ultroloths和其他尤格羅斯魔領主。",
+									"即使你可能致力对抗于它们的邪恶目的，你仍与一个来自下层位面的邪魔缔结了契约。这类存在渴望着世间万物的腐化或破坏，最终也包括了你。那些强大到足以缔造契约的邪魔包括了像是狄摩高根、奥库斯、弗拉兹厄鲁、和巴菲门特这类的恶魔领主；阿斯蒙帝斯、迪斯帕特、墨菲斯托菲利斯、和贝利亚这类的大魔鬼；特别强大的pit fiends和balors；以及ultroloths和其他尤格罗斯魔领主。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，邪魔宗主讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，邪魔宗主让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "邪魔擴展法術",
+												"caption": "邪魔扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -601,24 +601,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 燃燒之手}, {@spell 命令術}"
+														"1环",
+														"{@spell 燃烧之手}, {@spell 命令术}"
 													],
 													[
-														"2環",
-														"{@spell 目盲/耳聾術}, {@spell 灼熱射線}"
+														"2环",
+														"{@spell 目盲/耳聋术}, {@spell 灼热射线}"
 													],
 													[
-														"3環",
-														"{@spell 火球術}, {@spell 臭雲術}"
+														"3环",
+														"{@spell 火球术}, {@spell 臭云术}"
 													],
 													[
-														"4環",
-														"{@spell 火焰護盾}, {@spell 火牆術}"
+														"4环",
+														"{@spell 火焰护盾}, {@spell 火墙术}"
 													],
 													[
-														"5環",
-														"{@spell 焰擊術}, {@spell 聖居}"
+														"5环",
+														"{@spell 焰击术}, {@spell 圣居}"
 													]
 												]
 											}
@@ -626,9 +626,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "黑暗者賜福", "ENG_name": "Dark One's Blessing",
+										"name": "黑暗者赐福", "ENG_name": "Dark One's Blessing",
 										"entries": [
-											"從1級開始，當你將一個敵對生物的生命值歸零時，你獲得等同於你魅力調整值+你契術師等級的臨時生命值（最少為1）。"
+											"从1级开始，当你将一个敌对生物的生命值归零时，你获得等同于你魅力调整值+你契术师等级的临时生命值（最少为1）。"
 										]
 									}
 								]
@@ -639,10 +639,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "黑暗者強運", "ENG_name": "Dark One's Own Luck",
+										"name": "黑暗者强运", "ENG_name": "Dark One's Own Luck",
 										"entries": [
-											"從6級開始，你可以呼求你的宗主為了你改變命運。當你進行一次屬性檢定或豁免檢定時，你可以使用此能力以將一顆{@dice d10}加入你的擲骰結果中。你可以在看見一開始的擲骰結果之後，但任何檢定效果發生之前使用此能力。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"从6级开始，你可以呼求你的宗主为了你改变命运。当你进行一次属性检定或豁免检定时，你可以使用此能力以将一颗{@dice d10}加入你的掷骰结果中。你可以在看见一开始的掷骰结果之后，但任何检定效果发生之前使用此能力。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -653,9 +653,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "邪魔韌性", "ENG_name": "Fiendish Resilience",
+										"name": "邪魔韧性", "ENG_name": "Fiendish Resilience",
 										"entries": [
-											"從10級開始，你可以在完成一次短休或長休時選擇一種傷害類型。你獲得對該傷害類型的抗性，持續直到你使用此能力再選擇一種不同的傷害類型為止。魔法武器或銀製武器所造成的傷害將忽略此抗性。"
+											"从10级开始，你可以在完成一次短休或长休时选择一种伤害类型。你获得对该伤害类型的抗性，持续直到你使用此能力再选择一种不同的伤害类型为止。魔法武器或银制武器所造成的伤害将忽略此抗性。"
 										]
 									}
 								]
@@ -666,11 +666,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "直墮地獄", "ENG_name": "Hurl Through Hell",
+										"name": "直堕地狱", "ENG_name": "Hurl Through Hell",
 										"entries": [
-											"從14級開始，當你以一次攻擊命中一個生物，你可以使用此能力立刻將該目標傳送穿過下層位面。該生物將消失並飛馳穿過地獄那噩夢般的景象。",
-											"在你的下個回合結束時，目標將返回它原先所佔據的空間，或最近的一處未被佔據空間。若目標並非邪魔，則它將因為那恐怖的經歷而受到{@dice 10d10}精神傷害。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"从14级开始，当你以一次攻击命中一个生物，你可以使用此能力立刻将该目标传送穿过下层位面。该生物将消失并飞驰穿过地狱那噩梦般的景象。",
+											"在你的下个回合结束时，目标将返回它原先所占据的空间，或最近的一处未被占据空间。若目标并非邪魔，则它将因为那恐怖的经历而受到{@dice 10d10}精神伤害。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -690,7 +690,7 @@
 									"You have made a bargain for power granted by an entity that you believe to be completely digital. Whether it is a rogue AI or the spirit of a deceased hacker, the Ghost in the Machine is capable of feats that defy explanation.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Ghost in the Machine lets you choose from an expanded list of spells when you learn a warlock spell. You gain the on/off cantrip, and the following new spells are added to the warlock spell list for you.",
 											"Spells marked with an asterisk can be found in Unearthed Arcana: Modern Magic.",
@@ -698,8 +698,8 @@
 												"type": "table",
 												"caption": "Ghost in the Machine Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -707,23 +707,23 @@
 												],
 												"rows": [
 													[
-														"1環",
+														"1环",
 														"{@spell infallible relay (UA)|UAModernMagic|infallible relay}*, {@spell remote access (UA)|UAModernMagic|remote access}*"
 													],
 													[
-														"2環",
+														"2环",
 														"{@spell arcane hacking (UA)|UAModernMagic|arcane hacking}*, {@spell digital phantom (UA)|UAModernMagic|digital phantom}*"
 													],
 													[
-														"3環",
+														"3环",
 														"{@spell haywire (UA)|UAModernMagic|haywire}*, {@spell invisibility to cameras (UA)|UAModernMagic|invisibility to cameras}*"
 													],
 													[
-														"4環",
+														"4环",
 														"{@spell conjure knowbot (UA)|UAModernMagic|conjure knowbot}*, {@spell system backdoor (UA)|UAModernMagic|system backdoor}*"
 													],
 													[
-														"5環",
+														"5环",
 														"{@spell shutdown (UA)|UAModernMagic|shutdown}*, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
 													]
 												]
@@ -782,7 +782,7 @@
 										"name": "Technovirus",
 										"entries": [
 											"At 14th level, you gain the ability to infect a humanoid's body with living circuitry. You can use an action to make a melee attack against a humanoid creature using your spell attack modifier. The target must make a Constitution saving throw against your spell save DC as a techno-organic virus quickly spreads through its body. On a failed save, the target takes {@dice 8d10} psychic damage, or half as much damage on a successful one.",
-											"Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the {@spell 命令術} spell. The target makes its saving throw against your {@spell 命令術} with disadvantage. You can issue this {@spell 命令術} at any time while the target remains infected.",
+											"Additionally, if the target fails the saving throw, you can use an action to issue it a single command, as if you were casting the {@spell 命令术} spell. The target makes its saving throw against your {@spell 命令术} with disadvantage. You can issue this {@spell 命令术} at any time while the target remains infected.",
 											"Once you use this feature, you can't use it again until you finish a long rest, at which point the target is cured of the technovirus. The infection can also be removed with a lesser restoration spell."
 										]
 									}
@@ -794,24 +794,24 @@
 					"shortName": "Ghost in the Machine (UA)"
 				},
 				{
-					"name": "舊日支配者", "ENG_name": "The Great Old One",
+					"name": "旧日支配者", "ENG_name": "The Great Old One",
 					"subclassFeatures": [
 						[
 							{
-								"name": "舊日支配者", "ENG_name": "The Great Old One",
+								"name": "旧日支配者", "ENG_name": "The Great Old One",
 								"entries": [
-									"你的宗主是一個對現實維度而言徹底異質的神祕存在。它可能來自遙遠國度、現實之外的宇宙、或它可能是其中一位只記述於遠古傳說中的古神。它的行為動機超乎凡人所能理解，且它的知識是如此淵博而古老，與它所擁有的無盡秘密相比，就連世間最偉大的圖書館都會相形見絀。即使舊日支配者可能並未意識到你的存在、或對你完全不感興趣，但你所習得的秘密知識讓你得以利用來自它的龐大魔力。這種類型的存在包括了潛伏者關納德、受縛之神薩瑞茲頓、暗夜巨蛇丹達爾、歸來者扎貢、偉大的克蘇魯、以及其他無以名狀的存在。",
+									"你的宗主是一个对现实维度而言彻底异质的神秘存在。它可能来自遥远国度、现实之外的宇宙、或它可能是其中一位只记述于远古传说中的古神。它的行为动机超乎凡人所能理解，且它的知识是如此渊博而古老，与它所拥有的无尽秘密相比，就连世间最伟大的图书馆都会相形见绌。即使旧日支配者可能并未意识到你的存在、或对你完全不感兴趣，但你所习得的秘密知识让你得以利用来自它的庞大魔力。这种类型的存在包括了潜伏者关纳德、受缚之神萨瑞兹顿、暗夜巨蛇丹达尔、归来者扎贡、伟大的克苏鲁、以及其他无以名状的存在。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，舊日支配者宗主讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，旧日支配者宗主让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "舊日支配者擴展法術",
+												"caption": "旧日支配者扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -819,24 +819,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 噪音暗語}, {@spell 塔莎狂笑術}"
+														"1环",
+														"{@spell 噪音暗语}, {@spell 塔莎狂笑术}"
 													],
 													[
-														"2環",
-														"{@spell 偵測思想}, {@spell 魅影之力}"
+														"2环",
+														"{@spell 侦测思想}, {@spell 魅影之力}"
 													],
 													[
-														"3環",
-														"{@spell 銳眼術}, {@spell 短訊術}"
+														"3环",
+														"{@spell 锐眼术}, {@spell 短讯术}"
 													],
 													[
-														"4環",
-														"{@spell 支配野獸}, {@spell 艾伐黑觸手}"
+														"4环",
+														"{@spell 支配野兽}, {@spell 艾伐黑触手}"
 													],
 													[
-														"5環",
-														"{@spell 支配人類}, {@spell 心靈遙控}"
+														"5环",
+														"{@spell 支配人类}, {@spell 心灵遥控}"
 													]
 												]
 											}
@@ -844,9 +844,9 @@
 									},
 									{
 										"type": "entries",
-										"name": "喚醒心靈", "ENG_name": "Awakened Mind",
+										"name": "唤醒心灵", "ENG_name": "Awakened Mind",
 										"entries": [
-											"從1級開始，你的異界知識賦予了你接觸其他生物心靈的能力。你可以對距離你30呎內且你所能看見的一個生物透過心靈感應交談。你不需要與該生物有共通的語言，就能使它理解你透過心靈感應所傳達的話語，但該生物必須至少理解一種語言。"
+											"从1级开始，你的异界知识赋予了你接触其他生物心灵的能力。你可以对距离你30呎内且你所能看见的一个生物透过心灵感应交谈。你不需要与该生物有共通的语言，就能使它理解你透过心灵感应所传达的话语，但该生物必须至少理解一种语言。"
 										]
 									}
 								]
@@ -857,10 +857,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "熵光防護", "ENG_name": "Entropic Ward",
+										"name": "熵光防护", "ENG_name": "Entropic Ward",
 										"entries": [
-											"在6級時，你學會用魔法從攻擊中守護自己，並將敵人失手的打擊轉變成你自己的好運。當一個生物對你進行一次攻擊檢定時，你可以使用你的反應以讓該檢定承受劣勢。若該攻擊失手，則直到你的下個回合結束前，你下一次對該生物進行的攻擊檢定將獲得優勢。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"在6级时，你学会用魔法从攻击中守护自己，并将敌人失手的打击转变成你自己的好运。当一个生物对你进行一次攻击检定时，你可以使用你的反应以让该检定承受劣势。若该攻击失手，则直到你的下个回合结束前，你下一次对该生物进行的攻击检定将获得优势。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -871,9 +871,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "思想護盾", "ENG_name": "Thought Shield",
+										"name": "思想护盾", "ENG_name": "Thought Shield",
 										"entries": [
-											"從10級開始，除非你允許，否則你的思想不會被心靈感應或任何其他方式閱讀。你同時獲得對精神傷害的抗性，且每當一個生物對你造成精神傷害，該生物將受到與你相同的傷害。"
+											"从10级开始，除非你允许，否则你的思想不会被心灵感应或任何其他方式阅读。你同时获得对精神伤害的抗性，且每当一个生物对你造成精神伤害，该生物将受到与你相同的伤害。"
 										]
 									}
 								]
@@ -884,10 +884,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "創造奴僕", "ENG_name": "Create Thrall",
+										"name": "创造奴仆", "ENG_name": "Create Thrall",
 										"entries": [
-											"在14級時，你獲得用來自你宗主的異界魔法感染一個類人生物心靈的能力。你可以使用你的動作去觸碰一個處於{@condition 無力}狀態的類人生物。該生物接著將被你{@condition 魅惑}，持續直到它被施放{@spell 移除詛咒}法術、{@condition 魅惑}狀態被移除、或你再次使用此能力為止。",
-											"只要你和該生物還處在相同的存在位面，你就可以透過心靈感應與被{@condition 魅惑}的生物交談。"
+											"在14级时，你获得用来自你宗主的异界魔法感染一个类人生物心灵的能力。你可以使用你的动作去触碰一个处于{@condition 无力}状态的类人生物。该生物接着将被你{@condition 魅惑}，持续直到它被施放{@spell 移除诅咒}法术、{@condition 魅惑}状态被移除、或你再次使用此能力为止。",
+											"只要你和该生物还处在相同的存在位面，你就可以透过心灵感应与被{@condition 魅惑}的生物交谈。"
 										]
 									}
 								]
@@ -895,7 +895,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "舊日支配者"
+					"shortName": "旧日支配者"
 				},
 				{
 					"name": "​不朽者", "ENG_name": "The Undying",
@@ -904,19 +904,19 @@
 							{
 								"name": "​不朽者", "ENG_name": "The Undying",
 								"entries": [
-									"早已解開永生生命的秘密，死亡不再影響你的宗主，儘管這樣的成果\u2014就如同所有的力量\u2014伴隨著代價。即使曾為凡人，不朽者看凡俗壽命的消逝如同四季更迭，如同無盡日夜交替中閃爍的火花。它握有關於年壽的秘密、關於生與死的秘密，並不吝於將其分享給追隨它的凡人。這類存在包括萬隱萬秘的主宰維克那、恐懼者埃烏茲、巫妖女王沃爾、艾倫諾的不朽評議會、吉斯洋基人的巫妖女皇維拉基斯、以及不死法師費斯坦丹提勒斯。",
-									"在被遺忘的國度中，不朽者宗主包括了巫師之墓的傳說之主，陰影之王拉洛克、以及巫瑟的神王吉爾金。",
+									"早已解开永生生命的秘密，死亡不再影响你的宗主，尽管这样的成果\u2014就如同所有的力量\u2014伴随着代价。即使曾为凡人，不朽者看凡俗寿命的消逝如同四季更迭，如同无尽日夜交替中闪烁的火花。它握有关于年寿的秘密、关于生与死的秘密，并不吝于将其分享给追随它的凡人。这类存在包括万隐万秘的主宰维克那、恐惧者埃乌兹、巫妖女王沃尔、艾伦诺的不朽评议会、吉斯洋基人的巫妖女皇维拉基斯、以及不死法师费斯坦丹提勒斯。",
+									"在被遗忘的国度中，不朽者宗主包括了巫师之墓的传说之主，阴影之王拉洛克、以及巫瑟的神王吉尔金。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，不朽者宗主讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，不朽者宗主让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "不朽者擴展法術",
+												"caption": "不朽者扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -924,24 +924,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 摹造生命}, {@spell 致病射線}"
+														"1环",
+														"{@spell 摹造生命}, {@spell 致病射线}"
 													],
 													[
-														"2環",
-														"{@spell 目盲/耳聾術}, {@spell 沉默術}"
+														"2环",
+														"{@spell 目盲/耳聋术}, {@spell 沉默术}"
 													],
 													[
-														"3環",
-														"{@spell 假死術}, {@spell 死者交談術}"
+														"3环",
+														"{@spell 假死术}, {@spell 死者交谈术}"
 													],
 													[
-														"4環",
-														"{@spell 生命靈光}, {@spell 防死護咒}"
+														"4环",
+														"{@spell 生命灵光}, {@spell 防死护咒}"
 													],
 													[
-														"5環",
-														"{@spell 疫病術}, {@spell 通曉傳奇}"
+														"5环",
+														"{@spell 疫病术}, {@spell 通晓传奇}"
 													]
 												]
 											}
@@ -951,8 +951,8 @@
 										"type": "entries",
 										"name": "常伴死亡", "ENG_name": "Among the Dead",
 										"entries": [
-											"從1級開始，你學會{@spell 拯救瀕死}戲法，且它對你而言視作契術師戲法。你同時在對抗任何疾病的豁免檢定中具有優勢。",
-											"此外，不死生物將難以傷害你。若一個不死生物直接指定你做為一次攻擊或傷害性法術的目標，該生物必須進行一次對抗你法術豁免DC的睿知豁免（不死生物在使用會捲入你的範圍效果時並不需要進行此檢定，像是{@spell 火球術}的爆炸範圍）。若豁免失敗，該生物必須選擇一個新的目標、或者放棄指定除了你之外的某人，這可能會導致該攻擊或法術被浪費。若豁免成功，該生物將在接下來24小時內免疫於此效果。若你指定它為一次攻擊或傷害性法術的目標，則該不死生物也將在接下來24小時內免疫於此效果。"
+											"从1级开始，你学会{@spell 拯救濒死}戏法，且它对你而言视作契术师戏法。你同时在对抗任何疾病的豁免检定中具有优势。",
+											"此外，不死生物将难以伤害你。若一个不死生物直接指定你做为一次攻击或伤害性法术的目标，该生物必须进行一次对抗你法术豁免DC的睿知豁免（不死生物在使用会卷入你的范围效果时并不需要进行此检定，像是{@spell 火球术}的爆炸范围）。若豁免失败，该生物必须选择一个新的目标、或者放弃指定除了你之外的某人，这可能会导致该攻击或法术被浪费。若豁免成功，该生物将在接下来24小时内免疫于此效果。若你指定它为一次攻击或伤害性法术的目标，则该不死生物也将在接下来24小时内免疫于此效果。"
 										]
 									}
 								]
@@ -965,8 +965,8 @@
 										"type": "entries",
 										"name": "反抗死亡", "ENG_name": "Defy Death",
 										"entries": [
-											"從6級開始，你可以在欺騙死亡或幫助他人欺騙死亡時賦予自己活力。當你成功通過一次死亡豁免、或當你使用{@spell 拯救瀕死}穩定一個生物的傷勢時，你將回復等同於{@dice 1d8}+你的體質調整值（最少1點）的生命值。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"从6级开始，你可以在欺骗死亡或帮助他人欺骗死亡时赋予自己活力。当你成功通过一次死亡豁免、或当你使用{@spell 拯救濒死}稳定一个生物的伤势时，你将回复等同于{@dice 1d8}+你的体质调整值（最少1点）的生命值。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -979,8 +979,8 @@
 										"type": "entries",
 										"name": "不朽天性", "ENG_name": "Undying Nature",
 										"entries": [
-											"從10級開始，你可以永遠地屏住氣息，且你不再需要食物、飲水、或睡眠。儘管你仍然需要休息才能減輕{@condition 耗竭}等級，且仍會得到完成短休和長休的好處。",
-											"此外，你會以較慢的速度老化。每10年過去，你的身體只會老化1年，且你免疫於被魔法變老。"
+											"从10级开始，你可以永远地屏住气息，且你不再需要食物、饮水、或睡眠。尽管你仍然需要休息才能减轻{@condition 耗竭}等级，且仍会得到完成短休和长休的好处。",
+											"此外，你会以较慢的速度老化。每10年过去，你的身体只会老化1年，且你免疫于被魔法变老。"
 										]
 									}
 								]
@@ -991,10 +991,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "不滅生命", "ENG_name": "Indestructible Life",
+										"name": "不灭生命", "ENG_name": "Indestructible Life",
 										"entries": [
-											"當你升至14級時，你分享了一些不朽者宗主的真理秘密。在你的回合，你可以使用一個附贈動作以回復等同於{@dice 1d8}+你的契術師等級的生命值。此外，若你在使用此能力時將一個你斷掉的身體部位放回它原本的位置，該部位將會重新接合。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前你都不能再使用它。"
+											"当你升至14级时，你分享了一些不朽者宗主的真理秘密。在你的回合，你可以使用一个附赠动作以回复等同于{@dice 1d8}+你的契术师等级的生命值。此外，若你在使用此能力时将一个你断掉的身体部位放回它原本的位置，该部位将会重新接合。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1054,15 +1054,15 @@
 									},
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Undying Light lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Undying Light Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1070,24 +1070,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 燃燒之手}"
+														"1环",
+														"{@spell 燃烧之手}"
 													],
 													[
-														"2環",
-														"{@spell 熾焰法球}"
+														"2环",
+														"{@spell 炽焰法球}"
 													],
 													[
-														"3環",
-														"{@spell 晝明術}"
+														"3环",
+														"{@spell 昼明术}"
 													],
 													[
-														"4環",
-														"{@spell 火焰護盾}"
+														"4环",
+														"{@spell 火焰护盾}"
 													],
 													[
-														"5環",
-														"{@spell 焰擊術}"
+														"5环",
+														"{@spell 焰击术}"
 													]
 												]
 											}
@@ -1097,7 +1097,7 @@
 										"type": "entries",
 										"name": "Radiant Soul",
 										"entries": [
-											"Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the {@spell 聖焰} and {@spell 光亮術} cantrips and can cast them at will. They don't count against your number of cantrips known."
+											"Starting at 1st level, your link to the Positive Plane allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant damage or fire damage, you add your Charisma modifier to that damage. Additionally, you know the {@spell 圣焰} and {@spell 光亮术} cantrips and can cast them at will. They don't count against your number of cantrips known."
 										]
 									}
 								]
@@ -1159,15 +1159,15 @@
 									"Being connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now and that your pact binds you to bring light to the dark places of the world.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Celestial Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1175,24 +1175,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 燃燒之手}, {@spell 治療傷勢}"
+														"1环",
+														"{@spell 燃烧之手}, {@spell 治疗伤势}"
 													],
 													[
-														"2環",
-														"{@spell 熾焰法球}, {@spell 次級復原術}"
+														"2环",
+														"{@spell 炽焰法球}, {@spell 次级复原术}"
 													],
 													[
-														"3環",
-														"{@spell 晝明術}, {@spell 回生術}"
+														"3环",
+														"{@spell 昼明术}, {@spell 回生术}"
 													],
 													[
-														"4環",
-														"{@spell 虔誠守衛}, {@spell 火牆術}"
+														"4环",
+														"{@spell 虔诚守卫}, {@spell 火墙术}"
 													],
 													[
-														"5環",
-														"{@spell 焰擊術}, {@spell 高等復原術}"
+														"5环",
+														"{@spell 焰击术}, {@spell 高等复原术}"
 													]
 												]
 											}
@@ -1202,7 +1202,7 @@
 										"type": "entries",
 										"name": "Bonus Cantrips",
 										"entries": [
-											"At 1st level, you learn the {@spell 聖焰} and {@spell 光亮術} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+											"At 1st level, you learn the {@spell 圣焰} and {@spell 光亮术} cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
 										]
 									},
 									{
@@ -1272,15 +1272,15 @@
 									"Your patron could be any deity or other powerful entity dedicated to knowledge or forgotten lore. Celestian is an ideal patron for a Greyhawk campaign, and was the inspiration for this concept. In the Forgotten Realms, your patron might be Azuth or Oghma. Aureon makes an excellent patron in Eberron, while in Krynn and the Dragonlance campaign setting, Gilean is a good match for the Seeker's role.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Seeker lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Seeker Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1288,24 +1288,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 羽落術}, {@spell 跳躍術}"
+														"1环",
+														"{@spell 羽落术}, {@spell 跳跃术}"
 													],
 													[
-														"2環",
-														"{@spell 浮空術}, {@spell 物品定位術}"
+														"2环",
+														"{@spell 浮空术}, {@spell 物品定位术}"
 													],
 													[
-														"3環",
-														"{@spell 銳眼術}, {@spell 短訊術}"
+														"3环",
+														"{@spell 锐眼术}, {@spell 短讯术}"
 													],
 													[
-														"4環",
-														"{@spell 祕法眼}, {@spell 生物定位術}"
+														"4环",
+														"{@spell 秘法眼}, {@spell 生物定位术}"
 													],
 													[
-														"5環",
-														"{@spell 通曉傳奇}, {@spell 穿牆術}"
+														"5环",
+														"{@spell 通晓传奇}, {@spell 穿墙术}"
 													]
 												]
 											}
@@ -1379,15 +1379,15 @@
 									"The Raven Queen's followers are expected to serve her will in the world. She concerns herself with ensuring that those fated to die pass from the world as expected, and bids her agents to defeat those who seek to cheat death through undeath or other imitations of immortality. She hates intelligent undead and expects her followers to strike them down, whereas mindless undead such as skeletons and zombies are little more than stumbling automatons in her eyes.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Raven Queen lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Raven Queen Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1395,24 +1395,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 摹造生命}, {@spell 聖域術}"
+														"1环",
+														"{@spell 摹造生命}, {@spell 圣域术}"
 													],
 													[
-														"2環",
-														"{@spell 沉默術}, {@spell 靈體武器}"
+														"2环",
+														"{@spell 沉默术}, {@spell 灵体武器}"
 													],
 													[
-														"3環",
-														"{@spell 假死術}, {@spell 死者交談術}"
+														"3环",
+														"{@spell 假死术}, {@spell 死者交谈术}"
 													],
 													[
-														"4環",
-														"{@spell 冰風暴}, {@spell 生物定位術}"
+														"4环",
+														"{@spell 冰风暴}, {@spell 生物定位术}"
 													],
 													[
-														"5環",
-														"{@spell 通神術}, {@spell 寒冰錐}"
+														"5环",
+														"{@spell 通神术}, {@spell 寒冰锥}"
 													]
 												]
 											}
@@ -1485,15 +1485,15 @@
 									"You have made your pact with a powerful, sentient magic weapon carved from the stuff of the Shadowfell. The mighty sword Blackrazor is the most notable of these weapons, several of which have spread across the multiverse over the ages. These weapons grow stronger as they consume the life essence of their victims. The strongest of them can use their ties to the Shadowfell to offer power to mortals who serve them. The Raven Queen forged the first of these weapons. They, along with the hexblade warlocks, are another tool she can use to manipulate events in the Material Plane to her inscrutable ends.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Hexblade Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1501,24 +1501,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 護盾術}, {@spell 激憤斬}"
+														"1环",
+														"{@spell 护盾术}, {@spell 激愤斩}"
 													],
 													[
-														"2環",
-														"{@spell 烙印斬}, {@spell 魔化武器}"
+														"2环",
+														"{@spell 烙印斩}, {@spell 魔化武器}"
 													],
 													[
-														"3環",
-														"{@spell 閃現術}, {@spell 元素武器}"
+														"3环",
+														"{@spell 闪现术}, {@spell 元素武器}"
 													],
 													[
-														"4環",
-														"{@spell 魅影殺手}, {@spell 驚震斬}"
+														"4环",
+														"{@spell 魅影杀手}, {@spell 惊震斩}"
 													],
 													[
-														"5環",
-														"{@spell 寒冰錐}, {@spell 湮滅波}"
+														"5环",
+														"{@spell 寒冰锥}, {@spell 湮灭波}"
 													]
 												]
 											}
@@ -1601,19 +1601,19 @@
 							{
 								"name": "天界宗主", "ENG_name": "The Celestial",
 								"entries": [
-									"你的宗主是一個上層位面的強大存在。你和一位古老的至高天、熾天神侍、麒麟、獨角獸、或其他居住於那永樂位面中的存在締結了契約。你與該存在之間的契約讓你得以經歷到那照亮多元宇宙的聖光最直接的觸碰。",
-									"與這般力量的連接可能會導致你行為和信仰的改變。你可能會發現自己投身於殲滅不死生物、抵禦邪魔、和保護無辜者的大業中。有時候，你的心靈會充滿著你對宗主所在天界國度的渴望，並希冀能在你的餘生中漫遊在這樣的天堂之中。然而，你知道你現在的任務是待在凡世之中，且你的契約約束著你為世界上最黑暗的角落帶來光明。",
+									"你的宗主是一个上层位面的强大存在。你和一位古老的至高天、炽天神侍、麒麟、独角兽、或其他居住于那永乐位面中的存在缔结了契约。你与该存在之间的契约让你得以经历到那照亮多元宇宙的圣光最直接的触碰。",
+									"与这般力量的连接可能会导致你行为和信仰的改变。你可能会发现自己投身于歼灭不死生物、抵御邪魔、和保护无辜者的大业中。有时候，你的心灵会充满着你对宗主所在天界国度的渴望，并希冀能在你的余生中漫游在这样的天堂之中。然而，你知道你现在的任务是待在凡世之中，且你的契约约束着你为世界上最黑暗的角落带来光明。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，天界宗主讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，天界宗主让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "天界宗主擴展法術",
+												"caption": "天界宗主扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1621,24 +1621,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 治療傷勢}, {@spell 光導箭}"
+														"1环",
+														"{@spell 治疗伤势}, {@spell 光导箭}"
 													],
 													[
-														"2環",
-														"{@spell 熾焰法球}, {@spell 次級復原術}"
+														"2环",
+														"{@spell 炽焰法球}, {@spell 次级复原术}"
 													],
 													[
-														"3環",
-														"{@spell 晝明術}, {@spell 回生術}"
+														"3环",
+														"{@spell 昼明术}, {@spell 回生术}"
 													],
 													[
-														"4環",
-														"{@spell 虔誠守衛}, {@spell 火牆術}"
+														"4环",
+														"{@spell 虔诚守卫}, {@spell 火墙术}"
 													],
 													[
-														"5環",
-														"{@spell 焰擊術}, {@spell 高等復原術}"
+														"5环",
+														"{@spell 焰击术}, {@spell 高等复原术}"
 													]
 												]
 											}
@@ -1646,18 +1646,18 @@
 									},
 									{
 										"type": "entries",
-										"name": "額外戲法", "ENG_name": "Bonus Cantrips",
+										"name": "额外戏法", "ENG_name": "Bonus Cantrips",
 										"entries": [
-											"在1級時，你學會{@spell 聖焰}和{@spell 光亮術}戲法。它們對你而言視作契術師戲法，但不會被計入你已知戲法的數量中。"
+											"在1级时，你学会{@spell 圣焰}和{@spell 光亮术}戏法。它们对你而言视作契术师戏法，但不会被计入你已知戏法的数量中。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "治癒之光", "ENG_name": "Healing Light",
+										"name": "治愈之光", "ENG_name": "Healing Light",
 										"entries": [
-											"在1級時，你獲得引導天界能量以醫治傷口的能力。你獲得一組{@dice d6}骰池，並可以消耗它來使用此治療能力。骰池中的骰子數量等同於1+你的契術師等級。",
-											"以一個附贈動作，你可以消耗骰池中的骰子，治療一個距離你60呎內且你能看見的生物。你一次所能消耗的最大骰數等同於你的魅力調整值（最少一顆骰）。投擲你所消耗的骰子，將它們加在一起，並回復等同於其總和的生命值。",
-											"你的骰池將在你完成一次長休時恢復所有花費掉的骰子。"
+											"在1级时，你获得引导天界能量以医治伤口的能力。你获得一组{@dice d6}骰池，并可以消耗它来使用此治疗能力。骰池中的骰子数量等同于1+你的契术师等级。",
+											"以一个附赠动作，你可以消耗骰池中的骰子，治疗一个距离你60呎内且你能看见的生物。你一次所能消耗的最大骰数等同于你的魅力调整值（最少一颗骰）。投掷你所消耗的骰子，将它们加在一起，并回复等同于其总和的生命值。",
+											"你的骰池将在你完成一次长休时恢复所有花费掉的骰子。"
 										]
 									}
 								]
@@ -1668,9 +1668,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "光輝之魂", "ENG_name": "Radiant Soul",
+										"name": "光辉之魂", "ENG_name": "Radiant Soul",
 										"entries": [
-											"從6級開始，你與天界宗主的聯繫讓你得以做為釋放光耀能量的管道。你對光耀傷害具有抗性，且當你施放一個會造成光耀或火焰傷害的法術時，你可以將你的魅力調整值加入對其中一個目標所造成的一次光耀或火焰傷害骰中。"
+											"从6级开始，你与天界宗主的联系让你得以做为释放光耀能量的管道。你对光耀伤害具有抗性，且当你施放一个会造成光耀或火焰伤害的法术时，你可以将你的魅力调整值加入对其中一个目标所造成的一次光耀或火焰伤害骰中。"
 										]
 									}
 								]
@@ -1681,9 +1681,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "天族韌性", "ENG_name": "Celestial Resilience",
+										"name": "天族韧性", "ENG_name": "Celestial Resilience",
 										"entries": [
-											"從10級開始，每當你完成一次短休或長休時，你將獲得臨時生命值。這些臨時生命值等同於你的契術師等級+你的魅力調整值。此外，在休息結束時選擇最多五個你所能看見的生物。這些生物將各自獲得等同於你契術師等級的一半+你的魅力調整值的臨時生命值。"
+											"从10级开始，每当你完成一次短休或长休时，你将获得临时生命值。这些临时生命值等同于你的契术师等级+你的魅力调整值。此外，在休息结束时选择最多五个你所能看见的生物。这些生物将各自获得等同于你契术师等级的一半+你的魅力调整值的临时生命值。"
 										]
 									}
 								]
@@ -1694,10 +1694,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "灼光復仇", "ENG_name": "Searing Vengeance",
+										"name": "灼光复仇", "ENG_name": "Searing Vengeance",
 										"entries": [
-											"從14級開始，你所引導的光耀能量讓你得以抵抗死亡。當你在你的回合開始時必須進行一次死亡豁免時，你可以改為在一陣光耀能量的爆發中一躍而起。你回復等同於你生命值最大值一半的生命值，並接著可以選擇重新起身。每個距離你30呎內你所選擇的生物將受到等同於{@dice 2d8}+你的魅力調整值的光耀傷害，且陷入{@condition 目盲}狀態直到該回合結束。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"从14级开始，你所引导的光耀能量让你得以抵抗死亡。当你在你的回合开始时必须进行一次死亡豁免时，你可以改为在一阵光耀能量的爆发中一跃而起。你回复等同于你生命值最大值一半的生命值，并接着可以选择重新起身。每个距离你30呎内你所选择的生物将受到等同于{@dice 2d8}+你的魅力调整值的光耀伤害，且陷入{@condition 目盲}状态直到该回合结束。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -1708,25 +1708,25 @@
 					"shortName": "天界宗主"
 				},
 				{
-					"name": "咒劍士", "ENG_name": "The Hexblade",
+					"name": "咒剑士", "ENG_name": "The Hexblade",
 					"subclassFeatures": [
 						[
 							{
-								"name": "咒劍士", "ENG_name": "The Hexblade",
+								"name": "咒剑士", "ENG_name": "The Hexblade",
 								"entries": [
-									"你和一個來自墮影冥界的神秘存在締結了契約\u2014一股在暗影物質雕琢而成的智能魔法武器身上顯露出的力量。強大的魔劍「黑刃」就是這類武器中最著名的一例，並以在世紀間輾轉橫跨多元宇宙。這些武器背後的陰影之力可以為與之締結契約的契術師提供力量。許多咒劍契術師模仿著那些在墮影冥界中成形的存在來創造自己的武器，其他人則放棄這類兵器，轉而將墮影冥界中的黑暗魔法編入他們的法術施展中。",
-									"由於眾所周知，是鴉后打造出了最初的這類武器，因此許多賢者推測她就是這股力量的真身，且這些武器、以及咒劍契術師，都只不過是她用以操弄物質位面的工具，用以達到她那難以揣測的最終目的。",
+									"你和一个来自堕影冥界的神秘存在缔结了契约\u2014一股在暗影物质雕琢而成的智能魔法武器身上显露出的力量。强大的魔剑「黑刃」就是这类武器中最著名的一例，并以在世纪间辗转横跨多元宇宙。这些武器背后的阴影之力可以为与之缔结契约的契术师提供力量。许多咒剑契术师模仿着那些在堕影冥界中成形的存在来创造自己的武器，其他人则放弃这类兵器，转而将堕影冥界中的黑暗魔法编入他们的法术施展中。",
+									"由于众所周知，是鸦后打造出了最初的这类武器，因此许多贤者推测她就是这股力量的真身，且这些武器、以及咒剑契术师，都只不过是她用以操弄物质位面的工具，用以达到她那难以揣测的最终目的。",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
-											"當你要學習契術師法術時，咒劍士讓你可以從擴展法術列表中選擇法術。對你而言下列法術將被加入契術師法術列表。",
+											"当你要学习契术师法术时，咒剑士让你可以从扩展法术列表中选择法术。对你而言下列法术将被加入契术师法术列表。",
 											{
 												"type": "table",
-												"caption": "咒劍士擴展法術",
+												"caption": "咒剑士扩展法术",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1734,24 +1734,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 護盾術}, {@spell 激憤斬}"
+														"1环",
+														"{@spell 护盾术}, {@spell 激愤斩}"
 													],
 													[
-														"2環",
-														"{@spell 朦朧術}, {@spell 烙印斬}"
+														"2环",
+														"{@spell 朦胧术}, {@spell 烙印斩}"
 													],
 													[
-														"3環",
-														"{@spell 閃現術}, {@spell 元素武器}"
+														"3环",
+														"{@spell 闪现术}, {@spell 元素武器}"
 													],
 													[
-														"4環",
-														"{@spell 魅影殺手}, {@spell 驚震斬}"
+														"4环",
+														"{@spell 魅影杀手}, {@spell 惊震斩}"
 													],
 													[
-														"5環",
-														"{@spell 放逐斬}, {@spell 寒冰錐}"
+														"5环",
+														"{@spell 放逐斩}, {@spell 寒冰锥}"
 													]
 												]
 											}
@@ -1759,26 +1759,26 @@
 									},
 									{
 										"type": "entries",
-										"name": "咒劍詛咒", "ENG_name": "Hexblade's Curse",
+										"name": "咒剑诅咒", "ENG_name": "Hexblade's Curse",
 										"entries": [
-											"從1級開始，你獲得向某人施加惡毒詛咒的能力。以一個附贈動作，選擇一個距離你30呎內且你能看見的生物。目標將被詛咒長達1分鐘。這個詛咒會在目標死亡、你死亡、或你陷入{@condition 無力}狀態時提早結束。直到此詛咒結束前，你獲得下列好處：",
+											"从1级开始，你获得向某人施加恶毒诅咒的能力。以一个附赠动作，选择一个距离你30呎内且你能看见的生物。目标将被诅咒长达1分钟。这个诅咒会在目标死亡、你死亡、或你陷入{@condition 无力}状态时提早结束。直到此诅咒结束前，你获得下列好处：",
 											{
 												"type": "list",
 												"items": [
-													"你對受詛咒目標所進行的傷害骰獲得加值。這個加值等同於你的熟練加值。",
-													"任何你對受詛咒目標所進行的攻擊檢定，若在{@dice d20}中骰出19或20的骰面，則該攻擊視為重擊。",
-													"若受詛咒目標死亡，你將回復等同於你契術師等級+你的魅力調整值的生命值（最少1點生命值）。"
+													"你对受诅咒目标所进行的伤害骰获得加值。这个加值等同于你的熟练加值。",
+													"任何你对受诅咒目标所进行的攻击检定，若在{@dice d20}中骰出19或20的骰面，则该攻击视为重击。",
+													"若受诅咒目标死亡，你将回复等同于你契术师等级+你的魅力调整值的生命值（最少1点生命值）。"
 												]
 											},
-											"直到你完成一次短休或長休之前你都不能再使用此能力。"
+											"直到你完成一次短休或长休之前你都不能再使用此能力。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "巫咒戰士", "ENG_name": "Hex Warrior",
+										"name": "巫咒战士", "ENG_name": "Hex Warrior",
 										"entries": [
-											"在1級時，你學會了在戰鬥中有效武裝自己所必要的訓練。你獲得中甲、盾牌、和軍用武器的熟練。",
-											"你宗主的影響也讓你得以神秘地透過特定武器引導你的意志。每當你完成一次長休，你可以觸碰一把你所熟練且沒有雙手屬性的武器。當你使用該武器進行攻擊時，你可以使用你的魅力調整值，而非力量或敏捷，來計算其攻擊檢定和傷害骰。這個好處會持續直到你完成一次長休。若你之後獲得了鋒刃魔契能力，則這個好處將擴展到你使用該能力召喚出的每一把契約武器，且無視武器類型的限制。"
+											"在1级时，你学会了在战斗中有效武装自己所必要的训练。你获得中甲、盾牌、和军用武器的熟练。",
+											"你宗主的影响也让你得以神秘地透过特定武器引导你的意志。每当你完成一次长休，你可以触碰一把你所熟练且没有双手属性的武器。当你使用该武器进行攻击时，你可以使用你的魅力调整值，而非力量或敏捷，来计算其攻击检定和伤害骰。这个好处会持续直到你完成一次长休。若你之后获得了锋刃魔契能力，则这个好处将扩展到你使用该能力召唤出的每一把契约武器，且无视武器类型的限制。"
 										]
 									}
 								]
@@ -1789,11 +1789,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "咒縛幽靈", "ENG_name": "Accursed Specter",
+										"name": "咒缚幽灵", "ENG_name": "Accursed Specter",
 										"entries": [
-											"從6級開始，你可以詛咒一個你所殺害之人的靈魂，束縛它暫時為你服務。當你殺死一個類人生物時，你可以使它的靈魂做為一個{@creature 幽靈}從它的屍體中升起。幽靈的數據被記載於《怪物圖鑑》中。當幽靈出現時，它將獲得等同於你契術師等級一半的臨時生命值。為這個幽靈骰先攻，且它擁有自己的回合。它會服從你的任何口頭指令，且它在它的攻擊檢定中獲得等同於你魅力調整值（最低為+0）的特殊加值。",
-											"這個幽靈會持續為你服務直到你的下一次長休結束，在那之後它將消失並進入來世。",
-											"一旦你使用此能力束縛一個幽靈，直到你完成一次長休之前你都不能再使用此能力。"
+											"从6级开始，你可以诅咒一个你所杀害之人的灵魂，束缚它暂时为你服务。当你杀死一个类人生物时，你可以使它的灵魂做为一个{@creature 幽灵}从它的尸体中升起。幽灵的数据被记载于《怪物图鉴》中。当幽灵出现时，它将获得等同于你契术师等级一半的临时生命值。为这个幽灵骰先攻，且它拥有自己的回合。它会服从你的任何口头指令，且它在它的攻击检定中获得等同于你魅力调整值（最低为+0）的特殊加值。",
+											"这个幽灵会持续为你服务直到你的下一次长休结束，在那之后它将消失并进入来世。",
+											"一旦你使用此能力束缚一个幽灵，直到你完成一次长休之前你都不能再使用此能力。"
 										]
 									}
 								]
@@ -1804,9 +1804,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "巫咒護甲", "ENG_name": "Armor of Hexes",
+										"name": "巫咒护甲", "ENG_name": "Armor of Hexes",
 										"entries": [
-											"在10級時，你的巫咒變得更加強大。若你使用咒劍詛咒所詛咒的目標以一次攻擊檢定命中你，你可以使用你的反應骰一顆{@dice d6}。若結果為4或更高，則無論該攻擊的檢定結果如何，該攻擊結果改為失手。"
+											"在10级时，你的巫咒变得更加强大。若你使用咒剑诅咒所诅咒的目标以一次攻击检定命中你，你可以使用你的反应骰一颗{@dice d6}。若结果为4或更高，则无论该攻击的检定结果如何，该攻击结果改为失手。"
 										]
 									}
 								]
@@ -1817,9 +1817,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "巫咒大師", "ENG_name": "Master of Hexes",
+										"name": "巫咒大师", "ENG_name": "Master of Hexes",
 										"entries": [
-											"從14級開始，你可以將你的咒劍詛咒從一個被殺死的生物散佈到另一個生物身上。當一個被你使用咒劍詛咒所詛咒的生物死亡時，只要你不處於{@condition 無力}狀態，你就可以將該詛咒轉移到一個距離你30呎內且你能看見的不同生物。當你透過這個方法轉移詛咒，你將不能因為前一個受詛咒生物的死亡而回復生命值。"
+											"从14级开始，你可以将你的咒剑诅咒从一个被杀死的生物散布到另一个生物身上。当一个被你使用咒剑诅咒所诅咒的生物死亡时，只要你不处于{@condition 无力}状态，你就可以将该诅咒转移到一个距离你30呎内且你能看见的不同生物。当你透过这个方法转移诅咒，你将不能因为前一个受诅咒生物的死亡而回复生命值。"
 										]
 									}
 								]
@@ -1827,7 +1827,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "咒劍士"
+					"shortName": "咒剑士"
 				},
 				{
 					"name": "The Kraken (Livestream)",
@@ -1839,15 +1839,15 @@
 									"You made a pact with a Kraken somewhere in the world's ocean.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"The Kraken lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Kraken Patron Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1855,24 +1855,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 雷鳴波}, {@spell 造水/枯水術}"
+														"1环",
+														"{@spell 雷鸣波}, {@spell 造水/枯水术}"
 													],
 													[
-														"2環",
-														"{@spell 卜筮}, {@spell 造風術}"
+														"2环",
+														"{@spell 卜筮}, {@spell 造风术}"
 													],
 													[
-														"3環",
-														"{@spell 召雷術}, {@spell 水下呼吸}"
+														"3环",
+														"{@spell 召雷术}, {@spell 水下呼吸}"
 													],
 													[
-														"4環",
-														"{@spell 艾伐黑觸手}, {@spell 操控水體}"
+														"4环",
+														"{@spell 艾伐黑触手}, {@spell 操控水体}"
 													],
 													[
-														"5環",
-														"{@spell 問道自然}, {@spell 寒冰錐}"
+														"5环",
+														"{@spell 问道自然}, {@spell 寒冰锥}"
 													]
 												]
 											}
@@ -1973,15 +1973,15 @@
 									"Your patron is Lolth, queen of the dark fey. She rules over the drow that dwell within the Feywild, and commands the loyalty of all hags. Evil fey pay her respect, though not all obey her edicts. She is a sworn enemy of Torog, due to the constant threat he and his minions pose to her Underdark domains.",
 									{
 										"type": "entries",
-										"name": "擴展法術列表", "ENG_name": "Expanded Spell List",
+										"name": "扩展法术列表", "ENG_name": "Expanded Spell List",
 										"entries": [
 											"Lolth lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
 											{
 												"type": "table",
 												"caption": "Lolth Expanded Spells",
 												"colLabels": [
-													"法術環階",
-													"法術"
+													"法术环阶",
+													"法术"
 												],
 												"colStyles": [
 													"col-3 text-align-center",
@@ -1989,24 +1989,24 @@
 												],
 												"rows": [
 													[
-														"1環",
-														"{@spell 妖火術}, {@spell 跳躍術}"
+														"1环",
+														"{@spell 妖火术}, {@spell 跳跃术}"
 													],
 													[
-														"2環",
-														"{@spell 黑暗術}, {@spell 蛛網術}"
+														"2环",
+														"{@spell 黑暗术}, {@spell 蛛网术}"
 													],
 													[
-														"3環",
-														"{@spell 恐懼術}, {@spell 吸血鬼之觸}"
+														"3环",
+														"{@spell 恐惧术}, {@spell 吸血鬼之触}"
 													],
 													[
-														"4環",
-														"{@spell 次元門}, {@spell 巨蟲術}"
+														"4环",
+														"{@spell 次元门}, {@spell 巨虫术}"
 													],
 													[
-														"5環",
-														"{@spell 死雲術}, {@spell 怪物定身術}"
+														"5环",
+														"{@spell 死云术}, {@spell 怪物定身术}"
 													]
 												]
 											}

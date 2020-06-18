@@ -37,7 +37,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -297,7 +297,7 @@
 					"daily": {
 						"3e": [
 							"{@spell fog cloud}",
-							"{@spell 浮空術}"
+							"{@spell 浮空术}"
 						]
 					}
 				},
@@ -1050,9 +1050,9 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell guidance}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"1": {
@@ -1085,7 +1085,7 @@
 			],
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Pharblex can breathe air and water."
 					]
@@ -1231,7 +1231,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell phantasmal force}"
 							]
 						},
@@ -1368,7 +1368,7 @@
 					]
 				},
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Rezmir can breathe air and water."
 					]
@@ -1633,7 +1633,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],

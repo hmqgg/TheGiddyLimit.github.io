@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>這是你的人生 - 5etools</title>
+	<title>这是你的人生 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -82,8 +82,8 @@
 <header class="hidden-xs hidden-sm page__header">
 	<div class="container">
 
-		<h1 class="page__title">這是你的人生</h1>
-		<p class="page__subtitle">選擇選項，然後點擊生成。</p>
+		<h1 class="page__title">这是你的人生</h1>
+		<p class="page__subtitle">选择选项，然后点击生成。</p>
 	</div>
 </header>
 <nav class="container page__nav" id="navigation">
@@ -98,12 +98,12 @@
 
 	<div class="row noprint">
 		<div class="form-group col-2-4">
-			<label for="race">種族</label>
+			<label for="race">种族</label>
 			<select class="form-control form-inline" id="race"></select>
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="cha">魅力調整值</label>
+			<label for="cha">魅力调整值</label>
 			<select class="form-control form-inline" id="cha"></select>
 		</div>
 
@@ -113,20 +113,20 @@
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="race">職業</label>
+			<label for="race">职业</label>
 			<select class="form-control form-inline" id="class"></select>
 		</div>
 
 		<div class="form-group col-2-4">
-			<label for="age"><i>年齡</i></label>
+			<label for="age"><i>年龄</i></label>
 			<select class="form-control form-inline" id="age">
-				<option value="" style="font-style: normal;">隨機</option>
-				<option value="1" class="italic">20歲或更年輕</option>
-				<option value="21" class="italic">21&mdash;30歲</option>
-				<option value="60" class="italic">31&mdash;40歲</option>
-				<option value="70" class="italic">41&mdash;50歲</option>
-				<option value="90" class="italic">51&mdash;60歲</option>
-				<option value="100" class="italic">61歲或更老</option>
+				<option value="" style="font-style: normal;">随机</option>
+				<option value="1" class="italic">20岁或更年轻</option>
+				<option value="21" class="italic">21&mdash;30岁</option>
+				<option value="60" class="italic">31&mdash;40岁</option>
+				<option value="70" class="italic">41&mdash;50岁</option>
+				<option value="90" class="italic">51&mdash;60岁</option>
+				<option value="100" class="italic">61岁或更老</option>
 			</select>
 		</div>
 	</div>
@@ -137,13 +137,13 @@
 	</div>
 
 	<div class="row noprint" style="padding: 0 3em;">
-		<p>這個生成器是基於<a href="#" id="xge_link">《姍納薩的萬事指南》</a>第61-73頁的規則和表格。</p>
-		<p><i>注意：以斜體顯示所產生的文字內容是為了讓使用變得更容易和快速，它們並不對應原本生成器中的任何表格。隨你喜好忽視它們。</i></p>
+		<p>这个生成器是基于<a href="#" id="xge_link">《姗纳萨的万事指南》</a>第61-73页的规则和表格。</p>
+		<p><i>注意：以斜体显示所产生的文字内容是为了让使用变得更容易和快速，它们并不对应原本生成器中的任何表格。随你喜好忽视它们。</i></p>
 	</div>
 
 	<hr class="output" style="display: none;">
 	<div class="row output" style="display: none;">
-		<div class="wrp-sect-head"><h4>雙親</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectParents()"></button></div>
+		<div class="wrp-sect-head"><h4>双亲</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectParents()"></button></div>
 		<p id="parents"></p>
 	</div>
 	<div class="row output" style="display: none;">
@@ -159,11 +159,11 @@
 		<p id="family"></p>
 	</div>
 	<div class="row output" style="display: none;">
-		<div class="wrp-sect-head"><h4>個人抉擇</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectPersonalDecisions()"></button></div>
+		<div class="wrp-sect-head"><h4>个人抉择</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectPersonalDecisions()"></button></div>
 		<p id="personal"></p>
 	</div>
 	<div class="row output" style="display: none;">
-		<div class="wrp-sect-head"><h4>職業訓練</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectClassTraining()"></button></div>
+		<div class="wrp-sect-head"><h4>职业训练</h4><button class="btn btn-xs btn-default btn-reroll" onclick="sectClassTraining()"></button></div>
 		<p id="clss"></p>
 	</div>
 	<div class="row output" style="display: none;">

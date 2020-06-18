@@ -6,9 +6,9 @@ const renderer = Renderer.get();
 
 let list;
 const sourceFilter = getSourceFilter();
-const skillFilter = new Filter({header: "Skill Proficiencies", headerName: "技能熟練", displayFn: Parser.SkillToDisplay});
-const toolFilter = new Filter({header: "Tool Proficiencies", headerName: "工具熟練", displayFn: Parser.translateKeyToDisplay});
-const languageFilter = new Filter({header: "Language Proficiencies", headerName: "語言熟練", displayFn: Parser.LanguageToDisplay});
+const skillFilter = new Filter({header: "Skill Proficiencies", headerName: "技能熟练", displayFn: Parser.SkillToDisplay});
+const toolFilter = new Filter({header: "Tool Proficiencies", headerName: "工具熟练", displayFn: Parser.translateKeyToDisplay});
+const languageFilter = new Filter({header: "Language Proficiencies", headerName: "语言熟练", displayFn: Parser.LanguageToDisplay});
 let filterBox;
 
 window.onload = async function load () {
@@ -89,7 +89,7 @@ function addBackgrounds (data) {
 		tempString +=
 			`<li class="row" ${FLTR_ID}="${bgI}" onclick="ListUtil.toggleSelected(event, this)" oncontextmenu="ListUtil.openContextMenu(event, this)">
 				<a id="${bgI}" href="#${UrlUtil.autoEncodeHash(bg)}" title="${bg.name}">
-					<span class="name col-4">${bg.name.replace("Variant ", "").replace("變體", "")}</span>
+					<span class="name col-4">${bg.name.replace("Variant ", "").replace("变体", "")}</span>
 					<span class="skills col-6">${skillDisplay}</span>
 					<span class="source col-2 text-align-center ${Parser.sourceJsonToColor(bg.source)}" title="${Parser.sourceJsonToFull(bg.source)}">${Parser.sourceJsonToAbv(bg.source)}</span>
 					
@@ -185,7 +185,7 @@ function loadhash (id) {
 	);
 
 	const infoTab = Renderer.utils.tabButton(
-		"資訊",
+		"资讯",
 		() => {},
 		() => {
 			function get$Tr () {

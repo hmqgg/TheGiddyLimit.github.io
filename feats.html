@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>專長 - 5etools</title>
+	<title>专长 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -25,8 +25,8 @@
 	<header class="hidden-xs hidden-sm page__header">
 		<div class="container">
 
-			<h1 class="page__title">專長</h1>
-			<p class="page__subtitle">使用左側的名稱搜尋，點擊專長名稱以在右側顯示。</p>
+			<h1 class="page__title">专长</h1>
+			<p class="page__subtitle">使用左侧的名称搜寻，点击专长名称以在右侧显示。</p>
 		</div>
 	</header>
 	<nav class="container page__nav" id="navigation">
@@ -40,14 +40,14 @@
 	<div class="container view-col-wrapper">
 		<div class="view-col" id="listcontainer">
 			<div class="input-group" id="filter-search-input-group">
-				<input type="search" id="search" class="search form-control" placeholder="搜尋專長...">
+				<input type="search" id="search" class="search form-control" placeholder="搜寻专长...">
 				<span class="input-group-btn"><button class="btn btn-default" id="reset">重置</button></span>
 			</div>
 			<div id="filtertools" class="sortlabel btn-group">
-				<button class="col-3-8 sort btn btn-default btn-xs" data-sort="name">名稱<span class="caret_wrp"></span></button>
-				<button class="col-3-5 sort btn btn-default btn-xs" data-sort="ability">屬性值<span class="caret_wrp"></span></button>
-				<button class="col-3 sort btn btn-default btn-xs" data-sort="prerequisite">先決條件<span class="caret_wrp"></span></button>
-				<button class="col-1-7 sort btn btn-default btn-xs" data-sort="source">資源<span class="caret_wrp"></span></button>
+				<button class="col-3-8 sort btn btn-default btn-xs" data-sort="name">名称<span class="caret_wrp"></span></button>
+				<button class="col-3-5 sort btn btn-default btn-xs" data-sort="ability">属性值<span class="caret_wrp"></span></button>
+				<button class="col-3 sort btn btn-default btn-xs" data-sort="prerequisite">先决条件<span class="caret_wrp"></span></button>
+				<button class="col-1-7 sort btn btn-default btn-xs" data-sort="source">资源<span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list feats"></ul>
@@ -55,9 +55,9 @@
 		<div id="contentwrapper" class="view-col">
 			<div id="sublistcontainer" class="sublist">
 				<div id="sublistsort" class="sortlabel btn-group">
-					<button class="col-4 sort btn btn-default btn-xs" data-sort="name">名稱</button>
-					<button class="col-4 sort btn btn-default btn-xs" data-sort="ability">屬性值</button>
-					<button class="col-4 sort btn btn-default btn-xs" data-sort="prerequisite">先決條件</button>
+					<button class="col-4 sort btn btn-default btn-xs" data-sort="name">名称</button>
+					<button class="col-4 sort btn btn-default btn-xs" data-sort="ability">属性值</button>
+					<button class="col-4 sort btn btn-default btn-xs" data-sort="prerequisite">先决条件</button>
 				</div>
 				<ul class="list subfeats">
 					<!-- populate with JS -->
@@ -71,13 +71,13 @@
 			<div class="wrp-stats-table">
 			<table id="pagecontent" class="stats">
 				<tr><th class="border" colspan="6"></th></tr>
-				<tr><td colspan="6" class="initial-message">從列表中選擇一個專長以在此處檢視</td></tr>
+				<tr><td colspan="6" class="initial-message">从列表中选择一个专长以在此处检视</td></tr>
 				<tr><th class="border" colspan="6"></th></tr>
 			</table>
 			</div>
 
 			<div class="text-align-center wrp-footer-buttons">
-				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自製內容</button>
+				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自制内容</button>
 			</div>
 		</div>
 	</div>

@@ -1,7 +1,7 @@
 {
 	"class": [
 		{
-			"name": "牧師", "ENG_name": "Cleric",
+			"name": "牧师", "ENG_name": "Cleric",
 			"source": "PHB",
 			"hd": {
 				"number": 1,
@@ -14,7 +14,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"{@filter 已知戲法|spells|level=0|class=Cleric}"
+						"{@filter 已知戏法|spells|level=0|class=Cleric}"
 					],
 					"rows": [
 						[
@@ -80,17 +80,17 @@
 					]
 				},
 				{
-					"title": "法術位/每環",
+					"title": "法术位/每环",
 					"colLabels": [
-						"{@filter 1環|spells|level=1|class=Cleric}",
-						"{@filter 2環|spells|level=2|class=Cleric}",
-						"{@filter 3環|spells|level=3|class=Cleric}",
-						"{@filter 4環|spells|level=4|class=Cleric}",
-						"{@filter 5環|spells|level=5|class=Cleric}",
-						"{@filter 6環|spells|level=6|class=Cleric}",
-						"{@filter 7環|spells|level=7|class=Cleric}",
-						"{@filter 8環|spells|level=8|class=Cleric}",
-						"{@filter 9環|spells|level=9|class=Cleric}"
+						"{@filter 1环|spells|level=1|class=Cleric}",
+						"{@filter 2环|spells|level=2|class=Cleric}",
+						"{@filter 3环|spells|level=3|class=Cleric}",
+						"{@filter 4环|spells|level=4|class=Cleric}",
+						"{@filter 5环|spells|level=5|class=Cleric}",
+						"{@filter 6环|spells|level=6|class=Cleric}",
+						"{@filter 7环|spells|level=7|class=Cleric}",
+						"{@filter 8环|spells|level=8|class=Cleric}",
+						"{@filter 9环|spells|level=9|class=Cleric}"
 					],
 					"rows": [
 						[
@@ -339,13 +339,13 @@
 			"startingEquipment": {
 				"additionalFromBackground": true,
 				"default": [
-					"(a)一把{@item 硬頭錘|phb} 或 (b)一把{@item 戰錘|phb}(若熟練)",
-					"(a)一件{@item 鱗甲|phb}, (b)一件{@item 皮甲|phb}, 或 (c)一件{@item 鎖子甲|phb}(若熟練)",
-					"(a)一把{@item 輕弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 簡易武器|items|source=phb|category=basic|type=simple weapon}",
-					"(a)一套{@item 祭司套裝|phb} 或 (b)一套{@item 探索者套裝|phb}",
-					"一面{@item 盾牌|phb}和一個{@item 聖徽|phb}"
+					"(a)一把{@item 硬头锤|phb} 或 (b)一把{@item 战锤|phb}(若熟练)",
+					"(a)一件{@item 鳞甲|phb}, (b)一件{@item 皮甲|phb}, 或 (c)一件{@item 锁子甲|phb}(若熟练)",
+					"(a)一把{@item 轻弩|phb}和{@item 弩矢(20)|phb|20支弩矢} 或 (b)任意一把{@filter 简易武器|items|source=phb|category=basic|type=simple weapon}",
+					"(a)一套{@item 祭司套装|phb} 或 (b)一套{@item 探索者套装|phb}",
+					"一面{@item 盾牌|phb}和一个{@item 圣徽|phb}"
 				],
-				"goldAlternative": "{@dice 5d4×10|5d4 × 10|起始金錢}"
+				"goldAlternative": "{@dice 5d4×10|5d4 × 10|起始金钱}"
 			},
 			"multiclassing": {
 				"requirements": {
@@ -364,39 +364,39 @@
 					{
 						"name": "施法", "ENG_name": "Spellcasting",
 						"entries": [
-							"作為神性力量的通道，你可以施放牧師法術。請參閱{@book 第十章|PHB|10}以了解關於施法的規則，以及第十一章以查閱{@filter 牧師法術列表|spells|class=cleric}。",
+							"作为神性力量的通道，你可以施放牧师法术。请参阅{@book 第十章|PHB|10}以了解关于施法的规则，以及第十一章以查阅{@filter 牧师法术列表|spells|class=cleric}。",
 							{
 								"type": "entries",
-								"name": "戲法",
+								"name": "戏法",
 								"entries": [
-									"在1級時，你知曉三個從{@filter 牧師法術列表|spells|class=cleric}自選的戲法。你將在升至更高的牧師等級時學會額外的牧師戲法，見牧師表格中的已知戲法欄位。"
+									"在1级时，你知晓三个从{@filter 牧师法术列表|spells|class=cleric}自选的戏法。你将在升至更高的牧师等级时学会额外的牧师戏法，见牧师表格中的已知戏法栏位。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "準備及施放法術",
+								"name": "准备及施放法术",
 								"entries": [
-									"牧師表中顯示了你有多少個法術位可以用來施放你一環或更高環的{@filter 牧師法術|spells|class=cleric}。要施放其中一個這些法術，你必須消耗一個與該法術環階相同或更高的法術位。你在完成一次長休後恢復所有你花費掉的法術位。",
-									"你準備一份你所能施放的牧師法術列表，從牧師法術列表中選擇。當你這麼做時，選擇數量等同於你睿知調整值 + 你牧師等級的牧師法術（最少一個法術）。這些法術的環階都必須符合你所擁有法術位的環階。",
-									"舉例來說，如果你是一個3級的牧師，你擁有四個1環和二個2環的法術位。你的睿知為16，則你已準備法術的列表中可以包含總共六個1環或2環的法術。若你準備了1環法術{@spell 治療傷勢}，你可以使用1環和2環的法術位來施放它。施放法術並不會將它從你的準備法術列表中移除。",
-									"你可以在你完成一次長休時改變你的準備法術列表。準備一份新的牧師法術列表需要花費時間於祈禱和冥想：你需要為你列表上每個法術的每個環階都花費至少1分鐘的時間。"
+									"牧师表中显示了你有多少个法术位可以用来施放你一环或更高环的{@filter 牧师法术|spells|class=cleric}。要施放其中一个这些法术，你必须消耗一个与该法术环阶相同或更高的法术位。你在完成一次长休后恢复所有你花费掉的法术位。",
+									"你准备一份你所能施放的牧师法术列表，从牧师法术列表中选择。当你这么做时，选择数量等同于你睿知调整值 + 你牧师等级的牧师法术（最少一个法术）。这些法术的环阶都必须符合你所拥有法术位的环阶。",
+									"举例来说，如果你是一个3级的牧师，你拥有四个1环和二个2环的法术位。你的睿知为16，则你已准备法术的列表中可以包含总共六个1环或2环的法术。若你准备了1环法术{@spell 治疗伤势}，你可以使用1环和2环的法术位来施放它。施放法术并不会将它从你的准备法术列表中移除。",
+									"你可以在你完成一次长休时改变你的准备法术列表。准备一份新的牧师法术列表需要花费时间于祈祷和冥想：你需要为你列表上每个法术的每个环阶都花费至少1分钟的时间。"
 								]
 							},
 							{
 								"type": "entries",
-								"name": "施法屬性",
+								"name": "施法属性",
 								"entries": [
-									"睿知是你施展牧師法術的施法屬性。你法術的力量來自於你對於你信仰的奉獻。每當一個牧師法術提及你的施法屬性時，你將使用你的睿知。此外，當決定你牧師法術的豁免DC、以及使用牧師法術進行攻擊檢定時，你使用你的睿知調整值。",
+									"睿知是你施展牧师法术的施法属性。你法术的力量来自于你对于你信仰的奉献。每当一个牧师法术提及你的施法属性时，你将使用你的睿知。此外，当决定你牧师法术的豁免DC、以及使用牧师法术进行攻击检定时，你使用你的睿知调整值。",
 									{
 										"type": "abilityDc",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"wis"
 										]
 									},
 									{
 										"type": "abilityAttackMod",
-										"name": "法術",
+										"name": "法术",
 										"attributes": [
 											"wis"
 										]
@@ -405,30 +405,30 @@
 							},
 							{
 								"type": "entries",
-								"name": "儀式施法",
+								"name": "仪式施法",
 								"entries": [
-									"若一個牧師法術具有儀式標籤，且你已準備了該法術，則你可以將它做為儀式法術施放。"
+									"若一个牧师法术具有仪式标签，且你已准备了该法术，则你可以将它做为仪式法术施放。"
 								]
 							},
 							{
 								"type": "entries",
 								"name": "施法法器",
 								"entries": [
-									"你可以使用一個{@item 聖徽|phb}（第五章），來做為你施放牧師法術的法器。"
+									"你可以使用一个{@item 圣徽|phb}（第五章），来做为你施放牧师法术的法器。"
 								]
 							}
 						]
 					},
 					{
-						"name": "神聖領域", "ENG_name": "Divine Domain",
+						"name": "神圣领域", "ENG_name": "Divine Domain",
 						"entries": [
-							"從可用領域列表中選擇一個你所信仰神祇的關聯領域。每個領域在它們的能力說明中被詳述，且各自提供了與其相關的範例神祇。你的選擇將在1級時賦予你領域法術以及其他能力。它也將在2級時賦予你另一種使用引導神力能力的方式，並在6級、8級、和17級時賦予你其他額外好處。",
+							"从可用领域列表中选择一个你所信仰神祇的关联领域。每个领域在它们的能力说明中被详述，且各自提供了与其相关的范例神祇。你的选择将在1级时赋予你领域法术以及其他能力。它也将在2级时赋予你另一种使用引导神力能力的方式，并在6级、8级、和17级时赋予你其他额外好处。",
 							{
 								"type": "entries",
-								"name": "領域法術", "ENG_name": "Domain Spells",
+								"name": "领域法术", "ENG_name": "Domain Spells",
 								"entries": [
-									"每個領域都擁有一張法術列表\u2014亦即領域法術\u2014且你將在升至領域說明中指定的牧師等級時獲得這些法術。一旦你獲得領域法術，你將永遠視作已經準備了它，且它不會計入你每日可準備的法術數量中。",
-									"若你擁有一個不在牧師法術列表上的領域法術，則該法術對你而言仍然視作牧師法術。"
+									"每个领域都拥有一张法术列表\u2014亦即领域法术\u2014且你将在升至领域说明中指定的牧师等级时获得这些法术。一旦你获得领域法术，你将永远视作已经准备了它，且它不会计入你每日可准备的法术数量中。",
+									"若你拥有一个不在牧师法术列表上的领域法术，则该法术对你而言仍然视作牧师法术。"
 								]
 							}
 						],
@@ -437,26 +437,26 @@
 				],
 				[
 					{
-						"name": "引導神力(1/休息)", "ENG_name": "Channel Divinity",
+						"name": "引导神力(1/休息)", "ENG_name": "Channel Divinity",
 						"entries": [
-							"在2級時，你獲得引導直接來自你神祇的神聖能量，並用其能量驅動魔法效果的能力。你起始擁有二個這種效果：驅散不死，以及一個由你神聖領域決定的效果。某些領域會在你升至更高等級時賦予你額外的效果，參見各領域的說明。",
-							"當你使用你的引導神力時，你選擇要創造出哪一個效果。你接著必須完成一次短休或長休後才能再使用你的引導神力。",
-							"某些引導神力的效果會需要豁免檢定。當你使用本職業的這類效果時，其DC等同於你的牧師法術豁免DC。",
-							"從6級開始，你可以在休息之間使用引導神力二次。且從18級開始，你可以在休息之間使用引導神力三次。你在完成一次短休或長休後恢復所有你花費掉的次數。",
+							"在2级时，你获得引导直接来自你神祇的神圣能量，并用其能量驱动魔法效果的能力。你起始拥有二个这种效果：驱散不死，以及一个由你神圣领域决定的效果。某些领域会在你升至更高等级时赋予你额外的效果，参见各领域的说明。",
+							"当你使用你的引导神力时，你选择要创造出哪一个效果。你接着必须完成一次短休或长休后才能再使用你的引导神力。",
+							"某些引导神力的效果会需要豁免检定。当你使用本职业的这类效果时，其DC等同于你的牧师法术豁免DC。",
+							"从6级开始，你可以在休息之间使用引导神力二次。且从18级开始，你可以在休息之间使用引导神力三次。你在完成一次短休或长休后恢复所有你花费掉的次数。",
 							{
 								"type": "entries",
-								"name": "驅散不死", "ENG_name": "Turn Undead",
+								"name": "驱散不死", "ENG_name": "Turn Undead",
 								"entries": [
-									"以一個動作，你展現你的聖徽並說出斥責不死生物的禱詞。每個距離你30呎內且可以看見或聽見你的不死生物必須進行一次睿知豁免。若該生物豁免失敗，則它將被驅散長達1分鐘或直到它受到傷害。",
-									"一個被驅散的不死生物必須用它的回合嘗試盡可能的遠離你，且它無法自願的移動到距離你30呎內的空間。它無法採取反應。它的動作只能使用{@action 疾走}動作或嘗試掙脫阻止它移動的效果。若它無法移動，則該生物將使用{@action 閃避}動作。"
+									"以一个动作，你展现你的圣徽并说出斥责不死生物的祷词。每个距离你30呎内且可以看见或听见你的不死生物必须进行一次睿知豁免。若该生物豁免失败，则它将被驱散长达1分钟或直到它受到伤害。",
+									"一个被驱散的不死生物必须用它的回合尝试尽可能的远离你，且它无法自愿的移动到距离你30呎内的空间。它无法采取反应。它的动作只能使用{@action 疾走}动作或尝试挣脱阻止它移动的效果。若它无法移动，则该生物将使用{@action 闪避}动作。"
 								]
 							}
 						]
 					},
 					{
-						"name": "神聖領域能力", "ENG_name": "Divine Domain feature",
+						"name": "神圣领域能力", "ENG_name": "Divine Domain feature",
 						"entries": [
-							"在2級時，你獲得一個由你神聖領域所賦予的能力。"
+							"在2级时，你获得一个由你神圣领域所赋予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -464,32 +464,32 @@
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至4級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至4级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "摧毀不死 (CR 1/2)", "ENG_name": "Destroy Undead",
+						"name": "摧毁不死 (CR 1/2)", "ENG_name": "Destroy Undead",
 						"entries": [
-							"從5級開始，當一個{@filter 挑戰等級為1/2或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2|type=undead|miscellaneous=!swarm}在對抗你驅散不死能力的豁免檢定中失敗，該生物將立即被摧毀。"
+							"从5级开始，当一个{@filter 挑战等级为1/2或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2|type=undead|miscellaneous=!swarm}在对抗你驱散不死能力的豁免检定中失败，该生物将立即被摧毁。"
 						]
 					}
 				],
 				[
 					{
-						"name": "引導神力(2/休息)", "ENG_name": "Channel Divinity",
+						"name": "引导神力(2/休息)", "ENG_name": "Channel Divinity",
 						"entries": [
-							"從6級開始，你可以在休息之間使用引導神力二次。"
+							"从6级开始，你可以在休息之间使用引导神力二次。"
 						]
 					},
 					{
-						"name": "神聖領域能力", "ENG_name": "Divine Domain feature",
+						"name": "神圣领域能力", "ENG_name": "Divine Domain feature",
 						"entries": [
-							"在6級時，你獲得一個由你神聖領域所賦予的能力。"
+							"在6级时，你获得一个由你神圣领域所赋予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -497,22 +497,22 @@
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至8級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至8级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					},
 					{
-						"name": "摧毀不死 (CR 1)", "ENG_name": "Destroy Undead",
+						"name": "摧毁不死 (CR 1)", "ENG_name": "Destroy Undead",
 						"entries": [
-							"從8級開始，當一個{@filter 挑戰等級為1或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1|type=undead|miscellaneous=!swarm}在對抗你驅散不死能力的豁免檢定中失敗，該生物將立即被摧毀。"
+							"从8级开始，当一个{@filter 挑战等级为1或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1|type=undead|miscellaneous=!swarm}在对抗你驱散不死能力的豁免检定中失败，该生物将立即被摧毁。"
 						]
 					},
 					{
-						"name": "神聖領域能力", "ENG_name": "Divine Domain feature",
+						"name": "神圣领域能力", "ENG_name": "Divine Domain feature",
 						"entries": [
-							"在8級時，你獲得一個由你神聖領域所賦予的能力。"
+							"在8级时，你获得一个由你神圣领域所赋予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
@@ -520,87 +520,87 @@
 				[],
 				[
 					{
-						"name": "神力干預", "ENG_name": "Divine Intervention",
+						"name": "神力干预", "ENG_name": "Divine Intervention",
 						"entries": [
-							"從10級開始，你可以在你迫切需要的時候呼求你的神祇為你插手介入。",
-							"懇求你神祇的幫助需要你使用你的動作。描述你所尋求的協助，並骰一顆百面骰。若你骰出的數字等於或低於你的牧師等級，則你的神祇將出手干預。由DM決定這次干預的性質；任何牧師法術或牧師領域法術都會是適合的例子。若你的神祇出手干預，則你在7天內都不能再使用此能力。否則你可以在你完成一次長休後再次使用它。",
-							"在20級時，你呼求干預的動作將自動成功，不再需要擲骰。"
+							"从10级开始，你可以在你迫切需要的时候呼求你的神祇为你插手介入。",
+							"恳求你神祇的帮助需要你使用你的动作。描述你所寻求的协助，并骰一颗百面骰。若你骰出的数字等于或低于你的牧师等级，则你的神祇将出手干预。由DM决定这次干预的性质；任何牧师法术或牧师领域法术都会是适合的例子。若你的神祇出手干预，则你在7天内都不能再使用此能力。否则你可以在你完成一次长休后再次使用它。",
+							"在20级时，你呼求干预的动作将自动成功，不再需要掷骰。"
 						]
 					}
 				],
 				[
 					{
-						"name": "摧毀不死 (CR 2)", "ENG_name": "Destroy Undead",
+						"name": "摧毁不死 (CR 2)", "ENG_name": "Destroy Undead",
 						"entries": [
-							"從11級開始，當一個{@filter 挑戰等級為2或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2|type=undead|miscellaneous=!swarm}在對抗你驅散不死能力的豁免檢定中失敗，該生物將立即被摧毀。"
+							"从11级开始，当一个{@filter 挑战等级为2或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2|type=undead|miscellaneous=!swarm}在对抗你驱散不死能力的豁免检定中失败，该生物将立即被摧毁。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至12級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
-						]
-					}
-				],
-				[],
-				[
-					{
-						"name": "摧毀不死 (CR 3)", "ENG_name": "Destroy Undead",
-						"entries": [
-							"從14級開始，當一個{@filter 挑戰等級為3或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2;3|type=undead|miscellaneous=!swarm}在對抗你驅散不死能力的豁免檢定中失敗，該生物將立即被摧毀。"
+							"当你在此职业升至12级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "摧毁不死 (CR 3)", "ENG_name": "Destroy Undead",
 						"entries": [
-							"當你在此職業升至16級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"从14级开始，当一个{@filter 挑战等级为3或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2;3|type=undead|miscellaneous=!swarm}在对抗你驱散不死能力的豁免检定中失败，该生物将立即被摧毁。"
+						]
+					}
+				],
+				[],
+				[
+					{
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
+						"entries": [
+							"当你在此职业升至16级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "摧毀不死 (CR 4)", "ENG_name": "Destroy Undead",
+						"name": "摧毁不死 (CR 4)", "ENG_name": "Destroy Undead",
 						"entries": [
-							"從17級開始，當一個{@filter 挑戰等級為4或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2;3;4|type=undead|miscellaneous=!swarm}在對抗你驅散不死能力的豁免檢定中失敗，該生物將立即被摧毀。"
+							"从17级开始，当一个{@filter 挑战等级为4或更低的不死生物|bestiary|challenge rating=0;1/8;1/4;1/2;1;2;3;4|type=undead|miscellaneous=!swarm}在对抗你驱散不死能力的豁免检定中失败，该生物将立即被摧毁。"
 						]
 					},
 					{
-						"name": "神聖領域能力", "ENG_name": "Divine Domain feature",
+						"name": "神圣领域能力", "ENG_name": "Divine Domain feature",
 						"entries": [
-							"在17級時，你獲得一個由你神聖領域所賦予的能力。"
+							"在17级时，你获得一个由你神圣领域所赋予的能力。"
 						],
 						"gainSubclassFeature": true
 					}
 				],
 				[
 					{
-						"name": "引導神力(3/休息)", "ENG_name": "Channel Divinity",
+						"name": "引导神力(3/休息)", "ENG_name": "Channel Divinity",
 						"entries": [
-							"從18級開始，你可以在休息之間使用引導神力三次。"
+							"从18级开始，你可以在休息之间使用引导神力三次。"
 						]
 					}
 				],
 				[
 					{
-						"name": "屬性值提升", "ENG_name": "Ability Score Improvement",
+						"name": "属性值提升", "ENG_name": "Ability Score Improvement",
 						"entries": [
-							"當你在此職業升至19級時，你可以增加一項自選屬性值2點，或著你可以增加二項自選屬性值各1點。如同平常一樣，你不能透過這個能力將一個屬性值提升至超過20。",
-							"如果你的DM允許使用專長的話，你也可以改為獲得一個{@5etools 專長|feats.html}。"
+							"当你在此职业升至19级时，你可以增加一项自选属性值2点，或着你可以增加二项自选属性值各1点。如同平常一样，你不能透过这个能力将一个属性值提升至超过20。",
+							"如果你的DM允许使用专长的话，你也可以改为获得一个{@5etools 专长|feats.html}。"
 						]
 					}
 				],
 				[
 					{
-						"name": "神力干預強化", "ENG_name": "Divine Intervention Improvement",
+						"name": "神力干预强化", "ENG_name": "Divine Intervention Improvement",
 						"entries": [
-							"在20級時，你呼求干預的動作將自動成功，不再需要擲骰。"
+							"在20级时，你呼求干预的动作将自动成功，不再需要掷骰。"
 						]
 					}
 				]
@@ -608,21 +608,21 @@
 			"subclassTitle": "Divine Domain",
 			"subclasses": [
 				{
-					"name": "奧秘領域", "ENG_name": "Arcana Domain",
+					"name": "奥秘领域", "ENG_name": "Arcana Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "奧秘領域", "ENG_name": "Arcana Domain",
+								"name": "奥秘领域", "ENG_name": "Arcana Domain",
 								"entries": [
-									"魔法是一種能量遍布在多元宇宙各處的能量，激起毀滅與創造。掌管奧秘領域的神祗詳盡知曉魔法的秘密和潛能。對於其中一些神祗而言，魔法知識是一項偉大的責任，伴隨著對於現實本質的特殊理解；而其他奧秘之神則將魔法視為純粹的能量，並在其使用者認為合適時使用它。",
-									"因為學習和奧秘能量往往關係密切，這個領域的神祗通常和知識領域有關聯。在被遺忘的國度，掌管這個領域的神祗包括{@deity 阿祖斯|faerûnian|scag}、{@deity 密斯特拉|faerûnian|scag}、以及精靈之神{@deity 柯瑞隆．拉瑞斯安|elven|scag}。在其他世界，這個領域的神祇包括了{@deity 黑卡蒂|greek}、{@deity 馬斯．馬索努伊|celtic}、還有{@deity 伊西斯|egyptian}；克萊恩世界的三月之神{@deity 索林那瑞|dragonlance}、{@deity 努林塔瑞|dragonlance}、和{@deity 努塔瑞|dragonlance}；灰鷹世界的{@deity 博卡布|greyhawk}、{@deity 維克那|greyhawk}、和{@deity 維婕絲|greyhawk}。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。它們並不會計入你每日可準備的法術上限。",
+									"魔法是一种能量遍布在多元宇宙各处的能量，激起毁灭与创造。掌管奥秘领域的神祗详尽知晓魔法的秘密和潜能。对于其中一些神祗而言，魔法知识是一项伟大的责任，伴随着对于现实本质的特殊理解；而其他奥秘之神则将魔法视为纯粹的能量，并在其使用者认为合适时使用它。",
+									"因为学习和奥秘能量往往关系密切，这个领域的神祗通常和知识领域有关联。在被遗忘的国度，掌管这个领域的神祗包括{@deity 阿祖斯|faerûnian|scag}、{@deity 密斯特拉|faerûnian|scag}、以及精灵之神{@deity 柯瑞隆．拉瑞斯安|elven|scag}。在其他世界，这个领域的神祇包括了{@deity 黑卡蒂|greek}、{@deity 马斯．马索努伊|celtic}、还有{@deity 伊西斯|egyptian}；克莱恩世界的三月之神{@deity 索林那瑞|dragonlance}、{@deity 努林塔瑞|dragonlance}、和{@deity 努塔瑞|dragonlance}；灰鹰世界的{@deity 博卡布|greyhawk}、{@deity 维克那|greyhawk}、和{@deity 维婕丝|greyhawk}。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。它们并不会计入你每日可准备的法术上限。",
 									{
 										"type": "table",
-										"caption": "奧秘領域法術",
+										"caption": "奥秘领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -630,32 +630,32 @@
 										],
 										"rows": [
 											[
-												"1級",
-												"{@spell 偵測魔法}, {@spell 魔法飛彈}"
+												"1级",
+												"{@spell 侦测魔法}, {@spell 魔法飞弹}"
 											],
 											[
-												"3級",
-												"{@spell 魔化武器}, {@spell 涅斯圖魔法靈光}"
+												"3级",
+												"{@spell 魔化武器}, {@spell 涅斯图魔法灵光}"
 											],
 											[
-												"5級",
-												"{@spell 解除魔法}, {@spell 防護法陣}"
+												"5级",
+												"{@spell 解除魔法}, {@spell 防护法阵}"
 											],
 											[
-												"7級",
-												"{@spell 祕法眼}, {@spell 李歐蒙秘藏箱}"
+												"7级",
+												"{@spell 秘法眼}, {@spell 李欧蒙秘藏箱}"
 											],
 											[
-												"9級",
-												"{@spell 異界誓縛}, {@spell 傳送法陣}"
+												"9级",
+												"{@spell 异界誓缚}, {@spell 传送法阵}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "奧法學徒", "ENG_name": "Arcane Initiate",
+										"name": "奥法学徒", "ENG_name": "Arcane Initiate",
 										"entries": [
-											"當你在1級時選擇此領域，你將獲得{@skill 奧秘}技能的熟練，且你獲得二個從{@filter 法師法術列表|spells|class=wizard}中自選的戲法。對你而言，這些戲法被視作牧師戲法。"
+											"当你在1级时选择此领域，你将获得{@skill 奥秘}技能的熟练，且你获得二个从{@filter 法师法术列表|spells|class=wizard}中自选的戏法。对你而言，这些戏法被视作牧师戏法。"
 										]
 									}
 								]
@@ -666,17 +666,17 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：奧秘阻絕", "ENG_name": "Channel Divinity: Arcane Abjuration",
+										"name": "引导神力：奥秘阻绝", "ENG_name": "Channel Divinity: Arcane Abjuration",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力來抵禦異界生物。",
-											"以一個動作，你展現你的聖徽，且只要距離你30呎內你所選擇的一個天界生物、元素、精類、或邪魔可以看間或聽見你，它就必須進行一次睿知豁免。若該生物豁免失敗，則它將被驅散長達1分鐘或直到它受到傷害。",
-											"一個被驅散的不死生物必須用它的回合嘗試盡可能的遠離你，且它無法自願的移動到距離你30呎內的空間。它無法採取反應。它的動作只能使用{@action 疾走}動作或嘗試掙脫阻止它移動的效果。若它無法移動，則該生物將使用{@action 閃避}動作。",
-											"在你升至5級後，當一個生物在對抗你奧秘阻絕能力的豁免檢定中失敗，若該生物並不在它的原生位面，且它的挑戰等級為特定數值或更低（見下表），則該生物將被放逐長達1分鐘（如同{@spell 放逐術}，無須專注）。",
+											"从2级开始，你可以使用你的引导神力来抵御异界生物。",
+											"以一个动作，你展现你的圣徽，且只要距离你30呎内你所选择的一个天界生物、元素、精类、或邪魔可以看间或听见你，它就必须进行一次睿知豁免。若该生物豁免失败，则它将被驱散长达1分钟或直到它受到伤害。",
+											"一个被驱散的不死生物必须用它的回合尝试尽可能的远离你，且它无法自愿的移动到距离你30呎内的空间。它无法采取反应。它的动作只能使用{@action 疾走}动作或尝试挣脱阻止它移动的效果。若它无法移动，则该生物将使用{@action 闪避}动作。",
+											"在你升至5级后，当一个生物在对抗你奥秘阻绝能力的豁免检定中失败，若该生物并不在它的原生位面，且它的挑战等级为特定数值或更低（见下表），则该生物将被放逐长达1分钟（如同{@spell 放逐术}，无须专注）。",
 											{
 												"type": "table",
-												"caption": "奧秘阻絕",
+												"caption": "奥秘阻绝",
 												"colLabels": [
-													"牧師等級",
+													"牧师等级",
 													"被放逐生物的CR..."
 												],
 												"colStyles": [
@@ -685,23 +685,23 @@
 												],
 												"rows": [
 													[
-														"5級",
+														"5级",
 														"1/2或更低"
 													],
 													[
-														"8級",
+														"8级",
 														"1或更低"
 													],
 													[
-														"11級",
+														"11级",
 														"2或更低"
 													],
 													[
-														"14級",
+														"14级",
 														"3或更低"
 													],
 													[
-														"17級",
+														"17级",
 														"4或更低"
 													]
 												]
@@ -716,9 +716,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "法術破壞者", "ENG_name": "Spell Breaker",
+										"name": "法术破坏者", "ENG_name": "Spell Breaker",
 										"entries": [
-											"從6級開始，當你使用1環或更高環的法術回復一個盟友的生命值，你也可以選擇結束一個作用於該生物上的法術。你所結束法術的環衛必須等於或低於你用以施放該治療法術所使用的法術位環階。"
+											"从6级开始，当你使用1环或更高环的法术回复一个盟友的生命值，你也可以选择结束一个作用于该生物上的法术。你所结束法术的环卫必须等于或低于你用以施放该治疗法术所使用的法术位环阶。"
 										]
 									}
 								]
@@ -729,9 +729,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強力施法", "ENG_name": "Potent Spellcasting",
+										"name": "强力施法", "ENG_name": "Potent Spellcasting",
 										"entries": [
-											"從8級開始，你將你的睿知調整值加入任何你使用牧師戲法所造成的傷害中。"
+											"从8级开始，你将你的睿知调整值加入任何你使用牧师戏法所造成的伤害中。"
 										]
 									}
 								]
@@ -742,9 +742,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "奧術宗師", "ENG_name": "Arcane Mastery",
+										"name": "奥术宗师", "ENG_name": "Arcane Mastery",
 										"entries": [
-											"在17級時，你從{@filter 法師法術列表|spells|class=wizard}中選擇四個法術，其環階分別如下：6環、7環、8環、9環。你將它們加入你的領域法術列表中。如同你其他的領域法術，它們永遠視作被準備，且對你而言視作牧師法術。"
+											"在17级时，你从{@filter 法师法术列表|spells|class=wizard}中选择四个法术，其环阶分别如下：6环、7环、8环、9环。你将它们加入你的领域法术列表中。如同你其他的领域法术，它们永远视作被准备，且对你而言视作牧师法术。"
 										]
 									}
 								]
@@ -752,7 +752,7 @@
 						]
 					],
 					"source": "SCAG",
-					"shortName": "奧秘"
+					"shortName": "奥秘"
 				},
 				{
 					"name": "City Domain (UA)",
@@ -768,8 +768,8 @@
 										"type": "table",
 										"caption": "City Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -778,19 +778,19 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 通曉語言}, {@spell remote access (UA)|UAModernMagic|remote access}*"
+												"{@spell 通晓语言}, {@spell remote access (UA)|UAModernMagic|remote access}*"
 											],
 											[
 												"3rd",
-												"{@spell find vehicle (UA)|UAModernMagic|find vehicle}*, {@spell 灼熱金屬}"
+												"{@spell find vehicle (UA)|UAModernMagic|find vehicle}*, {@spell 灼热金属}"
 											],
 											[
 												"5th",
-												"{@spell 閃電束}, {@spell protection from ballistics (UA)|UAModernMagic|protection from ballistics}*"
+												"{@spell 闪电束}, {@spell protection from ballistics (UA)|UAModernMagic|protection from ballistics}*"
 											],
 											[
 												"7th",
-												"{@spell 生物定位術}, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
+												"{@spell 生物定位术}, {@spell synchronicity (UA)|UAModernMagic|synchronicity}*"
 											],
 											[
 												"9th",
@@ -881,19 +881,19 @@
 					"shortName": "城市(UA)"
 				},
 				{
-					"name": "死亡領域", "ENG_name": "Death Domain",
+					"name": "死亡领域", "ENG_name": "Death Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "死亡領域", "ENG_name": "Death Domain",
+								"name": "死亡领域", "ENG_name": "Death Domain",
 								"entries": [
-									"死亡領域關注的是導致死亡的原力，以及喚起不死生物的負能量。其神只諸如奇魔須Chemosh、米爾寇Myrkul 和維婕絲 Wee Jas等，都是死靈法師、死亡騎士、巫妖、木乃伊領主和吸血鬼的守護神。死亡領域的神靈還具現為謀殺(阿努比斯Anubis、巴爾Bhaal 和匹裡麻斯Pyremius)，痛苦(魯茲luz 或勞薇塔Loviatar)，疾病或毒藥(英凱布居羅斯Incabulos、塔洛娜Talona 或魔吉安Morgion)，和冥界underworld(哈迪斯Hades 和赫爾Hel).",
+									"死亡领域关注的是导致死亡的原力，以及唤起不死生物的负能量。其神只诸如奇魔须Chemosh、米尔寇Myrkul 和维婕丝 Wee Jas等，都是死灵法师、死亡骑士、巫妖、木乃伊领主和吸血鬼的守护神。死亡领域的神灵还具现为谋杀(阿努比斯Anubis、巴尔Bhaal 和匹里麻斯Pyremius)，痛苦(鲁兹luz 或劳薇塔Loviatar)，疾病或毒药(英凯布居罗斯Incabulos、塔洛娜Talona 或魔吉安Morgion)，和冥界underworld(哈迪斯Hades 和赫尔Hel).",
 									{
 										"type": "table",
-										"caption": "死亡領域法術",
+										"caption": "死亡领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -902,38 +902,38 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 摹造生命}, {@spell 致病射線}"
+												"{@spell 摹造生命}, {@spell 致病射线}"
 											],
 											[
 												"3rd",
-												"{@spell 目盲/耳聾術}, {@spell 衰弱射線}"
+												"{@spell 目盲/耳聋术}, {@spell 衰弱射线}"
 											],
 											[
 												"5th",
-												"{@spell 活化死屍}, {@spell 吸血鬼之觸}"
+												"{@spell 活化死尸}, {@spell 吸血鬼之触}"
 											],
 											[
 												"7th",
-												"{@spell 枯萎術}, {@spell 防死護咒}"
+												"{@spell 枯萎术}, {@spell 防死护咒}"
 											],
 											[
 												"9th",
-												"{@spell 反活物護罩}, {@spell 死雲術}"
+												"{@spell 反活物护罩}, {@spell 死云术}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練項","ENG_name": "Bonus Proficiency",
+										"name": "额外熟练项","ENG_name": "Bonus Proficiency",
 										"entries": [
-											"該牧師在第 1 級選擇此領域時將獲得軍用武器熟練項。"
+											"该牧师在第 1 级选择此领域时将获得军用武器熟练项。"
 										]
 									},
 									{
 										"type": "entries",
 										"name": "收割者","ENG_name": "Reaper",
 										"entries": [
-											"第1級時，該牧師可以從任意法術列表中選擇學習一個死靈戲法。該牧師施展一個通常指定一個生物為目標的死靈戲法時，則該法術現在可以指定施法距離內兩個相互之間距離不超過5尺的生物。"
+											"第1级时，该牧师可以从任意法术列表中选择学习一个死灵戏法。该牧师施展一个通常指定一个生物为目标的死灵戏法时，则该法术现在可以指定施法距离内两个相互之间距离不超过5尺的生物。"
 										]
 									}
 								]
@@ -944,10 +944,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力:死亡之觸","ENG_name": "Channel Divinity: Touch of Death",
+										"name": "引导神力:死亡之触","ENG_name": "Channel Divinity: Touch of Death",
 										"entries": [
-											"第2級起，該牧師可以用引導神力特性並通過觸碰來摧毀另一生物的生命力。",
-											"該牧師以近戰攻擊命中一個生物時，可以使用引導神力對該目標造成額外的黯蝕傷害。該傷害值等於 5 + 其牧師等級兩倍的數值。"
+											"第2级起，该牧师可以用引导神力特性并通过触碰来摧毁另一生物的生命力。",
+											"该牧师以近战攻击命中一个生物时，可以使用引导神力对该目标造成额外的黯蚀伤害。该伤害值等于 5 + 其牧师等级两倍的数值。"
 										]
 									}
 								]
@@ -958,9 +958,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "命定毀傷","ENG_name": "Inescapable Destruction",
+										"name": "命定毁伤","ENG_name": "Inescapable Destruction",
 										"entries": [
-											"第6級起，該牧師引導負能量的能力更為有效。該角色的牧師法術與引導神力選項所造成的黯蝕傷害將無視對黯蝕傷害抗性。"
+											"第6级起，该牧师引导负能量的能力更为有效。该角色的牧师法术与引导神力选项所造成的黯蚀伤害将无视对黯蚀伤害抗性。"
 										]
 									}
 								]
@@ -971,9 +971,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊","ENG_name": "Divine Strike",
+										"name": "神圣打击","ENG_name": "Divine Strike",
 										"entries": [
-											"第8級時，該牧師可以使其武器打擊充滿負能量。該牧師在每個其自己回合裡有一次機會，可以在用武器攻擊命中某生物時額外造成1d8的黯蝕傷害。第14級時，該傷害提升到 2d8。"
+											"第8级时，该牧师可以使其武器打击充满负能量。该牧师在每个其自己回合里有一次机会，可以在用武器攻击命中某生物时额外造成1d8的黯蚀伤害。第14级时，该伤害提升到 2d8。"
 										]
 									}
 								]
@@ -986,7 +986,7 @@
 										"type": "entries",
 										"name": "精通收割者","ENG_name": "Improved Reaper",
 										"entries": [
-											"第17級起，該牧師施展一個1至5環的死靈法術時，若該法術只指定一個生物為目標，則將其改為指定施法距離內相互之間距離不超過5尺的兩個生物。如果該法術消耗其材料構材，則該牧師必須為每個目標提供一份耗材。"
+											"第17级起，该牧师施展一个1至5环的死灵法术时，若该法术只指定一个生物为目标，则将其改为指定施法距离内相互之间距离不超过5尺的两个生物。如果该法术消耗其材料构材，则该牧师必须为每个目标提供一份耗材。"
 										]
 									}
 								]
@@ -997,20 +997,20 @@
 					"shortName": "死亡"
 				},
 				{
-					"name": "知識領域", "ENG_name": "Knowledge Domain",
+					"name": "知识领域", "ENG_name": "Knowledge Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "知識領域", "ENG_name": "Knowledge Domain",
+								"name": "知识领域", "ENG_name": "Knowledge Domain",
 								"entries": [
-									"知識之神\u2014包括{@deity 歐格瑪|faerûnian|scag}、{@deity 博卡布|greyhawk}、{@deity 吉立安|dragonlance}、{@deity 奥林|eberron}、和{@deity 托特|egyptian}\u2014祂們重視學習和理解勝過一切。有些神的教訓是知識應該被收集和分享於圖書館和大學，或將實用知識推廣於製造和發現。有些神祇則將知識密藏起來，不讓其他人所知。而有些則承諾祂們的追隨者，若他們能解開多元宇宙中的秘密，就將獲得無比的權力。這些神祇的追隨者研讀深奧的學識、收集古老的典籍、挖掘地球上的秘境、並盡他們可能的不斷學習。有些知識之神會推廣實用知識於製造和發明中，包括鍛造神祇，像是{@deity 貢德|faerûnian|scag}、{@deity 李奧克斯|dragonlance}、{@deity 昂那塔|eberron}、{@deity 摩拉丁|dwarven|mtf}、{@deity 赫菲斯托斯|greek}、和{@deity 格布紐|celtic}。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"知识之神\u2014包括{@deity 欧格玛|faerûnian|scag}、{@deity 博卡布|greyhawk}、{@deity 吉立安|dragonlance}、{@deity 奥林|eberron}、和{@deity 托特|egyptian}\u2014祂们重视学习和理解胜过一切。有些神的教训是知识应该被收集和分享于图书馆和大学，或将实用知识推广于制造和发现。有些神祇则将知识密藏起来，不让其他人所知。而有些则承诺祂们的追随者，若他们能解开多元宇宙中的秘密，就将获得无比的权力。这些神祇的追随者研读深奥的学识、收集古老的典籍、挖掘地球上的秘境、并尽他们可能的不断学习。有些知识之神会推广实用知识于制造和发明中，包括锻造神祇，像是{@deity 贡德|faerûnian|scag}、{@deity 李奥克斯|dragonlance}、{@deity 昂那塔|eberron}、{@deity 摩拉丁|dwarven|mtf}、{@deity 赫菲斯托斯|greek}、和{@deity 格布纽|celtic}。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "知識領域法術",
+										"caption": "知识领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1018,33 +1018,33 @@
 										],
 										"rows": [
 											[
-												"1級",
-												"{@spell 命令術}, {@spell 鑑定術}"
+												"1级",
+												"{@spell 命令术}, {@spell 鉴定术}"
 											],
 											[
-												"3級",
-												"{@spell 卜筮}, {@spell 暗示術}"
+												"3级",
+												"{@spell 卜筮}, {@spell 暗示术}"
 											],
 											[
-												"5級",
-												"{@spell 迴避偵測}, {@spell 死者交談術}"
+												"5级",
+												"{@spell 回避侦测}, {@spell 死者交谈术}"
 											],
 											[
-												"7級",
-												"{@spell 祕法眼}, {@spell 困惑術}"
+												"7级",
+												"{@spell 秘法眼}, {@spell 困惑术}"
 											],
 											[
-												"9級",
-												"{@spell 通曉傳奇}, {@spell 探知}"
+												"9级",
+												"{@spell 通晓传奇}, {@spell 探知}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "知識祝福", "ENG_name": "Blessings of Knowledge",
+										"name": "知识祝福", "ENG_name": "Blessings of Knowledge",
 										"entries": [
-											"在1級時，你學會二種自選的語言。你也變得熟練於二個從下列選項中自選的技能：{@skill 奧秘}、{@skill 歷史}、{@skill 自然}、或{@skill 宗教}。",
-											"你的熟練加值在使用這些技能所進行的任何屬性檢定中變為兩倍。"
+											"在1级时，你学会二种自选的语言。你也变得熟练于二个从下列选项中自选的技能：{@skill 奥秘}、{@skill 历史}、{@skill 自然}、或{@skill 宗教}。",
+											"你的熟练加值在使用这些技能所进行的任何属性检定中变为两倍。"
 										]
 									}
 								]
@@ -1055,9 +1055,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：歲月知識", "ENG_name": "Channel Divinity: Knowledge of the Ages",
+										"name": "引导神力：岁月知识", "ENG_name": "Channel Divinity: Knowledge of the Ages",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以進入知識的神聖之井。以一個動作，你選擇一項技能或工具。在10分鐘內，你將熟練於所選的技能或工具。"
+											"从2级开始，你可以使用你的引导神力以进入知识的神圣之井。以一个动作，你选择一项技能或工具。在10分钟内，你将熟练于所选的技能或工具。"
 										]
 									}
 								]
@@ -1068,12 +1068,12 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：閱讀思想", "ENG_name": "Channel Divinity: Read Thoughts",
+										"name": "引导神力：阅读思想", "ENG_name": "Channel Divinity: Read Thoughts",
 										"entries": [
-											"在6級時，你可以使用你的引導神力以閱讀一個生物的思想。你可以接著利用你對該生物的心靈通道以命令它。",
-											"以一個動作，選擇一個距離你60呎內且你所能看見的生物。該生物必須進行一次睿知豁免。若該生物成功通過此豁免，則直到你完成一次長休之前都不能再對它使用此能力。",
-											"若該生物豁免失敗，你可以在它距離你60呎內時讀取它的表層思想（那些它腦中最主要的思想，反映著它當下的情緒和它主動思考的事物）。這個效果將持續1分鐘。",
-											"在這段期間，你可以使用你的動作以結束此效果，並對該生物施放{@skill 暗示術}法術而無需消耗法術位。目標將在對抗此法術的豁免檢定中自動失敗。"
+											"在6级时，你可以使用你的引导神力以阅读一个生物的思想。你可以接着利用你对该生物的心灵通道以命令它。",
+											"以一个动作，选择一个距离你60呎内且你所能看见的生物。该生物必须进行一次睿知豁免。若该生物成功通过此豁免，则直到你完成一次长休之前都不能再对它使用此能力。",
+											"若该生物豁免失败，你可以在它距离你60呎内时读取它的表层思想（那些它脑中最主要的思想，反映着它当下的情绪和它主动思考的事物）。这个效果将持续1分钟。",
+											"在这段期间，你可以使用你的动作以结束此效果，并对该生物施放{@skill 暗示术}法术而无需消耗法术位。目标将在对抗此法术的豁免检定中自动失败。"
 										]
 									}
 								]
@@ -1084,9 +1084,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強力施法", "ENG_name": "Potent Spellcasting",
+										"name": "强力施法", "ENG_name": "Potent Spellcasting",
 										"entries": [
-											"從8級開始，你將你的睿知調整值加入任何你使用牧師戲法所造成的傷害中。"
+											"从8级开始，你将你的睿知调整值加入任何你使用牧师戏法所造成的伤害中。"
 										]
 									}
 								]
@@ -1097,18 +1097,18 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "過去之景", "ENG_name": "Visions of the Past",
+										"name": "过去之景", "ENG_name": "Visions of the Past",
 										"entries": [
-											"從17級開始，你可以呼喚出與你所持握的一個物體或你當下環境有關的過去景象。你花費至少1分鐘的時間冥想與祈禱，然後接收到有如夢境般，近期事件的朦朧一瞥。你可以透過這個方式冥想長達等同於你睿知數值的分鐘時間，且必須在這段期間保持專注，就如同你施放專注法術一樣。",
-											"一旦你使用此能力，直到你完成一次短休或長休之前，都不能再使用它。",
+											"从17级开始，你可以呼唤出与你所持握的一个物体或你当下环境有关的过去景象。你花费至少1分钟的时间冥想与祈祷，然后接收到有如梦境般，近期事件的朦胧一瞥。你可以透过这个方式冥想长达等同于你睿知数值的分钟时间，且必须在这段期间保持专注，就如同你施放专注法术一样。",
+											"一旦你使用此能力，直到你完成一次短休或长休之前，都不能再使用它。",
 											{
 												"type": "entries",
 												"entries": [
 													{
 														"type": "entries",
-														"name": "物體讀見",
+														"name": "物体读见",
 														"entries": [
-															"在你冥想時持握一個物體，你可以看見該物體前一個擁有者的影像。在冥想1分鐘之後，你理解到如何該擁有者是如何獲得和遺失這個物體，以及最近一件涉及該物體和擁有者的重大事件。若該物體在近期曾被另一個生物所擁有（等同於你睿知數值的天數內），你可以為每個擁有者額外各花費1分鐘以理解關於該生物的相同情報。"
+															"在你冥想时持握一个物体，你可以看见该物体前一个拥有者的影像。在冥想1分钟之后，你理解到如何该拥有者是如何获得和遗失这个物体，以及最近一件涉及该物体和拥有者的重大事件。若该物体在近期曾被另一个生物所拥有（等同于你睿知数值的天数内），你可以为每个拥有者额外各花费1分钟以理解关于该生物的相同情报。"
 														]
 													}
 												]
@@ -1118,9 +1118,9 @@
 												"entries": [
 													{
 														"type": "entries",
-														"name": "區域讀見",
+														"name": "区域读见",
 														"entries": [
-															"在你冥想時，你看見在你當下周遭環境（一個房間、街道、隧道、空地、或最大50呎立方體空間的類似區域）所發生最近事件的影像，回到等同於你睿知數值的天數的過去。你每冥想一分鐘，你就能知曉一個重大的事件，從最近發生的事件開始。重大事件通常涉及了強烈的情緒，像是鬥爭和背叛、結婚與謀殺、誕生和葬禮等等。然而，它們也可能包括一些更加尋常但對你當下情況而言相當重要的事件。"
+															"在你冥想时，你看见在你当下周遭环境（一个房间、街道、隧道、空地、或最大50呎立方体空间的类似区域）所发生最近事件的影像，回到等同于你睿知数值的天数的过去。你每冥想一分钟，你就能知晓一个重大的事件，从最近发生的事件开始。重大事件通常涉及了强烈的情绪，像是斗争和背叛、结婚与谋杀、诞生和葬礼等等。然而，它们也可能包括一些更加寻常但对你当下情况而言相当重要的事件。"
 														]
 													}
 												]
@@ -1132,14 +1132,14 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "知識"
+					"shortName": "知识"
 				},
 				{
-					"name": "知識領域(PSA)", "ENG_name": "Knowledge Domain (PSA)",
+					"name": "知识领域(PSA)", "ENG_name": "Knowledge Domain (PSA)",
 					"subclassFeatures": [
 						[
 							{
-								"name": "知識領域(PSA)", "ENG_name": "Knowledge Domain (PSA)",
+								"name": "知识领域(PSA)", "ENG_name": "Knowledge Domain (PSA)",
 								"entries": [
 									"\"The worthy shall cultivate a nimble mind that can perceive the wonders beyond imagination that wait in the afterlife.\"",
 									"Kefnet's task is to pass on this teaching of the God-Pharaoh and elucidate its meaning. He teaches that the afterlife will be inhabited only by those who have proved by their wits that they are worthy of dwelling in the glorious presence of the God-Pharaoh. He trains acolytes and initiates to push their limits and challenge their mental capacity with spells of ever-greater power.",
@@ -1152,9 +1152,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "子職業能力", "ENG_name": "Subclass Feature",
+										"name": "子职业能力", "ENG_name": "Subclass Feature",
 										"entries": [
-											"參見知識領域。"
+											"参见知识领域。"
 										]
 									}
 								]
@@ -1165,9 +1165,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "子職業能力", "ENG_name": "Subclass Feature",
+										"name": "子职业能力", "ENG_name": "Subclass Feature",
 										"entries": [
-											"參見知識領域。"
+											"参见知识领域。"
 										]
 									}
 								]
@@ -1178,9 +1178,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "子職業能力", "ENG_name": "Subclass Feature",
+										"name": "子职业能力", "ENG_name": "Subclass Feature",
 										"entries": [
-											"參見知識領域。"
+											"参见知识领域。"
 										]
 									}
 								]
@@ -1191,9 +1191,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "子職業能力", "ENG_name": "Subclass Feature",
+										"name": "子职业能力", "ENG_name": "Subclass Feature",
 										"entries": [
-											"參見知識領域。"
+											"参见知识领域。"
 										]
 									}
 								]
@@ -1201,23 +1201,23 @@
 						]
 					],
 					"source": "PSA",
-					"shortName": "知識(PSA)"
+					"shortName": "知识(PSA)"
 				},
 				{
-					"name": "生命領域", "ENG_name": "Life Domain",
+					"name": "生命领域", "ENG_name": "Life Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "生命領域", "ENG_name": "Life Domain",
+								"name": "生命领域", "ENG_name": "Life Domain",
 								"entries": [
-									"生命領域專注於精力充沛的正能量\u2014構成宇宙的其中一種基本力量\u2014維持所有生命的延續。掌管生命領域的神祇傳播活力與健康，藉由醫治疾病與創傷、照料需要的人們、並驅趕死亡和亡靈的勢力。幾乎所有非邪惡的神祇都可以宣稱其在這個領域中具有影響力，特別是農業神（例如{@deity 裳禔亞|faerûnian|scag}、{@deity 阿拉瓦依|eberron}、和{@deity 狄蜜特|greek}）、太陽神（例如{@deity 洛山達|faerûnian|scag}、{@deity 培羅|greyhawk}、和{@deity 拉．哈拉胡提|egyptian}）、醫治或受難之神（例如{@deity 伊爾瑪特|faerûnian|scag}、{@deity 米莎凱|dragonlance}、{@deity 阿波羅|greek}、和{@deity 迪安斯徹特|celtic}）、以及家庭和社會之神（例如{@deity 赫斯緹雅|greek}、{@deity 哈托爾|egyptian}、和{@deity 博得雷|eberron}）。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"生命领域专注于精力充沛的正能量\u2014构成宇宙的其中一种基本力量\u2014维持所有生命的延续。掌管生命领域的神祇传播活力与健康，借由医治疾病与创伤、照料需要的人们、并驱赶死亡和亡灵的势力。几乎所有非邪恶的神祇都可以宣称其在这个领域中具有影响力，特别是农业神（例如{@deity 裳禔亚|faerûnian|scag}、{@deity 阿拉瓦依|eberron}、和{@deity 狄蜜特|greek}）、太阳神（例如{@deity 洛山达|faerûnian|scag}、{@deity 培罗|greyhawk}、和{@deity 拉．哈拉胡提|egyptian}）、医治或受难之神（例如{@deity 伊尔玛特|faerûnian|scag}、{@deity 米莎凯|dragonlance}、{@deity 阿波罗|greek}、和{@deity 迪安斯彻特|celtic}）、以及家庭和社会之神（例如{@deity 赫斯缇雅|greek}、{@deity 哈托尔|egyptian}、和{@deity 博得雷|eberron}）。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "生命領域法術",
+										"caption": "生命领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1226,38 +1226,38 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 祝福術}, {@spell 治療傷勢}"
+												"{@spell 祝福术}, {@spell 治疗伤势}"
 											],
 											[
 												"3rd",
-												"{@spell 次級復原術}, {@spell 靈體武器}"
+												"{@spell 次级复原术}, {@spell 灵体武器}"
 											],
 											[
 												"5th",
-												"{@spell 希望信標}, {@spell 回生術}"
+												"{@spell 希望信标}, {@spell 回生术}"
 											],
 											[
 												"7th",
-												"{@spell 防死護咒}, {@spell 虔誠守衛}"
+												"{@spell 防死护咒}, {@spell 虔诚守卫}"
 											],
 											[
 												"9th",
-												"{@spell 群體治療傷勢} {@spell 喚醒死者}"
+												"{@spell 群体治疗伤势} {@spell 唤醒死者}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiency",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiency",
 										"entries": [
-											"當你在1級時選擇此領域，你獲得重甲的熟練。"
+											"当你在1级时选择此领域，你获得重甲的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "生命門徒", "ENG_name": "Disciple of Life",
+										"name": "生命门徒", "ENG_name": "Disciple of Life",
 										"entries": [
-											"同樣從1級開始，你的治療法術變得更加有效。每當你使用一個1環或更高環的法術以回復一個生物的生命值時，該生物額外回復等同於2 + 該法術環階的生命值。"
+											"同样从1级开始，你的治疗法术变得更加有效。每当你使用一个1环或更高环的法术以回复一个生物的生命值时，该生物额外回复等同于2 + 该法术环阶的生命值。"
 										]
 									}
 								]
@@ -1268,10 +1268,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：維繫生命", "ENG_name": "Channel Divinity: Preserve Life",
+										"name": "引导神力：维系生命", "ENG_name": "Channel Divinity: Preserve Life",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以治療嚴重的傷勢。",
-											"以一個動作，你展現你的聖徽並喚起可以回復等同於你牧師等級五倍生命值的治療能量。選擇任何距離你30呎內的生物，並將這些生命值分配給它們回復。這個能力無法讓一個生物回復到超過它生命值最大值的一半。你不能對不死生物或構裝體使用此能力。"
+											"从2级开始，你可以使用你的引导神力以治疗严重的伤势。",
+											"以一个动作，你展现你的圣徽并唤起可以回复等同于你牧师等级五倍生命值的治疗能量。选择任何距离你30呎内的生物，并将这些生命值分配给它们回复。这个能力无法让一个生物回复到超过它生命值最大值的一半。你不能对不死生物或构装体使用此能力。"
 										]
 									}
 								]
@@ -1282,9 +1282,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "祝聖醫者", "ENG_name": "Blessed Healer",
+										"name": "祝圣医者", "ENG_name": "Blessed Healer",
 										"entries": [
-											"從6級開始，你施放於他人的治療法術也將治療你自己。當你施放一個1環或更高環的法術以回復除了你以外一個生物的生命值時，你將回復等同於2 + 該法術環階的生命值。"
+											"从6级开始，你施放于他人的治疗法术也将治疗你自己。当你施放一个1环或更高环的法术以回复除了你以外一个生物的生命值时，你将回复等同于2 + 该法术环阶的生命值。"
 										]
 									}
 								]
@@ -1295,9 +1295,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將神聖能量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}光耀傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将神圣能量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}光耀伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -1308,9 +1308,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "極效治療", "ENG_name": "Supreme Healing",
+										"name": "极效治疗", "ENG_name": "Supreme Healing",
 										"entries": [
-											"從17級開始，當你需要骰一顆或以上的骰子以決定使用法術回復的生命值時，你改為使用每顆骰子的最大值。舉例來說，當你要回復一個生物{@dice 2d6}點生命值時，你改為直接回復它12點生命值。"
+											"从17级开始，当你需要骰一颗或以上的骰子以决定使用法术回复的生命值时，你改为使用每颗骰子的最大值。举例来说，当你要回复一个生物{@dice 2d6}点生命值时，你改为直接回复它12点生命值。"
 										]
 									}
 								]
@@ -1321,20 +1321,20 @@
 					"shortName": "生命"
 				},
 				{
-					"name": "光明領域", "ENG_name": "Light Domain",
+					"name": "光明领域", "ENG_name": "Light Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "光明領域", "ENG_name": "Light Domain",
+								"name": "光明领域", "ENG_name": "Light Domain",
 								"entries": [
-									"光明之神\u2014包括{@deity 海姆}、{@deity 洛山達}、{@deity 佛塔斯|greyhawk}、{@deity 布蘭查拉|dragonlance}、{@deity 銀焰|eberron}、{@deity 巴萊納斯|celtic}、{@deity 阿波羅|greek}、和{@deity 拉．哈拉胡提|egyptian}\u2014提倡重生和更新、真實、警醒、和美的理想，且經常使用太陽做為徽記。其中一些神祗被視為太陽本身，或做為引導太陽橫跨天際的駕馭者。其他人則是不知疲倦的哨衛，祂們的眼睛能穿透每一片陰影，並看破每一個謊言。祂們有些是掌管美麗和藝術的神祇，教導人們把藝術做為提升靈魂層次的工具。光明之神的牧師有著被啟蒙的靈魂，被他們神明的光輝和洞察力給充滿，負責驅趕謊言並燃盡黑暗。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"光明之神\u2014包括{@deity 海姆}、{@deity 洛山达}、{@deity 佛塔斯|greyhawk}、{@deity 布兰查拉|dragonlance}、{@deity 银焰|eberron}、{@deity 巴莱纳斯|celtic}、{@deity 阿波罗|greek}、和{@deity 拉．哈拉胡提|egyptian}\u2014提倡重生和更新、真实、警醒、和美的理想，且经常使用太阳做为徽记。其中一些神祗被视为太阳本身，或做为引导太阳横跨天际的驾驭者。其他人则是不知疲倦的哨卫，祂们的眼睛能穿透每一片阴影，并看破每一个谎言。祂们有些是掌管美丽和艺术的神祇，教导人们把艺术做为提升灵魂层次的工具。光明之神的牧师有着被启蒙的灵魂，被他们神明的光辉和洞察力给充满，负责驱赶谎言并燃尽黑暗。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "光明領域法術",
+										"caption": "光明领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1343,39 +1343,39 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 燃燒之手}, {@spell 妖火術}"
+												"{@spell 燃烧之手}, {@spell 妖火术}"
 											],
 											[
 												"3rd",
-												"{@spell 熾焰法球}, {@spell 灼熱射線}"
+												"{@spell 炽焰法球}, {@spell 灼热射线}"
 											],
 											[
 												"5th",
-												"{@spell 晝明術}, {@spell 火球術}"
+												"{@spell 昼明术}, {@spell 火球术}"
 											],
 											[
 												"7th",
-												"{@spell 虔誠守衛}, {@spell 火牆術}"
+												"{@spell 虔诚守卫}, {@spell 火墙术}"
 											],
 											[
 												"9th",
-												"{@spell 焰擊術}, {@spell 探知}"
+												"{@spell 焰击术}, {@spell 探知}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外戲法", "ENG_name": "Bonus Cantrip",
+										"name": "额外戏法", "ENG_name": "Bonus Cantrip",
 										"entries": [
-											"當你在1級時選擇此領域，若你尚未學會{@spell 光亮術}戲法，則你學會它。"
+											"当你在1级时选择此领域，若你尚未学会{@spell 光亮术}戏法，则你学会它。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "閃耀防護", "ENG_name": "Warding Flare",
+										"name": "闪耀防护", "ENG_name": "Warding Flare",
 										"entries": [
-											"同樣在1級時，你可以使神聖光芒介入你與進行攻擊的敵人之間。當你被一個距離你30呎內且你能看見的生物攻擊時，你可以在它命中或失手之前使用你的反應讓強光在攻擊者面前閃耀，以使該次攻擊檢定承受劣勢。一個不會陷入{@condition 目盲}狀態的攻擊者將免疫於此能力。",
-											"你可以使用這個能力的次數等同於你的睿知調整值（最少一次）。你在完成一次長休後恢復所有你花費掉的次數。"
+											"同样在1级时，你可以使神圣光芒介入你与进行攻击的敌人之间。当你被一个距离你30呎内且你能看见的生物攻击时，你可以在它命中或失手之前使用你的反应让强光在攻击者面前闪耀，以使该次攻击检定承受劣势。一个不会陷入{@condition 目盲}状态的攻击者将免疫于此能力。",
+											"你可以使用这个能力的次数等同于你的睿知调整值（最少一次）。你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -1386,10 +1386,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：黎明曙光", "ENG_name": "Channel Divinity: Radiance of the Dawn",
+										"name": "引导神力：黎明曙光", "ENG_name": "Channel Divinity: Radiance of the Dawn",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以控制陽光，驅散黑暗，並對你的敵人們造成光耀傷害。",
-											"以一個動作，你展現你的聖徽，且任何距離你30呎內的魔法黑暗將被解消。此外，每個距離你30呎內的敵對生物必須進行一次體質豁免。豁免失敗的生物將受到等同於{@dice 2d10}+你的牧師等級的光耀傷害，豁免成功則只受到一半的傷害。一個對你有全掩護的生物不會受到影響。"
+											"从2级开始，你可以使用你的引导神力以控制阳光，驱散黑暗，并对你的敌人们造成光耀伤害。",
+											"以一个动作，你展现你的圣徽，且任何距离你30呎内的魔法黑暗将被解消。此外，每个距离你30呎内的敌对生物必须进行一次体质豁免。豁免失败的生物将受到等同于{@dice 2d10}+你的牧师等级的光耀伤害，豁免成功则只受到一半的伤害。一个对你有全掩护的生物不会受到影响。"
 										]
 									}
 								]
@@ -1400,9 +1400,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強化閃耀", "ENG_name": "Improved Flare",
+										"name": "强化闪耀", "ENG_name": "Improved Flare",
 										"entries": [
-											"從6級開始，你也可以在一個距離你30呎內且你能看見的生物攻擊除了你以外的目標時使用你的閃耀防護能力。"
+											"从6级开始，你也可以在一个距离你30呎内且你能看见的生物攻击除了你以外的目标时使用你的闪耀防护能力。"
 										]
 									}
 								]
@@ -1413,9 +1413,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強力施法", "ENG_name": "Potent Spellcasting",
+										"name": "强力施法", "ENG_name": "Potent Spellcasting",
 										"entries": [
-											"從8級開始，你將你的睿知調整值加入任何你使用牧師戲法所造成的傷害中。"
+											"从8级开始，你将你的睿知调整值加入任何你使用牧师戏法所造成的伤害中。"
 										]
 									}
 								]
@@ -1426,9 +1426,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "日冕光輝", "ENG_name": "Corona of Light",
+										"name": "日冕光辉", "ENG_name": "Corona of Light",
 										"entries": [
-											"從17級開始，你可以使用你的動作以啟動一道太陽靈光，持續1分鐘或直到你使用一個動作解消它。你將散發出60呎半徑的明亮光照和再延伸30呎的微光光照。你的敵人若處於此明亮光照內，則它在對抗任何法術所造成的火焰或光耀傷害時所進行的豁免檢定中具有劣勢。"
+											"从17级开始，你可以使用你的动作以启动一道太阳灵光，持续1分钟或直到你使用一个动作解消它。你将散发出60呎半径的明亮光照和再延伸30呎的微光光照。你的敌人若处于此明亮光照内，则它在对抗任何法术所造成的火焰或光耀伤害时所进行的豁免检定中具有劣势。"
 										]
 									}
 								]
@@ -1439,20 +1439,20 @@
 					"shortName": "光明"
 				},
 				{
-					"name": "自然領域", "ENG_name": "Nature Domain",
+					"name": "自然领域", "ENG_name": "Nature Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "自然領域", "ENG_name": "Nature Domain",
+								"name": "自然领域", "ENG_name": "Nature Domain",
 								"entries": [
-									"自然之神就如同自然界本身一樣變化多端，從密林中那神祕莫測的諸神（像是{@deity 西凡那斯}、{@deity 歐拜．亥|greyhawk}、{@deity 奇思洛夫|dragonlance}、{@deity 巴力諾|eberron}、和{@deity 潘|greek}），到與特定溪水和樹林關聯的友善神明（像是{@deity 埃達絲}）。崇敬著整個大自然本身的德魯伊也可能會侍奉於其中一個神祇，並用他們獨特的秘密語言實踐神秘儀式、背誦那些早已被遺忘的禱詞。許多這些神祇同樣擁有自己的牧師，這些勇士會在增進特定自然之神的利益上扮演更加積極的角色。這些牧師可能會前去狩獵破壞林地的邪惡怪物、祝福忠實信徒們的收穫、或使那些惹怒他們神明的莊稼受詛咒枯萎。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"自然之神就如同自然界本身一样变化多端，从密林中那神秘莫测的诸神（像是{@deity 西凡那斯}、{@deity 欧拜．亥|greyhawk}、{@deity 奇思洛夫|dragonlance}、{@deity 巴力诺|eberron}、和{@deity 潘|greek}），到与特定溪水和树林关联的友善神明（像是{@deity 埃达丝}）。崇敬着整个大自然本身的德鲁伊也可能会侍奉于其中一个神祇，并用他们独特的秘密语言实践神秘仪式、背诵那些早已被遗忘的祷词。许多这些神祇同样拥有自己的牧师，这些勇士会在增进特定自然之神的利益上扮演更加积极的角色。这些牧师可能会前去狩猎破坏林地的邪恶怪物、祝福忠实信徒们的收获、或使那些惹怒他们神明的庄稼受诅咒枯萎。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "自然領域法術",
+										"caption": "自然领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1461,23 +1461,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 化獸為友}, {@spell 動物交談術}"
+												"{@spell 化兽为友}, {@spell 动物交谈术}"
 											],
 											[
 												"3rd",
-												"{@spell 樹膚術}, {@spell 荊棘叢生}"
+												"{@spell 树肤术}, {@spell 荆棘丛生}"
 											],
 											[
 												"5th",
-												"{@spell 植物滋長}, {@spell 風牆術}"
+												"{@spell 植物滋长}, {@spell 风墙术}"
 											],
 											[
 												"7th",
-												"{@spell 支配野獸}, {@spell 抓攫藤蔓}"
+												"{@spell 支配野兽}, {@spell 抓攫藤蔓}"
 											],
 											[
 												"9th",
-												"{@spell 疫病蟲群}, {@spell 樹躍術}"
+												"{@spell 疫病虫群}, {@spell 树跃术}"
 											]
 										]
 									},
@@ -1485,14 +1485,14 @@
 										"type": "entries",
 										"name": "自然侍祭", "ENG_name": "Acolyte of Nature",
 										"entries": [
-											"在1級時，你學會一個自選的德魯伊戲法。你同時選擇並獲得下列其中一個技能的熟練：{@skill 動物馴養}、{@skill 自然}、或{@skill 求生}。"
+											"在1级时，你学会一个自选的德鲁伊戏法。你同时选择并获得下列其中一个技能的熟练：{@skill 动物驯养}、{@skill 自然}、或{@skill 求生}。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiency",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiency",
 										"entries": [
-											"同樣在1級時，你獲得重甲的熟練。"
+											"同样在1级时，你获得重甲的熟练。"
 										]
 									}
 								]
@@ -1503,10 +1503,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：魅惑動植物", "ENG_name": "Channel Divinity: Charm Animals and Plants",
+										"name": "引导神力：魅惑动植物", "ENG_name": "Channel Divinity: Charm Animals and Plants",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以魅惑動物和植物。",
-											"以一個動作，你展現你的聖徽並呼喚你神明的名諱。每個距離你30呎內且能看見你的野獸和植物生物必須進行一次睿知豁免。若該生物豁免失敗，則它將被你{@condition 魅惑}持續1分鐘或直到受到傷害。當被你{@condition 魅惑}時，它將對你和你所指定的其他生物友善。"
+											"从2级开始，你可以使用你的引导神力以魅惑动物和植物。",
+											"以一个动作，你展现你的圣徽并呼唤你神明的名讳。每个距离你30呎内且能看见你的野兽和植物生物必须进行一次睿知豁免。若该生物豁免失败，则它将被你{@condition 魅惑}持续1分钟或直到受到伤害。当被你{@condition 魅惑}时，它将对你和你所指定的其他生物友善。"
 										]
 									}
 								]
@@ -1519,7 +1519,7 @@
 										"type": "entries",
 										"name": "抑制元素", "ENG_name": "Dampen Elements",
 										"entries": [
-											"從6級開始，當你或一個距離你30呎內的生物受到酸蝕、寒冰、火焰、閃電、或雷鳴傷害時，你可以使用你的反應以讓該生物在那瞬間獲得對該傷害的抗性。"
+											"从6级开始，当你或一个距离你30呎内的生物受到酸蚀、寒冰、火焰、闪电、或雷鸣伤害时，你可以使用你的反应以让该生物在那瞬间获得对该伤害的抗性。"
 										]
 									}
 								]
@@ -1530,9 +1530,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將神聖能量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}點寒冰、火焰、或閃電傷害（由你選擇）。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将神圣能量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}点寒冰、火焰、或闪电伤害（由你选择）。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -1545,7 +1545,7 @@
 										"type": "entries",
 										"name": "自然之主", "ENG_name": "Master of Nature",
 										"entries": [
-											"在17級時，你獲得命令動物和植物生物的能力。當一個生物被你透過魅惑動植物能力給{@condition 魅惑}時，你可以在你的回合採取一個附贈動作，以口頭命令每個這些生物在它們各自的下個回合中將要做什麼。"
+											"在17级时，你获得命令动物和植物生物的能力。当一个生物被你透过魅惑动植物能力给{@condition 魅惑}时，你可以在你的回合采取一个附赠动作，以口头命令每个这些生物在它们各自的下个回合中将要做什么。"
 										]
 									}
 								]
@@ -1556,20 +1556,20 @@
 					"shortName": "自然"
 				},
 				{
-					"name": "暴風領域", "ENG_name": "Tempest Domain",
+					"name": "暴风领域", "ENG_name": "Tempest Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "暴風領域", "ENG_name": "Tempest Domain",
+								"name": "暴风领域", "ENG_name": "Tempest Domain",
 								"entries": [
-									"神職囊括了暴風領域的神祗\u2014包括{@deity 塔洛斯}、{@deity 安博里}、{@deity 寇德|greyhawk}、{@deity 賽波音|dragonlance}、{@deity 吞噬|eberron}、{@deity 宙斯|greek}、和{@deity 索爾|norse}\u2014掌管著風暴、海洋、和天空。祂們之中包括了閃電和雷霆之神、地震之神、一些火神、和某些暴力、身體力量、和勇氣之神。在某些神系中，這個領域的神祇統治著其他諸神，並以透過閃電執行的迅捷正義聞名。在航海民族的神系中，這個領域的諸神則會是海洋神祇和水手們的庇護者。暴風之神往往差遣祂們的牧師在尋常民眾中引發畏懼，從而確保這些人持守於正直的道路上，或鼓勵他們獻上贖罪的祭品以免觸犯神怒。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"神职囊括了暴风领域的神祗\u2014包括{@deity 塔洛斯}、{@deity 安博里}、{@deity 寇德|greyhawk}、{@deity 赛波音|dragonlance}、{@deity 吞噬|eberron}、{@deity 宙斯|greek}、和{@deity 索尔|norse}\u2014掌管着风暴、海洋、和天空。祂们之中包括了闪电和雷霆之神、地震之神、一些火神、和某些暴力、身体力量、和勇气之神。在某些神系中，这个领域的神祇统治着其他诸神，并以透过闪电执行的迅捷正义闻名。在航海民族的神系中，这个领域的诸神则会是海洋神祇和水手们的庇护者。暴风之神往往差遣祂们的牧师在寻常民众中引发畏惧，从而确保这些人持守于正直的道路上，或鼓励他们献上赎罪的祭品以免触犯神怒。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "暴風領域法術",
+										"caption": "暴风领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1578,39 +1578,39 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 雲霧術}, {@spell 雷鳴波}"
+												"{@spell 云雾术}, {@spell 雷鸣波}"
 											],
 											[
 												"3rd",
-												"{@spell 造風術}, {@spell 粉碎音波}"
+												"{@spell 造风术}, {@spell 粉碎音波}"
 											],
 											[
 												"5th",
-												"{@spell 召雷術}, {@spell 雪雨暴}"
+												"{@spell 召雷术}, {@spell 雪雨暴}"
 											],
 											[
 												"7th",
-												"{@spell 操控水體}, {@spell 冰風暴}"
+												"{@spell 操控水体}, {@spell 冰风暴}"
 											],
 											[
 												"9th",
-												"{@spell 湮滅波}, {@spell 疫病蟲群}"
+												"{@spell 湮灭波}, {@spell 疫病虫群}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiency",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiency",
 										"entries": [
-											"在1級時，你獲得軍用武器和重甲的熟練。"
+											"在1级时，你获得军用武器和重甲的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "風暴狂怒", "ENG_name": "Wrath of the Storm",
+										"name": "风暴狂怒", "ENG_name": "Wrath of the Storm",
 										"entries": [
-											"同樣在1級時，你可以如雷鳴般斥退攻擊者。當一個距離你5呎內且你能看見的生物以一次攻擊命中你，你可以使用你的反應使該生物進行一次敏捷豁免。該生物若豁免失敗將受到{@dice 2d8}閃電或雷鳴傷害（由你選擇），豁免成功則只受到一半的傷害。",
-											"你可以使用這個能力的次數等同於你的睿知調整值（最少一次）。你在完成一次長休後恢復所有你花費掉的次數。"
+											"同样在1级时，你可以如雷鸣般斥退攻击者。当一个距离你5呎内且你能看见的生物以一次攻击命中你，你可以使用你的反应使该生物进行一次敏捷豁免。该生物若豁免失败将受到{@dice 2d8}闪电或雷鸣伤害（由你选择），豁免成功则只受到一半的伤害。",
+											"你可以使用这个能力的次数等同于你的睿知调整值（最少一次）。你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -1621,10 +1621,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：毀滅狂怒", "ENG_name": "Channel Divinity: Destructive Wrath",
+										"name": "引导神力：毁灭狂怒", "ENG_name": "Channel Divinity: Destructive Wrath",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以施加不受控的兇猛暴風之力。",
-											"當你擲骰決定閃電或雷鳴傷害時，你可以使用你的引導神力，不擲骰而改為直接造成最大傷害。"
+											"从2级开始，你可以使用你的引导神力以施加不受控的凶猛暴风之力。",
+											"当你掷骰决定闪电或雷鸣伤害时，你可以使用你的引导神力，不掷骰而改为直接造成最大伤害。"
 										]
 									}
 								]
@@ -1635,9 +1635,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "雷電猛擊", "ENG_name": "Thunderbolt Strike",
+										"name": "雷电猛击", "ENG_name": "Thunderbolt Strike",
 										"entries": [
-											"在6級時，當你對一個體型為大型或更小的生物造成閃電傷害時，你也可以將它推離你最多10呎距離。"
+											"在6级时，当你对一个体型为大型或更小的生物造成闪电伤害时，你也可以将它推离你最多10呎距离。"
 										]
 									}
 								]
@@ -1648,9 +1648,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將神聖能量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}雷鳴傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将神圣能量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}雷鸣伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -1661,9 +1661,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "風暴之子", "ENG_name": "Stormborn",
+										"name": "风暴之子", "ENG_name": "Stormborn",
 										"entries": [
-											"在17級時，每當你不在地下或室內時，你獲得等同於你當下步行速度的飛行速度。"
+											"在17级时，每当你不在地下或室内时，你获得等同于你当下步行速度的飞行速度。"
 										]
 									}
 								]
@@ -1671,23 +1671,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "暴風"
+					"shortName": "暴风"
 				},
 				{
-					"name": "詭術領域", "ENG_name": "Trickery Domain",
+					"name": "诡术领域", "ENG_name": "Trickery Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "詭術領域", "ENG_name": "Trickery Domain",
+								"name": "诡术领域", "ENG_name": "Trickery Domain",
 								"entries": [
-									"詭術之神\u2014像是{@deity 泰摩拉}、{@deity 本莎芭}、{@deity 渥利達馬拉|greyhawk}、{@deity 旅者|eberron}、{@deity 加爾．閃金|nonhuman}、和{@deity 洛基|norse}\u2014都是惡作劇高手，也是不斷挑戰凡人和神明共有秩序的煽動者。祂們是竊賊、惡棍、賭徒、叛亂者、和解放者的守護神。祂們的牧師是顛覆世界的力量，他們打級驕傲者的自尊、嘲弄暴君、竊取富者、釋放俘虜，並蔑視空洞的傳統。他們偏好花言巧語、惡作劇、欺瞞、和竊盜更勝於正面對抗。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"诡术之神\u2014像是{@deity 泰摩拉}、{@deity 本莎芭}、{@deity 渥利达马拉|greyhawk}、{@deity 旅者|eberron}、{@deity 加尔．闪金|nonhuman}、和{@deity 洛基|norse}\u2014都是恶作剧高手，也是不断挑战凡人和神明共有秩序的煽动者。祂们是窃贼、恶棍、赌徒、叛乱者、和解放者的守护神。祂们的牧师是颠覆世界的力量，他们打级骄傲者的自尊、嘲弄暴君、窃取富者、释放俘虏，并蔑视空洞的传统。他们偏好花言巧语、恶作剧、欺瞒、和窃盗更胜于正面对抗。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "詭術領域法術",
+										"caption": "诡术领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1696,31 +1696,31 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 魅惑人類}, {@spell 易容術}"
+												"{@spell 魅惑人类}, {@spell 易容术}"
 											],
 											[
 												"3rd",
-												"{@spell 鏡影術}, {@spell 行蹤無跡}"
+												"{@spell 镜影术}, {@spell 行踪无迹}"
 											],
 											[
 												"5th",
-												"{@spell 閃現術}, {@spell 解除魔法}"
+												"{@spell 闪现术}, {@spell 解除魔法}"
 											],
 											[
 												"7th",
-												"{@spell 次元門}, {@spell 變形術}"
+												"{@spell 次元门}, {@spell 变形术}"
 											],
 											[
 												"9th",
-												"{@spell 支配人類}, {@spell 修改記憶}"
+												"{@spell 支配人类}, {@spell 修改记忆}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "詭術祝福", "ENG_name": "Blessing of the Trickster",
+										"name": "诡术祝福", "ENG_name": "Blessing of the Trickster",
 										"entries": [
-											"從你在1級時選擇此領域起，你可以使用你的動作觸碰一個除了你以外的自願生物，讓它在敏捷（{@skill 隱匿}）檢定中獲得優勢。這個祝福會持續1小時或直到你再次使用此能力。"
+											"从你在1级时选择此领域起，你可以使用你的动作触碰一个除了你以外的自愿生物，让它在敏捷（{@skill 隐匿}）检定中获得优势。这个祝福会持续1小时或直到你再次使用此能力。"
 										]
 									}
 								]
@@ -1731,11 +1731,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：召喚假體",
+										"name": "引导神力：召唤假体",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以創造一個你自己的幻象假體。",
-											"以一個動作，你創造一個你自己的完美幻象，持續1分鐘，或直到你失去你的專注（就如同你專注於法術一樣）。這個幻象會出現在一個距離你30呎內你所能看見的未被佔據空間。在你的回合以一個附贈動作，你可以使幻象移動最多30呎到一處你所能看見的空間，但它必須維持在距離你120呎內的位置。",
-											"在持續期間，你可以如同你處於幻象的位置來施放法術，但你必須使用你自己的感官。此外，當你和你的幻象都位於一個可以看見幻象的生物5呎範圍內，由於幻象對目標所造成的干擾，你在對該生物進行的攻擊檢定中具有優勢。"
+											"从2级开始，你可以使用你的引导神力以创造一个你自己的幻象假体。",
+											"以一个动作，你创造一个你自己的完美幻象，持续1分钟，或直到你失去你的专注（就如同你专注于法术一样）。这个幻象会出现在一个距离你30呎内你所能看见的未被占据空间。在你的回合以一个附赠动作，你可以使幻象移动最多30呎到一处你所能看见的空间，但它必须维持在距离你120呎内的位置。",
+											"在持续期间，你可以如同你处于幻象的位置来施放法术，但你必须使用你自己的感官。此外，当你和你的幻象都位于一个可以看见幻象的生物5呎范围内，由于幻象对目标所造成的干扰，你在对该生物进行的攻击检定中具有优势。"
 										]
 									}
 								]
@@ -1746,10 +1746,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：陰影斗篷", "ENG_name": "Channel Divinity: Cloak of Shadows",
+										"name": "引导神力：阴影斗篷", "ENG_name": "Channel Divinity: Cloak of Shadows",
 										"entries": [
-											"從6級開始，你可以使用你的引導神力以憑空消失。",
-											"以一個動作，你將變得{@condition 隱形}直到你的下個回合結束。若你攻擊或施放法術，你將變得可見。"
+											"从6级开始，你可以使用你的引导神力以凭空消失。",
+											"以一个动作，你将变得{@condition 隐形}直到你的下个回合结束。若你攻击或施放法术，你将变得可见。"
 										]
 									}
 								]
@@ -1760,9 +1760,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將毒素\u2014一個來自你神祇的贈禮\u2014注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}毒素傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将毒素\u2014一个来自你神祇的赠礼\u2014注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}毒素伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -1773,9 +1773,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強化假體", "ENG_name": "Improved Duplicity",
+										"name": "强化假体", "ENG_name": "Improved Duplicity",
 										"entries": [
-											"在17級時，當你使用召喚假體時，你可以創造出最多四個你自己的幻象假體，而非一個。在你的回合以一個附贈動作，你可以讓任意數量的假體移動最多30呎距離，到最遠120呎的範圍內。"
+											"在17级时，当你使用召唤假体时，你可以创造出最多四个你自己的幻象假体，而非一个。在你的回合以一个附赠动作，你可以让任意数量的假体移动最多30呎距离，到最远120呎的范围内。"
 										]
 									}
 								]
@@ -1783,23 +1783,23 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "詭術"
+					"shortName": "诡术"
 				},
 				{
-					"name": "戰爭領域", "ENG_name": "War Domain",
+					"name": "战争领域", "ENG_name": "War Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "戰爭領域", "ENG_name": "War Domain",
+								"name": "战争领域", "ENG_name": "War Domain",
 								"entries": [
-									"戰爭有很多表現形式。它可以使平凡人變成英雄。它也可以是絕望而可怕的，使殘酷而懦弱的行動遮蓋了勇氣和卓越的光輝。無論如何，戰爭之神都守望著戰士們，按他們的功績行賞。這些神的牧師善於戰鬥、激勵他人在戰鬥中打一場好仗、或獻上暴力行為做為祈禱。戰爭之神包括充滿榮譽和騎士精神的勇士（例如{@deity 扥姆}、{@deity 海若尼斯|dragonlance}、和{@deity 奇力．喬里思|dragonlance}），以及毀滅和掠奪之神（像是{@deity 厄瑞斯努|greyhawk}、{@deity 憤恨|greyhawk}、{@deity 格烏什|nonhuman}、{@deity 阿瑞斯|greek}），以及征服和統治之神（像是{@deity 班恩}、{@deity 海克斯托|greyhawk}、和{@deity 瑪格魯比耶|nonhuman}）。其他戰爭諸神（例如{@deity 坦帕斯}、{@deity 尼姬|greek}、和{@deity 努亞達|celtic}）則採取更中立的立場，推動各種表現形式的戰爭，並支援處於任何狀況下的戰士。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"战争有很多表现形式。它可以使平凡人变成英雄。它也可以是绝望而可怕的，使残酷而懦弱的行动遮盖了勇气和卓越的光辉。无论如何，战争之神都守望着战士们，按他们的功绩行赏。这些神的牧师善于战斗、激励他人在战斗中打一场好仗、或献上暴力行为做为祈祷。战争之神包括充满荣誉和骑士精神的勇士（例如{@deity 扥姆}、{@deity 海若尼斯|dragonlance}、和{@deity 奇力．乔里思|dragonlance}），以及毁灭和掠夺之神（像是{@deity 厄瑞斯努|greyhawk}、{@deity 愤恨|greyhawk}、{@deity 格乌什|nonhuman}、{@deity 阿瑞斯|greek}），以及征服和统治之神（像是{@deity 班恩}、{@deity 海克斯托|greyhawk}、和{@deity 玛格鲁比耶|nonhuman}）。其他战争诸神（例如{@deity 坦帕斯}、{@deity 尼姬|greek}、和{@deity 努亚达|celtic}）则采取更中立的立场，推动各种表现形式的战争，并支援处于任何状况下的战士。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "戰爭領域法術",
+										"caption": "战争领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1808,38 +1808,38 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 神恩術}, {@spell 虔誠護盾}"
+												"{@spell 神恩术}, {@spell 虔诚护盾}"
 											],
 											[
 												"3rd",
-												"{@spell 魔化武器}, {@spell 靈體武器}"
+												"{@spell 魔化武器}, {@spell 灵体武器}"
 											],
 											[
 												"5th",
-												"{@spell 十字軍斗篷}, {@spell 靈體守衛}"
+												"{@spell 十字军斗篷}, {@spell 灵体守卫}"
 											],
 											[
 												"7th",
-												"{@spell 行動自如術}, {@spell 石膚術}"
+												"{@spell 行动自如术}, {@spell 石肤术}"
 											],
 											[
 												"9th",
-												"{@spell 焰擊術}, {@spell 怪物定身術}"
+												"{@spell 焰击术}, {@spell 怪物定身术}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiencies",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiencies",
 										"entries": [
-											"當你在1級時選擇此領域，你獲得軍用武器和重甲的熟練。"
+											"当你在1级时选择此领域，你获得军用武器和重甲的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "戰爭祭司", "ENG_name": "War Priest",
+										"name": "战争祭司", "ENG_name": "War Priest",
 										"entries": [
-											"從1級起，你的神在你投身於戰鬥時賦予你激勵。當你使用{@action 攻擊}動作時，你能夠以一個附贈動作進行一次武器攻擊。你可以使用此能力等同於你睿知調整值的次數（最少一次）。你在完成一次長休後恢復所有你花費掉的次數。"
+											"从1级起，你的神在你投身于战斗时赋予你激励。当你使用{@action 攻击}动作时，你能够以一个附赠动作进行一次武器攻击。你可以使用此能力等同于你睿知调整值的次数（最少一次）。你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -1850,9 +1850,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：神導打擊", "ENG_name": "Channel Divinity: Guided Strike",
+										"name": "引导神力：神导打击", "ENG_name": "Channel Divinity: Guided Strike",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以不可思議的準確度猛擊。當你進行一次攻擊檢定時，你可以使用你的引導神力以在該檢定中獲得+10的加值。你在看見擲骰結果之後，但DM說出攻擊是否命中之前決定是否使用此能力。"
+											"从2级开始，你可以使用你的引导神力以不可思议的准确度猛击。当你进行一次攻击检定时，你可以使用你的引导神力以在该检定中获得+10的加值。你在看见掷骰结果之后，但DM说出攻击是否命中之前决定是否使用此能力。"
 										]
 									}
 								]
@@ -1863,9 +1863,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：戰神祝福", "ENG_name": "Channel Divinity: War God's Blessing",
+										"name": "引导神力：战神祝福", "ENG_name": "Channel Divinity: War God's Blessing",
 										"entries": [
-											"在6級時，當一個距離你30呎內的生物進行一次攻擊檢定，你可以使用你的反應以使用你的引導神力，賦予該生物在該攻擊檢定中+10的加值。你在看見擲骰結果之後，但DM說出攻擊是否命中之前決定是否使用此能力。"
+											"在6级时，当一个距离你30呎内的生物进行一次攻击检定，你可以使用你的反应以使用你的引导神力，赋予该生物在该攻击检定中+10的加值。你在看见掷骰结果之后，但DM说出攻击是否命中之前决定是否使用此能力。"
 										]
 									}
 								]
@@ -1876,9 +1876,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將神聖能量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}光耀傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将神圣能量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}光耀伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -1889,9 +1889,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "戰鬥化身", "ENG_name": "Avatar of Battle",
+										"name": "战斗化身", "ENG_name": "Avatar of Battle",
 										"entries": [
-											"在17級時，你獲得對來自非魔法武器所造成的鈍擊、穿刺、和劈砍傷害的抗性。"
+											"在17级时，你获得对来自非魔法武器所造成的钝击、穿刺、和劈砍伤害的抗性。"
 										]
 									}
 								]
@@ -1899,7 +1899,7 @@
 						]
 					],
 					"source": "PHB",
-					"shortName": "戰爭"
+					"shortName": "战争"
 				},
 				{
 					"name": "Forge Domain (UA)",
@@ -1914,8 +1914,8 @@
 										"type": "table",
 										"caption": "Forge Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -1924,23 +1924,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 熾炎斬}, {@spell 護盾術}"
+												"{@spell 炽炎斩}, {@spell 护盾术}"
 											],
 											[
 												"3rd",
-												"{@spell 灼熱金屬}, {@spell 魔化武器}"
+												"{@spell 灼热金属}, {@spell 魔化武器}"
 											],
 											[
 												"5th",
-												"{@spell 元素武器}, {@spell 防護能量}"
+												"{@spell 元素武器}, {@spell 防护能量}"
 											],
 											[
 												"7th",
-												"{@spell 鬼斧神工}, {@spell 火牆術}"
+												"{@spell 鬼斧神工}, {@spell 火墙术}"
 											],
 											[
 												"9th",
-												"{@spell 活化物體}, {@spell 造物術}"
+												"{@spell 活化物体}, {@spell 造物术}"
 											]
 										]
 									},
@@ -2029,20 +2029,20 @@
 					"shortName": "Forge (UA)"
 				},
 				{
-					"name": "鍛造領域", "ENG_name": "Forge Domain",
+					"name": "锻造领域", "ENG_name": "Forge Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "鍛造領域", "ENG_name": "Forge Domain",
+								"name": "锻造领域", "ENG_name": "Forge Domain",
 								"entries": [
-									"鍛造之神是那些與鐵為伍的工匠們的庇護者，守護著從村莊裡打造馬蹄鐵和犁的粗鄙鐵匠，到製作過曾擊敗惡魔領主的鑽石尖秘銀箭的強大精靈工匠。鍛造之神教導人們：即使是最頑劣的金屬，在耐心和努力之下也能被從一團原礦轉變成做工精美的物品。這些神祇的牧師們尋找著因黑暗力量而失落的物品、解放被獸人佔領的礦山、並發掘製造強力魔法物品所必須的奇妙稀有材料。這些神祇的追隨者們以自己的工作自豪，且樂於製造並使用重甲和強力的武器以保護自己。這個領域的神祇包括了{@deity 貢德}、{@deity 李奧克斯|dragonlance}、{@deity 昂那塔|eberron}、{@deity 摩拉丁|nonhuman}、{@deity 赫菲斯托斯|greek}、和{@deity 格布紐|celtic}。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"锻造之神是那些与铁为伍的工匠们的庇护者，守护着从村庄里打造马蹄铁和犁的粗鄙铁匠，到制作过曾击败恶魔领主的钻石尖秘银箭的强大精灵工匠。锻造之神教导人们：即使是最顽劣的金属，在耐心和努力之下也能被从一团原矿转变成做工精美的物品。这些神祇的牧师们寻找着因黑暗力量而失落的物品、解放被兽人占领的矿山、并发掘制造强力魔法物品所必须的奇妙稀有材料。这些神祇的追随者们以自己的工作自豪，且乐于制造并使用重甲和强力的武器以保护自己。这个领域的神祇包括了{@deity 贡德}、{@deity 李奥克斯|dragonlance}、{@deity 昂那塔|eberron}、{@deity 摩拉丁|nonhuman}、{@deity 赫菲斯托斯|greek}、和{@deity 格布纽|celtic}。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "鍛造領域法術",
+										"caption": "锻造领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2051,39 +2051,39 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 鑑定術}, {@spell 熾炎斬}"
+												"{@spell 鉴定术}, {@spell 炽炎斩}"
 											],
 											[
 												"3rd",
-												"{@spell 灼熱金屬}, {@spell 魔化武器}"
+												"{@spell 灼热金属}, {@spell 魔化武器}"
 											],
 											[
 												"5th",
-												"{@spell 元素武器}, {@spell 防護能量}"
+												"{@spell 元素武器}, {@spell 防护能量}"
 											],
 											[
 												"7th",
-												"{@spell 鬼斧神工}, {@spell 火牆術}"
+												"{@spell 鬼斧神工}, {@spell 火墙术}"
 											],
 											[
 												"9th",
-												"{@spell 活化物體}, {@spell 造物術}"
+												"{@spell 活化物体}, {@spell 造物术}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiency",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiency",
 										"entries": [
-											"當你在1級時選擇此領域，你獲得重甲和{@item 鐵匠工具|phb}的熟練。"
+											"当你在1级时选择此领域，你获得重甲和{@item 铁匠工具|phb}的熟练。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "鍛造祝福", "ENG_name": "Blessing of the Forge",
+										"name": "锻造祝福", "ENG_name": "Blessing of the Forge",
 										"entries": [
-											"在1級時，你獲得將魔法注入一把武器或護甲的能力。在一次長休結束時，你可以觸碰一件非魔法護甲或一把非魔法簡易或軍用武器。直到你下一次長休結束或直到你死亡之前，該物品將變成魔法物品，若它是護甲的話則AC獲得+1的加值，或是武器的話則在攻擊檢定和傷害骰中獲得+1的加值。",
-											"一旦你使用此能力，直到你完成一次長休之前你都不能再使用它。"
+											"在1级时，你获得将魔法注入一把武器或护甲的能力。在一次长休结束时，你可以触碰一件非魔法护甲或一把非魔法简易或军用武器。直到你下一次长休结束或直到你死亡之前，该物品将变成魔法物品，若它是护甲的话则AC获得+1的加值，或是武器的话则在攻击检定和伤害骰中获得+1的加值。",
+											"一旦你使用此能力，直到你完成一次长休之前你都不能再使用它。"
 										]
 									}
 								]
@@ -2094,11 +2094,11 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：工匠祝福", "ENG_name": "Channel Divinity: Artisan's Blessing",
+										"name": "引导神力：工匠祝福", "ENG_name": "Channel Divinity: Artisan's Blessing",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以創造簡單的物品。",
-											"你進行一個長達一小時的儀式，用以創造一件必須含有部分金屬的非魔法物品：一把簡易或軍用武器、一件護甲、十發彈藥、一套工具、或是其他金屬物體（參見《玩家手冊》的第五章「裝備」以查閱這些物品的範例）。這個創造過程會在這一小時結束時完成，出現並接合在距離你5呎內一處你所選擇的未被佔據空間的表面上。",
-											"你所創造的物品可以是任何價值不超過100金幣的物品。做為這個儀式的一部份，你必須提供價值等同於創造物的金屬，比如錢幣。這些金屬將在儀式結束時不可逆的接合並轉變融入創造物中，魔法性的形成該創造物的非金屬部分。若你在儀式期間持有一件含有金屬的非魔法物品，則這個儀式可以創造出它的複製品，像是一把鑰匙。"
+											"从2级开始，你可以使用你的引导神力以创造简单的物品。",
+											"你进行一个长达一小时的仪式，用以创造一件必须含有部分金属的非魔法物品：一把简易或军用武器、一件护甲、十发弹药、一套工具、或是其他金属物体（参见《玩家手册》的第五章「装备」以查阅这些物品的范例）。这个创造过程会在这一小时结束时完成，出现并接合在距离你5呎内一处你所选择的未被占据空间的表面上。",
+											"你所创造的物品可以是任何价值不超过100金币的物品。做为这个仪式的一部份，你必须提供价值等同于创造物的金属，比如钱币。这些金属将在仪式结束时不可逆的接合并转变融入创造物中，魔法性的形成该创造物的非金属部分。若你在仪式期间持有一件含有金属的非魔法物品，则这个仪式可以创造出它的复制品，像是一把钥匙。"
 										]
 									}
 								]
@@ -2109,14 +2109,14 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "鍛造之魂", "ENG_name": "Soul of the Forge",
+										"name": "锻造之魂", "ENG_name": "Soul of the Forge",
 										"entries": [
-											"從6級開始，你對鍛造的掌握賦予你特殊的能力：",
+											"从6级开始，你对锻造的掌握赋予你特殊的能力：",
 											{
 												"type": "list",
 												"items": [
-													"你獲得對火焰傷害的抗性。",
-													"當穿戴重甲時，你的AC獲得+1的加值。"
+													"你获得对火焰伤害的抗性。",
+													"当穿戴重甲时，你的AC获得+1的加值。"
 												]
 											}
 										]
@@ -2129,9 +2129,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將鍛造的猛烈力量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}火焰傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将锻造的猛烈力量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}火焰伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -2142,14 +2142,14 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "火與鋼的聖徒", "ENG_name": "Saint of Forge and Fire",
+										"name": "火与钢的圣徒", "ENG_name": "Saint of Forge and Fire",
 										"entries": [
-											"在17級時，你與火和鋼鐵那受祝福的親和性變得更加強大：",
+											"在17级时，你与火和钢铁那受祝福的亲和性变得更加强大：",
 											{
 												"type": "list",
 												"items": [
-													"你免疫於火焰傷害。",
-													"當穿戴重甲時，你獲得對來自非魔法攻擊的鈍擊、穿刺、和劈砍傷害的抗性。"
+													"你免疫于火焰伤害。",
+													"当穿戴重甲时，你获得对来自非魔法攻击的钝击、穿刺、和劈砍伤害的抗性。"
 												]
 											}
 										]
@@ -2159,7 +2159,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "鍛造"
+					"shortName": "锻造"
 				},
 				{
 					"name": "Grave Domain (UA)",
@@ -2174,8 +2174,8 @@
 										"type": "table",
 										"caption": "Grave Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2184,23 +2184,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 災禍術}, {@spell 摹造生命}"
+												"{@spell 灾祸术}, {@spell 摹造生命}"
 											],
 											[
 												"3rd",
-												"{@spell 遺體防腐}, {@spell 衰弱射線}"
+												"{@spell 遗体防腐}, {@spell 衰弱射线}"
 											],
 											[
 												"5th",
-												"{@spell 回生術}, {@spell 吸血鬼之觸}"
+												"{@spell 回生术}, {@spell 吸血鬼之触}"
 											],
 											[
 												"7th",
-												"{@spell 枯萎術}, {@spell 防死護咒}"
+												"{@spell 枯萎术}, {@spell 防死护咒}"
 											],
 											[
 												"9th",
-												"{@spell 反活物護罩}, {@spell 喚醒死者}"
+												"{@spell 反活物护罩}, {@spell 唤醒死者}"
 											]
 										]
 									},
@@ -2301,8 +2301,8 @@
 										"type": "table",
 										"caption": "Protection Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2311,23 +2311,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 強迫決鬥}, {@spell 防護善惡}"
+												"{@spell 强迫决斗}, {@spell 防护善恶}"
 											],
 											[
 												"3rd",
-												"{@spell 援助術}, {@spell 防護毒素}"
+												"{@spell 援助术}, {@spell 防护毒素}"
 											],
 											[
 												"5th",
-												"{@spell 防護能量}, {@spell 緩速術}"
+												"{@spell 防护能量}, {@spell 缓速术}"
 											],
 											[
 												"7th",
-												"{@spell 虔誠守衛}, {@spell 歐提路克魔封法球}"
+												"{@spell 虔诚守卫}, {@spell 欧提路克魔封法球}"
 											],
 											[
 												"9th",
-												"{@spell 反活物護罩}, {@spell 力牆術}"
+												"{@spell 反活物护罩}, {@spell 力墙术}"
 											]
 										]
 									},
@@ -2420,8 +2420,8 @@
 										"type": "table",
 										"caption": "Solidarity Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2430,23 +2430,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 祝福術}, {@spell 光導箭}"
+												"{@spell 祝福术}, {@spell 光导箭}"
 											],
 											[
 												"3rd",
-												"{@spell 援助術}, {@spell 守護聯結}"
+												"{@spell 援助术}, {@spell 守护联结}"
 											],
 											[
 												"5th",
-												"{@spell 希望信標}, {@spell 十字軍斗篷}"
+												"{@spell 希望信标}, {@spell 十字军斗篷}"
 											],
 											[
 												"7th",
-												"{@spell 生命靈光}, {@spell 虔誠守衛}"
+												"{@spell 生命灵光}, {@spell 虔诚守卫}"
 											],
 											[
 												"9th",
-												"{@spell 威能法環}, {@spell 群體治療傷勢}"
+												"{@spell 威能法环}, {@spell 群体治疗伤势}"
 											]
 										]
 									},
@@ -2538,8 +2538,8 @@
 										"type": "table",
 										"caption": "Strength Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2548,23 +2548,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 神恩術}, {@spell 虔誠護盾}"
+												"{@spell 神恩术}, {@spell 虔诚护盾}"
 											],
 											[
 												"3rd",
-												"{@spell 強化屬性}, {@spell 防護毒素}"
+												"{@spell 强化属性}, {@spell 防护毒素}"
 											],
 											[
 												"5th",
-												"{@spell 加速術}, {@spell 防護能量}"
+												"{@spell 加速术}, {@spell 防护能量}"
 											],
 											[
 												"7th",
-												"{@spell 支配野獸}, {@spell 石膚術}"
+												"{@spell 支配野兽}, {@spell 石肤术}"
 											],
 											[
 												"9th",
-												"{@spell 湮滅波}, {@spell 疫病蟲群}"
+												"{@spell 湮灭波}, {@spell 疫病虫群}"
 											]
 										]
 									},
@@ -2655,8 +2655,8 @@
 										"type": "table",
 										"caption": "Ambition Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2665,23 +2665,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 災禍術}, {@spell 易容術}"
+												"{@spell 灾祸术}, {@spell 易容术}"
 											],
 											[
 												"3rd",
-												"{@spell 鏡影術}, {@spell 衰弱射線}"
+												"{@spell 镜影术}, {@spell 衰弱射线}"
 											],
 											[
 												"5th",
-												"{@spell 降咒}, {@spell 吸血鬼之觸}"
+												"{@spell 降咒}, {@spell 吸血鬼之触}"
 											],
 											[
 												"7th",
-												"{@spell 防死護咒}, {@spell 次元門}"
+												"{@spell 防死护咒}, {@spell 次元门}"
 											],
 											[
 												"9th",
-												"{@spell 支配人類}, {@spell 修改記憶}"
+												"{@spell 支配人类}, {@spell 修改记忆}"
 											]
 										]
 									},
@@ -2768,8 +2768,8 @@
 										"type": "table",
 										"caption": "Zeal Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2778,7 +2778,7 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 熾炎斬}, {@spell 雷霆斬}"
+												"{@spell 炽炎斩}, {@spell 雷霆斩}"
 											],
 											[
 												"3rd",
@@ -2786,15 +2786,15 @@
 											],
 											[
 												"5th",
-												"{@spell 加速術}, {@spell 火球術}"
+												"{@spell 加速术}, {@spell 火球术}"
 											],
 											[
 												"7th",
-												"{@spell 火焰護盾|PHB|火焰護盾(限定溫暖護盾)}, {@spell 行動自如術}"
+												"{@spell 火焰护盾|PHB|火焰护盾(限定温暖护盾)}, {@spell 行动自如术}"
 											],
 											[
 												"9th",
-												"{@spell 湮滅波}, {@spell 焰擊術}"
+												"{@spell 湮灭波}, {@spell 焰击术}"
 											]
 										]
 									},
@@ -2876,19 +2876,19 @@
 					"shortName": "Zeal (PSA)"
 				},
 				{
-					"name": "墳墓領域", "ENG_name": "Grave Domain",
+					"name": "坟墓领域", "ENG_name": "Grave Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "墳墓領域", "ENG_name": "Grave Domain",
+								"name": "坟墓领域", "ENG_name": "Grave Domain",
 								"entries": [
-									"墳墓領域的諸神俯瞰生死之間的界線。對這些神祇而言，死亡和來生是構成多元宇宙的一部分。褻瀆亡者死後的寧靜是不可饒恕的重罪。墳墓領域的神祇包括了{@deity 凱蘭沃}、{@deity 維婕絲|greyhawk}、{@deity 不朽評議會|eberron}的先祖諸靈、{@deity 哈帝斯|greek}、{@deity 阿努比斯|egyptian}、和{@deity 歐西里斯|egyptian}。這些神祇的追隨者追求著讓徬徨的靈魂安息、摧毀不死生物、安撫垂死之人的痛苦。他們的魔法也讓他們得以在一段時間內避免死亡，特別是那些在世界上仍有重大偉業等待他們完成的人們。這僅僅是延遲死亡，而非否定它，因為死亡終將來到。",
+									"坟墓领域的诸神俯瞰生死之间的界线。对这些神祇而言，死亡和来生是构成多元宇宙的一部分。亵渎亡者死后的宁静是不可饶恕的重罪。坟墓领域的神祇包括了{@deity 凯兰沃}、{@deity 维婕丝|greyhawk}、{@deity 不朽评议会|eberron}的先祖诸灵、{@deity 哈帝斯|greek}、{@deity 阿努比斯|egyptian}、和{@deity 欧西里斯|egyptian}。这些神祇的追随者追求着让徬徨的灵魂安息、摧毁不死生物、安抚垂死之人的痛苦。他们的魔法也让他们得以在一段时间内避免死亡，特别是那些在世界上仍有重大伟业等待他们完成的人们。这仅仅是延迟死亡，而非否定它，因为死亡终将来到。",
 									{
 										"type": "table",
-										"caption": "墳墓領域法術",
+										"caption": "坟墓领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -2897,40 +2897,40 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 災禍術}, {@spell 摹造生命}"
+												"{@spell 灾祸术}, {@spell 摹造生命}"
 											],
 											[
 												"3rd",
-												"{@spell 遺體防腐}, {@spell 衰弱射線}"
+												"{@spell 遗体防腐}, {@spell 衰弱射线}"
 											],
 											[
 												"5th",
-												"{@spell 回生術}, {@spell 吸血鬼之觸}"
+												"{@spell 回生术}, {@spell 吸血鬼之触}"
 											],
 											[
 												"7th",
-												"{@spell 枯萎術}, {@spell 防死護咒}"
+												"{@spell 枯萎术}, {@spell 防死护咒}"
 											],
 											[
 												"9th",
-												"{@spell 反活物護罩}, {@spell 喚醒死者}"
+												"{@spell 反活物护罩}, {@spell 唤醒死者}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "凡命循環", "ENG_name": "Circle of Mortality",
+										"name": "凡命循环", "ENG_name": "Circle of Mortality",
 										"entries": [
-											"在1級時，你獲得操縱生死間界線的能力。當你原本需要骰一顆或以上的骰子以決定使用法術回復一個生命值為0的生物的生命值時，你改為使用每顆骰子的最大值。",
-											"此外，你學會{@spell 拯救瀕死}戲法，它並不會計入你已知的牧師戲法數量中。對你而言，它具有30呎的射程，且你能夠以一個附贈動作施放它。"
+											"在1级时，你获得操纵生死间界线的能力。当你原本需要骰一颗或以上的骰子以决定使用法术回复一个生命值为0的生物的生命值时，你改为使用每颗骰子的最大值。",
+											"此外，你学会{@spell 拯救濒死}戏法，它并不会计入你已知的牧师戏法数量中。对你而言，它具有30呎的射程，且你能够以一个附赠动作施放它。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "墳墓之眼", "ENG_name": "Eyes of the Grave",
+										"name": "坟墓之眼", "ENG_name": "Eyes of the Grave",
 										"entries": [
-											"在1級時，你獲得能偶爾感知到不死生物存在的能力，它們的存在本身即為對自然生命循環的褻瀆。以一個動作，你可以擴張你的意識以用魔法偵測不死生物。直到你的下個回合結束前，你知曉任何距離你60呎內，未處於全掩護，且不被保護於受預言系法術作用的不死生物的位置。這個感知不會告訴你任何關於該生物能力或身分的情報。",
-											"你可以使用這個能力的次數等同於你的睿知調整值（最少一次）。你在完成一次長休後恢復所有你花費掉的次數。"
+											"在1级时，你获得能偶尔感知到不死生物存在的能力，它们的存在本身即为对自然生命循环的亵渎。以一个动作，你可以扩张你的意识以用魔法侦测不死生物。直到你的下个回合结束前，你知晓任何距离你60呎内，未处于全掩护，且不被保护于受预言系法术作用的不死生物的位置。这个感知不会告诉你任何关于该生物能力或身分的情报。",
+											"你可以使用这个能力的次数等同于你的睿知调整值（最少一次）。你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -2941,10 +2941,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：歸墓之途", "ENG_name": "Channel Divinity: Path to the Grave",
+										"name": "引导神力：归墓之途", "ENG_name": "Channel Divinity: Path to the Grave",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以對另一個生物標記使其生命終止的力量。",
-											"以一個動作，你選擇一個距離你30呎內且你所能看見的生物，詛咒它直到你的下個回合結束。下一次你或你的一個盟友以一次攻擊命中受詛咒生物時，該生物將對該攻擊的所有傷害具有易傷，接著此詛咒將結束。"
+											"从2级开始，你可以使用你的引导神力以对另一个生物标记使其生命终止的力量。",
+											"以一个动作，你选择一个距离你30呎内且你所能看见的生物，诅咒它直到你的下个回合结束。下一次你或你的一个盟友以一次攻击命中受诅咒生物时，该生物将对该攻击的所有伤害具有易伤，接着此诅咒将结束。"
 										]
 									}
 								]
@@ -2955,10 +2955,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "死之門的哨衛", "ENG_name": "Sentinel at Death's Door",
+										"name": "死之门的哨卫", "ENG_name": "Sentinel at Death's Door",
 										"entries": [
-											"在6級時，你獲得阻礙死亡進展的能力。當你或一個距離你30呎內你所能看見的生物受到一次重擊，以一個反應，你可以將該重擊變為普通命中。任何因重擊而觸發的效果都將被取消。",
-											"你可以使用這個能力的次數等同於你的睿知調整值（最少一次）。你在完成一次長休後恢復所有你花費掉的次數。"
+											"在6级时，你获得阻碍死亡进展的能力。当你或一个距离你30呎内你所能看见的生物受到一次重击，以一个反应，你可以将该重击变为普通命中。任何因重击而触发的效果都将被取消。",
+											"你可以使用这个能力的次数等同于你的睿知调整值（最少一次）。你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -2969,9 +2969,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "強力施法", "ENG_name": "Potent Spellcasting",
+										"name": "强力施法", "ENG_name": "Potent Spellcasting",
 										"entries": [
-											"從8級開始，你將你的睿知調整值加入任何你使用牧師戲法所造成的傷害中。"
+											"从8级开始，你将你的睿知调整值加入任何你使用牧师戏法所造成的伤害中。"
 										]
 									}
 								]
@@ -2984,7 +2984,7 @@
 										"type": "entries",
 										"name": "守魂者", "ENG_name": "Keeper of Souls",
 										"entries": [
-											"從17級開始，你可以抓住來自亡魂中的一絲生命力來治癒生者。當一個距離你60呎內且你所能看見的敵人死亡，你或一個你所選且距離你60呎內的生物將回復等同於該敵人的生命骰數量的生命值。你只能在你不處於{@condition 無力}狀態時使用這個能力。一旦你使用它，直到你的下的回合開始之前你都不能再這麼做。"
+											"从17级开始，你可以抓住来自亡魂中的一丝生命力来治愈生者。当一个距离你60呎内且你所能看见的敌人死亡，你或一个你所选且距离你60呎内的生物将回复等同于该敌人的生命骰数量的生命值。你只能在你不处于{@condition 无力}状态时使用这个能力。一旦你使用它，直到你的下的回合开始之前你都不能再这么做。"
 										]
 									}
 								]
@@ -2992,7 +2992,7 @@
 						]
 					],
 					"source": "XGE",
-					"shortName": "墳墓"
+					"shortName": "坟墓"
 				},
 				{
 					"name": "Order Domain (UA)",
@@ -3004,13 +3004,13 @@
 									"The Order domain represents discipline, as well as service to a society or an institution, whether that service is rendered in obedience to or enforcement of the law\u2014civil, religious, or both. Gods on many worlds grant access to this domain, including Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.",
 									"The ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their deities.",
 									"More importantly, law establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
 										"caption": "Order Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -3019,23 +3019,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 命令術}, {@spell 英雄氣概}"
+												"{@spell 命令术}, {@spell 英雄气概}"
 											],
 											[
 												"3rd",
-												"{@spell 強化屬性}, {@spell 人類定身術}"
+												"{@spell 强化属性}, {@spell 人类定身术}"
 											],
 											[
 												"5th",
-												"{@spell 群體治癒真言}, {@spell 緩速術}"
+												"{@spell 群体治愈真言}, {@spell 缓速术}"
 											],
 											[
 												"7th",
-												"{@spell 強迫術}, {@spell 生物定位術}"
+												"{@spell 强迫术}, {@spell 生物定位术}"
 											],
 											[
 												"9th",
-												"{@spell 通神術}, {@spell 支配人類}"
+												"{@spell 通神术}, {@spell 支配人类}"
 											]
 										]
 									},
@@ -3123,13 +3123,13 @@
 								"entries": [
 									"{@i [{@b Note: this subclass is likely not intended as official content:} \"For the curious, when building stuff for my own campaign I kind of don't care about balance. Anything I can break in design I can counterbreak five times as bad during a session, as needed. Plus, IMO stuff going sideways and weird is why I play the game.\"\u2014{@link Mike Mearls|https://twitter.com/mikemearls/status/1015752965213204480}]}",
 									"Custom built for clerics of Zehir, and perhaps Lolth.",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
 										"caption": "Darkness Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -3138,23 +3138,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 哈達之臂}, {@spell 脆弱詛咒}"
+												"{@spell 哈达之臂}, {@spell 脆弱诅咒}"
 											],
 											[
 												"3rd",
-												"{@spell 目盲/耳聾術}, {@spell 黑暗術}"
+												"{@spell 目盲/耳聋术}, {@spell 黑暗术}"
 											],
 											[
 												"5th",
-												"{@spell 恐懼術}, {@spell 吸血鬼之觸}"
+												"{@spell 恐惧术}, {@spell 吸血鬼之触}"
 											],
 											[
 												"7th",
-												"{@spell 枯萎術}, {@spell 艾伐黑觸手}"
+												"{@spell 枯萎术}, {@spell 艾伐黑触手}"
 											],
 											[
 												"9th",
-												"{@spell 疫病術}, {@spell 汲能術|xge}"
+												"{@spell 疫病术}, {@spell 汲能术|xge}"
 											]
 										]
 									},
@@ -3242,13 +3242,13 @@
 								"entries": [
 									"{@i [{@b Note: this subclass is likely not intended as official content:} \"For the curious, when building stuff for my own campaign I kind of don't care about balance. Anything I can break in design I can counterbreak five times as bad during a session, as needed. Plus, IMO stuff going sideways and weird is why I play the game.\"\u2014{@link Mike Mearls|https://twitter.com/mikemearls/status/1015752965213204480}]}",
 									"Custom built for clerics of Gruumsh, and perhaps Tiamat.",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
 										"caption": "Destruction Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -3257,23 +3257,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 造成傷勢}, {@spell 激憤斬}"
+												"{@spell 造成伤势}, {@spell 激愤斩}"
 											],
 											[
 												"3rd",
-												"{@spell 變巨/縮小術}, {@spell 粉碎音波}"
+												"{@spell 变巨/缩小术}, {@spell 粉碎音波}"
 											],
 											[
 												"5th",
-												"{@spell 火球術}, {@spell 閃電束}"
+												"{@spell 火球术}, {@spell 闪电束}"
 											],
 											[
 												"7th",
-												"{@spell 冰風暴}, {@spell 驚震斬}"
+												"{@spell 冰风暴}, {@spell 惊震斩}"
 											],
 											[
 												"9th",
-												"{@spell 死雲術}, {@spell 湮滅波}"
+												"{@spell 死云术}, {@spell 湮灭波}"
 											]
 										]
 									},
@@ -3363,13 +3363,13 @@
 									"{@i [{@b Note: this subclass is likely not intended as official content:} \"For the curious, when building stuff for my own campaign I kind of don't care about balance. Anything I can break in design I can counterbreak five times as bad during a session, as needed. Plus, IMO stuff going sideways and weird is why I play the game.\"\u2014{@link Mike Mearls|https://twitter.com/mikemearls/status/1015752965213204480}]}",
 									"Beauty can both bend minds and inspire hearts. It is the force that compels others to lose control and give in to their impulses, but it can also awaken strength and determination to steel a forlorn heart.",
 									"Clerics of Beauty bring joy and hope to the world. They are the beacon of light that reminds us that some things are worth fighting for. They seek to bring peace and amity among the world's folk. They fight only when they must, and prefer to use their magic to end fights with as little bloodshed as possible.",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
 										"caption": "Beauty Domain Spells",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -3378,23 +3378,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 魅惑人類}, {@spell 英雄氣概} "
+												"{@spell 魅惑人类}, {@spell 英雄气概} "
 											],
 											[
 												"3rd",
-												"{@spell 注目術}, {@spell 暗示術} "
+												"{@spell 注目术}, {@spell 暗示术} "
 											],
 											[
 												"5th",
-												"{@spell 希望信標}, {@spell 催眠圖紋} "
+												"{@spell 希望信标}, {@spell 催眠图纹} "
 											],
 											[
 												"7th",
-												"{@spell 魅惑怪物|xge}, {@spell 強迫術}"
+												"{@spell 魅惑怪物|xge}, {@spell 强迫术}"
 											],
 											[
 												"9th",
-												"{@spell 支配人類}, {@spell 怪物定身術}"
+												"{@spell 支配人类}, {@spell 怪物定身术}"
 											]
 										]
 									},
@@ -3478,22 +3478,22 @@
 					"shortName": "Beauty (Twitter)"
 				},
 				{
-					"name": "秩序領域", "ENG_name": "Order Domain",
+					"name": "秩序领域", "ENG_name": "Order Domain",
 					"subclassFeatures": [
 						[
 							{
-								"name": "秩序領域", "ENG_name": "Order Domain",
+								"name": "秩序领域", "ENG_name": "Order Domain",
 								"entries": [
-									"秩序領域代表著紀律，對一個社會或制度的忠誠、以及對其統治法律的嚴格服從。在拉尼卡，這個領域被俄佐立參議會和歐佐夫集團的牧師所青睞，前者用它來維持並執行律法，後者則利用律法和秩序以謀取私利。在其他的世界，掌管這個領域的神祇包括了{@deity 班恩}、{@deity 提爾}、{@deity 馬哲理|dragonlance}、{@deity Erathis|dawn war|dmg}、{@deity 佛塔斯|greyhawk}、{@deity 維婕絲|greyhawk}、{@deity 奥林|eberron}、{@deity 瑪格魯比耶|nonhuman}、{@deity 努亞達|celtic}、{@deity 雅典娜|greek}、{@deity 阿努比斯|egyptian}、{@deity 凡賽堤|norse}、和{@deity Asmodeus|faerûnian|scag}。",
-									"秩序的理想是將法律的服從視作高於一切，而非服從於特定個人、情感的暫時影響、或是民眾的統治。秩序領域的牧師通常較關心事情是如何被完成，而非一個行動的結果是否公正。遵循律法並服從其法令相當重要，尤其是當它能使這些牧師和他們的公會或神祇受益時更是如此。",
-									"法律建立了階級。那些透過法律被揀選於領導大眾的人們必須被服從。藉由這個方式，法律創造出了一道錯綜複雜的責任之網，讓社會得以在混亂的多元宇宙中建立秩序與安全。",
-									"在每個下記的牧師等級，將列出的法術加入你的準備法術中。",
+									"秩序领域代表着纪律，对一个社会或制度的忠诚、以及对其统治法律的严格服从。在拉尼卡，这个领域被俄佐立参议会和欧佐夫集团的牧师所青睐，前者用它来维持并执行律法，后者则利用律法和秩序以谋取私利。在其他的世界，掌管这个领域的神祇包括了{@deity 班恩}、{@deity 提尔}、{@deity 马哲理|dragonlance}、{@deity Erathis|dawn war|dmg}、{@deity 佛塔斯|greyhawk}、{@deity 维婕丝|greyhawk}、{@deity 奥林|eberron}、{@deity 玛格鲁比耶|nonhuman}、{@deity 努亚达|celtic}、{@deity 雅典娜|greek}、{@deity 阿努比斯|egyptian}、{@deity 凡赛堤|norse}、和{@deity Asmodeus|faerûnian|scag}。",
+									"秩序的理想是将法律的服从视作高于一切，而非服从于特定个人、情感的暂时影响、或是民众的统治。秩序领域的牧师通常较关心事情是如何被完成，而非一个行动的结果是否公正。遵循律法并服从其法令相当重要，尤其是当它能使这些牧师和他们的公会或神祇受益时更是如此。",
+									"法律建立了阶级。那些透过法律被拣选于领导大众的人们必须被服从。借由这个方式，法律创造出了一道错综复杂的责任之网，让社会得以在混乱的多元宇宙中建立秩序与安全。",
+									"在每个下记的牧师等级，将列出的法术加入你的准备法术中。",
 									{
 										"type": "table",
-										"caption": "秩序領域法術",
+										"caption": "秩序领域法术",
 										"colLabels": [
-											"牧師等級",
-											"法術"
+											"牧师等级",
+											"法术"
 										],
 										"colStyles": [
 											"col-3 text-align-center",
@@ -3502,39 +3502,39 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell 命令術}, {@spell 英雄氣概}"
+												"{@spell 命令术}, {@spell 英雄气概}"
 											],
 											[
 												"3rd",
-												"{@spell 人類定身術}, {@spell 誠實之域}"
+												"{@spell 人类定身术}, {@spell 诚实之域}"
 											],
 											[
 												"5th",
-												"{@spell 群體治癒真言}, {@spell 緩速術}"
+												"{@spell 群体治愈真言}, {@spell 缓速术}"
 											],
 											[
 												"7th",
-												"{@spell 強迫術}, {@spell 生物定位術}"
+												"{@spell 强迫术}, {@spell 生物定位术}"
 											],
 											[
 												"9th",
-												"{@spell 通神術}, {@spell 支配人類}"
+												"{@spell 通神术}, {@spell 支配人类}"
 											]
 										]
 									},
 									{
 										"type": "entries",
-										"name": "額外熟練", "ENG_name": "Bonus Proficiencies",
+										"name": "额外熟练", "ENG_name": "Bonus Proficiencies",
 										"entries": [
-											"當你在1級時選擇此領域，你獲得重甲的熟練。你也獲得{@skill 威嚇}或{@skill 說服}技能的熟練（由你選擇）。"
+											"当你在1级时选择此领域，你获得重甲的熟练。你也获得{@skill 威吓}或{@skill 说服}技能的熟练（由你选择）。"
 										]
 									},
 									{
 										"type": "entries",
-										"name": "權威之音", "ENG_name": "Voice of Authority",
+										"name": "权威之音", "ENG_name": "Voice of Authority",
 										"entries": [
-											"從1級開始，你可以呼喚律法的力量以驅使一個盟友進行攻擊。若你以一個1環或更高環的法術位施放一個法術，並指定一個盟友做為該法術的目標，則該盟友可以在法術後立即使用它的反應，對一個你所選且你能看見的生物進行一次武器攻擊。",
-											"若該法術指定了多於一個盟友做為目標，則你選擇一個可以進行攻擊的盟友。"
+											"从1级开始，你可以呼唤律法的力量以驱使一个盟友进行攻击。若你以一个1环或更高环的法术位施放一个法术，并指定一个盟友做为该法术的目标，则该盟友可以在法术后立即使用它的反应，对一个你所选且你能看见的生物进行一次武器攻击。",
+											"若该法术指定了多于一个盟友做为目标，则你选择一个可以进行攻击的盟友。"
 										]
 									}
 								]
@@ -3545,10 +3545,10 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "引導神力：秩序之令", "ENG_name": "Channel Divinity: Order's Demand",
+										"name": "引导神力：秩序之令", "ENG_name": "Channel Divinity: Order's Demand",
 										"entries": [
-											"從2級開始，你可以使用你的引導神力以對他人展現令人生畏的姿態。",
-											"以一個動作，你展現你的聖徽，且每個距離你30呎內，你所選且能看見或聽見你的生物必須成功通過一次睿知豁免，否則將被你{@condition 魅惑}直到你的下個回合結束，或直到被{@condition 魅惑}的生物受到任何傷害。你也可以讓任何被{@condition 魅惑}的生物在此豁免失敗時脫手掉落任何它們正持握的東西。"
+											"从2级开始，你可以使用你的引导神力以对他人展现令人生畏的姿态。",
+											"以一个动作，你展现你的圣徽，且每个距离你30呎内，你所选且能看见或听见你的生物必须成功通过一次睿知豁免，否则将被你{@condition 魅惑}直到你的下个回合结束，或直到被{@condition 魅惑}的生物受到任何伤害。你也可以让任何被{@condition 魅惑}的生物在此豁免失败时脱手掉落任何它们正持握的东西。"
 										]
 									}
 								]
@@ -3561,9 +3561,9 @@
 										"type": "entries",
 										"name": "律法化身", "ENG_name": "Embodiment of the Law",
 										"entries": [
-											"在6級時，你變得相當熟練於引導魔法能量以強迫他人。",
-											"若你使用一個1環或更高環的法術位施放一個惑控學派的法術，只要該法術原本的施法時間為1個動作，你就可以將該法術的施法時間變為1個附贈動作。",
-											"你可以使用這個能力的次數等同於你的睿知調整值（最少一次），且你在完成一次長休後恢復所有你花費掉的次數。"
+											"在6级时，你变得相当熟练于引导魔法能量以强迫他人。",
+											"若你使用一个1环或更高环的法术位施放一个惑控学派的法术，只要该法术原本的施法时间为1个动作，你就可以将该法术的施法时间变为1个附赠动作。",
+											"你可以使用这个能力的次数等同于你的睿知调整值（最少一次），且你在完成一次长休后恢复所有你花费掉的次数。"
 										]
 									}
 								]
@@ -3574,9 +3574,9 @@
 								"entries": [
 									{
 										"type": "entries",
-										"name": "神聖打擊", "ENG_name": "Divine Strike",
+										"name": "神圣打击", "ENG_name": "Divine Strike",
 										"entries": [
-											"在8級時，你獲得將神聖能量注入你武器打擊的能力。在你的每個回合一次，當你使用一次武器攻擊命中一個生物時，你可以使該攻擊對目標造成額外的{@dice 1d8}精神傷害。當你升至14級時，這個額外傷害增加至{@dice 2d8}。"
+											"在8级时，你获得将神圣能量注入你武器打击的能力。在你的每个回合一次，当你使用一次武器攻击命中一个生物时，你可以使该攻击对目标造成额外的{@dice 1d8}精神伤害。当你升至14级时，这个额外伤害增加至{@dice 2d8}。"
 										]
 									}
 								]
@@ -3589,7 +3589,7 @@
 										"type": "entries",
 										"name": "秩序之怒", "ENG_name": "Order's Wrath",
 										"entries": [
-											"從17級開始，你所指定要毀滅的敵人將在你和你盟友的共同努力下凋零殆盡。若你在你的回合對一個生物造成你神聖打擊的傷害，你可以詛咒該生物，持續直到你的下個回合開始。下一次你的盟友以一次攻擊命中受詛咒生物時，目標將同時受到{@dice 2d8}精神傷害，接著此詛咒將結束。你在每個回合用這個方式只能詛咒一個生物。"
+											"从17级开始，你所指定要毁灭的敌人将在你和你盟友的共同努力下凋零殆尽。若你在你的回合对一个生物造成你神圣打击的伤害，你可以诅咒该生物，持续直到你的下个回合开始。下一次你的盟友以一次攻击命中受诅咒生物时，目标将同时受到{@dice 2d8}精神伤害，接着此诅咒将结束。你在每个回合用这个方式只能诅咒一个生物。"
 										]
 									}
 								]

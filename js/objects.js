@@ -136,13 +136,13 @@ function loadhash (jsonIndex) {
 	$content.append(`
 		${Renderer.utils.getBorderTr()}
 		${Renderer.utils.getNameTr(obj)}
-		<tr class="text"><td colspan="6"><i>${obj.type !== "GEN" ? `${Parser.sizeAbvToFull(obj.size)} 物體` : `可變尺寸 物體`}</i><br></td></tr>
+		<tr class="text"><td colspan="6"><i>${obj.type !== "GEN" ? `${Parser.sizeAbvToFull(obj.size)} 物体` : `可变尺寸 物体`}</i><br></td></tr>
 		<tr class="text"><td colspan="6">
-			<b>護甲等級：</b> ${obj.ac}<br>
+			<b>护甲等级：</b> ${obj.ac}<br>
 			<b>生命值：</b> ${obj.hp}<br>
-			<b>傷害免疫：</b> ${obj.immune=="Varies (see below)"?"可變(見下)":Parser.monImmResToFull(obj.immune.split(", "))}<br>
-			${obj.resist ? `<b>傷害抗性：</b> ${Parser.monImmResToFull(obj.resist.split(", "))}<br>` : ""}
-			${obj.vulnerable ? `<b>傷害易傷：</b> ${Parser.monImmResToFull(obj.vulnerable.split(", "))}<br>` : ""}
+			<b>伤害免疫：</b> ${obj.immune=="Varies (see below)"?"可变(见下)":Parser.monImmResToFull(obj.immune.split(", "))}<br>
+			${obj.resist ? `<b>伤害抗性：</b> ${Parser.monImmResToFull(obj.resist.split(", "))}<br>` : ""}
+			${obj.vulnerable ? `<b>伤害易伤：</b> ${Parser.monImmResToFull(obj.vulnerable.split(", "))}<br>` : ""}
 		</td></tr>
 		<tr class="text"><td colspan="6">${renderStack.join("")}</td></tr>
 		${Renderer.utils.getPageTr(obj)}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>怪物圖鑑 - 5etools</title>
+	<title>怪物图鉴 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -117,8 +117,8 @@
 <div class="viewport-wrapper">
 	<header class="hidden-xs hidden-sm page__header">
 		<div class="container">
-			<h1 class="page__title">怪物圖鑑</h1>
-			<p class="page__subtitle">使用左側的名稱搜尋，點擊怪物名稱以在右側顯示。</p>
+			<h1 class="page__title">怪物图鉴</h1>
+			<p class="page__subtitle">使用左侧的名称搜寻，点击怪物名称以在右侧显示。</p>
 		</div>
 	</header>
 	<nav class="container page__nav" id="navigation">
@@ -132,17 +132,17 @@
 	<div class="container view-col-wrapper">
 		<div class="view-col" id="listcontainer">
 			<div class="input-group" id="filter-search-input-group">
-				<input type="search" id="search" class="search form-control" placeholder="搜尋怪物...">
+				<input type="search" id="search" class="search form-control" placeholder="搜寻怪物...">
 				<span class="input-group-btn">
 						<button class="btn btn-default" id="reset">重置</button>
 					</span>
 			</div>
 
 			<div id="filtertools" class="sortlabel btn-group">
-				<button class="col-4-2 sort btn btn-default btn-xs" data-sort="name">名稱<span class="caret_wrp"></span></button>
-				<button class="col-4-1 sort btn btn-default btn-xs" data-sort="type">類型<span class="caret_wrp"></span></button>
+				<button class="col-4-2 sort btn btn-default btn-xs" data-sort="name">名称<span class="caret_wrp"></span></button>
+				<button class="col-4-1 sort btn btn-default btn-xs" data-sort="type">类型<span class="caret_wrp"></span></button>
 				<button class="col-1-7 sort btn btn-default btn-xs" data-sort="cr">CR<span class="caret_wrp"></span></button>
-				<button class="col-2 sort btn btn-default btn-xs" data-sort="source">資源<span class="caret_wrp"></span></button>
+				<button class="col-2 sort btn btn-default btn-xs" data-sort="source">资源<span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list monsters">
@@ -182,28 +182,28 @@
 				<div class="row">
 					<div class="col-12 text-align-right">
 						<div class="btn-group mr-3">
-							<button class="btn btn-primary ecgen_rng" data-mode="medium" style="min-width: 135px;" title="Randomly generate a Medium encounter">隨機中等難度</button>
+							<button class="btn btn-primary ecgen_rng" data-mode="medium" style="min-width: 135px;" title="Randomly generate a Medium encounter">随机中等难度</button>
 							<button class="btn btn-primary dropdown-toggle" id="ecgen_dropdown_rng">
 								<span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li class="ecgen_rng_easy" title="Randomly generate an Easy encounter"><a href="#">隨機容易難度</a></li>
-								<li class="ecgen_rng_medium" title="Randomly generate a Medium encounter"><a href="#">隨機中等難度</a></li>
-								<li class="ecgen_rng_hard" title="Randomly generate a Hard encounter"><a href="#">隨機困難難度</a></li>
-								<li class="ecgen_rng_deadly" title="Randomly generate a Deadly encounter"><a href="#">隨機致命難度</a></li>
+								<li class="ecgen_rng_easy" title="Randomly generate an Easy encounter"><a href="#">随机容易难度</a></li>
+								<li class="ecgen_rng_medium" title="Randomly generate a Medium encounter"><a href="#">随机中等难度</a></li>
+								<li class="ecgen_rng_hard" title="Randomly generate a Hard encounter"><a href="#">随机困难难度</a></li>
+								<li class="ecgen_rng_deadly" title="Randomly generate a Deadly encounter"><a href="#">随机致命难度</a></li>
 							</ul>
 						</div>
 
 						<div class="btn-group">
-							<button class="btn btn-primary ecgen_adj" data-mode="medium" style="min-width: 135px;" title="Adjust the current encounter difficulty to Medium">調整至中等難度</button>
+							<button class="btn btn-primary ecgen_adj" data-mode="medium" style="min-width: 135px;" title="Adjust the current encounter difficulty to Medium">调整至中等难度</button>
 							<button class="btn btn-primary dropdown-toggle" id="ecgen_dropdown_adj">
 								<span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
-								<li class="ecgen_adj_easy" title="Adjust the current encounter difficulty to Easy"><a href="#">調整至容易難度</a></li>
-								<li class="ecgen_adj_medium" title="Adjust the current encounter difficulty to Medium"><a href="#">調整至中等難度</a></li>
-								<li class="ecgen_adj_hard" title="Adjust the current encounter difficulty to Hard"><a href="#">調整至困難難度</a></li>
-								<li class="ecgen_adj_deadly" title="Adjust the current encounter difficulty to Deadly"><a href="#">調整至致命難度</a></li>
+								<li class="ecgen_adj_easy" title="Adjust the current encounter difficulty to Easy"><a href="#">调整至容易难度</a></li>
+								<li class="ecgen_adj_medium" title="Adjust the current encounter difficulty to Medium"><a href="#">调整至中等难度</a></li>
+								<li class="ecgen_adj_hard" title="Adjust the current encounter difficulty to Hard"><a href="#">调整至困难难度</a></li>
+								<li class="ecgen_adj_deadly" title="Adjust the current encounter difficulty to Deadly"><a href="#">调整至致命难度</a></li>
 							</ul>
 						</div>
 					</div>
@@ -212,11 +212,11 @@
 
 			<div id="sublistcontainer" class="sublist sublist--resizable">
 				<div id="sublistsort" class="sortlabel btn-group">
-					<button class="col-5 sort btn btn-default btn-xs" data-sort="name">名稱e</button>
-					<button class="col-3 sort btn btn-default btn-xs ecgen__hidden" data-sort="type">類型</button>
+					<button class="col-5 sort btn btn-default btn-xs" data-sort="name">名称e</button>
+					<button class="col-3 sort btn btn-default btn-xs ecgen__hidden" data-sort="type">类型</button>
 					<button class="col-3 sort btn btn-default btn-xs ecgen__visible" disabled>&nbsp;</button>
 					<button class="col-2 sort btn btn-default btn-xs" data-sort="cr">CR</button>
-					<button class="col-2 sort btn btn-default btn-xs" data-sort="count">數量</button>
+					<button class="col-2 sort btn btn-default btn-xs" data-sort="count">数量</button>
 				</div>
 				<ul class="list submonsters">
 					<!-- populate with JS -->
@@ -236,30 +236,30 @@
 			<div id="wrp-pagecontent" class="wrp-stats-table ecgen__hidden" onscroll="handleStatblockScroll(event, this)">
 				<table id="pagecontent" class="stats monster">
 					<tr><th class="border" colspan="6"></th></tr>
-					<tr><td colspan="6" class="initial-message">讀取中...</td></tr>
+					<tr><td colspan="6" class="initial-message">读取中...</td></tr>
 					<tr><th class="border" colspan="6"></th></tr>
 				</table>
 			</div>
 
 			<div class="text-align-center wrp-footer-buttons ecgen__hidden">
-				<button class="btn btn-default btn-success btn-xs" id="btn-encounterbuild">遭遇構築器</button>
+				<button class="btn btn-default btn-success btn-xs" id="btn-encounterbuild">遭遇构筑器</button>
 				<div id="wrp-profbonusdice" class=>
 					<button class="btn btn-default btn-xs" id="profbonusdice"
-							title="警告：高實驗性&mdash; 請謹慎使用">使用熟練骰
+							title="警告：高实验性&mdash; 请谨慎使用">使用熟练骰
 					</button>
 				</div>
-				<button class="btn btn-default btn-xs" id="btn-printbook">印表機檢視</button>
-				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自製內容</button>
+				<button class="btn btn-default btn-xs" id="btn-printbook">印表机检视</button>
+				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自制内容</button>
 			</div>
 
 			<div class="ecgen__visible">
-				<h3>團隊資料</h3>
+				<h3>团队资料</h3>
 				<div class="row">
 					<!-- LHS -->
 					<div class="col-8 ecgen__group_lhs">
 						<div class="row ecgen__players_head_simple">
 							<div class="col-2">玩家::</div>
-							<div class="col-2">等級:</div>
+							<div class="col-2">等级:</div>
 						</div>
 
 						<div class="ecgen__players_head_advanced">
@@ -273,7 +273,7 @@
 						<div class="ecgen__wrp_add_players mb-1">
 							<div class="ecgen__wrp_add_players_btn_wrp">
 								<button class="btn btn-primary btn-xs ecgen__add_players">
-									<span class="glyphicon glyphicon-plus"></span> 加入其他等級
+									<span class="glyphicon glyphicon-plus"></span> 加入其他等级
 
 								</button>
 							</div>
@@ -299,10 +299,10 @@
 					<div class="col-4 text-align-right">
 						<div class="ecgen__easy">容易: ? XP</div>
 						<div class="ecgen__medium">中等: ? XP</div>
-						<div class="ecgen__hard">困難: ? XP</div>
+						<div class="ecgen__hard">困难: ? XP</div>
 						<div class="ecgen__deadly">致命: ? XP</div>
 						<br>
-						<div class="ecgen__daily_budget">每日預算: ? XP</div>
+						<div class="ecgen__daily_budget">每日预算: ? XP</div>
 					</div>
 				</div>
 
@@ -310,14 +310,14 @@
 				<div class="row ecgen__req_creatures">
 					<!-- LHS -->
 					<div class="col-6">
-						<h3 class="ecgen__rating">難度: ?</h3>
+						<h3 class="ecgen__rating">难度: ?</h3>
 					</div>
 
 					<!-- RHS -->
 					<div class="col-6 text-align-right">
-						<h4 class="ecgen__raw_total">總共XP: ?</h4>
+						<h4 class="ecgen__raw_total">总共XP: ?</h4>
 						<div><i class="ecgen__raw_per_player">(每名玩家 ?)</i></div>
-						<div><span class="glyphicon glyphicon-info-sign ecgen__adjusted_total_info"></span> <h4 class="inline-block ecgen__adjusted_total">調整XP: ?</h4></div>
+						<div><span class="glyphicon glyphicon-info-sign ecgen__adjusted_total_info"></span> <h4 class="inline-block ecgen__adjusted_total">调整XP: ?</h4></div>
 						<div><i class="ecgen__adjusted_per_player">(每名玩家 ?)</i></div>
 					</div>
 				</div>
@@ -326,9 +326,9 @@
 				<div class="row">
 					<div class="col-12 flex" style="justify-content: center">
 						<button class="btn btn-primary btn-xs mr-4 ecgen__ld-browser">管理遭遇</button>
-						<button class="btn btn-primary btn-xs mr-4 ecgen__sv_url">儲存至URL</button>
-						<button class="btn btn-primary btn-xs mr-2 ecgen__sv_file">儲存檔案</button>
-						<button class="btn btn-primary btn-xs mr-4 ecgen__ld_file">讀取檔案</button>
+						<button class="btn btn-primary btn-xs mr-4 ecgen__sv_url">储存至URL</button>
+						<button class="btn btn-primary btn-xs mr-2 ecgen__sv_file">储存档案</button>
+						<button class="btn btn-primary btn-xs mr-4 ecgen__ld_file">读取档案</button>
 						<button class="btn btn-danger btn-xs ecgen__reset">重置</button>
 					</div>
 				</div>
@@ -336,7 +336,7 @@
 				<hr>
 				<div class="row">
 					<div class="col-12">
-						<button class="btn btn-default btn-xs ecgen__visible" style="margin: 0 auto;" id="btn-encounterstatblock">回到狀態欄</button>
+						<button class="btn btn-default btn-xs ecgen__visible" style="margin: 0 auto;" id="btn-encounterstatblock">回到状态栏</button>
 					</div>
 				</div>
 			</div>

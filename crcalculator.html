@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tw">
+<html lang="zh">
 
 <head>
 	<!--5ETOOLS_VERSION-->
@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>CR計算機 - 5etools</title>
+	<title>CR计算机 - 5etools</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jquery-ui.css">
@@ -86,8 +86,8 @@
 <header class="hidden-xs hidden-sm page__header">
 	<div class="container">
 
-		<h1 class="page__title">CR計算機</h1>
-		<p class="page__subtitle">輕鬆地構築自訂生物。</p>
+		<h1 class="page__title">CR计算机</h1>
+		<p class="page__subtitle">轻松地构筑自订生物。</p>
 	</div>
 </header>
 <nav class="container page__nav" id="navigation">
@@ -103,26 +103,26 @@
 	<form id="crcalc" autocomplete="off">
 		<div class="row">
 			<div class="col-sm-6">
-				<div id="croutput">等待計算結束...</div>
+				<div id="croutput">等待计算结束...</div>
 				<button class="btn btn-sm btn-danger crc__reset mt-3" id="crcalc_reset" type="button">重置</button>
 				<h4>操作指南</h4>
 				<ol>
-					<li>輸入該生物的預期CR。</li>
-					<li>填寫該生物的HP、AC、以及其他的防禦性屬性。</li>
-					<li>填寫該生物的攻擊性屬性。DPR(每輪平均傷害)代表著三個戰鬥輪的平均！</li>
-					<li>勾選該生物所擁有的特殊怪物特性。</li>
+					<li>输入该生物的预期CR。</li>
+					<li>填写该生物的HP、AC、以及其他的防御性属性。</li>
+					<li>填写该生物的攻击性属性。DPR(每轮平均伤害)代表着三个战斗轮的平均！</li>
+					<li>勾选该生物所拥有的特殊怪物特性。</li>
 					<li>完成！</li>
 				</ol>
 				<p>
-					<small>請確保你已經閱讀了<em>《地下城主指南》</em>的怪物創建章節，從第273頁到第283頁。你可以點擊右側的表格以自動填入固定的數值，再隨你的喜好調整。你可以將滑鼠指向各個標籤以透過一段簡短敘述瞭解各屬性對怪物CR的影響。你也可以指向各個特性描述以瞭解該特性對CR計算的影響。
+					<small>请确保你已经阅读了<em>《地下城主指南》</em>的怪物创建章节，从第273页到第283页。你可以点击右侧的表格以自动填入固定的数值，再随你的喜好调整。你可以将滑鼠指向各个标签以透过一段简短叙述了解各属性对怪物CR的影响。你也可以指向各个特性描述以了解该特性对CR计算的影响。
 					</small>
 				</p>
 				<hr>
 				<div class="crc__row">
 					<label for="expectedcr" class="help--subtle" style="font-size: 1em;">
-						預期CR：
+						预期CR：
 						<span class="explanation">
-							要進行CR計算，首先你必須決定這個怪物最終的CR是多少。
+							要进行CR计算，首先你必须决定这个怪物最终的CR是多少。
 						</span>
 					</label>
 					<span class="flex-v-center">
@@ -131,16 +131,16 @@
 				</div>
 			</div>
 			<div class="col-sm-6 text-align-center">
-				<h4>各挑戰等級的怪物數據</h4>
+				<h4>各挑战等级的怪物数据</h4>
 				<table id="msbcr">
 					<tr>
 						<th>CR</th>
 						<th>XP</th>
-						<th>熟練<br/>加值</th>
-						<th>護甲<br/>等級</th>
+						<th>熟练<br/>加值</th>
+						<th>护甲<br/>等级</th>
 						<th>生命值</th>
-						<th>攻擊<br/>加值</th>
-						<th>傷害/<br/>每輪</th>
+						<th>攻击<br/>加值</th>
+						<th>伤害/<br/>每轮</th>
 						<th>豁免<br/>DC</th>
 					</tr>
 				</table>
@@ -149,13 +149,13 @@
 		<hr>
 		<div class="row">
 			<div class="col-sm-6">
-				<h4>防禦屬性</h4>
+				<h4>防御属性</h4>
 
 				<div class="crc__row">
 					<label for="hp" class="help--subtle">
 						生命值：
 						<span class="explanation">
-							生物的生命值會決定其根據AC調整前的防禦性CR。
+							生物的生命值会决定其根据AC调整前的防御性CR。
 						</span>
 					</label>
 					<input type="number" id="hp" placeholder="Average HP" value="1" min="0" max="850" class="form-control form-control--minimal input-xs">
@@ -163,9 +163,9 @@
 
 				<div class="crc__row">
 					<label for="ac" class="help--subtle">
-						護甲等級：
+						护甲等级：
 						<span class="explanation">
-							生物的AC會調整其防禦性CR。
+							生物的AC会调整其防御性CR。
 						</span>
 					</label>
 					<input type="number" id="ac" placeholder="AC" value="13" min="1" max="40" class="form-control form-control--minimal input-xs">
@@ -173,13 +173,13 @@
 			</div>
 
 			<div class="col-sm-6">
-				<h4>攻擊屬性</h4>
+				<h4>攻击属性</h4>
 
 				<div class="crc__row">
 					<label for="dpr" class="help--subtle">
-						每輪平均傷害：
+						每轮平均伤害：
 						<span class="explanation">
-							生物的每輪平均傷害(DPR)決定了它的攻擊性CR，且其攻擊性CR會再根據其攻擊加值或豁免DC進行調整。DPR是以它在三輪內最大傷害輸出的平均值決定（擲骰取平均值，忽視暴擊和命中準確）。區域效應將被視為它命中了兩個生物，且目標被視作在任何豁免檢定中失敗。
+							生物的每轮平均伤害(DPR)决定了它的攻击性CR，且其攻击性CR会再根据其攻击加值或豁免DC进行调整。DPR是以它在三轮内最大伤害输出的平均值决定（掷骰取平均值，忽视暴击和命中准确）。区域效应将被视为它命中了两个生物，且目标被视作在任何豁免检定中失败。
 						</span>
 					</label>
 					<input type="number" id="dpr" placeholder="Average DPR" value="1" min="0" max="320" class="form-control form-control--minimal input-xs">
@@ -187,9 +187,9 @@
 
 				<div class="crc__row">
 					<label for="attackbonus" class="help--subtle">
-						攻擊加值/豁免DC：
+						攻击加值/豁免DC：
 						<span class="explanation">
-							生物的攻擊加值或豁免DC會調整其攻擊性CR。
+							生物的攻击加值或豁免DC会调整其攻击性CR。
 						</span>
 					</label>
 					<input type="number" id="attackbonus" placeholder="Attack Bonus" value="3" min="-5" max="19" class="form-control form-control--minimal input-xs">
@@ -199,7 +199,7 @@
 					<label for="saveinstead" class="help--subtle">
 						使用豁免？
 						<span class="explanation">
-							若一個生物的傷害輸出比起攻擊更依賴涉及豁免的能力，則它的豁免DC將被用於調整它的攻擊性CR，而非使用它的攻擊加值。
+							若一个生物的伤害输出比起攻击更依赖涉及豁免的能力，则它的豁免DC将被用于调整它的攻击性CR，而非使用它的攻击加值。
 						</span>
 					</label>
 					<input type="checkbox" id="saveinstead" value="0">
@@ -212,9 +212,9 @@
 
 				<div class="crc__row">
 					<label for="size" class="help--subtle">
-						體型：
+						体型：
 						<span class="explanation">
-							生物的體型將決定它每顆生命骰的大小。
+							生物的体型将决定它每颗生命骰的大小。
 						</span>
 					</label>
 					<span class="flex-v-center">
@@ -233,7 +233,7 @@
 					<label for="hd" class="help--subtle">
 						生命骰：
 						<span class="explanation">
-							與玩家角色不同，NPC所得到的生命骰數量完全是任意決定的。隨你喜好調整這個數量。
+							与玩家角色不同，NPC所得到的生命骰数量完全是任意决定的。随你喜好调整这个数量。
 						</span>
 					</label>
 					<div class="flex-v-center">
@@ -244,9 +244,9 @@
 
 				<div class="crc__row">
 					<label for="con" class="help--subtle">
-						體質值：
+						体质值：
 						<span class="explanation">
-							生物的HP會因為它每一顆擁有的生命骰得到其體質調整值的加值。
+							生物的HP会因为它每一颗拥有的生命骰得到其体质调整值的加值。
 						</span>
 					</label>
 					<input type="number" id="con" value="10" min="1" max="30" class="form-control form-control--minimal input-xs">
@@ -258,9 +258,9 @@
 
 				<div class="crc__row">
 					<label for="vulnerabilities" class="help--subtle">
-						易傷：
+						易伤：
 						<span class="explanation">
-							若生物具有某個常見傷害類型的易傷（特別是鈍擊、穿刺、劈砍傷害），則它的有效生命值將被視為原本的一半。
+							若生物具有某个常见伤害类型的易伤（特别是钝击、穿刺、劈砍伤害），则它的有效生命值将被视为原本的一半。
 						</span>
 					</label>
 					<input type="checkbox" id="vulnerabilities" class="form-control form-control--minimal input-xs">
@@ -270,12 +270,12 @@
 					<label for="resistances" class="help--subtle">
 						抗性/免疫：
 						<span class="explanation">
-							怪物的HP會根據它對於常見傷害類型（其中最主要為非魔法的鈍擊、穿刺、和劈砍傷害）而乘上倍率。
+							怪物的HP会根据它对于常见伤害类型（其中最主要为非魔法的钝击、穿刺、和劈砍伤害）而乘上倍率。
 						</span>
 					</label>
 					<span class="flex-v-center">
 						<select id="resistances" class="form-control input-xs">
-							<option value="0" selected>無</option>
+							<option value="0" selected>无</option>
 							<option value="res">抗性</option>
 							<option value="imm">免疫</option>
 						</select>
@@ -284,9 +284,9 @@
 
 				<div class="crc__row">
 					<label for="flying" class="help--subtle">
-						飛行且可以在遠距離造成傷害(限定CR 0~9)：
+						飞行且可以在远距离造成伤害(限定CR 0~9)：
 						<span class="explanation">
-							若怪物可以飛行且能在遠距離造成傷害，則它的有效AC將增加2點。但這個加成只會發生在其預期挑戰等級為10或更低。
+							若怪物可以飞行且能在远距离造成伤害，则它的有效AC将增加2点。但这个加成只会发生在其预期挑战等级为10或更低。
 						</span>
 					</label>
 					<input type="checkbox" id="flying">
@@ -294,9 +294,9 @@
 
 				<div class="crc__row">
 					<label for="saveprofs" class="help--subtle">
-						豁免熟練：
+						豁免熟练：
 						<span class="explanation">
-							若生物具有3或4個豁免熟練項，則它的有效AC增加2點。若有5或6個豁免熟練項，則有效AC增加4點。
+							若生物具有3或4个豁免熟练项，则它的有效AC增加2点。若有5或6个豁免熟练项，则有效AC增加4点。
 						</span>
 					</label>
 					<span class="flex-v-center">
@@ -316,15 +316,15 @@
 			<h4>怪物特性</h4>
 			<div class="row crc__hdr_mon_features">
 				<div class="col-1"></div>
-				<div class="col-2">名稱</div>
-				<div class="col-2">範例怪物</div>
+				<div class="col-2">名称</div>
+				<div class="col-2">范例怪物</div>
 				<div class="col-7">特性描述</div>
 			</div>
 			<div class="crc__wrp_mon_features">
 				<!-- populate with JS -->
 			</div>
 			<p>
-				<small><em>註記：這裡並為含括所有的怪物特性。在DMG另有關於要如何評估其它特性的記載。</em></small>
+				<small><em>注记：这里并为含括所有的怪物特性。在DMG另有关于要如何评估其它特性的记载。</em></small>
 			</p>
 		</div>
 	</div>

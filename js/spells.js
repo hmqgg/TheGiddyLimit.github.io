@@ -17,17 +17,17 @@ const META_ADD_MB_HEAL = "Healing";
 const META_RITUAL = "Ritual";
 const META_TECHNOMAGIC = "Technomagic";
 const META_ADD_TO_FULL = {};
-META_ADD_TO_FULL[META_ADD_CONC] = "專注";
-META_ADD_TO_FULL[META_ADD_V] 	= "聲音";
-META_ADD_TO_FULL[META_ADD_S] 	= "姿勢";
+META_ADD_TO_FULL[META_ADD_CONC] = "专注";
+META_ADD_TO_FULL[META_ADD_V] 	= "声音";
+META_ADD_TO_FULL[META_ADD_S] 	= "姿势";
 META_ADD_TO_FULL[META_ADD_M] 	= "材料";
-META_ADD_TO_FULL[META_ADD_M_COST] = "價值材料";
+META_ADD_TO_FULL[META_ADD_M_COST] = "价值材料";
 META_ADD_TO_FULL[META_ADD_M_CONSUMED] = "消耗材料";
 META_ADD_TO_FULL[META_ADD_MB_PERMANENT] = "永久效果";
-META_ADD_TO_FULL[META_ADD_MB_SCALING] = "升級效果";
-META_ADD_TO_FULL[META_ADD_MB_SUMMONS] = "召喚生物";
-META_ADD_TO_FULL[META_ADD_MB_HEAL] = "治療";
-META_ADD_TO_FULL[META_RITUAL] = "儀式";
+META_ADD_TO_FULL[META_ADD_MB_SCALING] = "升级效果";
+META_ADD_TO_FULL[META_ADD_MB_SUMMONS] = "召唤生物";
+META_ADD_TO_FULL[META_ADD_MB_HEAL] = "治疗";
+META_ADD_TO_FULL[META_RITUAL] = "仪式";
 META_ADD_TO_FULL[META_TECHNOMAGIC] = "科技魔法";
 
 const STR_WIZARD = "Wizard";
@@ -49,12 +49,12 @@ const TM_MINS = "minute";
 const TM_HRS = "hour";
 const TO_HIDE_SINGLETON_TIMES = [TM_ACTION, TM_B_ACTION, TM_REACTION, TM_ROUND];
 const TIME_UNITS_TO_FULL = {};
-TIME_UNITS_TO_FULL[TM_ACTION] = "動作";
-TIME_UNITS_TO_FULL[TM_B_ACTION] = "附贈動作";
-TIME_UNITS_TO_FULL[TM_REACTION] = "反應";
-TIME_UNITS_TO_FULL[TM_ROUND] = "輪";
-TIME_UNITS_TO_FULL[TM_MINS] = "分鐘";
-TIME_UNITS_TO_FULL[TM_HRS] = "小時";
+TIME_UNITS_TO_FULL[TM_ACTION] = "动作";
+TIME_UNITS_TO_FULL[TM_B_ACTION] = "附赠动作";
+TIME_UNITS_TO_FULL[TM_REACTION] = "反应";
+TIME_UNITS_TO_FULL[TM_ROUND] = "轮";
+TIME_UNITS_TO_FULL[TM_MINS] = "分钟";
+TIME_UNITS_TO_FULL[TM_HRS] = "小时";
 
 const F_RNG_POINT = "Point";
 const F_RNG_SELF_AREA = "Self (Area)";
@@ -62,16 +62,16 @@ const F_RNG_SELF = "Self";
 const F_RNG_TOUCH = "Touch";
 const F_RNG_SPECIAL = "Special";
 const F_RNG_TO_FULL = {};
-F_RNG_TO_FULL[F_RNG_POINT] 		= "點";
-F_RNG_TO_FULL[F_RNG_SELF_AREA] 	= "自身(區域)";
+F_RNG_TO_FULL[F_RNG_POINT] 		= "点";
+F_RNG_TO_FULL[F_RNG_SELF_AREA] 	= "自身(区域)";
 F_RNG_TO_FULL[F_RNG_SELF] 		= "自身";
-F_RNG_TO_FULL[F_RNG_TOUCH] 		= "觸碰";
+F_RNG_TO_FULL[F_RNG_TOUCH] 		= "触碰";
 F_RNG_TO_FULL[F_RNG_SPECIAL] 	= "特殊";
 
 let tableDefault;
 
 function getFltrSpellLevelStr (level) {
-	return level === 0 ? Parser.spLevelToFull(level) : (level) + "環";
+	return level === 0 ? Parser.spLevelToFull(level) : (level) + "环";
 }
 
 function getNormalisedTime (time) {
@@ -218,7 +218,7 @@ function getRangeType (range) {
 function getTblTimeStr (time) {
 	return (time.number === 1 && TO_HIDE_SINGLETON_TIMES.includes(time.unit))
 		? `${TIME_UNITS_TO_FULL[time.unit]}`
-		: `${time.number}${time.unit === TM_B_ACTION ? "附贈動作" : TIME_UNITS_TO_FULL[time.unit]}`;
+		: `${time.number}${time.unit === TM_B_ACTION ? "附赠动作" : TIME_UNITS_TO_FULL[time.unit]}`;
 }
 
 function getTimeDisplay (timeUnit) {
@@ -255,7 +255,7 @@ function getFilterAbilitySave (ability) {
 }
 
 function getFilterAbilityCheck (ability) {
-	return `${Parser.translateKeyToDisplay(ability.uppercaseFirst().substring(0, 3))}檢定`;
+	return `${Parser.translateKeyToDisplay(ability.uppercaseFirst().substring(0, 3))}检定`;
 }
 
 function handleBrew (homebrew) {
@@ -334,30 +334,30 @@ let brewSpellClasses;
 const sourceFilter = getSourceFilter();
 const levelFilter = new Filter({
 	header: "Level",
-	headerName: "環階",
+	headerName: "环阶",
 	items: [
 		0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 	],
 	displayFn: getFltrSpellLevelStr
 });
-const classFilter = new Filter({header: "Class", headerName: "職業",displayFn:Parser.ClassToDisplay});
+const classFilter = new Filter({header: "Class", headerName: "职业",displayFn:Parser.ClassToDisplay});
 const subclassFilter = new GroupedFilter({
-	header: "Subclass", headerName: "子職業",
+	header: "Subclass", headerName: "子职业",
 	numGroups: 2,
 	displayNestFn: Parser.ClassToDisplay,
 	displayFn: (item) => `${Parser.ClassToDisplay(item.nest)}：${Parser.SubclassToDisplay(item.item)}`
 });
-const classAndSubclassFilter = new MultiFilter({name: "職業"}, classFilter, subclassFilter);
-const raceFilter = new Filter({header: "Race", headerName: "種族", displayFn: Parser.RaceToDisplay});
+const classAndSubclassFilter = new MultiFilter({name: "职业"}, classFilter, subclassFilter);
+const raceFilter = new Filter({header: "Race", headerName: "种族", displayFn: Parser.RaceToDisplay});
 const metaFilter = new Filter({
-	header: "Components & Miscellaneous", headerName: "構材＆雜項",
+	header: "Components & Miscellaneous", headerName: "构材＆杂项",
 	items: [META_ADD_CONC, META_ADD_V, META_ADD_S, META_ADD_M, META_ADD_M_COST, META_ADD_M_CONSUMED, META_ADD_MB_HEAL, META_ADD_MB_PERMANENT, META_ADD_MB_SCALING, META_ADD_MB_SUMMONS, META_RITUAL, META_TECHNOMAGIC],
 	displayFn: function(misc){
 		return (META_ADD_TO_FULL[misc])? META_ADD_TO_FULL[misc]: misc;
 	}
 });
 const schoolFilter = new Filter({
-	header: "School", headerName: "學派",
+	header: "School", headerName: "学派",
 	items: [
 		SKL_ABV_ABJ,
 		SKL_ABV_CON,
@@ -376,19 +376,19 @@ const subSchoolFilter = new Filter({
 	displayFn: Parser.spSchoolAbvToFull
 });
 const damageFilter = new Filter({
-	header: "Damage Type", headerName: "傷害類型",
+	header: "Damage Type", headerName: "伤害类型",
 	items: [
 		"bludgeoning", "piercing", "slashing", "acid", "cold", "fire", "lightning", "thunder", "poison", "radiant", "necrotic", "force", "psychic"
 	],
 	displayFn: Parser.DamageToDisplay
 });
 const conditionFilter = new Filter({
-	header: "Conditions Inflicted", headerName: "造成狀態",
+	header: "Conditions Inflicted", headerName: "造成状态",
 	items: ["blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"],
 	displayFn: Parser.ConditionToDisplay
 });
 const spellAttackFilter = new Filter({
-	header: "Spell Attack", headerName: "法術攻擊",
+	header: "Spell Attack", headerName: "法术攻击",
 	items: ["M", "R", "O"],
 	displayFn: Parser.spAttackTypeToFull
 });
@@ -398,12 +398,12 @@ const saveFilter = new Filter({
 	displayFn: getFilterAbilitySave
 });
 const checkFilter = new Filter({
-	header: "Opposed Ability Check", headerName: "能力檢定對抗",
+	header: "Opposed Ability Check", headerName: "能力检定对抗",
 	items: ["strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"],
 	displayFn: getFilterAbilityCheck
 });
 const timeFilter = new Filter({
-	header: "Cast Time", headerName: "施法時間",
+	header: "Cast Time", headerName: "施法时间",
 	items: [
 		TM_ACTION,
 		TM_B_ACTION,
@@ -415,7 +415,7 @@ const timeFilter = new Filter({
 	displayFn: getTimeDisplay
 });
 const durationFilter = new Filter({
-	header: "Duration", headerName: "持續時間",
+	header: "Duration", headerName: "持续时间",
 	items: [
 		"instant",
 		"timed",
@@ -424,7 +424,7 @@ const durationFilter = new Filter({
 	],
 	displayFn: function(r){switch(r){
 		case "instant":  return "即效";
-		case "timed": 	 return "定時";
+		case "timed": 	 return "定时";
 		case "permanent":return "永久";
 		case "special":  return "特殊";
 		default: return r;
@@ -486,7 +486,7 @@ function pPageInit (loadedSources) {
 	});
 	ListUtil.initGenericPinnable();
 
-	spellBookView = new BookModeView("bookview", $(`#btn-spellbook`), "如果你想要一次檢視多個法術，請先創造一份清單",
+	spellBookView = new BookModeView("bookview", $(`#btn-spellbook`), "如果你想要一次检视多个法术，请先创造一份清单",
 		($tbl) => {
 			const toShow = ListUtil.getSublistedIds().map(id => spellList[id]);
 			let numShown = 0;
@@ -501,7 +501,7 @@ function pPageInit (loadedSources) {
 			for (let i = 0; i < 10; ++i) {
 				const atLvl = toShow.filter(sp => sp.level === i);
 				if (atLvl.length) {
-					const levelText = i === 0 ? `${Parser.spLevelToFull(i)}` : `${Parser.spLevelToFull(i)}法術`;
+					const levelText = i === 0 ? `${Parser.spLevelToFull(i)}` : `${Parser.spLevelToFull(i)}法术`;
 					stack.push(Renderer.utils.getBorderTr(`<span class="spacer-name">${levelText}</span>`));
 
 					stack.push(`<tr class="spellbook-level"><td>`);
@@ -627,7 +627,7 @@ function addSpells (data) {
 		if (ExcludeUtil.isExcluded(spell.name, "spell", spell.source)) continue;
 
 		let levelText = Parser.spLevelToFull(spell.level);
-		if (spell.meta && spell.meta.ritual) levelText += " (儀.)";
+		if (spell.meta && spell.meta.ritual) levelText += " (仪.)";
 		if (spell.meta && spell.meta.technomagic) levelText += " (科.)";
 
 		// add eldritch knight and arcane trickster

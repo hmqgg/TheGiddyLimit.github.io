@@ -22,11 +22,11 @@ const ID_CLASS_FEATURES_TOGGLE = "cf-toggle";
 const ID_FLUFF_TOGGLE = "fluff-toggle";
 const ID_OTHER_SOURCES_TOGGLE = "os-toggle";
 
-const STR_PROF_NONE = "無";
+const STR_PROF_NONE = "无";
 const STR_SOURCES_OFFICIAL = "0";
 const STR_SOURCES_MIXED = "1";
 const STR_SOURCES_ALL = "2";
-const STRS_SOURCE_STATES = ["官方資源", "最近使用", "所有資源"];
+const STRS_SOURCE_STATES = ["官方资源", "最近使用", "所有资源"];
 
 const ATB_DATA_FEATURE_LINK = "data-flink";
 const ATB_DATA_FEATURE_ID = "data-flink-id";
@@ -106,7 +106,7 @@ class ClassList {
 			const curClass = newClasses[i];
 			if (ExcludeUtil.isExcluded(curClass.name, "class", curClass.source)) continue;
 
-			curClass._fSource = curClass.source === SRC_UASIK ? "跟班" : BrewUtil.hasSourceJson(curClass.source) ? "自製內容" : SourceUtil.isNonstandardSource(curClass.source) ? "其他" : "核心";
+			curClass._fSource = curClass.source === SRC_UASIK ? "跟班" : BrewUtil.hasSourceJson(curClass.source) ? "自制内容" : SourceUtil.isNonstandardSource(curClass.source) ? "其他" : "核心";
 			sourceFilter.addIfAbsent(curClass._fSource);
 			const id = i + previousClassAmount;
 			tempString += ClassList._renderClass(curClass, id);
@@ -266,9 +266,9 @@ class HashLoad {
 			$("td#hp").show();
 			const hdEntry = {toRoll: `${ClassDisplay.curClass.hd.number}d${ClassDisplay.curClass.hd.faces}`, rollable: true};
 			$("td#hp div#hitdice span").html(Renderer.getEntryDice(hdEntry, "Hit die"));
-			$("td#hp div#hp1stlevel span").html(ClassDisplay.curClass.hd.faces + " + 你的體質調整值");
-			$("td#hp div#hphigherlevels span").html(`一級之後每${ClassDisplay.curClass.name}等級 ${Renderer.getEntryDice(hdEntry, "Hit die")} (or ${
-				(ClassDisplay.curClass.hd.faces / 2 + 1)}) + 你的體質調整值`);
+			$("td#hp div#hp1stlevel span").html(ClassDisplay.curClass.hd.faces + " + 你的体质调整值");
+			$("td#hp div#hphigherlevels span").html(`一级之后每${ClassDisplay.curClass.name}等级 ${Renderer.getEntryDice(hdEntry, "Hit die")} (or ${
+				(ClassDisplay.curClass.hd.faces / 2 + 1)}) + 你的体质调整值`);
 		} else {
 			$("td#hp").hide();
 		}
@@ -296,16 +296,16 @@ class HashLoad {
 
 		function getSkillProfString (skills) {
 			const numString = Parser.numberToString(skills.choose);
-			return skills.from.length === 18 ? `選擇任意${numString}個技能。` : `從${skills.from.map(it => Renderer.get().render(`{@skill ${Parser.SkillToDisplay(it)}}`)).joinConjunct(", ", " 和 ")} 中選擇${numString}個。`
+			return skills.from.length === 18 ? `选择任意${numString}个技能。` : `从${skills.from.map(it => Renderer.get().render(`{@skill ${Parser.SkillToDisplay(it)}}`)).joinConjunct(", ", " 和 ")} 中选择${numString}个。`
 		}
 
 		// starting equipment
 		if (ClassDisplay.curClass.startingEquipment) {
 			const $equipment = $("#equipment").show();
 			const sEquip = ClassDisplay.curClass.startingEquipment;
-			const fromBackground = sEquip.additionalFromBackground ? "<p>你起始攜帶下列物品，以及任何你背景所提供的東西。</p>" : "";
+			const fromBackground = sEquip.additionalFromBackground ? "<p>你起始携带下列物品，以及任何你背景所提供的东西。</p>" : "";
 			const defList = sEquip.default.length === 0 ? "" : `<ul><li>${sEquip.default.map(it => Renderer.get().render(it)).join("</li><li>")}</ul>`;
-			const goldAlt = sEquip.goldAlternative === undefined ? "" : `<p>或者，你可以選擇起始擁有 ${Renderer.get().render(sEquip.goldAlternative)} 金幣以自行購買裝備。</p>`;
+			const goldAlt = sEquip.goldAlternative === undefined ? "" : `<p>或者，你可以选择起始拥有 ${Renderer.get().render(sEquip.goldAlternative)} 金币以自行购买装备。</p>`;
 			$equipment.find("div").html(`${fromBackground}${defList}${goldAlt}`);
 		} else {
 			$("#equipment").hide();
@@ -320,11 +320,11 @@ class HashLoad {
 				const orPart = mc.requirements.or ? mc.requirements.or.map(obj => renderPart(obj, " or ")).join("; ") : "";
 				const basePart = renderPart(mc.requirements);
 				$div
-					.append(`<div>獲得新職業前，你必須同時滿足現有職業和新職業的屬性值需求。</div>`)
-					.append(`<strong>最低屬性值:</strong> <span>${[orPart, basePart].filter(Boolean).join("; ")}</span>`);
+					.append(`<div>获得新职业前，你必须同时满足现有职业和新职业的属性值需求。</div>`)
+					.append(`<strong>最低属性值:</strong> <span>${[orPart, basePart].filter(Boolean).join("; ")}</span>`);
 			}
 			if (mc.proficienciesGained) {
-				$(`#multiclassing_profs`).html(`<div ${mc.requirements ? `style="margin-top: 1.7em;"` : ""}>當你不是以起始等級獲得新職業的等級，你只會獲得該職業一部分的起始熟練項目。</div>`)
+				$(`#multiclassing_profs`).html(`<div ${mc.requirements ? `style="margin-top: 1.7em;"` : ""}>当你不是以起始等级获得新职业的等级，你只会获得该职业一部分的起始熟练项目。</div>`)
 				const $mcProfArmor = $(`#multiclassing_profs_armor`).toggle(mc.proficienciesGained.armor != null).find("span").html(mc.proficienciesGained.armor ? renderArmorProfs(mc.proficienciesGained.armor) : "");
 				const $mcProfWeapons = $(`#multiclassing_profs_weapons`).toggle(mc.proficienciesGained.weapons != null).find("span").html(mc.proficienciesGained.weapons ? renderWeaponsProfs(mc.proficienciesGained.weapons) : "");
 				const $mcProfTools = $(`#multiclassing_profs_tools`).toggle(mc.proficienciesGained.tools != null).find("span").html(mc.proficienciesGained.tools ? renderToolsProfs(mc.proficienciesGained.tools) : "");
@@ -543,8 +543,8 @@ class HashLoad {
 		HashLoad.subclassPillWrapper.find("span").remove();
 
 		// show/hide class features pill
-		HashLoad.makeGenericTogglePill("職業能力", CLSS_CLASS_FEATURES_ACTIVE, ID_CLASS_FEATURES_TOGGLE, HASH_HIDE_FEATURES, true, "開關職業能力");
-		if (ClassDisplay.curClass.fluff) HashLoad.makeGenericTogglePill("資訊", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, "開關職業詳細情報");
+		HashLoad.makeGenericTogglePill("职业能力", CLSS_CLASS_FEATURES_ACTIVE, ID_CLASS_FEATURES_TOGGLE, HASH_HIDE_FEATURES, true, "开关职业能力");
+		if (ClassDisplay.curClass.fluff) HashLoad.makeGenericTogglePill("资讯", CLSS_FLUFF_ACTIVE, ID_FLUFF_TOGGLE, HASH_SHOW_FLUFF, false, "开关职业详细情报");
 
 		// show/hide UA/other sources
 		HashLoad.makeSourceCyclePill();
@@ -589,7 +589,7 @@ class HashLoad {
 	}
 
 	static makeSourceCyclePill () {
-		const $pill = $(`<span title="切換資源類型" id="${ID_OTHER_SOURCES_TOGGLE}" data-state="0" style="min-width: 8em;" class="sc_pill"><span>${
+		const $pill = $(`<span title="切换资源类型" id="${ID_OTHER_SOURCES_TOGGLE}" data-state="0" style="min-width: 8em;" class="sc_pill"><span>${
 			STRS_SOURCE_STATES[0]}</span></span>`);
 		HashLoad.subclassPillWrapper.append($pill);
 		$pill.click(() => {
@@ -664,7 +664,7 @@ class HashLoad {
 	}
 
 	static makeToggleSourcesPill () {
-		$(`<span title="顯示資源" class="sc_pill sc_pill__source"><span class="glyphicon glyphicon-book"></span></span>`)
+		$(`<span title="显示资源" class="sc_pill sc_pill__source"><span class="glyphicon glyphicon-book"></span></span>`)
 			.appendTo(HashLoad.subclassPillWrapper)
 			.click(function () {
 				const [link, ...sub] = History._getHashParts();
@@ -1350,7 +1350,7 @@ const sourceFilter = new Filter({
 	header: FilterBox.SOURCE_HEADER,
 	minimalUI: true,
 	items: ["核心", "其他"],
-	selFn: (it) => it === "核心" || it === "房規"
+	selFn: (it) => it === "核心" || it === "房规"
 });
 
 let tableDefault = $("#pagecontent").html();

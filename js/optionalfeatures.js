@@ -28,28 +28,28 @@ function optFeatSort (itemA, itemB, options) {
 let list;
 const sourceFilter = getSourceFilter();
 const typeFilter = new Filter({
-	header: "Feature Type", headerName: "能力類型",
+	header: "Feature Type", headerName: "能力类型",
 	items: ["AI", "ED", "EI", "MM", "MV:B", "OTH", "FS:F", "FS:B", "FS:P", "FS:R", "PB"],
 	displayFn: Parser.optFeatureTypeToFull
 });
 const pactFilter = new Filter({
-	header: "Pact Boon", headerName: "契約之賜",
+	header: "Pact Boon", headerName: "契约之赐",
 	items: ["Blade", "Chain", "Tome"],
 	displayFn: Parser.prereqPactToFull
 });
 const patronFilter = new Filter({
-	header: "Otherworldly Patron", headerName: "異界宗主",
+	header: "Otherworldly Patron", headerName: "异界宗主",
 	items: ["The Archfey", "The Fiend", "The Great Old One", "The Hexblade", "The Kraken", "The Raven Queen", "The Seeker"],
 	displayFn: Parser.prereqPatronToShort
 });
 const spellFilter = new Filter({
-	header: "Spell", headerName: "法術",
+	header: "Spell", headerName: "法术",
 	items: ["eldritch blast", "hex/curse"],
 	displayFn: parse_EI_spell
 });
 function parse_EI_spell(it){switch(it){
 	case "eldritch blast": return "魔能爆";
-	case "hex/curse": return "脆弱詛咒/詛咒";
+	case "hex/curse": return "脆弱诅咒/诅咒";
 	default: return it;
 };}
 const featureFilter = new Filter({
@@ -57,9 +57,9 @@ const featureFilter = new Filter({
 	displayFn: StrUtil.toTitleCase
 });
 const levelFilter = new Filter({
-	header: "Level", headerName: "等級"
+	header: "Level", headerName: "等级"
 });
-const prerequisiteFilter = new MultiFilter({name: "先決條件"}, pactFilter, patronFilter, spellFilter, levelFilter, featureFilter);
+const prerequisiteFilter = new MultiFilter({name: "先决条件"}, pactFilter, patronFilter, spellFilter, levelFilter, featureFilter);
 let filterBox;
 async function onJsonLoad (data) {
 	filterBox = await pInitFilterBox(sourceFilter, typeFilter, prerequisiteFilter);

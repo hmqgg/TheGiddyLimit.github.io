@@ -79,7 +79,7 @@ function loadhash (id) {
 							<th class="col-2 text-align-center">
 								<span class="roller" onclick="rollAgainstTable('${iLoad}', '${jLoad}')">d${diceType}</span>
 							</th>
-							<th class="col-10">名稱</th>
+							<th class="col-10">名称</th>
 						</tr>
 					</thead>`;
 

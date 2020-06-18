@@ -228,7 +228,7 @@ function EntryRenderer () {
 				case "variant":
 					this._handleTrackTitles(entry.name);
 					textStack[0] += `<${this.wrapperTag} class="statsBlockInset">`;
-					textStack[0] += `<span class="entry-title" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">變體：${entry.name}</span></span>`;
+					textStack[0] += `<span class="entry-title" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><span class="entry-title-inner">变体：${entry.name}</span></span>`;
 					for (let i = 0; i < entry.entries.length; i++) {
 						this._recursiveEntryRender(entry.entries[i], textStack, 2, {prefix: "<p>", suffix: "</p>"});
 					}
@@ -271,12 +271,12 @@ function EntryRenderer () {
 				// block
 				case "abilityDc":
 					renderPrefix();
-					textStack[0] += `<span class='ability-block'><span>${entry.name}豁免 DC</span> = 8 + 你的熟練加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</span>`;
+					textStack[0] += `<span class='ability-block'><span>${entry.name}豁免 DC</span> = 8 + 你的熟练加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</span>`;
 					renderSuffix();
 					break;
 				case "abilityAttackMod":
 					renderPrefix();
-					textStack[0] += `<span class='ability-block'><span>${entry.name}攻擊調整值</span> = 你的熟練加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</span>`;
+					textStack[0] += `<span class='ability-block'><span>${entry.name}攻击调整值</span> = 你的熟练加值 + 你的${Parser.attrChooseToFull(entry.attributes)}</span>`;
 					renderSuffix();
 					break;
 				case "abilityGeneric":
@@ -640,7 +640,7 @@ function EntryRenderer () {
 			function getDataString () {
 				let dataString = "";
 				if (entry.type === "optfeature" || entry.type === "patron") {
-					const titleString = entry.source ? `title="資源：${Parser.sourceJsonToFull(entry.source)}"` : "";
+					const titleString = entry.source ? `title="资源：${Parser.sourceJsonToFull(entry.source)}"` : "";
 					if (entry.subclass !== undefined) dataString = `${ATB_DATA_SC}="${entry.subclass.name}" ${ATB_DATA_SRC}="${Parser._getSourceStringFromSource(entry.subclass.source)}" ${titleString}`;
 					else dataString = `${ATB_DATA_SC}="${EntryRenderer.DATA_NONE}" ${ATB_DATA_SRC}="${EntryRenderer.DATA_NONE}" ${titleString}`;
 				}
@@ -1242,7 +1242,7 @@ EntryRenderer.applyProperties._leadingAn = new Set(["a", "e", "i", "o", "u"]);
 
 EntryRenderer.attackTagToFull = function (tagStr) {
 	function renderTag (tags) {
-		return `${tags.includes("m") ? "近戰" : tags.includes("r") ? "遠程" : tags.includes("a") ? "區域" : ""}${tags.includes("w") ? "武器" : tags.includes("s") ? "法術" : ""}`;
+		return `${tags.includes("m") ? "近战" : tags.includes("r") ? "远程" : tags.includes("a") ? "区域" : ""}${tags.includes("w") ? "武器" : tags.includes("s") ? "法术" : ""}`;
 	}
 
 	const tagGroups = tagStr.toLowerCase().split("，").map(it => it.trim()).filter(it => it).map(it => it.split(""));
@@ -1256,7 +1256,7 @@ EntryRenderer.attackTagToFull = function (tagStr) {
 			});
 		}
 	}
-	return `${tagGroups.map(it => renderTag(it)).join(" 或 ")}攻擊：`;
+	return `${tagGroups.map(it => renderTag(it)).join(" 或 ")}攻击：`;
 };
 
 EntryRenderer.HOVER_TAG_TO_PAGE = {
@@ -1399,15 +1399,15 @@ EntryRenderer.utils = {
 					if (as.entry) {
 						return EntryRenderer.getDefaultRenderer().renderEntry(as.entry);
 					} else {
-						return `<i title="${Parser.sourceJsonToFull(as.source)}">${Parser.sourceJsonToAbv(as.source)}</i>${as.page ? `-第${as.page}頁` : ""}`;
+						return `<i title="${Parser.sourceJsonToFull(as.source)}">${Parser.sourceJsonToAbv(as.source)}</i>${as.page ? `-第${as.page}页` : ""}`;
 					}
 				}).join("; ")}`
 			} else return "";
 		}
 		const sourceSub = EntryRenderer.utils.getSourceSubText(it);
-		const baseText = it.page ? `<b>資源：</b> <i title="${Parser.sourceJsonToFull(it.source)}${sourceSub}">${Parser.sourceJsonToAbv(it.source)}${sourceSub}</i>-第${it.page}頁` : "";
-		const addSourceText = getAltSourceText("additionalSources", "額外情報記載於");
-		const otherSourceText = getAltSourceText("otherSources", "同時記載於");
+		const baseText = it.page ? `<b>资源：</b> <i title="${Parser.sourceJsonToFull(it.source)}${sourceSub}">${Parser.sourceJsonToAbv(it.source)}${sourceSub}</i>-第${it.page}页` : "";
+		const addSourceText = getAltSourceText("additionalSources", "额外情报记载于");
+		const otherSourceText = getAltSourceText("otherSources", "同时记载于");
 		const externalSourceText = getAltSourceText("externalSources", "External sources:");
 
 		return `${[baseText, addSourceText, otherSourceText, externalSourceText].filter(it => it).join("。")}${baseText && (addSourceText || otherSourceText || externalSourceText) ? "。" : ""}`;
@@ -1582,7 +1582,7 @@ EntryRenderer.feat = {
 				if (isShorthand) {
 					outStack.push(`Lv${pre.level}`);
 				} else {
-					outStack.push(`等級${pre.level}`);
+					outStack.push(`等级${pre.level}`);
 				}
 			}
 			if (pre.race !== undefined) {
@@ -1624,9 +1624,9 @@ EntryRenderer.feat = {
 						if (!pre.proficiency[j].hasOwnProperty(type)) continue;
 						if (type === "armor") {
 							if (isShorthand) {
-								outStack.push("熟練" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
+								outStack.push("熟练" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
 							} else {
-								outStack.push("熟練" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
+								outStack.push("熟练" + Parser.ArmorToDisplay(pre.proficiency[j][type]) + "甲");
 							}
 						}
 					}
@@ -1636,7 +1636,7 @@ EntryRenderer.feat = {
 				if (isShorthand) {
 					outStack.push("施法能力");
 				} else {
-					outStack.push("具有施展至少一種法術的能力。");
+					outStack.push("具有施展至少一种法术的能力。");
 				}
 			}
 			if (pre.special) {
@@ -1675,18 +1675,18 @@ EntryRenderer.feat = {
 		}
 
 		function abilityObjToListItem () {
-			const TO_MAX_OF_TWENTY = "，上限為20。";
+			const TO_MAX_OF_TWENTY = "，上限为20。";
 			const abbArr = [];
 			if (!abilityObj.choose) {
-				Object.keys(abilityObj).forEach(ab => abbArr.push(`你的 ${Parser.attAbvToFull(ab)} 增加${abilityObj[ab]}點${TO_MAX_OF_TWENTY}`));
+				Object.keys(abilityObj).forEach(ab => abbArr.push(`你的 ${Parser.attAbvToFull(ab)} 增加${abilityObj[ab]}点${TO_MAX_OF_TWENTY}`));
 			} else {
 				const choose = abilityObj.choose;
 				for (let i = 0; i < choose.length; ++i) {
 					if (choose[i].from.length === 6) {
 						if (choose[i].textreference) { // only used in "Resilient"
-							abbArr.push(`所選的屬性值增加${choose[i].amount}點${TO_MAX_OF_TWENTY}`);
+							abbArr.push(`所选的属性值增加${choose[i].amount}点${TO_MAX_OF_TWENTY}`);
 						} else {
-							abbArr.push(`你所選擇的一個屬性值增加${choose[i].amount}點${TO_MAX_OF_TWENTY}`);
+							abbArr.push(`你所选择的一个属性值增加${choose[i].amount}点${TO_MAX_OF_TWENTY}`);
 						}
 					} else {
 						const from = choose[i].from;
@@ -1696,7 +1696,7 @@ EntryRenderer.feat = {
 							abbChoices.push(Parser.attAbvToFull(from[j]));
 						}
 						const abbChoicesText = abbChoices.joinConjunct(", ", " 或 ");
-						abbArr.push(`你的 ${abbChoicesText} 增加${amount}點${TO_MAX_OF_TWENTY}`);
+						abbArr.push(`你的 ${abbChoicesText} 增加${amount}点${TO_MAX_OF_TWENTY}`);
 					}
 				}
 			}
@@ -1738,9 +1738,9 @@ EntryRenderer.spell = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th colspan="1">環階</th>
-						<th colspan="1">學派</th>
-						<th colspan="2">施法時間</th>
+						<th colspan="1">环阶</th>
+						<th colspan="1">学派</th>
+						<th colspan="2">施法时间</th>
 						<th colspan="2">射程</th>
 					</tr>
 					<tr>
@@ -1750,8 +1750,8 @@ EntryRenderer.spell = {
 						<td colspan="2">${Parser.spRangeToFull(spell.range)}</td>
 					</tr>
 					<tr>
-						<th colspan="4">構材</th>
-						<th colspan="2">持續時間</th>
+						<th colspan="4">构材</th>
+						<th colspan="2">持续时间</th>
 					</tr>
 					<tr>
 						<td colspan="4">${Parser.spComponentsToFull(spell.components)}</td>
@@ -1768,7 +1768,7 @@ EntryRenderer.spell = {
 			const higherLevelsEntryList = {type: "entries", entries: spell.entriesHigherLevel};
 			renderer.recursiveEntryRender(higherLevelsEntryList, renderStack, 2);
 		}
-		renderStack.push(`<div><span class="bold">職業: </span>${Parser.spMainClassesToFull(spell.classes)}</div>`);
+		renderStack.push(`<div><span class="bold">职业: </span>${Parser.spMainClassesToFull(spell.classes)}</div>`);
 		renderStack.push(`</td></tr>`);
 
 		return renderStack.join("");
@@ -1781,10 +1781,10 @@ EntryRenderer.spell = {
 			${EntryRenderer.utils.getBorderTr()}
 			${EntryRenderer.utils.getNameTr(spell)}
 			<tr><td class="levelschoolritual" colspan="6"><span>${Parser.spLevelSchoolMetaToFull(spell.level, spell.school, spell.meta, spell.subschools)}</span></td></tr>
-			<tr><td class="castingtime" colspan="6"><span class="bold">施法時間：</span>${Parser.spTimeListToFull(spell.time)}</td></tr>
+			<tr><td class="castingtime" colspan="6"><span class="bold">施法时间：</span>${Parser.spTimeListToFull(spell.time)}</td></tr>
 			<tr><td class="range" colspan="6"><span class="bold">射程：</span>${Parser.spRangeToFull(spell.range)}</td></tr>
-			<tr><td class="components" colspan="6"><span class="bold">構材：</span>${Parser.spComponentsToFull(spell.components)}</td></tr>
-			<tr><td class="range" colspan="6"><span class="bold">持續時間：</span>${Parser.spDurationToFull(spell.duration)}</td></tr>
+			<tr><td class="components" colspan="6"><span class="bold">构材：</span>${Parser.spComponentsToFull(spell.components)}</td></tr>
+			<tr><td class="range" colspan="6"><span class="bold">持续时间：</span>${Parser.spDurationToFull(spell.duration)}</td></tr>
 			${EntryRenderer.utils.getDividerTr()}
 		`);
 
@@ -1797,24 +1797,24 @@ EntryRenderer.spell = {
 		}
 		renderStack.push(`</td></tr>`);
 
-		renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">職業：</span>${Parser.spMainClassesToFull(spell.classes)}</td></tr>`);
+		renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">职业：</span>${Parser.spMainClassesToFull(spell.classes)}</td></tr>`);
 
 		if (spell.classes.fromSubclass) {
 			const currentAndLegacy = Parser.spSubclassesToCurrentAndLegacyFull(spell.classes);
-			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">子職業：</span>${currentAndLegacy[0]}</td></tr>`);
+			renderStack.push(`<tr class="text"><td colspan="6"><span class="bold">子职业：</span>${currentAndLegacy[0]}</td></tr>`);
 			if (currentAndLegacy[1]) {
-				renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted"><span class="bold">子職業(舊版)：</span>${currentAndLegacy[1]}</section></td></tr>`);
+				renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted"><span class="bold">子职业(旧版)：</span>${currentAndLegacy[1]}</section></td></tr>`);
 			}
 		}
 
 		if (spell.races) {
-			renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">種族：</span>${spell.races.map(r => renderer.renderEntry(`{@race ${Parser.RaceToDisplay(r.name)}|${r.source}}`)).join(", ")}</td></tr>`);
+			renderStack.push(`<tr class="text"><td class="classes" colspan="6"><span class="bold">种族：</span>${spell.races.map(r => renderer.renderEntry(`{@race ${Parser.RaceToDisplay(r.name)}|${r.source}}`)).join(", ")}</td></tr>`);
 		}
 
 		if (spell._scrollNote) {
 			renderStack.push(`<tr class="text"><td colspan="6"><section class="text-muted">`);
 			renderer.recursiveEntryRender(
-				`{@italic 注意：{@class ${Parser.ClassToDisplay(STR_FIGHTER)} (${Parser.SubclassToDisplay(STR_ELD_KNIGHT)})}和{@class ${Parser.ClassToDisplay(STR_ROGUE)} (${Parser.SubclassToDisplay(STR_ARC_TCKER)})}的法術列表中都包含所有{@class ${Parser.ClassToDisplay(STR_WIZARD)}}的法術。因此五環或更高的法術可以透過法術卷軸或其他類似的效果被施展。}`
+				`{@italic 注意：{@class ${Parser.ClassToDisplay(STR_FIGHTER)} (${Parser.SubclassToDisplay(STR_ELD_KNIGHT)})}和{@class ${Parser.ClassToDisplay(STR_ROGUE)} (${Parser.SubclassToDisplay(STR_ARC_TCKER)})}的法术列表中都包含所有{@class ${Parser.ClassToDisplay(STR_WIZARD)}}的法术。因此五环或更高的法术可以透过法术卷轴或其他类似的效果被施展。}`
 				, renderStack, 2);
 			renderStack.push(`</section></td></tr>`);
 		}
@@ -1892,7 +1892,7 @@ EntryRenderer.background = {
 						collectIn && !collectIn.includes(s) && collectIn.push(s);
 						return getEntry(s);
 					});
-					return `從${chooseProfs.joinConjunct(", ", " 或 ")}中選擇${choose.count || 1}個`;
+					return `从${chooseProfs.joinConjunct(", ", " 或 ")}中选择${choose.count || 1}个`;
 				} else {
 					collectIn && !collectIn.includes(k) && collectIn.push(k);
 					return getEntry(k);
@@ -1924,7 +1924,7 @@ EntryRenderer.optionalfeature = {
 
 		function parse_prereq_spell (spell) {
 			if (spell === "eldritch blast") return "魔能爆";
-			else if (spell === "hex/curse") return "脆弱詛咒/詛咒";
+			else if (spell === "hex/curse") return "脆弱诅咒/诅咒";
 			else if (spell) return spell;
 			return STR_NONE;
 		}
@@ -1932,7 +1932,7 @@ EntryRenderer.optionalfeature = {
 		const outList = prerequisites.map(it => {
 			switch (it.type) {
 				case "prereqLevel":
-					return listMode ? false : `${it.level}級`;
+					return listMode ? false : `${it.level}级`;
 				case "prereqPact":
 					return Parser.prereqPactToFull(it.entry);
 				case "prereqPatron":
@@ -1952,7 +1952,7 @@ EntryRenderer.optionalfeature = {
 			}
 		});
 
-		return listMode ? outList.filter(Boolean).join(", ") : `先決條件：${outList.join(", ")}`;
+		return listMode ? outList.filter(Boolean).join(", ") : `先决条件：${outList.join(", ")}`;
 	},
 
 	getListPrerequisiteLevelText (prerequisites) {
@@ -2007,8 +2007,8 @@ EntryRenderer.race = {
 			<tr><td colspan="6">
 				<table class="summary striped-even">
 					<tr>
-						<th class="col-4 text-align-center">屬性值</th>
-						<th class="col-4 text-align-center">體型</th>
+						<th class="col-4 text-align-center">属性值</th>
+						<th class="col-4 text-align-center">体型</th>
 						<th class="col-4 text-align-center">速度</th>
 					</tr>
 					<tr>
@@ -2097,7 +2097,7 @@ EntryRenderer.race = {
 
 EntryRenderer.deity = {
 	_basePartTranslators: {
-		"陣營": {
+		"阵营": {
 			prop: "alignment",
 			displayFn: (it) => it.map(a => Parser.alignmentAbvToFull(a)).join("")
 		},
@@ -2105,22 +2105,22 @@ EntryRenderer.deity = {
 			prop: "pantheon",
 			displayFn: Parser.PantheonToDisplay
 		},
-		"類別": {
+		"类别": {
 			prop: "category",
 			displayFn: Parser.PantheonCategoryToDisplay
 		},
-		"領域": {
+		"领域": {
 			prop: "domains",
 			displayFn: (it) => it.map(d => Parser.SubclassToDisplay(d)).join(", ")
 		},
 		"Province": {
 			prop: "province"
 		},
-		"其他名稱": {
+		"其他名称": {
 			prop: "altNames",
 			displayFn: (it) => it.join(", ")
 		},
-		"聖徽": {
+		"圣徽": {
 			prop: "symbol"
 		}
 	},
@@ -2546,7 +2546,7 @@ EntryRenderer.monster = {
 		} else {
 			const legendaryActions = mon.legendaryActions || 3;
 			const legendaryName = getCleanName();
-			return `${legendaryName}可以採取 ${legendaryActions} 次傳奇動作，從以下選項中選擇。傳奇動作只能在另一個生物的回合結束時使用，且一次只能使用一項。${legendaryName}在它的回合開始時恢復所有已消耗的傳奇動作。`
+			return `${legendaryName}可以采取 ${legendaryActions} 次传奇动作，从以下选项中选择。传奇动作只能在另一个生物的回合结束时使用，且一次只能使用一项。${legendaryName}在它的回合开始时恢复所有已消耗的传奇动作。`
 		}
 	},
 
@@ -2562,46 +2562,46 @@ EntryRenderer.monster = {
 		function getExampleSpells (maxSpellLevel, color) {
 			const LVL_TO_COLOR_TO_SPELLS = {
 				2: {
-					B: ["黑暗術", "馬友夫強酸箭", "雲霧術", "灼熱射線"],
-					G: ["致病射線", "魅惑人類", "偵測思想", "隱形術", "暗示術"],
+					B: ["黑暗术", "马友夫强酸箭", "云雾术", "灼热射线"],
+					G: ["致病射线", "魅惑人类", "侦测思想", "隐形术", "暗示术"],
 					W: ["冰刃|XGE", "史尼洛雪球群|XGE"],
-					A: ["識破隱形", "魔嘴術", "目盲/耳聾術", "睡眠術", "偵測思想"],
-					Z: ["造風術", "迷蹤步", "物品定位術", "朦朧術", "巫術箭", "雷鳴波", "護盾術"],
-					C: ["敲擊術", "睡眠術", "偵測思想", "目盲/耳聾術", "塔莎狂笑術"]
+					A: ["识破隐形", "魔嘴术", "目盲/耳聋术", "睡眠术", "侦测思想"],
+					Z: ["造风术", "迷踪步", "物品定位术", "朦胧术", "巫术箭", "雷鸣波", "护盾术"],
+					C: ["敲击术", "睡眠术", "侦测思想", "目盲/耳聋术", "塔莎狂笑术"]
 				},
 				3: {
-					U: ["沙牆術|XGE", "雷霆步|XGE", "閃電束", "閃現術", "魔法飛彈", "緩速術"],
-					R: ["火球術", "灼熱射線", "加速術", "土石爆發|XGE", "阿迦納薩噴火術|XGE"],
-					O: ["緩速術", "火球術", "解除魔法", "反制法術", "阿迦納薩噴火術|XGE", "護盾術"],
-					S: ["雪雨暴", "防護能量", "休憩術|XGE", "物品定位術", "鑑定術", "李歐蒙小屋"]
+					U: ["沙墙术|XGE", "雷霆步|XGE", "闪电束", "闪现术", "魔法飞弹", "缓速术"],
+					R: ["火球术", "灼热射线", "加速术", "土石爆发|XGE", "阿迦纳萨喷火术|XGE"],
+					O: ["缓速术", "火球术", "解除魔法", "反制法术", "阿迦纳萨喷火术|XGE", "护盾术"],
+					S: ["雪雨暴", "防护能量", "休憩术|XGE", "物品定位术", "鉴定术", "李欧蒙小屋"]
 				},
 				4: {
-					B: ["硫酸法球|XGE", "致病光輝|XGE", "艾伐黑觸手", "枯萎術", "哈達之欲"],
-					W: ["火焰護盾", "冰風暴", "雪雨暴"],
-					A: ["魅惑怪物|XGE", "短訊術", "沙牆術|XGE", "催眠圖紋", "巧舌術"],
-					C: ["變形術", "高等隱形術", "困惑術", "臭雲術", "強效幻影", "魅惑怪物|XGE"]
+					B: ["硫酸法球|XGE", "致病光辉|XGE", "艾伐黑触手", "枯萎术", "哈达之欲"],
+					W: ["火焰护盾", "冰风暴", "雪雨暴"],
+					A: ["魅惑怪物|XGE", "短讯术", "沙墙术|XGE", "催眠图纹", "巧舌术"],
+					C: ["变形术", "高等隐形术", "困惑术", "臭云术", "强效幻影", "魅惑怪物|XGE"]
 				},
 				5: {
-					U: ["心靈遙控", "怪物定身術", "次元門", "石牆術", "力牆術"],
-					G: ["死雲術", "魅惑怪物|XGE", "修改記憶", "假象術", "幻景", "次元門"],
-					Z: ["鋼風打擊|XGE", "操控天氣", "操控風相|XGE", "水體法球|XGE", "暴風法球|XGE", "潮湧浪|XGE"],
-					O: ["怪物定身術", "燔焚術|XGE", "火牆術", "高等隱形術", "次元門"],
-					S: ["寒冰錐", "冰風暴", "傳送法陣", "技能賦權|XGE", "造物術", "魔鄧肯私人密室"]
+					U: ["心灵遥控", "怪物定身术", "次元门", "石墙术", "力墙术"],
+					G: ["死云术", "魅惑怪物|XGE", "修改记忆", "假象术", "幻景", "次元门"],
+					Z: ["钢风打击|XGE", "操控天气", "操控风相|XGE", "水体法球|XGE", "暴风法球|XGE", "潮涌浪|XGE"],
+					O: ["怪物定身术", "燔焚术|XGE", "火墙术", "高等隐形术", "次元门"],
+					S: ["寒冰锥", "冰风暴", "传送法阵", "技能赋权|XGE", "造物术", "魔邓肯私人密室"]
 				},
 				6: {
-					W: ["寒冰錐", "冰牆術"],
-					A: ["探知", "拉瑞心靈聯結", "奧圖狂舞術", "通曉傳奇", "怪物定身術", "託夢術"]
+					W: ["寒冰锥", "冰墙术"],
+					A: ["探知", "拉瑞心灵联结", "奥图狂舞术", "通晓传奇", "怪物定身术", "托梦术"]
 				},
 				7: {
-					B: ["律令痛苦|XGE", "死亡一指", "解離術", "怪物定身術"],
-					U: ["連環閃電", "力場監牢", "傳送術", "跨入乙太界"],
-					G: ["投射幻影", "海市蜃樓", "虹光噴射", "傳送術"],
-					Z: ["龍卷旋風|XGE", "連環閃電", "散射術|XGE", "傳送術", "解離術", "閃電束"],
-					C: ["徽記術", "擬像術", "重力反轉", "投射幻影", "畢格比之掌", "心靈監獄|XGE", "偽裝術"],
-					S: ["歐提路克冰凍法球", "虹光噴射", "冰牆術", "觸發術", "祕法之門"]
+					B: ["律令痛苦|XGE", "死亡一指", "解离术", "怪物定身术"],
+					U: ["连环闪电", "力场监牢", "传送术", "跨入乙太界"],
+					G: ["投射幻影", "海市蜃楼", "虹光喷射", "传送术"],
+					Z: ["龙卷旋风|XGE", "连环闪电", "散射术|XGE", "传送术", "解离术", "闪电束"],
+					C: ["徽记术", "拟像术", "重力反转", "投射幻影", "毕格比之掌", "心灵监狱|XGE", "伪装术"],
+					S: ["欧提路克冰冻法球", "虹光喷射", "冰墙术", "触发术", "秘法之门"]
 				},
 				8: {
-					O: ["陽炎爆", "延遲爆裂火球", "反魔法結界", "傳送術", "法術無效結界", "迷宮術"]
+					O: ["阳炎爆", "延迟爆裂火球", "反魔法结界", "传送术", "法术无效结界", "迷宫术"]
 				}
 			};
 
@@ -2612,14 +2612,14 @@ EntryRenderer.monster = {
 		const pb = Parser.crToPb(dragon.cr);
 		const maxSpellLevel = Math.floor(Parser.crToNumber(dragon.cr) / 3);
 		const exampleSpells = getExampleSpells(maxSpellLevel, dragon.dragonCastingColor);
-		const levelString = maxSpellLevel === 0 ? `${chaMod === 1 ? "這個" : "這些"}法術為戲法。` : `${chaMod === 1 ? "這個" : "每個"}法術的環階不能超過 ${Parser.spLevelToFull(maxSpellLevel)}。`;
+		const levelString = maxSpellLevel === 0 ? `${chaMod === 1 ? "这个" : "这些"}法术为戏法。` : `${chaMod === 1 ? "这个" : "每个"}法术的环阶不能超过 ${Parser.spLevelToFull(maxSpellLevel)}。`;
 		const v = {
 			type: "variant",
-			name: "龍類天生施法者",
+			name: "龙类天生施法者",
 			entries: [
-				"做為天生的魔法生物，使用這個變體的龍類可以隨著年齡增長而掌握一些法術。",
-				"一個少年龍或更年長的龍天生就能夠施放等同於它魅力調整值數量的法術。每個法術每日只能施放一次，無需任何材料構材，且法術環階不能超過該龍挑戰等級的三分之一（向下取整）。該龍使用法術攻擊的加值等同於它的熟練加值 + 它的魅力調整值。該龍的法術豁免DC等同於8 + 它的熟練加值 + 它的魅力調整值。",
-				`{@i 此龍天生就能施放${Parser.numberToText(chaMod)}種法術，${chaMod === 1 ? "" : "各項"}每日一次，且無需任何材料構材。${levelString}此龍的法術豁免DC為${pb + chaMod + 8}，且它使用此法術攻擊的加值為{@hit ${pb + chaMod}}。參見{@filter 法術頁面|spells|level=${[...new Array(maxSpellLevel + 1)].map((it, i) => i).join(";")}}以查閱此龍得以施放的法術列表。${exampleSpells ? "以下列出一些範例組合：" : ""}`
+				"做为天生的魔法生物，使用这个变体的龙类可以随着年龄增长而掌握一些法术。",
+				"一个少年龙或更年长的龙天生就能够施放等同于它魅力调整值数量的法术。每个法术每日只能施放一次，无需任何材料构材，且法术环阶不能超过该龙挑战等级的三分之一（向下取整）。该龙使用法术攻击的加值等同于它的熟练加值 + 它的魅力调整值。该龙的法术豁免DC等同于8 + 它的熟练加值 + 它的魅力调整值。",
+				`{@i 此龙天生就能施放${Parser.numberToText(chaMod)}种法术，${chaMod === 1 ? "" : "各项"}每日一次，且无需任何材料构材。${levelString}此龙的法术豁免DC为${pb + chaMod + 8}，且它使用此法术攻击的加值为{@hit ${pb + chaMod}}。参见{@filter 法术页面|spells|level=${[...new Array(maxSpellLevel + 1)].map((it, i) => i).join(";")}}以查阅此龙得以施放的法术列表。${exampleSpells ? "以下列出一些范例组合：" : ""}`
 			]
 		};
 		if (exampleSpells) {
@@ -2692,10 +2692,10 @@ EntryRenderer.monster = {
 			<tr><td colspan="6">
 				<table class="summary-noback" style="position: relative;">
 					<tr>
-						<th>護甲等級</th>
+						<th>护甲等级</th>
 						<th>生命值</th>
 						<th>速度</th>
-						<th>挑戰等級</th>
+						<th>挑战等级</th>
 					</tr>
 					<tr>
 						<td>${Parser.acToFull(mon.ac)}</td>
@@ -2723,7 +2723,7 @@ EntryRenderer.monster = {
 					<tr>
 						<th class="col-2 text-align-center">力量</th>
 						<th class="col-2 text-align-center">敏捷</th>
-						<th class="col-2 text-align-center">體質</th>
+						<th class="col-2 text-align-center">体质</th>
 						<th class="col-2 text-align-center">智力</th>
 						<th class="col-2 text-align-center">睿知</th>
 						<th class="col-2 text-align-center">魅力</th>
@@ -2743,12 +2743,12 @@ EntryRenderer.monster = {
 				<div class="rend__compact-stat">
 					${mon.save ? `<p><b>豁免：</b> ${Object.keys(mon.save).map(s => EntryRenderer.monster.getSave(renderer, s, mon.save[s])).join(", ")}</p>` : ""}
 					${mon.skill ? `<p><b>技能：</b> ${EntryRenderer.monster.getSkillsString(renderer, mon)}</p>` : ""}
-					<p><b>感官：</b> ${mon.senses ? `${EntryRenderer.monster.getRenderedSenses(mon.senses)}, ` : ""}被動感知 ${mon.passive}</p>
-					<p><b>語言：</b> ${mon.languages ? mon.languages : `\u2014`}</p>
-					${mon.vulnerable ? `<p><b>傷害易傷：</b> ${Parser.monImmResToFull(mon.vulnerable)}</p>` : ""}
-					${mon.resist ? `<p><b>傷害抗性：</b> ${Parser.monImmResToFull(mon.resist)}</p>` : ""}
-					${mon.immune ? `<p><b>傷害免疫：</b> ${Parser.monImmResToFull(mon.immune)}</p>` : ""}
-					${mon.conditionImmune ? `<p><b>狀態免疫：</b> ${Parser.monCondImmToFull(mon.conditionImmune)}</p>` : ""}
+					<p><b>感官：</b> ${mon.senses ? `${EntryRenderer.monster.getRenderedSenses(mon.senses)}, ` : ""}被动感知 ${mon.passive}</p>
+					<p><b>语言：</b> ${mon.languages ? mon.languages : `\u2014`}</p>
+					${mon.vulnerable ? `<p><b>伤害易伤：</b> ${Parser.monImmResToFull(mon.vulnerable)}</p>` : ""}
+					${mon.resist ? `<p><b>伤害抗性：</b> ${Parser.monImmResToFull(mon.resist)}</p>` : ""}
+					${mon.immune ? `<p><b>伤害免疫：</b> ${Parser.monImmResToFull(mon.immune)}</p>` : ""}
+					${mon.conditionImmune ? `<p><b>状态免疫：</b> ${Parser.monCondImmToFull(mon.conditionImmune)}</p>` : ""}
 				</div>
 			</td></tr>
 			${mon.trait || mon.spellcasting ? `<tr><td colspan="6"><div class="border"></div></td></tr>
@@ -2799,7 +2799,7 @@ EntryRenderer.monster = {
 			if (spellList.constant || spellList.will || spellList.rest || spellList.daily || spellList.weekly) {
 				const tempList = {type: "list", "style": "list-hang-notitle", items: []};
 				if (spellList.constant && !hidden.has("constant")) tempList.items.push({type: "itemSpell", name: `Constant:`, entry: spellList.constant.join(", ")});
-				if (spellList.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `隨意:`, entry: spellList.will.join(", ")});
+				if (spellList.will && !hidden.has("will")) tempList.items.push({type: "itemSpell", name: `随意:`, entry: spellList.will.join(", ")});
 				if (spellList.rest && !hidden.has("rest")) {
 					for (let j = 9; j > 0; j--) {
 						let rest = spellList.rest;
@@ -2813,15 +2813,15 @@ EntryRenderer.monster = {
 						let daily = spellList.daily;
 						if (daily[j]) tempList.items.push({type: "itemSpell", name: `${j}/每日:`, entry: daily[j].join(", ")});
 						const jEach = `${j}e`;
-						if (daily[jEach]) tempList.items.push({type: "itemSpell", name: `各項${j}/每日:`, entry: daily[jEach].join(", ")});
+						if (daily[jEach]) tempList.items.push({type: "itemSpell", name: `各项${j}/每日:`, entry: daily[jEach].join(", ")});
 					}
 				}
 				if (spellList.weekly && !hidden.has("weekly")) {
 					for (let j = 9; j > 0; j--) {
 						let weekly = spellList.weekly;
-						if (weekly[j]) tempList.items.push({type: "itemSpell", name: `${j}/每週:`, entry: weekly[j].join(", ")});
+						if (weekly[j]) tempList.items.push({type: "itemSpell", name: `${j}/每周:`, entry: weekly[j].join(", ")});
 						const jEach = `${j}e`;
-						if (weekly[jEach]) tempList.items.push({type: "itemSpell", name: `各項${j}/每週:`, entry: weekly[jEach].join(", ")});
+						if (weekly[jEach]) tempList.items.push({type: "itemSpell", name: `各项${j}/每周:`, entry: weekly[jEach].join(", ")});
 					}
 				}
 				if (tempList.items.length) toRender[0].entries.push(tempList);
@@ -2833,12 +2833,12 @@ EntryRenderer.monster = {
 					if (spells) {
 						let lower = spells.lower;
 						let levelCantrip = `${Parser.spLevelToFull(j)}`;
-						let slotsAtWill = ` (隨意)`;
+						let slotsAtWill = ` (随意)`;
 						let slots = spells.slots;
-						if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots}法術位)` : ``;
+						if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots}法术位)` : ``;
 						if (lower) {
 							levelCantrip = `${Parser.spLevelToFull(lower)}-${levelCantrip}`;
-							if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} ${Parser.spLevelToFull(j)}法術位)` : ``;
+							if (slots >= 0) slotsAtWill = slots > 0 ? ` (${slots} ${Parser.spLevelToFull(j)}法术位)` : ``;
 						}
 						tempList.items.push({type: "itemSpell", name: `${levelCantrip} ${slotsAtWill}:`, entry: spells.spells.join(", ")})
 					}
@@ -2988,7 +2988,7 @@ EntryRenderer.monster = {
 
 	getRenderedSenses (senses) {
 		console.log("OAO")
-		return EntryRenderer.getDefaultRenderer().renderEntry(senses.replace(/(^|)(震顫感知|盲視|真實視覺|黑暗視覺)(\d|$)/gi, (...m) => `${m[1]}{@sense ${m[2]}}${m[3]}`));
+		return EntryRenderer.getDefaultRenderer().renderEntry(senses.replace(/(^|)(震颤感知|盲视|真实视觉|黑暗视觉)(\d|$)/gi, (...m) => `${m[1]}{@sense ${m[2]}}${m[3]}`));
 	}
 };
 
@@ -3001,7 +3001,7 @@ EntryRenderer.item = {
 			if (item.dmg1) damage = EntryRenderer.getDefaultRenderer().renderEntry(item.dmg1);
 			if (item.dmgType) damageType = Parser.dmgTypeToFull(item.dmgType);
 		} else if (type === "LA" || type === "MA" || type === "HA") {
-			damage = "AC " + item.ac + (type === "LA" ? " +敏捷調整" : type === "MA" ? " +敏捷調整(最高2)" : "");
+			damage = "AC " + item.ac + (type === "LA" ? " +敏捷调整" : type === "MA" ? " +敏捷调整(最高2)" : "");
 		} else if (type === "S") {
 			damage = "AC +" + item.ac;
 		} else if (type === "MNT" || type === "VEH" || type === "SHP") {
@@ -3280,19 +3280,19 @@ EntryRenderer.item = {
 		}
 		// The following could be encoded in JSON, but they depend on more than one JSON property; maybe fix if really bored later
 		if (item.armor) {
-			if (item.resist) item.entries.push("你在穿著此護甲時具有對" + Parser.DamageToDisplay(item.resist) + "傷害的抗性。");
-			if (item.armor && item.stealth) item.entries.push("穿戴者在敏捷（隱匿）檢定上有劣勢。");
-			if (item.type === "HA" && item.strength) item.entries.push("如果穿戴者的力量屬性不到 " + item.strength + "，他們的移動速度減少10呎。");
+			if (item.resist) item.entries.push("你在穿着此护甲时具有对" + Parser.DamageToDisplay(item.resist) + "伤害的抗性。");
+			if (item.armor && item.stealth) item.entries.push("穿戴者在敏捷（隐匿）检定上有劣势。");
+			if (item.type === "HA" && item.strength) item.entries.push("如果穿戴者的力量属性不到 " + item.strength + "，他们的移动速度减少10呎。");
 		} else if (item.resist) {
-			if (item.type === "P") item.entries.push("當你飲用這瓶藥水時，你獲得對" + Parser.DamageToDisplay(item.resist) + "傷害的抗性持續1小時。");
-			if (item.type === "RG") item.entries.push("你在穿戴此戒指時具有對" + Parser.DamageToDisplay(item.resist) + "傷害的抗性。");
+			if (item.type === "P") item.entries.push("当你饮用这瓶药水时，你获得对" + Parser.DamageToDisplay(item.resist) + "伤害的抗性持续1小时。");
+			if (item.type === "RG") item.entries.push("你在穿戴此戒指时具有对" + Parser.DamageToDisplay(item.resist) + "伤害的抗性。");
 		}
 		if (item.type === "SCF") {
-			if (item.scfType === "arcane") item.entries.push("奧術法器是一種被設計成能用以引導奧秘法術能量的特殊物品。術士、契術師、或法師可以將這類物品作為法器使用，用它來取代任何沒有列出價值的材料構材。");
-			if (item.scfType === "druid") item.entries.push("德魯伊可以將這類德魯伊法器作為法器使用，用它來取代任何沒有列出價值的材料構材。");
+			if (item.scfType === "arcane") item.entries.push("奥术法器是一种被设计成能用以引导奥秘法术能量的特殊物品。术士、契术师、或法师可以将这类物品作为法器使用，用它来取代任何没有列出价值的材料构材。");
+			if (item.scfType === "druid") item.entries.push("德鲁伊可以将这类德鲁伊法器作为法器使用，用它来取代任何没有列出价值的材料构材。");
 			if (item.scfType === "holy") {
-				item.entries.push("聖徽是代表著一尊神明或諸神的圖像雕紋。");
-				item.entries.push("牧師或聖騎士可以將聖徽作為法器使用，用它來取代任何沒有列出價值的材料構材。若要用這個方式使用聖徽，施法者必須將它持握在手中、顯眼地穿戴它、或將它佩帶在盾牌上。");
+				item.entries.push("圣徽是代表着一尊神明或诸神的图像雕纹。");
+				item.entries.push("牧师或圣骑士可以将圣徽作为法器使用，用它来取代任何没有列出价值的材料构材。若要用这个方式使用圣徽，施法者必须将它持握在手中、显眼地穿戴它、或将它佩带在盾牌上。");
 			}
 		}
 
@@ -3336,9 +3336,9 @@ EntryRenderer.item = {
 			typeListText.push(Parser.ItemTypeToDisplay(abv));
 		}
 		if (item.poison) {
-			type.push("毒藥");
+			type.push("毒药");
 			filterType.push("Poison");
-			typeListText.push("毒藥");
+			typeListText.push("毒药");
 		}
 		item.procType = filterType;
 		item.typeText = type.join(", ");
@@ -3349,16 +3349,16 @@ EntryRenderer.item = {
 		if (item.reqAttune !== undefined) {
 			if (item.reqAttune === true) {
 				attunement = "Yes";
-				item.reqAttune = "(需同調)"
+				item.reqAttune = "(需同调)"
 			} else if (item.reqAttune === "OPTIONAL") {
 				attunement = "Optional";
-				item.reqAttune = "(可同調)"
+				item.reqAttune = "(可同调)"
 			} else if (item.reqAttune.toLowerCase().startsWith("by")) {
 				attunement = "By...";
-				item.reqAttune = "(需" + item.reqAttune + "同調)";
+				item.reqAttune = "(需" + item.reqAttune + "同调)";
 			} else {
 				attunement = "Yes"; // throw any weird ones in the "Yes" category (e.g. "outdoors at night")
-				item.reqAttune = "(需" + item.reqAttune + "同調)";
+				item.reqAttune = "(需" + item.reqAttune + "同调)";
 			}
 		}
 		item.attunementCategory = attunement;
@@ -3366,7 +3366,7 @@ EntryRenderer.item = {
 		// handle item groups
 		if (item._isItemGroup) {
 			item.entries.push(
-				"這個物品存在許多個變體，見下表：",
+				"这个物品存在许多个变体，见下表：",
 				{
 					type: "list",
 					items: item.items.map(it => typeof it === "string" ? `{@item ${it}}` : `{@item ${it.name}|${it.source}}`)
@@ -3396,9 +3396,9 @@ EntryRenderer.item = {
 				const entries = item.entries;
 				entries.push({
 					type: "entries",
-					name: "基礎物品：",
+					name: "基础物品：",
 					entries: [
-						"這個物品變體可以應用於以下基礎物品：",
+						"这个物品变体可以应用于以下基础物品：",
 						{
 							type: "list",
 							items: variants.map(({base, specificVariant}) => {
@@ -4638,7 +4638,7 @@ EntryRenderer.hover = {
 	bindPopoutButton (toList, handlerGenerator) {
 		const $btnPop = ListUtil.getOrTabRightButton(`btn-popout`, `new-window`)
 			.off("click")
-			.attr("title", "彈出視窗（按住SHIFT以檢視源代碼）");
+			.attr("title", "弹出视窗（按住SHIFT以检视源代码）");
 
 		const popoutCodeId = EntryRenderer.hover.__initOnMouseHoverEntry({});
 
@@ -4681,7 +4681,7 @@ EntryRenderer.hover = {
 
 EntryRenderer.dice = {
 	SYSTEM_USER: {
-		name: "幸運女神 艾梵卓" // Avandra, goddess of luck
+		name: "幸运女神 艾梵卓" // Avandra, goddess of luck
 	},
 	POS_INFINITE: 100000000000000000000, // larger than this, and we start to see "e" numbers appear
 
@@ -4784,7 +4784,7 @@ EntryRenderer.dice = {
 			EntryRenderer.dice._showBox();
 			EntryRenderer.dice._$iptRoll.focus();
 		});
-		const $head = $(`<div class="head-roll"><span class="hdr-roll">擲骰工具</span><span class="delete-icon glyphicon glyphicon-remove"></span></div>`)
+		const $head = $(`<div class="head-roll"><span class="hdr-roll">掷骰工具</span><span class="delete-icon glyphicon glyphicon-remove"></span></div>`)
 			.on("click", () => {
 				if (!EntryRenderer.dice._panel) EntryRenderer.dice._hideBox();
 			});
@@ -5078,7 +5078,7 @@ EntryRenderer.dice = {
 			const lbl = rolledBy.label && (!rolledBy.name || rolledBy.label.trim().toLowerCase() !== rolledBy.name.trim().toLowerCase()) ? rolledBy.label : null;
 
 			const totalPart = tree.successThresh
-				? `<span class="roll">${result > (tree.successMax || 100) - tree.successThresh ? "成功！" : "失敗"}</span>`
+				? `<span class="roll">${result > (tree.successMax || 100) - tree.successThresh ? "成功！" : "失败"}</span>`
 				: `<span class="roll ${allMax ? "roll-max" : allMin ? "roll-min" : ""}">${result}</span>`;
 
 			const title = `${rolledBy.name ? `${rolledBy.name} \u2014 ` : ""}${lbl ? `${lbl}: ` : ""}${tree._asString}`;
@@ -5098,7 +5098,7 @@ EntryRenderer.dice = {
 
 			return result;
 		} else {
-			$out.append(`<div class="out-roll-item">無效的指令！試試&quot;/help&quot;</div>`);
+			$out.append(`<div class="out-roll-item">无效的指令！试试&quot;/help&quot;</div>`);
 		}
 		EntryRenderer.dice._scrollBottom();
 	},
@@ -5116,7 +5116,7 @@ EntryRenderer.dice = {
 		EntryRenderer.dice._showMessage(`<span class="out-roll-item-code">${com}</span>`, rolledBy); // parrot the user's command back to them
 		const PREF_MACRO = "/macro";
 		function showInvalid () {
-			EntryRenderer.dice._showMessage("無效的指令！試試&quot;/help&quot;", EntryRenderer.dice.SYSTEM_USER);
+			EntryRenderer.dice._showMessage("无效的指令！试试&quot;/help&quot;", EntryRenderer.dice.SYSTEM_USER);
 		}
 
 		function checkLength (arr, desired) {
@@ -5129,13 +5129,13 @@ EntryRenderer.dice = {
 
 		if (com === "/help" || com === "/h") {
 			EntryRenderer.dice._showMessage(
-				`支援 捨棄最高骰面(<span class="out-roll-item-code">2d4dh1</span>) 和 捨棄最低骰面(<span class="out-roll-item-code">4d6dl1</span>)。<br>
-				上、下方向鍵 以巡覽歷史輸入。<br>
-				使用 <span class="out-roll-item-code">${PREF_MACRO} list</span> 以列出已儲存的巨集指令。<br>
-				使用 <span class="out-roll-item-code">${PREF_MACRO} add myName 1d2+3</span> 以加入(或更新)一個巨集指令。巨集指令的名稱不能包含空白或＃字號。<br>
-				使用 <span class="out-roll-item-code">${PREF_MACRO} remove myName</span> 以移除一個巨集指令。<br>
-				使用 <span class="out-roll-item-code">#myName</span> 以使用一個巨集擲骰。<br>
-				使用 <span class="out-roll-item-code">/clear</span> 以清除紀錄。`,
+				`支援 舍弃最高骰面(<span class="out-roll-item-code">2d4dh1</span>) 和 舍弃最低骰面(<span class="out-roll-item-code">4d6dl1</span>)。<br>
+				上、下方向键 以巡览历史输入。<br>
+				使用 <span class="out-roll-item-code">${PREF_MACRO} list</span> 以列出已储存的巨集指令。<br>
+				使用 <span class="out-roll-item-code">${PREF_MACRO} add myName 1d2+3</span> 以加入(或更新)一个巨集指令。巨集指令的名称不能包含空白或＃字号。<br>
+				使用 <span class="out-roll-item-code">${PREF_MACRO} remove myName</span> 以移除一个巨集指令。<br>
+				使用 <span class="out-roll-item-code">#myName</span> 以使用一个巨集掷骰。<br>
+				使用 <span class="out-roll-item-code">/clear</span> 以清除纪录。`,
 				EntryRenderer.dice.SYSTEM_USER
 			);
 		} else if (com.startsWith(PREF_MACRO)) {
@@ -5160,7 +5160,7 @@ EntryRenderer.dice = {
 							else {
 								EntryRenderer.dice.storage[name] = macro;
 								pSave()
-									.then(() => EntryRenderer.dice._showMessage(`儲存巨集指令 <span class="out-roll-item-code">#${name}</span>`, EntryRenderer.dice.SYSTEM_USER));
+									.then(() => EntryRenderer.dice._showMessage(`储存巨集指令 <span class="out-roll-item-code">#${name}</span>`, EntryRenderer.dice.SYSTEM_USER));
 							}
 						} else {
 							showInvalid();

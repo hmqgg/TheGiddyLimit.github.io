@@ -454,7 +454,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -530,7 +530,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -560,7 +560,7 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The toad can breathe air or water."
 					]
@@ -1009,7 +1009,7 @@
 				{
 					"ac": 25,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],

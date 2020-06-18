@@ -93,7 +93,7 @@
 				{
 					"ac": 19,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -490,7 +490,7 @@
 							"spells": [
 								"{@spell confusion}",
 								"{@spell hallucinatory terrain}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -514,7 +514,7 @@
 							"spells": [
 								"{@spell finger of death}",
 								"{@spell symbol}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -665,7 +665,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -782,7 +782,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell counterspell}",
 								"{@spell lightning bolt}"
 							]
@@ -791,7 +791,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell greater invisibility}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -977,7 +977,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1135,7 +1135,7 @@
 			],
 			"senses": "darkvision 120 ft.",
 			"passive": 17,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "13",
 			"trait": [
 				{
@@ -1796,7 +1796,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2231,7 +2231,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -2246,7 +2246,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 變形術}",
+								"{@spell 变形术}",
 								"{@spell fire shield}",
 								"{@spell stoneskin}*"
 							]
@@ -2268,7 +2268,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -2376,7 +2376,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -2413,7 +2413,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -2524,7 +2524,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -2561,7 +2561,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -2757,7 +2757,7 @@
 						],
 						"3e": [
 							"{@spell darkness}",
-							"{@spell 妖火術}",
+							"{@spell 妖火术}",
 							"{@spell shield}"
 						]
 					},
@@ -2815,7 +2815,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell 解除魔法}"
 							]
 						},
@@ -2914,7 +2914,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell detect thoughts}",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell misty step}"
 							]
 						},
@@ -2922,14 +2922,14 @@
 							"slots": 3,
 							"spells": [
 								"{@spell counterspell}",
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell lightning bolt}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell fire shield}",
 								"{@spell stoneskin}*"
 							]
@@ -2951,7 +2951,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {

@@ -163,8 +163,8 @@ class StatGen {
 		$("#rollbutton").click(() => this.rollStats());
 
 		const isCrypto = RollerUtil.isCrypto();
-		const titleStr = isCrypto ? "數字將透過Crypto.getRandomValues()產生" : "數字將透過Math.random()產生";
-		$(`#roller-mode`).html(`密碼學安全強亂數生成器：<span title="${titleStr}" class="crypto-${isCrypto}">${isCrypto ? `<span class="glyphicon glyphicon-lock"></span> 啟用` : `<span class="glyphicon glyphicon-ban-circle"></span> 無法使用`}</span>`);
+		const titleStr = isCrypto ? "数字将透过Crypto.getRandomValues()产生" : "数字将透过Math.random()产生";
+		$(`#roller-mode`).html(`密码学安全强乱数生成器：<span title="${titleStr}" class="crypto-${isCrypto}">${isCrypto ? `<span class="glyphicon glyphicon-lock"></span> 启用` : `<span class="glyphicon glyphicon-ban-circle"></span> 无法使用`}</span>`);
 
 		$("#reset").click(() => {
 			$(".base").val(this.statMin);
@@ -179,8 +179,8 @@ class StatGen {
 		const races = this.raceData.map(x => ({name: x.name, source: x.source})).sort((a, b) => SortUtil.ascSort(a.name, b.name) || SortUtil.ascSort(a.source, b.source));
 		const options = races.map(it => `<option value="${it.name}_${it.source}">${it.name} ${it.source !== SRC_PHB ? `[${Parser.sourceJsonToAbv(it.source)}]` : ""}</option>`).join("");
 		$("#race")
-			.append(`<option value="">無</option>`)
-			.append(`<option value="_CUSTOM">客製化</option>`)
+			.append(`<option value="">无</option>`)
+			.append(`<option value="_CUSTOM">客制化</option>`)
 			.append(options)
 			.change(() => this.changeRace())
 			.change();
@@ -192,9 +192,9 @@ class StatGen {
 		$table.empty().append(`
 			<thead>
 				<tr>
-					<th class="col-4 pbuy__adv-col-3">屬性值</th>
-					<th class="col-4 pbuy__adv-col-3">調整值</th>
-					<th class="col-4 pbuy__adv-col-3">點數花費</th>
+					<th class="col-4 pbuy__adv-col-3">属性值</th>
+					<th class="col-4 pbuy__adv-col-3">调整值</th>
+					<th class="col-4 pbuy__adv-col-3">点数花费</th>
 					<th class="col-3 pbuy__adv--visible"></th>
 				</tr>
 			</thead>
@@ -243,7 +243,7 @@ class StatGen {
 
 			const $wrpBtnsTop = $(`<div class="pbuy__add_row_btn_wrap"/>`).insertBefore($table);
 
-			const $btnAddLow = $(`<button class="btn btn-xs btn-primary" style="margin-right: 7px;">加入更低數值</button>`)
+			const $btnAddLow = $(`<button class="btn btn-xs btn-primary" style="margin-right: 7px;">加入更低数值</button>`)
 				.click(() => {
 					const lowest = Object.keys(this.savedState).map(Number).sort(SortUtil.ascSort)[0];
 					if (lowest === 0) {
@@ -259,7 +259,7 @@ class StatGen {
 					this.renderCostsTable();
 				}).appendTo($wrpBtnsTop);
 
-			const $btnAddHigh = $(`<button class="btn btn-xs btn-primary" style="margin-right: 14px;">加入更高數值</button>`)
+			const $btnAddHigh = $(`<button class="btn btn-xs btn-primary" style="margin-right: 14px;">加入更高数值</button>`)
 				.click(() => {
 					const highest = Object.keys(this.savedState).map(Number).sort(SortUtil.ascSort).reverse()[0];
 
@@ -374,7 +374,7 @@ class StatGen {
 			this.raceChoiceAmount = stats.choose[0].amount || 1;
 			this.raceChoiceCount = stats.choose[0].count;
 
-			$chooseHead.text(`選擇${this.raceChoiceCount}項`).show();
+			$chooseHead.text(`选择${this.raceChoiceCount}项`).show();
 			Parser.ABIL_ABVS.forEach(abi => $(`#${abi} .${from.includes(abi) ? "choose" : "pbuy__choose_dummy"}`).show());
 		};
 

@@ -10,14 +10,14 @@ window.onload = async function load () {
 function rarityValue (rarity) {
 	switch (rarity) {
 		case "None": return 0;
-		case "Common": case "常見": return 1;
-		case "Uncommon":case "非常見": return 2;
+		case "Common": case "常见": return 1;
+		case "Uncommon":case "非常见": return 2;
 		case "Rare": case "珍稀": return 3;
 		case "Very Rare":case "非常珍稀": return 4;
-		case "Legendary": case "傳說": return 5;
+		case "Legendary": case "传说": return 5;
 		case "Artifact": case "神器": return 6;
 		case "Other": return 7;
-		case "Varies": case "可變": 	return 8;
+		case "Varies": case "可变": 	return 8;
 		case "Unknown (Magic)": return 9;
 		case "Unknown": return 10;
 		default: return 11;
@@ -48,14 +48,14 @@ let mundanelist;
 let magiclist;
 const sourceFilter = getSourceFilter();
 const DEFAULT_HIDDEN_TYPES = new Set(["$", "Futuristic", "Modern", "Renaissance"]);
-const typeFilter = new Filter({header: "Type", headerName: "類型", deselFn: (it) => DEFAULT_HIDDEN_TYPES.has(it),
+const typeFilter = new Filter({header: "Type", headerName: "类型", deselFn: (it) => DEFAULT_HIDDEN_TYPES.has(it),
 	items:["$","Trade Good","Adventuring Gear","Light Armor","Medium Armor","Heavy Armor","Shield","Simple Weapon","Martial Weapon","Melee Weapon","Ranged Weapon","Firearm","Ammunition","Explosive","Tool","Artisan Tool","Instrument","Gaming Set","Spellcasting Focus","Rod","Staff","Wand","Scroll","Ring","Wondrous Item","Potion","Poison","Mount","Vehicle","Tack and Harness","Renaissance","Modern","Futuristic"], displayFn: Parser.ItemTypeToDisplay});
-const tierFilter = new Filter({header: "Tier", headerName: "階級", items: ["None", "Minor", "Major"], displayFn:Parser.ItemTierToDisplay });
-const propertyFilter = new Filter({header: "Property", headerName: "物品屬性", displayFn: StrUtil.uppercaseFirst});
-const costFilter = new RangeFilter({header: "Cost", headerName: "價值", min: 0, max: 100, allowGreater: true, suffix: "金幣"});
+const tierFilter = new Filter({header: "Tier", headerName: "阶级", items: ["None", "Minor", "Major"], displayFn:Parser.ItemTierToDisplay });
+const propertyFilter = new Filter({header: "Property", headerName: "物品属性", displayFn: StrUtil.uppercaseFirst});
+const costFilter = new RangeFilter({header: "Cost", headerName: "价值", min: 0, max: 100, allowGreater: true, suffix: "金币"});
 const focusFilter = new Filter({header: "Spellcasting Focus", headerName: "施法法器", items: ["Bard", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"], displayFn: Parser.ClassToDisplay});
-const attachedSpellsFilter = new Filter({header: "Attached Spells", headerName: "附加法術", displayFn: (it) => it.split("|")[0].toTitleCase()});
-const lootTableFilter = new Filter({header: "Found On", headerName: "列於魔法物品表", items: ["魔法物品表A", "魔法物品表B", "魔法物品表C", "魔法物品表D", "魔法物品表E", "魔法物品表F", "魔法物品表G", "魔法物品表H", "魔法物品表I"]});
+const attachedSpellsFilter = new Filter({header: "Attached Spells", headerName: "附加法术", displayFn: (it) => it.split("|")[0].toTitleCase()});
+const lootTableFilter = new Filter({header: "Found On", headerName: "列于魔法物品表", items: ["魔法物品表A", "魔法物品表B", "魔法物品表C", "魔法物品表D", "魔法物品表E", "魔法物品表F", "魔法物品表G", "魔法物品表H", "魔法物品表I"]});
 
 let filterBox;
 async function populateTablesAndFilters (data) {
@@ -64,32 +64,32 @@ async function populateTablesAndFilters (data) {
 		items: ["None", "Common", "Uncommon", "Rare", "Very Rare", "Legendary", "Artifact", "Unknown", "Unknown (Magic)", "Other"],
 		displayFn: Parser.translateItemKeyToDisplay
 	});
-	const attunementFilter = new Filter({header: "Attunement", headerName: "同調", items: ["Yes", "By...", "Optional", "No"], displayFn: function(str){
+	const attunementFilter = new Filter({header: "Attunement", headerName: "同调", items: ["Yes", "By...", "Optional", "No"], displayFn: function(str){
 			switch(str){
 			case "Yes": return "需要";
 			case "By...": return "限定...";
-			case "Optional": return "可選";
-			case "No": return "不須";
+			case "Optional": return "可选";
+			case "No": return "不须";
 			default: return str;
 		};}});
 	const categoryFilter = new Filter({
-		header: "Category", headerName: "分類",
+		header: "Category", headerName: "分类",
 		items: ["Basic", "Generic Variant", "Specific Variant", "Other"],
 		deselFn: (it) => it === "Specific Variant",
 		displayFn: function(str){
 			switch(str){
 			case "Basic": return "基本";
-			case "Generic Variant": return "通用變體";
-			case "Specific Variant": return "特定變體";
+			case "Generic Variant": return "通用变体";
+			case "Specific Variant": return "特定变体";
 			case "Other": return "其他";
 			default: return str;
 		};}
 	});
-	const miscFilter = new Filter({header: "Miscellaneous", headerName: "雜項", items: ["Ability Score Adjustment", "Charges", "Cursed", "Magic", "Mundane", "Sentient"], displayFn:function(str){switch(str){
-		case "Ability Score Adjustment": return "屬性值調整";
+	const miscFilter = new Filter({header: "Miscellaneous", headerName: "杂项", items: ["Ability Score Adjustment", "Charges", "Cursed", "Magic", "Mundane", "Sentient"], displayFn:function(str){switch(str){
+		case "Ability Score Adjustment": return "属性值调整";
 		case "Magic": return "魔法物品";
-		case "Mundane": return "尋常物品";
-		case "Cursed": return "詛咒";
+		case "Mundane": return "寻常物品";
+		case "Cursed": return "诅咒";
 		case "Charges": return "充能";
 		case "Sentient": return "智能";
 		default: return str;
@@ -323,7 +323,7 @@ function addItems (data) {
 	$("ul.list.mundane").append(liList.mundane);
 	$("ul.list.magic").append(liList.magic);
 	// populate table labels
-	$(`h3.ele-mundane span.side-label`).text("尋常物品");
+	$(`h3.ele-mundane span.side-label`).text("寻常物品");
 	$(`h3.ele-magic span.side-label`).text("魔法物品");
 	// sort filters
 	sourceFilter.items.sort(SortUtil.srcSort_ch);
@@ -391,7 +391,7 @@ function onSublistChange () {
 		if (item.value) value += Parser.coinValueToNumber(item.value) * count;
 	});
 	totalWeight.text(`${weight.toLocaleString()} 磅${weight > 1 ? "" : ""}`);
-	totalValue.text(`${value.toLocaleString()} 金幣`)
+	totalValue.text(`${value.toLocaleString()} 金币`)
 }
 
 function getSublistItem (item, pinId, addCount) {
@@ -464,7 +464,7 @@ function loadhash (id) {
 		}
 
 		if (item.lootTables) {
-			renderStack.push(`<div><span class="bold">列於：</span>${item.lootTables.sort(SortUtil.ascSortLower).map(tbl => renderer.render(`{@table ${tbl}}`)).join(", ")}</div>`);
+			renderStack.push(`<div><span class="bold">列于：</span>${item.lootTables.sort(SortUtil.ascSortLower).map(tbl => renderer.render(`{@table ${tbl}}`)).join(", ")}</div>`);
 		}
 
 		const renderedText = renderStack.join("")
@@ -500,12 +500,12 @@ function loadhash (id) {
 		buildStatsTab
 	);
 	const infoTab = Renderer.utils.tabButton(
-		"資訊",
+		"资讯",
 		() => {},
 		buildFluffTab
 	);
 	const picTab = Renderer.utils.tabButton(
-		"圖片",
+		"图片",
 		() => {},
 		() => buildFluffTab(true)
 	);

@@ -12,7 +12,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -91,7 +91,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -248,10 +248,10 @@
 							"{@spell dominate beast}",
 							"{@spell hunter's mark}",
 							"{@spell maze}",
-							"{@spell 石牆術}"
+							"{@spell 石墙术}"
 						],
 						"1e": [
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						]
 					},
 					"ability": "cha"
@@ -297,7 +297,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -362,7 +362,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -454,7 +454,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -682,7 +682,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -819,7 +819,7 @@
 					"daily": {
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell telekinesis}"
 						],
 						"1e": [
@@ -1199,7 +1199,7 @@
 					"daily": {
 						"1e": [
 							"{@spell darkness}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell shatter}"
 						]
 					},
@@ -1302,7 +1302,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -1423,7 +1423,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -1540,7 +1540,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -1807,7 +1807,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -2069,7 +2069,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 護胸甲|phb}"
+						"{@item 护胸甲|phb}"
 					]
 				}
 			],
@@ -2097,7 +2097,7 @@
 			],
 			"senses": "darkvision 60 ft.",
 			"passive": 15,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1/2",
 			"trait": [
 				{
@@ -2163,7 +2163,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2246,7 +2246,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2431,7 +2431,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2498,7 +2498,7 @@
 				{
 					"ac": 20,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2637,7 +2637,7 @@
 					],
 					"will": [
 						"{@spell charm person}",
-						"{@spell 瘋狂冠冕}",
+						"{@spell 疯狂冠冕}",
 						"{@spell detect magic}",
 						"{@spell 解除魔法}",
 						"{@spell dissonant whispers}"
@@ -2649,7 +2649,7 @@
 							"{@spell dominate person}",
 							"{@spell sanctuary}",
 							"{@spell telekinesis}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"1e": [
 							"{@spell dominate monster}",
@@ -2823,7 +2823,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2891,7 +2891,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2955,7 +2955,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3012,7 +3012,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell charm person}",
-								"{@spell 造水/枯水術}"
+								"{@spell 造水/枯水术}"
 							]
 						},
 						"2": {
@@ -3065,7 +3065,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3220,7 +3220,7 @@
 					],
 					"daily": {
 						"3e": [
-							"{@spell 枯萎術}",
+							"{@spell 枯萎术}",
 							"{@spell contagion}",
 							"{@spell gaseous form}"
 						]
@@ -3364,7 +3364,7 @@
 				"stealth": "+4"
 			},
 			"passive": 16,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1",
 			"trait": [
 				{
@@ -3427,7 +3427,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3588,7 +3588,7 @@
 							"spells": [
 								"{@spell eldritch blast}",
 								"{@spell friends}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"1": {
@@ -3647,7 +3647,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3705,7 +3705,7 @@
 				{
 					"name": "Wand of Orcus",
 					"entries": [
-						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死屍}, {@spell 枯萎術}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
+						"The wand has 7 charges, and any of its properties that require a saving throw have a save DC of 18. While holding it, Orcus can use an action to cast {@spell 活化死尸}, {@spell 枯萎术}, or {@spell speak with dead}. Alternatively, he can expend 1 or more of the wand's charges to cast one of the following spells from it: {@spell circle of death} (1 charge), {@spell finger of death} (1 charge), or {@spell power word kill} (2 charges). The wand regains {@dice 1d4 + 3} charges daily at dawn.",
 						"While holding the wand, Orcus can use an action to conjure undead creatures whose combined average hit points don't exceed 500. These undead magically rise up from the ground or otherwise form in unoccupied spaces within 300 feet of Orcus and obey his commands until they are destroyed or until he dismisses them as an action. Once this property of the wand is used, the property can't be used again until the next dawn."
 					]
 				},
@@ -3730,7 +3730,7 @@
 				{
 					"name": "Master of Undeath",
 					"entries": [
-						"When Orcus casts {@spell 活化死屍} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
+						"When Orcus casts {@spell 活化死尸} or {@spell create undead}, he chooses the level at which the spell is cast, and the creatures created by the spells remain under his control indefinitely. Additionally, he can cast create undead even when it isn't night."
 					]
 				}
 			],
@@ -3839,7 +3839,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4051,7 +4051,7 @@
 								"{@spell acid splash}",
 								"{@spell light}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell prestidigitation}"
 							]
 						},
@@ -4060,14 +4060,14 @@
 							"spells": [
 								"{@spell false life}",
 								"{@spell mage armor}",
-								"{@spell 致病射線}",
+								"{@spell 致病射线}",
 								"{@spell shield}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 瘋狂冠冕}",
+								"{@spell 疯狂冠冕}",
 								"{@spell misty step}"
 							]
 						},
@@ -4075,13 +4075,13 @@
 							"slots": 3,
 							"spells": [
 								"{@spell gaseous form}",
-								"{@spell 臭雲術}"
+								"{@spell 臭云术}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell confusion}"
 							]
 						},
@@ -4130,7 +4130,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4241,7 +4241,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4305,7 +4305,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4362,7 +4362,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell charm person}",
-								"{@spell 造水/枯水術}"
+								"{@spell 造水/枯水术}"
 							]
 						},
 						"2": {
@@ -4437,7 +4437,7 @@
 				"perception": "+2"
 			},
 			"passive": 12,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "3",
 			"action": [
 				{
@@ -4496,7 +4496,7 @@
 				{
 					"ac": 22,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4634,11 +4634,11 @@
 					],
 					"daily": {
 						"1": [
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell invisibility}"
 						]
 					},
@@ -4683,7 +4683,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4868,7 +4868,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4993,12 +4993,12 @@
 					"will": [
 						"{@spell detect magic}",
 						"{@spell locate animals or plants}",
-						"{@spell 致病射線}"
+						"{@spell 致病射线}"
 					],
 					"daily": {
 						"1": [
 							"{@spell etherealness}",
-							"{@spell 傳送術}"
+							"{@spell 传送术}"
 						],
 						"3e": [
 							"{@spell 解除魔法}",

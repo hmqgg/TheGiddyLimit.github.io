@@ -13,7 +13,7 @@
 				{
 					"ac": 21,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -88,7 +88,7 @@
 						},
 						"1": {
 							"spells": [
-								"{@spell 致病射線}",
+								"{@spell 致病射线}",
 								"{@spell shield}"
 							]
 						},
@@ -100,14 +100,14 @@
 						},
 						"3": {
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell counterspell}"
 							]
 						},
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell ice storm}",
 								"{@spell phantasmal killer}"
 							]
@@ -133,7 +133,7 @@
 							"spells": [
 								"{@spell finger of death}",
 								"{@spell plane shift}",
-								"{@spell 傳送術}"
+								"{@spell 传送术}"
 							]
 						},
 						"8": {
@@ -307,7 +307,7 @@
 			],
 			"senses": "darkvision 60 ft.",
 			"passive": 14,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1",
 			"spellcasting": [
 				{
@@ -319,7 +319,7 @@
 						"1e": [
 							"{@spell hunter's mark}",
 							"{@spell jump}",
-							"{@spell 行蹤無跡}",
+							"{@spell 行踪无迹}",
 							"{@spell speak with animals}",
 							"{@spell speak with plants}"
 						]
@@ -402,7 +402,7 @@
 			],
 			"senses": "darkvision 60 ft.",
 			"passive": 14,
-			"languages": "通用語、矮人語",
+			"languages": "通用语、矮人语",
 			"cr": "1/4",
 			"trait": [
 				{
@@ -445,7 +445,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -476,7 +476,7 @@
 			"cr": "1",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The aldani can breathe air and water."
 					]
@@ -590,7 +590,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -745,7 +745,7 @@
 							"type": "list",
 							"items": [
 								"Artus can expend 1 charge and use the ring to lower the temperature in a 120-foot-radius sphere centered on a point he can see within 300 feet of him. The temperature in that area drops 20 degrees per minute, to a minimum of \u221230 degrees Fahrenheit. Frost and ice begin to form on surfaces once the temperature drops below 32 degrees. This effect is permanent unless Artus uses the ring to end the effect as an action, at which point the temperature in the area returns to normal at a rate of 10 degrees per minute.",
-								"Artus can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: {@spell Bigby's hand} (2 charges) the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist, {@spell cone of cold} (2 charges), {@spell flesh to stone|phb|flesh to ice} (3 charges); as flesh to stone except that the target turns to solid ice with the density and durability of stone, {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge) the spikes are made of ice, or {@spell 冰牆術} (2 charges).",
+								"Artus can cast one of the following spells from the ring (spell save DC 17) by expending the necessary number of charges: {@spell Bigby's hand} (2 charges) the hand is made of ice, is immune to cold damage, and deals bludgeoning damage instead of force damage as a clenched fist, {@spell cone of cold} (2 charges), {@spell flesh to stone|phb|flesh to ice} (3 charges); as flesh to stone except that the target turns to solid ice with the density and durability of stone, {@spell ice storm} (2 charges), {@spell Otiluke's freezing sphere} (3 charges), {@spell sleet storm} (1 charge), {@spell spike growth} (1 charge) the spikes are made of ice, or {@spell 冰墙术} (2 charges).",
 								"Artus can expend the necessary number of charges and use the ring to create either an inanimate ice object (2 charges) or an animated ice creature (4 charges). The ice object can't have any moving parts, must be able to fit inside a 10-foot cube, and has the density and durability of metal or stone (Artus's choice). The ice creature must be modeled after a beast with a challenge rating of 2 or less. The ice creature has the same statistics as the beast it models, with the following changes: the creature is a construct with vulnerability to fire damage, immunity to cold and poison damage, and immunity to the following conditions: {@condition charmed}, {@condition exhaustion}, {@condition frightened}, {@condition paralyzed}, {@condition petrified}, and {@condition poisoned}. The ice creature obeys only its creator's commands. The object or creature appears in an unoccupied space within 60 feet of Artus. It melts into a pool of normal water after 24 hours or when it drops to 0 hit points. In extreme heat, it loses 5 ({@dice 1d10}) hit points per minute as it melts. Use the guidelines in chapter 8 of the Dungeon Master's Guide to determine the hit points of an inanimate object if they become necessary."
 							]
 						}
@@ -851,7 +851,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
+								"{@spell 德鲁伊伎俩}",
 								"{@spell mending}",
 								"{@spell produce flame}"
 							]
@@ -860,7 +860,7 @@
 							"slots": 4,
 							"spells": [
 								"{@spell detect magic}",
-								"{@spell 妖火術}",
+								"{@spell 妖火术}",
 								"{@spell thunderwave}"
 							]
 						},
@@ -908,7 +908,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1294,9 +1294,9 @@
 						"The chwinga's innate spellcasting ability is Wisdom. It can innately cast the following spells, requiring no material or verbal components:"
 					],
 					"will": [
-						"{@spell 德魯伊伎倆}",
+						"{@spell 德鲁伊伎俩}",
 						"{@spell guidance}",
-						"{@spell 行蹤無跡}",
+						"{@spell 行踪无迹}",
 						"{@spell resistance}"
 					],
 					"ability": "wis"
@@ -1350,7 +1350,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲",
+						"天生护甲",
 						"{@item shield|phb}"
 					]
 				}
@@ -1468,7 +1468,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"{@item 護胸甲|phb}",
+						"{@item 护胸甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -1696,7 +1696,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1800,7 +1800,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				},
 				{
@@ -1827,7 +1827,7 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The turtle can breathe air and water."
 					]
@@ -1871,7 +1871,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2043,7 +2043,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2120,7 +2120,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2216,7 +2216,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2573,7 +2573,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2729,7 +2729,7 @@
 								"{@spell fire bolt}",
 								"{@spell mage hand}",
 								"{@spell mending}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"1": {
@@ -2752,7 +2752,7 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell counterspell}",
 								"{@spell fireball}"
 							]
@@ -2760,8 +2760,8 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
-								"{@spell 變形術}"
+								"{@spell 枯萎术}",
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -2992,7 +2992,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3645,7 +3645,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3734,7 +3734,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3885,13 +3885,13 @@
 								"{@spell detect thoughts}",
 								"{@spell invisibility}",
 								"{@spell Melf's acid arrow}",
-								"{@spell 鏡影術}"
+								"{@spell 镜影术}"
 							]
 						},
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 活化死屍}",
+								"{@spell 活化死尸}",
 								"{@spell counterspell}",
 								"{@spell 解除魔法}",
 								"{@spell fireball}"
@@ -3900,7 +3900,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell dimension door}"
 							]
 						},
@@ -4204,7 +4204,7 @@
 						"4": {
 							"slots": 3,
 							"spells": [
-								"{@spell 枯萎術}",
+								"{@spell 枯萎术}",
 								"{@spell wall of fire}"
 							]
 						},
@@ -4255,7 +4255,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4328,7 +4328,7 @@
 							"slots": 3,
 							"spells": [
 								"{@spell ice storm}",
-								"{@spell 變形術}"
+								"{@spell 变形术}"
 							]
 						},
 						"5": {
@@ -4523,7 +4523,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -4619,7 +4619,7 @@
 						"7": {
 							"slots": 1,
 							"spells": [
-								"{@spell 火焰風暴}"
+								"{@spell 火焰风暴}"
 							]
 						}
 					},
@@ -4722,7 +4722,7 @@
 					]
 				},
 				{
-					"name": "天生護甲",
+					"name": "天生护甲",
 					"entries": [
 						"The zorbo magically absorbs the natural strength of its surroundings, adjusting its Armor Class based on the material it is standing or climbing on: AC 15 for wood or bone, AC 17 for earth or stone, or AC 19 for metal. If the zorbo isn't in contact with any of these substances, its AC is 10."
 					]

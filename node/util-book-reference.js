@@ -6,16 +6,16 @@ UtilBookReference = {
 		switch (refId) {
 			case "bookref-quick":
 				return [
-					"角色創建",
-					"裝備",
-					"遊玩遊戲",
-					"戰鬥",
-					"冒險"
+					"角色创建",
+					"装备",
+					"游玩游戏",
+					"战斗",
+					"冒险"
 				];
 			case "bookref-dmscreen":
 				return [
-					"運行遊戲",
-					"戰鬥",
+					"运行游戏",
+					"战斗",
 					"派系"
 				];
 			default:

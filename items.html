@@ -78,7 +78,7 @@
 		<div class="container">
 
 			<h1 class="page__title">物品</h1>
-			<p class="page__subtitle">使用左側的名稱搜尋，點擊物品名稱以在右側顯示。</p>
+			<p class="page__subtitle">使用左侧的名称搜寻，点击物品名称以在右侧显示。</p>
 		</div>
 	</header>
 	<nav class="container page__nav" id="navigation">
@@ -92,28 +92,28 @@
 	<div class="container view-col-wrapper">
 		<div class="view-col" id="listcontainer">
 			<div class="input-group" id="filter-search-input-group" style="vertical-align: top;">
-				<input type="search" id="search" class="search form-control" placeholder="搜尋物品...">
+				<input type="search" id="search" class="search form-control" placeholder="搜寻物品...">
 				<span class="input-group-btn">
 						<button class="btn btn-default" id="reset">重置</button>
 					</span>
 			</div>
 			<div id="filtertools-mundane" class="ele-mundane sortlabel btn-group">
-				<button class="col-3 sort btn btn-default btn-xs" data-sort="name" data-sortby="asc">名稱<span class="caret_wrp"></span></button>
-				<button class="col-4-3 sort btn btn-default btn-xs" data-sort="type" data-sortby="asc">類型<span class="caret_wrp"></span></button>
-				<button class="col-1-5 sort btn btn-default btn-xs" data-sort="cost" data-sortby="asc">價值<span class="caret_wrp"></span></button>
+				<button class="col-3 sort btn btn-default btn-xs" data-sort="name" data-sortby="asc">名称<span class="caret_wrp"></span></button>
+				<button class="col-4-3 sort btn btn-default btn-xs" data-sort="type" data-sortby="asc">类型<span class="caret_wrp"></span></button>
+				<button class="col-1-5 sort btn btn-default btn-xs" data-sort="cost" data-sortby="asc">价值<span class="caret_wrp"></span></button>
 				<button class="col-1-5 sort btn btn-default btn-xs" data-sort="weight" data-sortby="asc">重量<span class="caret_wrp"></span></button>
-				<button class="col-1-7 sort btn btn-default btn-xs" data-sort="source" data-sortby="asc">資源<span class="caret_wrp"></span></button>
+				<button class="col-1-7 sort btn btn-default btn-xs" data-sort="source" data-sortby="asc">资源<span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list mundane ele-mundane"></ul>
 			<h3 class="ele-mundane"><span class="side-label side-label--mundane clickable"></span></h3>
 
 			<div id="filtertools-magic" class="ele-magic sortlabel btn-group">
-				<button class="fullborder col-3-5 sort btn btn-default btn-xs" data-sort="name" data-sortby="asc">名稱<span class="caret_wrp"></span></button>
-				<button class="fullborder col-3-3 sort btn btn-default btn-xs" data-sort="type" data-sortby="asc">類型<span class="caret_wrp"></span></button>
+				<button class="fullborder col-3-5 sort btn btn-default btn-xs" data-sort="name" data-sortby="asc">名称<span class="caret_wrp"></span></button>
+				<button class="fullborder col-3-3 sort btn btn-default btn-xs" data-sort="type" data-sortby="asc">类型<span class="caret_wrp"></span></button>
 				<button class="fullborder col-1-5 sort btn btn-default btn-xs" data-sort="weight" data-sortby="asc">重量<span class="caret_wrp"></span></button>
 				<button class="fullborder col-2 sort btn btn-default btn-xs" data-sort="rarity" data-sortby="asc">稀有度<span class="caret_wrp"></span></button>
-				<button class="fullborder col-1-7 sort btn btn-default btn-xs" data-sort="source" data-sortby="asc">資源<span class="caret_wrp"></span></button>
+				<button class="fullborder col-1-7 sort btn btn-default btn-xs" data-sort="source" data-sortby="asc">资源<span class="caret_wrp"></span></button>
 			</div>
 
 			<ul class="list magic ele-magic"></ul>
@@ -123,16 +123,16 @@
 		<div id="contentwrapper" class="view-col">
 			<div id="sublistcontainer" class="sublist sublist--resizable">
 				<div id="sublistsort" class="sortlabel btn-group">
-					<button class="col-6 sort btn btn-default btn-xs" data-sort="name">名稱</button>
+					<button class="col-6 sort btn btn-default btn-xs" data-sort="name">名称</button>
 					<button class="col-2 sort btn btn-default btn-xs" data-sort="weight">重量</button>
-					<button class="col-2 sort btn btn-default btn-xs" data-sort="cost">價值</button>
-					<button class="col-2 sort btn btn-default btn-xs" data-sort="count">數量</button>
+					<button class="col-2 sort btn btn-default btn-xs" data-sort="cost">价值</button>
+					<button class="col-2 sort btn btn-default btn-xs" data-sort="count">数量</button>
 				</div>
 				<ul class="list subitems">
 					<!-- populate with JS -->
 				</ul>
 				<div class="row">
-					<span class="col-6 text-align-right">總和：</span>
+					<span class="col-6 text-align-right">总和：</span>
 					<span class="col-2 text-align-center no-wrap" id="totalweight"></span>
 					<span class="col-2 text-align-center no-wrap" id="totalvalue"></span>
 				</div>
@@ -145,13 +145,13 @@
 			<div class="wrp-stats-table">
 				<table id="pagecontent" class="stats">
 					<tr><th class="border" colspan="6"></th></tr>
-					<tr><td colspan="6" class="initial-message">從列表中選擇一個物品以在此處檢視</td></tr>
+					<tr><td colspan="6" class="initial-message">从列表中选择一个物品以在此处检视</td></tr>
 					<tr><th class="border" colspan="6"></th></tr>
 				</table>
 			</div>
 
 			<div class="text-align-center wrp-footer-buttons">
-				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自製內容</button>
+				<button class="btn btn-default btn-xs btn-file btn-info" id="manage-brew">管理自制内容</button>
 			</div>
 		</div>
 	</div>

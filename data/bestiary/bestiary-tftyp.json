@@ -12,7 +12,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -139,8 +139,8 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 德魯伊伎倆}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 德鲁伊伎俩}",
+								"{@spell 毒气喷洒}",
 								"{@spell shillelagh}"
 							]
 						},
@@ -149,7 +149,7 @@
 							"spells": [
 								"{@spell cure wounds}",
 								"{@spell entangle}",
-								"{@spell 妖火術}",
+								"{@spell 妖火术}",
 								"{@spell thunderwave}"
 							]
 						},
@@ -198,7 +198,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -275,7 +275,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -389,7 +389,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -533,7 +533,7 @@
 					],
 					"daily": {
 						"1e": [
-							"{@spell 恐懼術}",
+							"{@spell 恐惧术}",
 							"{@spell hold person}",
 							"{@spell misty step}"
 						]
@@ -996,7 +996,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1094,7 +1094,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1120,7 +1120,7 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The giant crayfish can breathe air and water."
 					]
@@ -1166,7 +1166,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1192,7 +1192,7 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The toad can breathe air and water."
 					]
@@ -1331,7 +1331,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1424,7 +1424,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1497,7 +1497,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1658,7 +1658,7 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell thaumaturgy}"
 							]
 						},
@@ -1743,7 +1743,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1780,7 +1780,7 @@
 					]
 				},
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The crab can breathe air and water."
 					]
@@ -1824,7 +1824,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1900,7 +1900,7 @@
 							"spells": [
 								"{@spell fire bolt}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}",
+								"{@spell 毒气喷洒}",
 								"{@spell prestidigitation}",
 								"{@spell ray of frost}"
 							]
@@ -1958,7 +1958,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -1987,7 +1987,7 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Kalka-Kylla can breathe air and water."
 					]
@@ -2050,7 +2050,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2088,7 +2088,7 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The kelpie can breathe air and water."
 					]
@@ -2160,7 +2160,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2208,7 +2208,7 @@
 			"cr": "10",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The kraken can breathe air and water."
 					]
@@ -2415,7 +2415,7 @@
 			"cr": "2",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The nereid can breathe air and water."
 					]
@@ -2610,7 +2610,7 @@
 				{
 					"ac": 9,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2717,7 +2717,7 @@
 								"{@spell acid splash}",
 								"{@spell friends}",
 								"{@spell mage hand}",
-								"{@spell 毒氣噴灑}"
+								"{@spell 毒气喷洒}"
 							]
 						},
 						"1": {
@@ -2726,7 +2726,7 @@
 								"{@spell charm person}",
 								"{@spell detect magic}",
 								"{@spell magic missile}",
-								"{@spell 致病射線}"
+								"{@spell 致病射线}"
 							]
 						},
 						"2": {
@@ -2740,9 +2740,9 @@
 						"3": {
 							"slots": 3,
 							"spells": [
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell slow}",
-								"{@spell 臭雲術}"
+								"{@spell 臭云术}"
 							]
 						},
 						"4": {
@@ -2793,7 +2793,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -2819,7 +2819,7 @@
 			"cr": "5",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"The sea lion can breathe air and water."
 					]
@@ -3115,7 +3115,7 @@
 			"cr": "3",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Siren can breathe air and water."
 					]
@@ -3153,7 +3153,7 @@
 							"{@spell charm person}",
 							"{@spell fog cloud}",
 							"{@spell greater invisibility}",
-							"{@spell 變形術} (self only)"
+							"{@spell 变形术} (self only)"
 						]
 					},
 					"ability": "cha"
@@ -3204,7 +3204,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					],
 					"condition": "in wolf and hybrid forms"
 				}
@@ -3308,7 +3308,7 @@
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell web}"
 							]
 						},
@@ -3316,9 +3316,9 @@
 							"slots": 3,
 							"spells": [
 								"{@spell 解除魔法}",
-								"{@spell 恐懼術}",
+								"{@spell 恐惧术}",
 								"{@spell haste}",
-								"{@spell 臭雲術}"
+								"{@spell 臭云术}"
 							]
 						}
 					},
@@ -3360,7 +3360,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"{@item 鱗甲|phb}",
+						"{@item 鳞甲|phb}",
 						"{@item shield|phb}"
 					]
 				}
@@ -3491,7 +3491,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3638,7 +3638,7 @@
 							"spells": [
 								"{@spell detect thoughts}",
 								"{@spell flaming sphere}*",
-								"{@spell 鏡影術}",
+								"{@spell 镜影术}",
 								"{@spell scorching ray}"
 							]
 						},
@@ -3710,7 +3710,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
@@ -3750,7 +3750,7 @@
 			"cr": "4",
 			"trait": [
 				{
-					"name": "兩棲", "tENG_name": "Amphibious",
+					"name": "两栖", "tENG_name": "Amphibious",
 					"entries": [
 						"Tecuziztecatl can breathe air and water."
 					]
@@ -4096,7 +4096,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"天生護甲"
+						"天生护甲"
 					]
 				}
 			],
