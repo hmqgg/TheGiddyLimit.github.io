@@ -264,7 +264,7 @@
 		{
 			"name": "理解祝福", "ENG_name": "Blessing of Understanding",
 			"entries": [
-				"你的睿知属性值提升2点，上限为22。"
+				"你的感知属性值提升2点，上限为22。"
 			],
 			"source": "DMG",
 			"type": "Blessing",

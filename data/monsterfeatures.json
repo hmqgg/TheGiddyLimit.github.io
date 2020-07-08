@@ -77,7 +77,7 @@
 		{
 			"name": "骇人威仪", "ENG_name": "Frightful Presence",
 			"example": "远古金龙",
-			"effect": "每个在范围内由该生物所选的生物都必须进行一次睿知豁免，否则将陷入恐惧长达1分钟。",
+			"effect": "每个在范围内由该生物所选的生物都必须进行一次感知豁免，否则将陷入恐惧长达1分钟。",
 			"hp": "Math.floor((expectedCr <= 10) ? hp * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",
@@ -96,7 +96,7 @@
 		{
 			"name": "骇人面容", "ENG_name": "Horrifying Visage",
 			"example": "报丧女妖(班西)",
-			"effect": "每个范围内的非不死生物都必须进行一次睿知豁免，否则将陷入恐惧长达1分钟。",
+			"effect": "每个范围内的非不死生物都必须进行一次感知豁免，否则将陷入恐惧长达1分钟。",
 			"hp": "Math.floor((expectedCr <= 10) ? hp * 0.25 : 0)",
 			"ac": "",
 			"dpr": "",

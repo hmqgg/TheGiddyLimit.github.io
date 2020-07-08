@@ -3177,7 +3177,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 察言观色}，和一个你所选择且符合你派系的智力、睿知、或魅力技能"
+							"entry": "{@skill 察言观色}，和一个你所选择且符合你派系的智力、感知、或魅力技能"
 						},
 						{
 							"type": "item",
@@ -3234,7 +3234,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 察言观色}, {@skill 感知}"
+							"entry": "{@skill 察言观色}, {@skill 察觉}"
 						},
 						{
 							"type": "item",
@@ -5349,7 +5349,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 感知}, {@skill 隐匿}"
+							"entry": "{@skill 察觉}, {@skill 隐匿}"
 						},
 						{
 							"type": "item",
@@ -8230,7 +8230,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 运动}, {@skill 感知}"
+							"entry": "{@skill 运动}, {@skill 察觉}"
 						},
 						{
 							"type": "item",
@@ -9170,7 +9170,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 欺瞒}, {@skill 感知}"
+							"entry": "{@skill 欺瞒}, {@skill 察觉}"
 						},
 						{
 							"type": "item",
@@ -10509,7 +10509,7 @@
 						{
 							"type": "item",
 							"name": "技能熟练",
-							"entry": "{@skill 运动}, {@skill 感知}"
+							"entry": "{@skill 运动}, {@skill 察觉}"
 						},
 						{
 							"type": "item",
