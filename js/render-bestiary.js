@@ -119,14 +119,14 @@ class RenderBestiary {
 		<tr><td class="divider" colspan="6"><div></div></td></tr>
 		
 		<tr class="mon__ability-names">
-			<th>力量</th><th>敏捷</th><th>体质</th><th>智力</th><th>睿知</th><th>魅力</th>
+			<th>力量</th><th>敏捷</th><th>体质</th><th>智力</th><th>感知</th><th>魅力</th>
 		</tr>
 		<tr class="mon__ability-scores">
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.str)}|${mon.str} (${Parser.getAbilityModifier(mon.str)})|力量}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.dex)}|${mon.dex} (${Parser.getAbilityModifier(mon.dex)})|敏捷}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.con)}|${mon.con} (${Parser.getAbilityModifier(mon.con)})|体质}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.int)}|${mon.int} (${Parser.getAbilityModifier(mon.int)})|智力}`)}</td>
-			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.wis)}|${mon.wis} (${Parser.getAbilityModifier(mon.wis)})|睿知}`)}</td>
+			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.wis)}|${mon.wis} (${Parser.getAbilityModifier(mon.wis)})|感知}`)}</td>
 			<td>${Renderer.get().render(`{@d20 ${Parser.getAbilityModifier(mon.cha)}|${mon.cha} (${Parser.getAbilityModifier(mon.cha)})|魅力}`)}</td>
 		</tr>
 		<tr><td class="divider" colspan="6"><div></div></td></tr>

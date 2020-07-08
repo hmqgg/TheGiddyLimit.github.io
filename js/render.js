@@ -2904,7 +2904,7 @@ Renderer.monster = {
 						<th class="col-2 text-align-center">敏捷</th>
 						<th class="col-2 text-align-center">体质</th>
 						<th class="col-2 text-align-center">智力</th>
-						<th class="col-2 text-align-center">睿知</th>
+						<th class="col-2 text-align-center">感知</th>
 						<th class="col-2 text-align-center">魅力</th>
 					</tr>
 					<tr>

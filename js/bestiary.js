@@ -173,7 +173,7 @@ const strengthFilter = new RangeFilter({header: "Strength",headerName:"力量", 
 const dexterityFilter = new RangeFilter({header: "Dexterity",headerName:"敏捷", min: 1, max: 30});
 const constitutionFilter = new RangeFilter({header: "Constitution",headerName:"体质", min: 1, max: 30});
 const intelligenceFilter = new RangeFilter({header: "Intelligence",headerName:"智力", min: 1, max: 30});
-const wisdomFilter = new RangeFilter({header: "Wisdom",headerName:"睿知", min: 1, max: 30});
+const wisdomFilter = new RangeFilter({header: "Wisdom",headerName:"感知", min: 1, max: 30});
 const charismaFilter = new RangeFilter({header: "Charisma",headerName:"魅力", min: 1, max: 30});
 const abilityScoreFilter = new MultiFilter({name: "Ability Scores",headerName:"属性值", compact: true, mode: "and"}, strengthFilter, dexterityFilter, constitutionFilter, intelligenceFilter, wisdomFilter, charismaFilter);
 const acFilter = new RangeFilter({header: "Armor Class",headerName:"护甲等级"});
@@ -360,7 +360,7 @@ const miscFilter = new Filter({
 			case "Named NPC": return "具名NPC";
 			case "Spellcaster": return "施法者";
 			case "Spellcaster, int": return "施法者,智力";
-			case "Spellcaster, wis": return "施法者,睿知";
+			case "Spellcaster, wis": return "施法者,感知";
 			case "Spellcaster, cha": return "施法者,魅力";
 			case "Regional Effects": return "区域效应";
 			case "Swarm": return "集群";
